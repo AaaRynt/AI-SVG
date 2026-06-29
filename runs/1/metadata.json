@@ -1,5 +1,123 @@
 {
   "schemaVersion": "1.0",
   "runId": "1",
-  "status": "pending"
+  "createdAt": "2026-06-29T00:00:00+08:00",
+  "instructionFile": "AGENTS.md",
+  "entryPrompt": "请严格按照当前目录中的 AGENTS.md 完成全部任务。直接创建文件并执行生成、验证、渲染和修复流程，不要中途等待确认。",
+  "deliveryMode": "agents-file",
+  "benchmark": {
+    "id": "realistic-fuji",
+    "name": "写实级富士山 SVG",
+    "specificationVersion": "1.0"
+  },
+  "runtime": {
+    "platform": "Codex",
+    "client": null,
+    "model": null,
+    "reasoningLevel": null,
+    "language": "zh-CN"
+  },
+  "experiment": {
+    "mode": "pure",
+    "skill": null,
+    "mcp": [],
+    "networkAllowed": false,
+    "externalAiServicesAllowed": false,
+    "pythonGenerationAllowed": true,
+    "rasterImagesAllowed": false,
+    "externalResourcesAllowed": false,
+    "requestedMinimumLines": 3000,
+    "requestedMinimumEffectiveLines": 2800,
+    "fixedRandomSeed": 20260629
+  },
+  "process": {
+    "generationAttempts": 4,
+    "renderIterations": 4,
+    "selfRepairIterations": 3,
+    "manualIntervention": false,
+    "manualChangesToSvg": false,
+    "conversationContinuedAfterInitialPrompt": false
+  },
+  "outputs": {
+    "svg": "fuji.svg",
+    "preview": "preview.png",
+    "generator": "generate_fuji.py",
+    "validator": "validate_svg.py",
+    "report": "REPORT.md"
+  },
+  "metrics": {
+    "svgLineCount": 4761,
+    "nonEmptyNonCommentLineCount": 4742,
+    "svgElementCount": 4695,
+    "svgFileSizeBytes": 941353,
+    "previewWidth": 1600,
+    "previewHeight": 1000,
+    "elementCounts": {
+      "circle": 24,
+      "clipPath": 3,
+      "defs": 1,
+      "desc": 1,
+      "feGaussianBlur": 2,
+      "filter": 2,
+      "g": 20,
+      "linearGradient": 14,
+      "path": 3905,
+      "radialGradient": 1,
+      "rect": 668,
+      "stop": 52,
+      "svg": 1,
+      "title": 1
+    }
+  },
+  "validation": {
+    "utf8Valid": true,
+    "xmlValid": true,
+    "viewBoxValid": true,
+    "minimumLineCountPassed": true,
+    "minimumEffectiveLineCountPassed": true,
+    "requiredLayersPassed": true,
+    "referencesValid": true,
+    "containsImageElement": false,
+    "containsForeignObject": false,
+    "containsBase64": false,
+    "containsDataImage": false,
+    "containsExternalUrl": false,
+    "containsRuntimeScript": false,
+    "validatorExitCode": 0,
+    "allChecksPassed": true
+  },
+  "result": {
+    "status": "completed",
+    "completedAt": "2026-06-29T20:49:22+08:00",
+    "renderTool": "ImageMagick magick",
+    "commandsExecuted": [
+      "python3 generate_fuji.py",
+      "python3 validate_svg.py fuji.svg",
+      "magick -background none fuji.svg preview.png",
+      "magick identify -format 'preview=%w x %h\\n' preview.png",
+      "magick preview.png -format 'p250_300=%[pixel:p{250,300}]\\np800_80=%[pixel:p{800,80}]\\np800_500=%[pixel:p{800,500}]\\n' info:",
+      "wc -l fuji.svg",
+      "wc -c fuji.svg",
+      "magick identify -format '%w %h\\n' preview.png",
+      "date -Iseconds"
+    ],
+    "issuesFound": [
+      "第一轮 SVG 行数为 5265，略高于建议上限 5000。",
+      "第一轮预览整体偏暗，山体暗线压过雪面。",
+      "第二轮预览中本地 ImageMagick 对部分渐变渲染偏黑。",
+      "第三轮预览中太阳径向渐变被本地渲染器显示为黑色光晕。"
+    ],
+    "issuesFixed": [
+      "将 SVG 收敛到 4761 行。",
+      "提亮天空、山体、云海、湖面和城市空气透视。",
+      "增加明确积雪面并降低山体暗线不透明度。",
+      "为关键层增加实体色基础层，避免渐变渲染偏黑。",
+      "将太阳光晕改为透明实体色圆层。"
+    ],
+    "knownLimitations": [
+      "本地 ImageMagick 对部分 SVG 渐变呈现较弱，生成器使用实体色基础层保证预览稳定。",
+      "作品是高复杂度矢量旅游海报风格，接近写实但不是照片级物理渲染。"
+    ],
+    "notes": "最终 SVG 为独立静态文件，不含位图、外部资源、脚本、Base64 或 data:image。"
+  }
 }
