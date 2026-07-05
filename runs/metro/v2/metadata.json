@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "runId": "metro-v2",
-  "createdAt": null,
+  "createdAt": "2026-07-05T12:27:41.262203+00:00",
   "instructionFile": "AGENTS.md",
   "entryPrompt": "请严格按照当前目录中的 AGENTS.md 完成全部任务。你必须进行多轮候选生成、真实视觉检查、自我否决和必要时的重写，不要中途等待确认。",
   "deliveryMode": "agents-file",
@@ -14,7 +14,7 @@
   "runtime": {
     "platform": "Codex",
     "client": null,
-    "model": null,
+    "model": "GPT-5",
     "reasoningLevel": null,
     "language": "zh-CN"
   },
@@ -32,16 +32,16 @@
     "ignorePreviousVersions": true
   },
   "process": {
-    "cityPlanningIterations": 0,
-    "networkGenerationAttempts": 0,
-    "networkValidationIterations": 0,
-    "svgGenerationAttempts": 0,
-    "renderIterations": 0,
-    "layoutRepairIterations": 0,
-    "selfRepairIterations": 0,
-    "candidateCount": 0,
-    "fullRewriteCount": 0,
-    "visualReviewRounds": 0,
+    "cityPlanningIterations": 2,
+    "networkGenerationAttempts": 2,
+    "networkValidationIterations": 2,
+    "svgGenerationAttempts": 5,
+    "renderIterations": 5,
+    "layoutRepairIterations": 4,
+    "selfRepairIterations": 4,
+    "candidateCount": 5,
+    "fullRewriteCount": 2,
+    "visualReviewRounds": 5,
     "manualIntervention": false,
     "manualChangesToNetwork": false,
     "manualChangesToSvg": false,
@@ -59,18 +59,163 @@
     "report": "REPORT.md"
   },
   "reviewArtifacts": {
-    "previewArtifacts": [],
-    "acceptedCandidateId": null,
-    "rejectionReasonsHistory": []
+    "previewArtifacts": [
+      "preview.png",
+      "preview_no_labels.png",
+      "preview_labels_only.png",
+      "preview_label_boxes.png",
+      "preview_zoom67.png",
+      "preview_zoom50.png",
+      "preview_core_area.png",
+      "candidates/candidate-01.png",
+      "candidates/candidate-02.png",
+      "candidates/candidate-03.png",
+      "candidates/candidate-04.png",
+      "candidates/candidate-05.png"
+    ],
+    "acceptedCandidateId": "candidate-05",
+    "rejectionReasonsHistory": [
+      {
+        "candidateId": "candidate-01",
+        "decision": "rejected",
+        "reason": "中心区压缩，固定东北标签造成老城和江心岛标签碰撞，线路层级不清。"
+      },
+      {
+        "candidateId": "candidate-02",
+        "decision": "rejected",
+        "reason": "第一次全局重排后骨架更清楚，但标签仍偏向左右两侧，东部科技新城与港区可读性不足。"
+      },
+      {
+        "candidateId": "candidate-03",
+        "decision": "rejected",
+        "reason": "启用自动标签后碰撞下降，但线宽和换乘符号偏重，核心环线压过局部标签。"
+      },
+      {
+        "candidateId": "candidate-04",
+        "decision": "rejected",
+        "reason": "第二次重写标签策略并扩展外围后，整体接近可用；滨海新城与机场片区仍有若干标签过近。"
+      },
+      {
+        "candidateId": "candidate-05",
+        "decision": "accepted",
+        "reason": "完成最终间距、字号和调试图修正，主骨架、核心区、标签层级和图例一致性通过检查。"
+      }
+    ]
   },
   "result": {
-    "status": "pending",
-    "completedAt": null,
-    "renderTool": null,
-    "commandsExecuted": [],
-    "issuesFound": [],
-    "issuesFixed": [],
+    "status": "completed",
+    "completedAt": "2026-07-05T13:46:22.565126+00:00",
+    "renderTool": "Chrome headless screenshot; ImageMagick for PNG resize/crop",
+    "commandsExecuted": [
+      "python3 runs/metro/v2/generate_metro.py",
+      "python3 runs/metro/v2/validate_network.py",
+      "Chrome headless screenshots for candidates and previews",
+      "ImageMagick resize/crop/identify for preview_zoom67.png, preview_zoom50.png, preview_core_area.png",
+      "python3 runs/metro/v2/validate_svg.py"
+    ],
+    "issuesFound": [
+      "候选1中心城区标签明显重叠",
+      "候选2港区与东部科技新城标签拥挤",
+      "候选3换乘站符号和线宽压过标签",
+      "候选4机场与滨海片区标签距离不足"
+    ],
+    "issuesFixed": [
+      "重写全局候选布局并扩展东西向走廊",
+      "重写标签放置策略，按枢纽优先级进行多方向候选搜索",
+      "降低线宽和换乘符号重量",
+      "为最终 SVG 增加调试视图和标签边界框输出",
+      "最终 SVG 工程验证、浏览器文本边界框验证和预览文件检查通过"
+    ],
     "knownLimitations": [],
-    "notes": ""
+    "notes": "最终状态由 validate_network.py 和 validate_svg.py 追加更新。"
+  },
+  "networkMetrics": {
+    "lineCount": 18,
+    "uniqueStationCount": 213,
+    "transferStationCount": 49,
+    "fourLineTransferStations": [
+      "浦江北站",
+      "东沧北站"
+    ],
+    "mainRiverCrossingLineCount": 11,
+    "hezhouIslandLineCount": 4,
+    "airportRelatedLineCount": 5,
+    "underConstructionLineCount": 1,
+    "branchLineCount": 2
+  },
+  "svgMetrics": {
+    "viewBox": "0 0 2400 1600",
+    "forbiddenElementCount": 0,
+    "linePathCount": 18,
+    "legendLineCount": 18,
+    "stationLabelGroupCount": 213,
+    "browserBBox": {
+      "labelCount": 213,
+      "bboxCollisionCount": 0,
+      "collisions": [],
+      "available": true
+    },
+    "previewMetrics": {
+      "preview.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_no_labels.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_labels_only.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_label_boxes.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_zoom67.png": {
+        "exists": true,
+        "width": 1608,
+        "height": 1072
+      },
+      "preview_zoom50.png": {
+        "exists": true,
+        "width": 1200,
+        "height": 800
+      },
+      "preview_core_area.png": {
+        "exists": true,
+        "width": 1399,
+        "height": 1028
+      },
+      "candidates/candidate-01.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      },
+      "candidates/candidate-02.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      },
+      "candidates/candidate-03.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      },
+      "candidates/candidate-04.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      },
+      "candidates/candidate-05.png": {
+        "exists": true,
+        "width": 2400,
+        "height": 1600
+      }
+    }
   }
 }
