@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "2.0",
+  "runId": "metro-v2",
+  "createdAt": null,
+  "instructionFile": "AGENTS.md",
+  "entryPrompt": "请严格按照当前目录中的 AGENTS.md 完成全部任务。你必须进行多轮候选生成、真实视觉检查、自我否决和必要时的重写，不要中途等待确认。",
+  "deliveryMode": "agents-file",
+  "benchmark": {
+    "id": "fictional-chinese-megacity-metro",
+    "name": "虚构中国一线城市双语轨道交通图",
+    "specificationVersion": "2.0",
+    "category": "structured-information-visualization"
+  },
+  "runtime": {
+    "platform": "Codex",
+    "client": null,
+    "model": null,
+    "reasoningLevel": null,
+    "language": "zh-CN"
+  },
+  "experiment": {
+    "mode": "pure",
+    "skill": null,
+    "mcp": [],
+    "networkAllowed": false,
+    "externalAiServicesAllowed": false,
+    "pythonGenerationAllowed": true,
+    "rasterImagesAllowed": false,
+    "externalResourcesAllowed": false,
+    "bilingualLabelsRequired": true,
+    "fixedRandomSeed": 20260705,
+    "ignorePreviousVersions": true
+  },
+  "process": {
+    "cityPlanningIterations": 0,
+    "networkGenerationAttempts": 0,
+    "networkValidationIterations": 0,
+    "svgGenerationAttempts": 0,
+    "renderIterations": 0,
+    "layoutRepairIterations": 0,
+    "selfRepairIterations": 0,
+    "candidateCount": 0,
+    "fullRewriteCount": 0,
+    "visualReviewRounds": 0,
+    "manualIntervention": false,
+    "manualChangesToNetwork": false,
+    "manualChangesToSvg": false,
+    "conversationContinuedAfterInitialPrompt": false
+  },
+  "outputs": {
+    "cityPlan": "CITY_PLAN.md",
+    "namingRules": "NAMING_RULES.md",
+    "networkData": "network.json",
+    "generator": "generate_metro.py",
+    "networkValidator": "validate_network.py",
+    "svgValidator": "validate_svg.py",
+    "svg": "metro.svg",
+    "preview": "preview.png",
+    "report": "REPORT.md"
+  },
+  "reviewArtifacts": {
+    "previewArtifacts": [],
+    "acceptedCandidateId": null,
+    "rejectionReasonsHistory": []
+  },
+  "result": {
+    "status": "pending",
+    "completedAt": null,
+    "renderTool": null,
+    "commandsExecuted": [],
+    "issuesFound": [],
+    "issuesFixed": [],
+    "knownLimitations": [],
+    "notes": ""
+  }
+}

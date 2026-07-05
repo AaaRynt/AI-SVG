@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "runId": "metro-1",
+  "runId": "metro-v1",
   "createdAt": "2026-07-05T18:56:06+08:00",
   "instructionFile": "AGENTS.md",
   "entryPrompt": "请严格按照当前目录中的 AGENTS.md 完成全部任务。直接完成城市规划、线路设计、数据生成、验证、SVG 渲染和修复流程，不要中途等待确认。",
