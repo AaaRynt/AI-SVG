@@ -1,0 +1,512 @@
+{
+  "city": {
+    "nameZh": "澜海市",
+    "nameEn": "Lanhai",
+    "population": 21860000,
+    "metropolitanPopulation": 32600000,
+    "builtUpAreaKm2": 2630,
+    "physicalRangeKm": {
+      "width": 100,
+      "height": 66
+    },
+    "continuousBuiltUpRangeKm": {
+      "width": 74,
+      "height": 48
+    },
+    "coreRangeKm": {
+      "width": 30,
+      "height": 22
+    },
+    "description": "澜海市位于澜江入澜海湾的复合河口，北岸老城、近代港埠和现代CBD沿江展开，南岸形成金融文化副中心，东南沿海发展机场、滨海新城与深水港。"
+  },
+  "water": {
+    "mainRiver": {
+      "id": "lan-river",
+      "nameZh": "澜江",
+      "nameEn": "Lan River",
+      "centerlineKm": [
+        [
+          0,
+          31
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          38,
+          30
+        ],
+        [
+          55,
+          31
+        ],
+        [
+          72,
+          32
+        ],
+        [
+          100,
+          35
+        ]
+      ],
+      "widthKm": [
+        {
+          "atX": 35,
+          "width": 1.4
+        },
+        {
+          "atX": 70,
+          "width": 3.2
+        },
+        {
+          "atX": 96,
+          "width": 6.0
+        }
+      ]
+    },
+    "tributaries": [
+      {
+        "id": "baihua-creek",
+        "nameZh": "白花溪",
+        "nameEn": "Baihua Creek",
+        "centerlineKm": [
+          [
+            13,
+            56
+          ],
+          [
+            18,
+            49
+          ],
+          [
+            24,
+            42
+          ],
+          [
+            31,
+            32
+          ]
+        ]
+      }
+    ],
+    "bay": {
+      "id": "lanhai-bay",
+      "nameZh": "澜海湾",
+      "nameEn": "Lanhai Bay",
+      "centerKm": {
+        "x": 93,
+        "y": 39
+      },
+      "radiusKm": 12
+    },
+    "islands": [
+      {
+        "id": "luzhou-island",
+        "nameZh": "鹭洲",
+        "nameEn": "Luzhou Island",
+        "centerKm": {
+          "x": 37,
+          "y": 31
+        },
+        "radiusKm": 2.2
+      },
+      {
+        "id": "haizhou-island",
+        "nameZh": "海洲岛",
+        "nameEn": "Haizhou Island",
+        "centerKm": {
+          "x": 86,
+          "y": 34
+        },
+        "radiusKm": 3.8
+      }
+    ],
+    "reservoirs": [
+      {
+        "id": "bailu-reservoir",
+        "nameZh": "白鹭水库",
+        "nameEn": "Bailu Reservoir",
+        "centerKm": {
+          "x": 6,
+          "y": 57
+        },
+        "radiusKm": 2.7
+      }
+    ],
+    "coastlineKm": [
+      [
+        78,
+        22
+      ],
+      [
+        86,
+        29
+      ],
+      [
+        92,
+        37
+      ],
+      [
+        94,
+        46
+      ],
+      [
+        97,
+        57
+      ],
+      [
+        100,
+        63
+      ]
+    ]
+  },
+  "terrain": [
+    {
+      "id": "xiling-hills",
+      "nameZh": "西岭山地",
+      "nameEn": "Xiling Hills",
+      "centerKm": {
+        "x": 11,
+        "y": 52
+      },
+      "radiusKm": 12,
+      "type": "hills"
+    },
+    {
+      "id": "baihua-water-source",
+      "nameZh": "白花水源保护区",
+      "nameEn": "Baihua Water Source Reserve",
+      "centerKm": {
+        "x": 17,
+        "y": 55
+      },
+      "radiusKm": 7,
+      "type": "ecological-reserve"
+    }
+  ],
+  "districts": [
+    {
+      "id": "jingan",
+      "nameZh": "靖安区",
+      "nameEn": "Jing'an District",
+      "role": "传统老城",
+      "centerKm": {
+        "x": 32,
+        "y": 26
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "shangpu",
+      "nameZh": "商浦区",
+      "nameEn": "Shangpu District",
+      "role": "近代港埠与商业更新",
+      "centerKm": {
+        "x": 39,
+        "y": 31
+      },
+      "radiusKm": 5
+    },
+    {
+      "id": "mingtang",
+      "nameZh": "明堂区",
+      "nameEn": "Mingtang District",
+      "role": "现代CBD",
+      "centerKm": {
+        "x": 44,
+        "y": 26
+      },
+      "radiusKm": 5
+    },
+    {
+      "id": "nanjiang",
+      "nameZh": "南江区",
+      "nameEn": "Nanjiang District",
+      "role": "南岸金融文化副中心",
+      "centerKm": {
+        "x": 48,
+        "y": 38
+      },
+      "radiusKm": 7
+    },
+    {
+      "id": "xipu",
+      "nameZh": "西浦区",
+      "nameEn": "Xipu District",
+      "role": "传统工业更新",
+      "centerKm": {
+        "x": 20,
+        "y": 18
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "qingxi",
+      "nameZh": "清溪区",
+      "nameEn": "Qingxi District",
+      "role": "西南大学城与科研区",
+      "centerKm": {
+        "x": 20,
+        "y": 49
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "dongke",
+      "nameZh": "东科区",
+      "nameEn": "Dongke District",
+      "role": "东部科技新城",
+      "centerKm": {
+        "x": 67,
+        "y": 25
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "beichuan",
+      "nameZh": "北川区",
+      "nameEn": "Beichuan District",
+      "role": "北部居住新城",
+      "centerKm": {
+        "x": 33,
+        "y": 10
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "haian",
+      "nameZh": "海岸区",
+      "nameEn": "Haian District",
+      "role": "南部滨海新城",
+      "centerKm": {
+        "x": 66,
+        "y": 52
+      },
+      "radiusKm": 10
+    },
+    {
+      "id": "xinghai",
+      "nameZh": "星海航空城",
+      "nameEn": "Xinghai Aerotropolis",
+      "role": "东南航空城",
+      "centerKm": {
+        "x": 70,
+        "y": 50
+      },
+      "radiusKm": 7
+    },
+    {
+      "id": "gangwan",
+      "nameZh": "港湾区",
+      "nameEn": "Gangwan District",
+      "role": "深水港和保税区",
+      "centerKm": {
+        "x": 93,
+        "y": 53
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "xishan",
+      "nameZh": "西山市",
+      "nameEn": "Xishan Satellite City",
+      "role": "西部生态卫星城",
+      "centerKm": {
+        "x": 16,
+        "y": 31
+      },
+      "radiusKm": 7
+    }
+  ],
+  "functionalZones": [
+    {
+      "id": "old-city",
+      "nameZh": "靖安老城",
+      "nameEn": "Jing'an Old City",
+      "centerKm": {
+        "x": 32,
+        "y": 26
+      },
+      "radiusKm": 4
+    },
+    {
+      "id": "people-square",
+      "nameZh": "人民广场",
+      "nameEn": "People's Square",
+      "centerKm": {
+        "x": 33,
+        "y": 26
+      },
+      "radiusKm": 1.2
+    },
+    {
+      "id": "cbd",
+      "nameZh": "中央商务区",
+      "nameEn": "Central Business District",
+      "centerKm": {
+        "x": 44,
+        "y": 26
+      },
+      "radiusKm": 3.5
+    },
+    {
+      "id": "south-finance",
+      "nameZh": "南岸金融文化副中心",
+      "nameEn": "South Bank Finance and Culture Subcenter",
+      "centerKm": {
+        "x": 48,
+        "y": 38
+      },
+      "radiusKm": 4
+    },
+    {
+      "id": "university-town",
+      "nameZh": "清溪大学城",
+      "nameEn": "Qingxi University Town",
+      "centerKm": {
+        "x": 21,
+        "y": 50
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "eastern-tech-city",
+      "nameZh": "东部科技新城",
+      "nameEn": "Eastern Technology City",
+      "centerKm": {
+        "x": 67,
+        "y": 25
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "northern-new-town",
+      "nameZh": "北川新城",
+      "nameEn": "Beichuan New Town",
+      "centerKm": {
+        "x": 33,
+        "y": 10
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "coastal-new-town",
+      "nameZh": "海晏滨海新城",
+      "nameEn": "Haiyan Coastal New Town",
+      "centerKm": {
+        "x": 64,
+        "y": 51
+      },
+      "radiusKm": 7
+    },
+    {
+      "id": "western-industrial",
+      "nameZh": "西浦工业更新区",
+      "nameEn": "Xipu Industrial Renewal District",
+      "centerKm": {
+        "x": 20,
+        "y": 18
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "deepwater-port",
+      "nameZh": "澜海深水港",
+      "nameEn": "Lanhai Deepwater Port",
+      "centerKm": {
+        "x": 93,
+        "y": 53
+      },
+      "radiusKm": 5
+    }
+  ],
+  "airports": [
+    {
+      "id": "xinghai-international-airport",
+      "nameZh": "星海国际机场",
+      "nameEn": "Xinghai International Airport",
+      "centerKm": {
+        "x": 70,
+        "y": 50
+      },
+      "terminalCount": 3,
+      "role": "primary-international"
+    },
+    {
+      "id": "yunling-airport",
+      "nameZh": "云岭机场",
+      "nameEn": "Yunling Airport",
+      "centerKm": {
+        "x": 3,
+        "y": 7
+      },
+      "terminalCount": 2,
+      "role": "secondary"
+    }
+  ],
+  "ports": [
+    {
+      "id": "lanhai-deepwater-port",
+      "nameZh": "澜海深水港",
+      "nameEn": "Lanhai Deepwater Port",
+      "centerKm": {
+        "x": 94,
+        "y": 54
+      },
+      "role": "container-and-passenger"
+    }
+  ],
+  "railwayHubs": [
+    {
+      "id": "beibu-hsr",
+      "nameZh": "北部高铁站",
+      "nameEn": "Beibu High-Speed Railway Station",
+      "centerKm": {
+        "x": 25,
+        "y": 6
+      },
+      "role": "high-speed-terminal"
+    },
+    {
+      "id": "lanhai-railway",
+      "nameZh": "澜海火车站",
+      "nameEn": "Lanhai Railway Station",
+      "centerKm": {
+        "x": 33,
+        "y": 16
+      },
+      "role": "old-main-station"
+    },
+    {
+      "id": "lanhai-south",
+      "nameZh": "澜海南站",
+      "nameEn": "Lanhai South Railway Station",
+      "centerKm": {
+        "x": 46,
+        "y": 46
+      },
+      "role": "south-railway-hub"
+    },
+    {
+      "id": "lanhai-east",
+      "nameZh": "澜海东站",
+      "nameEn": "Lanhai East Railway Station",
+      "centerKm": {
+        "x": 74,
+        "y": 26
+      },
+      "role": "eastern-railway-hub"
+    },
+    {
+      "id": "xishan-intercity",
+      "nameZh": "西山城际站",
+      "nameEn": "Xishan Intercity Station",
+      "centerKm": {
+        "x": 16,
+        "y": 31
+      },
+      "role": "intercity-hub"
+    }
+  ]
+}

@@ -1,0 +1,6141 @@
+{
+  "schemaVersion": "3.0",
+  "city": {
+    "nameZh": "澜海市",
+    "nameEn": "Lanhai",
+    "population": 21860000,
+    "metropolitanPopulation": 32600000,
+    "builtUpAreaKm2": 2630,
+    "history": [
+      "明代海防堡寨与澜江北岸渡口形成靖安老城。",
+      "清末至民国沿江码头、银行街与仓库区催生商浦港埠。",
+      "二十世纪中叶西浦沿铁路和旧运河形成机械、纺织和车辆制造带。",
+      "九十年代后明堂CBD东移，南岸金融文化副中心隔江成形。",
+      "近二十年东部科技城、星海航空城、海晏滨海新城和澜海深水港成为新增长极。"
+    ]
+  },
+  "geographySummary": {
+    "mainRiver": "澜江 / Lan River",
+    "tributary": "白花溪 / Baihua Creek",
+    "bay": "澜海湾 / Lanhai Bay",
+    "riverIsland": "鹭洲 / Luzhou Island",
+    "reservoir": "白鹭水库 / Bailu Reservoir",
+    "mountains": "西岭山地 / Xiling Hills",
+    "coastline": "东南海岸线与澜海湾口"
+  },
+  "districts": [
+    {
+      "id": "jingan",
+      "nameZh": "靖安区",
+      "nameEn": "Jing'an District",
+      "role": "传统老城",
+      "centerKm": {
+        "x": 32,
+        "y": 26
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "shangpu",
+      "nameZh": "商浦区",
+      "nameEn": "Shangpu District",
+      "role": "近代港埠与商业更新",
+      "centerKm": {
+        "x": 39,
+        "y": 31
+      },
+      "radiusKm": 5
+    },
+    {
+      "id": "mingtang",
+      "nameZh": "明堂区",
+      "nameEn": "Mingtang District",
+      "role": "现代CBD",
+      "centerKm": {
+        "x": 44,
+        "y": 26
+      },
+      "radiusKm": 5
+    },
+    {
+      "id": "nanjiang",
+      "nameZh": "南江区",
+      "nameEn": "Nanjiang District",
+      "role": "南岸金融文化副中心",
+      "centerKm": {
+        "x": 48,
+        "y": 38
+      },
+      "radiusKm": 7
+    },
+    {
+      "id": "xipu",
+      "nameZh": "西浦区",
+      "nameEn": "Xipu District",
+      "role": "传统工业更新",
+      "centerKm": {
+        "x": 20,
+        "y": 18
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "qingxi",
+      "nameZh": "清溪区",
+      "nameEn": "Qingxi District",
+      "role": "西南大学城与科研区",
+      "centerKm": {
+        "x": 20,
+        "y": 49
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "dongke",
+      "nameZh": "东科区",
+      "nameEn": "Dongke District",
+      "role": "东部科技新城",
+      "centerKm": {
+        "x": 67,
+        "y": 25
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "beichuan",
+      "nameZh": "北川区",
+      "nameEn": "Beichuan District",
+      "role": "北部居住新城",
+      "centerKm": {
+        "x": 33,
+        "y": 10
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "haian",
+      "nameZh": "海岸区",
+      "nameEn": "Haian District",
+      "role": "南部滨海新城",
+      "centerKm": {
+        "x": 66,
+        "y": 52
+      },
+      "radiusKm": 10
+    },
+    {
+      "id": "xinghai",
+      "nameZh": "星海航空城",
+      "nameEn": "Xinghai Aerotropolis",
+      "role": "东南航空城",
+      "centerKm": {
+        "x": 70,
+        "y": 50
+      },
+      "radiusKm": 7
+    },
+    {
+      "id": "gangwan",
+      "nameZh": "港湾区",
+      "nameEn": "Gangwan District",
+      "role": "深水港和保税区",
+      "centerKm": {
+        "x": 93,
+        "y": 53
+      },
+      "radiusKm": 8
+    },
+    {
+      "id": "xishan",
+      "nameZh": "西山市",
+      "nameEn": "Xishan Satellite City",
+      "role": "西部生态卫星城",
+      "centerKm": {
+        "x": 16,
+        "y": 31
+      },
+      "radiusKm": 7
+    }
+  ],
+  "functionalZones": [
+    {
+      "id": "old-city",
+      "nameZh": "靖安老城",
+      "nameEn": "Jing'an Old City",
+      "centerKm": {
+        "x": 32,
+        "y": 26
+      },
+      "radiusKm": 4
+    },
+    {
+      "id": "people-square",
+      "nameZh": "人民广场",
+      "nameEn": "People's Square",
+      "centerKm": {
+        "x": 33,
+        "y": 26
+      },
+      "radiusKm": 1.2
+    },
+    {
+      "id": "cbd",
+      "nameZh": "中央商务区",
+      "nameEn": "Central Business District",
+      "centerKm": {
+        "x": 44,
+        "y": 26
+      },
+      "radiusKm": 3.5
+    },
+    {
+      "id": "south-finance",
+      "nameZh": "南岸金融文化副中心",
+      "nameEn": "South Bank Finance and Culture Subcenter",
+      "centerKm": {
+        "x": 48,
+        "y": 38
+      },
+      "radiusKm": 4
+    },
+    {
+      "id": "university-town",
+      "nameZh": "清溪大学城",
+      "nameEn": "Qingxi University Town",
+      "centerKm": {
+        "x": 21,
+        "y": 50
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "eastern-tech-city",
+      "nameZh": "东部科技新城",
+      "nameEn": "Eastern Technology City",
+      "centerKm": {
+        "x": 67,
+        "y": 25
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "northern-new-town",
+      "nameZh": "北川新城",
+      "nameEn": "Beichuan New Town",
+      "centerKm": {
+        "x": 33,
+        "y": 10
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "coastal-new-town",
+      "nameZh": "海晏滨海新城",
+      "nameEn": "Haiyan Coastal New Town",
+      "centerKm": {
+        "x": 64,
+        "y": 51
+      },
+      "radiusKm": 7
+    },
+    {
+      "id": "western-industrial",
+      "nameZh": "西浦工业更新区",
+      "nameEn": "Xipu Industrial Renewal District",
+      "centerKm": {
+        "x": 20,
+        "y": 18
+      },
+      "radiusKm": 6
+    },
+    {
+      "id": "deepwater-port",
+      "nameZh": "澜海深水港",
+      "nameEn": "Lanhai Deepwater Port",
+      "centerKm": {
+        "x": 93,
+        "y": 53
+      },
+      "radiusKm": 5
+    }
+  ],
+  "corridors": [
+    "old-city-east-west",
+    "core-north-south",
+    "riverfront",
+    "cbd-southbank",
+    "northern-commuter",
+    "eastern-tech",
+    "southwest-university",
+    "coastal-new-town",
+    "airport-express",
+    "western-satellite-airport",
+    "port-commuter",
+    "rail-hub-link",
+    "core-ring",
+    "outer-semirring"
+  ],
+  "lines": [
+    {
+      "id": "1",
+      "nameZh": "1号线",
+      "nameEn": "Line 1",
+      "color": "#d71920",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "old-city-east-west"
+      ],
+      "function": "老城东西主轴，串联人民广场、CBD、东部科技新城和东站。",
+      "start": "金沙湾",
+      "end": "海洲北",
+      "estimatedLengthKm": 41,
+      "maxBends": 8,
+      "stations": [
+        "jinsha-bay",
+        "shahe-west",
+        "changqiao-west",
+        "yintang",
+        "yintang-east",
+        "xishikou",
+        "jichang-park",
+        "ximen",
+        "gulou",
+        "chenghuang-temple",
+        "people-square",
+        "yongning-gate",
+        "central-business-district",
+        "mingtang-east",
+        "bowuguan",
+        "financial-street",
+        "qinghe",
+        "donghu-road",
+        "technology-city",
+        "convention-north",
+        "lanhai-east-railway",
+        "songgang",
+        "haizhou-west",
+        "haizhou-north"
+      ],
+      "visible": true,
+      "stationCount": 24,
+      "transferCount": 12,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "2",
+      "nameZh": "2号线",
+      "nameEn": "Line 2",
+      "color": "#0072bc",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "core-north-south"
+      ],
+      "function": "北部居住新城至南部滨海新城的跨江主轴。",
+      "start": "北川北站",
+      "end": "滨海西客运站",
+      "estimatedLengthKm": 42,
+      "maxBends": 10,
+      "stations": [
+        "beichuan-north",
+        "beichuan-medical-center",
+        "beicheng-park",
+        "jingan-north",
+        "lanhai-railway",
+        "beimen-street",
+        "beisi-west",
+        "beisi",
+        "people-square",
+        "luzhou-west",
+        "jiangnan-gate",
+        "jiangnan-east",
+        "south-bank-cultural-center",
+        "jiangnan-fang",
+        "south-bank-civic-center",
+        "lanhai-south-railway",
+        "yunwan",
+        "binhai-university-road",
+        "jinsha-beach",
+        "binhai-west-coach-terminal"
+      ],
+      "visible": true,
+      "stationCount": 20,
+      "transferCount": 8,
+      "crossesMainRiver": true
+    },
+    {
+      "id": "3",
+      "nameZh": "3号线",
+      "nameEn": "Line 3",
+      "color": "#00a651",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "riverfront"
+      ],
+      "function": "沿澜江联系旧码头、鹭洲和会展中心。",
+      "start": "西江货场",
+      "end": "湾口客运码头",
+      "estimatedLengthKm": 36,
+      "maxBends": 10,
+      "stations": [
+        "xijiang-yard",
+        "xicang",
+        "cangqian-ferry",
+        "old-wharf",
+        "xiguan-ferry",
+        "shisanhang-street",
+        "guangji-bridge",
+        "luzhou-west",
+        "luzhou-park",
+        "luzhou-east",
+        "bank-street",
+        "dongping-wharf",
+        "jiangwan-center",
+        "grand-theater",
+        "international-convention-center",
+        "xinqiao",
+        "east-bay",
+        "haizhou-ferry",
+        "haizhou-island",
+        "haizhou-east",
+        "baymouth-cruise-terminal"
+      ],
+      "visible": true,
+      "stationCount": 21,
+      "transferCount": 10,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "4",
+      "nameZh": "4号线",
+      "nameEn": "Line 4 Loop",
+      "color": "#f7941d",
+      "type": "ring",
+      "status": "operational",
+      "corridors": [
+        "core-ring"
+      ],
+      "function": "核心环线，分流老城、近代港埠和南岸换乘压力。",
+      "start": "西门",
+      "end": "西门",
+      "estimatedLengthKm": 31,
+      "maxBends": 18,
+      "closed": true,
+      "stations": [
+        "ximen",
+        "west-city-wall",
+        "north-gate-bridge",
+        "lanhai-railway",
+        "mingde-road",
+        "bowuguan",
+        "dongping-wharf",
+        "south-bank-finance-city",
+        "media-harbor",
+        "jiangnan-fang",
+        "jiangnan-market",
+        "south-market",
+        "changdi",
+        "jiangnan-university-hospital",
+        "guangji-bridge",
+        "xiguan-ferry"
+      ],
+      "visible": true,
+      "stationCount": 16,
+      "transferCount": 11,
+      "crossesMainRiver": true
+    },
+    {
+      "id": "5",
+      "nameZh": "5号线",
+      "nameEn": "Line 5",
+      "color": "#8a2be2",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "northern-commuter",
+        "cbd-southbank"
+      ],
+      "function": "北部新城、北部高铁站与南岸副中心通勤联系。",
+      "start": "宋庄",
+      "end": "海晏西",
+      "estimatedLengthKm": 33,
+      "maxBends": 12,
+      "stations": [
+        "songzhuang",
+        "shiqiao-creek",
+        "beihu-bay",
+        "beihu-south",
+        "beibu-hsr",
+        "yuntai-road",
+        "north-gate-bridge",
+        "beisi-west",
+        "dongta-temple",
+        "civic-center",
+        "mingtang-square",
+        "financial-street",
+        "finance-riverside",
+        "dongping-wharf",
+        "south-bank-finance-city",
+        "nanjiang-south-gate",
+        "south-station-west",
+        "lanhai-south-railway",
+        "binjiang-park",
+        "haiyan-west"
+      ],
+      "visible": true,
+      "stationCount": 20,
+      "transferCount": 8,
+      "crossesMainRiver": true
+    },
+    {
+      "id": "6",
+      "nameZh": "6号线",
+      "nameEn": "Line 6",
+      "color": "#009688",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "southwest-university"
+      ],
+      "function": "大学城与鹭洲、沿江港埠和老城东缘联系。",
+      "start": "青峰谷",
+      "end": "银行街",
+      "estimatedLengthKm": 32,
+      "maxBends": 12,
+      "stations": [
+        "qingfeng-valley",
+        "songlan-town",
+        "qingxi-sports-center",
+        "hushan-academy",
+        "lanhai-university",
+        "xuelin-road",
+        "yuhu",
+        "shuyuan-road",
+        "xuefu-north",
+        "jiangnan-university-hospital",
+        "jiangnan-gate-south",
+        "luzhou-approach",
+        "luzhou-west",
+        "luzhou-park",
+        "luzhou-east",
+        "bank-street"
+      ],
+      "visible": true,
+      "stationCount": 16,
+      "transferCount": 7,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "6B",
+      "nameZh": "6号线支线",
+      "nameEn": "Line 6 Branch",
+      "color": "#4db6ac",
+      "type": "branch",
+      "status": "operational",
+      "corridors": [
+        "southwest-university"
+      ],
+      "function": "玉湖分叉进入西岭书院和白鹭水库片区。",
+      "start": "玉湖",
+      "end": "白鹭水库",
+      "branchOf": "6",
+      "branchPoint": "yuhu",
+      "estimatedLengthKm": 11,
+      "maxBends": 6,
+      "stations": [
+        "yuhu",
+        "qingxi-library",
+        "qingxi-research-park",
+        "qingyan-village",
+        "xiling-academy",
+        "lianhu",
+        "bailu-reservoir"
+      ],
+      "visible": true,
+      "stationCount": 7,
+      "transferCount": 1,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "7",
+      "nameZh": "7号线",
+      "nameEn": "Line 7",
+      "color": "#c2185b",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "eastern-tech"
+      ],
+      "function": "CBD与东部科技新城、软件园、生物医药园走廊。",
+      "start": "旧书院",
+      "end": "东港北",
+      "estimatedLengthKm": 30,
+      "maxBends": 10,
+      "stations": [
+        "old-academy",
+        "old-academy-east",
+        "mingde-road",
+        "mingtang-north",
+        "civic-center",
+        "central-business-district",
+        "bowuguan",
+        "donghu-west",
+        "qinghe",
+        "donghu-road",
+        "technology-city",
+        "software-park",
+        "songlinbang",
+        "biomedicine-park",
+        "donggang-park",
+        "donggang-north"
+      ],
+      "visible": true,
+      "stationCount": 16,
+      "transferCount": 7,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "8",
+      "nameZh": "8号线",
+      "nameEn": "Line 8",
+      "color": "#009fe3",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "coastal-new-town"
+      ],
+      "function": "澜海南站、滨海新城、航空城与机场普通服务。",
+      "start": "澜海南站",
+      "end": "滨海东客运站",
+      "estimatedLengthKm": 34,
+      "maxBends": 9,
+      "stations": [
+        "lanhai-south-railway",
+        "biyun-road",
+        "nanhu",
+        "nanhu-east",
+        "haiyan-bay",
+        "ocean-park",
+        "aerotropolis-north",
+        "aircraft-maintenance",
+        "airport-logistics",
+        "xinghai-airport-t2",
+        "xinghai-airport-t1",
+        "tidal-flat-park",
+        "binhai-east",
+        "binhai-east-coach-terminal"
+      ],
+      "visible": true,
+      "stationCount": 14,
+      "transferCount": 4,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "8B",
+      "nameZh": "8号线支线",
+      "nameEn": "Line 8 Branch",
+      "color": "#56c5ff",
+      "type": "branch",
+      "status": "operational",
+      "corridors": [
+        "coastal-new-town"
+      ],
+      "function": "海晏湾分叉服务人工湖和填海居住片区。",
+      "start": "海晏湾",
+      "end": "南湾公园",
+      "branchOf": "8",
+      "branchPoint": "haiyan-bay",
+      "estimatedLengthKm": 8,
+      "maxBends": 6,
+      "stations": [
+        "haiyan-bay",
+        "yunlan-lake",
+        "haiyan-road",
+        "artificial-lake",
+        "haiyue-island",
+        "nanwan-park"
+      ],
+      "visible": true,
+      "stationCount": 6,
+      "transferCount": 1,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "9",
+      "nameZh": "9号线",
+      "nameEn": "Line 9",
+      "color": "#795548",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "old-city-east-west"
+      ],
+      "function": "西浦工业遗址更新走廊，接入人民广场。",
+      "start": "北机厂",
+      "end": "永宁门",
+      "estimatedLengthKm": 18,
+      "maxBends": 8,
+      "stations": [
+        "north-machine-works",
+        "rolling-stock-works",
+        "textile-mill-road",
+        "northwest-freight-yard",
+        "tielubang",
+        "water-tower-street",
+        "jiucangshan",
+        "jichang-park",
+        "ximen",
+        "gulou",
+        "people-square",
+        "yongning-gate"
+      ],
+      "visible": true,
+      "stationCount": 12,
+      "transferCount": 6,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "10",
+      "nameZh": "10号线",
+      "nameEn": "Line 10",
+      "color": "#7cb342",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "cbd-southbank"
+      ],
+      "function": "南岸金融文化副中心横向走廊，并在东端跨江接会展片区。",
+      "start": "南溪镇",
+      "end": "会展东门",
+      "estimatedLengthKm": 27,
+      "maxBends": 9,
+      "stations": [
+        "nanxi-town",
+        "liantang",
+        "jiangwan-west",
+        "jiangnan-university-hospital",
+        "binjiang-park-west",
+        "south-bank-cultural-axis",
+        "media-center",
+        "finance-city-west",
+        "south-bank-finance-city",
+        "convention-west",
+        "convention-south",
+        "east-bank-bridge",
+        "expo-riverside",
+        "expo-east-gate"
+      ],
+      "visible": true,
+      "stationCount": 14,
+      "transferCount": 3,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "11",
+      "nameZh": "11号线",
+      "nameEn": "Line 11 Port",
+      "color": "#455a64",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "port-commuter"
+      ],
+      "function": "东部会展中心至深水港和保税物流园通勤线。",
+      "start": "国际会展中心",
+      "end": "深水港客运码头",
+      "estimatedLengthKm": 26,
+      "maxBends": 8,
+      "stations": [
+        "international-convention-center",
+        "xinqiao",
+        "dongwan-south",
+        "bonded-logistics-park",
+        "bonded-south",
+        "shipyard",
+        "gangwan-avenue",
+        "deepwater-port-north",
+        "container-terminal",
+        "deepwater-port-passenger-terminal"
+      ],
+      "visible": true,
+      "stationCount": 10,
+      "transferCount": 3,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "12",
+      "nameZh": "12号线",
+      "nameEn": "Line 12 Semi-Loop",
+      "color": "#ffb300",
+      "type": "semi-ring",
+      "status": "operational",
+      "corridors": [
+        "outer-semirring"
+      ],
+      "function": "北部高铁站经西部与大学城北缘至海晏湾的外围半环。",
+      "start": "北部高铁站",
+      "end": "海晏湾",
+      "estimatedLengthKm": 45,
+      "maxBends": 14,
+      "stations": [
+        "beibu-hsr",
+        "zhuyuan",
+        "zhuyuan-south",
+        "northwest-freight-yard",
+        "west-bridge",
+        "xishikou-south",
+        "cangqian-ferry",
+        "xicang-south",
+        "liantang-north",
+        "liantang",
+        "university-north",
+        "shuyuan-road",
+        "xuefu-road",
+        "nanhu-west",
+        "yunwan-north",
+        "yunwan",
+        "binhai-university-approach",
+        "binhai-university-road",
+        "haiyan-outer-west",
+        "haiyan-outer-north",
+        "haiyan-bay"
+      ],
+      "visible": true,
+      "stationCount": 21,
+      "transferCount": 8,
+      "crossesMainRiver": true
+    },
+    {
+      "id": "13",
+      "nameZh": "13号线",
+      "nameEn": "Line 13 Regional Express",
+      "color": "#e64a19",
+      "type": "regional-express",
+      "status": "operational",
+      "corridors": [
+        "western-satellite-airport"
+      ],
+      "function": "云岭机场、西山卫星城与主城区、东站的市域快线。",
+      "start": "云岭机场1号航站楼",
+      "end": "澜海东站",
+      "estimatedLengthKm": 58,
+      "maxBends": 9,
+      "stations": [
+        "yunling-airport-t1",
+        "yunling-airport-t2",
+        "bailu-valley",
+        "xishan-intercity",
+        "xishan-new-town",
+        "people-square",
+        "mingtang-west",
+        "financial-street",
+        "lanhai-east-railway"
+      ],
+      "visible": true,
+      "stationCount": 9,
+      "transferCount": 3,
+      "crossesMainRiver": false
+    },
+    {
+      "id": "14",
+      "nameZh": "14号线",
+      "nameEn": "Line 14 Eastern Express",
+      "color": "#00578a",
+      "type": "regional-express",
+      "status": "operational",
+      "corridors": [
+        "rail-hub-link"
+      ],
+      "function": "北部高铁站、CBD、东站、机场和深水港之间的快速联络。",
+      "start": "北部高铁站",
+      "end": "深水港客运码头",
+      "estimatedLengthKm": 64,
+      "maxBends": 9,
+      "stations": [
+        "beibu-hsr",
+        "beicheng-express",
+        "central-business-district",
+        "technology-city",
+        "lanhai-east-railway",
+        "linkong-north",
+        "airport-business-park",
+        "xinghai-airport-t2",
+        "deepwater-port-passenger-terminal"
+      ],
+      "visible": true,
+      "stationCount": 9,
+      "transferCount": 6,
+      "crossesMainRiver": true
+    },
+    {
+      "id": "A",
+      "nameZh": "机场快线",
+      "nameEn": "Airport Express",
+      "color": "#b00020",
+      "type": "airport-express",
+      "status": "operational",
+      "corridors": [
+        "airport-express"
+      ],
+      "function": "澜海火车站、CBD与星海国际机场的少停站快速服务。",
+      "start": "澜海火车站",
+      "end": "星海机场3号航站楼",
+      "estimatedLengthKm": 41,
+      "maxBends": 8,
+      "stations": [
+        "lanhai-railway",
+        "central-business-district",
+        "jiangwan-finance-harbor",
+        "airport-express-south",
+        "airport-north",
+        "airport-hotel-zone",
+        "xinghai-airport-t2",
+        "xinghai-airport-t3"
+      ],
+      "visible": true,
+      "stationCount": 8,
+      "transferCount": 4,
+      "crossesMainRiver": true
+    },
+    {
+      "id": "17",
+      "nameZh": "17号线",
+      "nameEn": "Line 17",
+      "color": "#9e9e9e",
+      "type": "metro",
+      "status": "under-construction",
+      "corridors": [
+        "eastern-tech",
+        "coastal-new-town"
+      ],
+      "function": "建设中的东部科技城至航空城纵向加密线。",
+      "start": "望江北",
+      "end": "星海南",
+      "estimatedLengthKm": 29,
+      "maxBends": 10,
+      "stations": [
+        "wangjiang-north",
+        "north-software-park",
+        "biomedicine-park-north",
+        "software-park-east",
+        "international-convention-center",
+        "expo-south",
+        "haiyan-north",
+        "airport-north",
+        "maintenance-north",
+        "aircraft-maintenance",
+        "xinghai-south"
+      ],
+      "visible": true,
+      "stationCount": 11,
+      "transferCount": 3,
+      "crossesMainRiver": true
+    }
+  ],
+  "stations": [
+    {
+      "id": "songzhuang",
+      "nameZh": "宋庄",
+      "nameEn": "Songzhuang",
+      "schematic": {
+        "x": 480,
+        "y": 100
+      },
+      "geoKm": {
+        "x": 17.86,
+        "y": 0.0
+      },
+      "area": "北川区",
+      "role": "town",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "shiqiao-creek",
+      "nameZh": "石桥河",
+      "nameEn": "Shiqiao Creek",
+      "schematic": {
+        "x": 520,
+        "y": 140
+      },
+      "geoKm": {
+        "x": 19.64,
+        "y": 0.0
+      },
+      "area": "北川区",
+      "role": "creek",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beihu-bay",
+      "nameZh": "北湖湾",
+      "nameEn": "Beihu Bay",
+      "schematic": {
+        "x": 560,
+        "y": 180
+      },
+      "geoKm": {
+        "x": 21.43,
+        "y": 2.0
+      },
+      "area": "北川区",
+      "role": "lakefront",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beihu-south",
+      "nameZh": "北湖南",
+      "nameEn": "Beihu South",
+      "schematic": {
+        "x": 600,
+        "y": 220
+      },
+      "geoKm": {
+        "x": 23.21,
+        "y": 4.0
+      },
+      "area": "北川区",
+      "role": "lakefront",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beichuan-north",
+      "nameZh": "北川北站",
+      "nameEn": "Beichuan North Railway Station",
+      "schematic": {
+        "x": 820,
+        "y": 220
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 4.0
+      },
+      "area": "北川区",
+      "role": "railway-hub",
+      "hubType": "railway",
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "wangjiang-north",
+      "nameZh": "望江北",
+      "nameEn": "Wangjiang North",
+      "schematic": {
+        "x": 1160,
+        "y": 220
+      },
+      "geoKm": {
+        "x": 48.21,
+        "y": 4.0
+      },
+      "area": "北川区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "17"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "under-construction"
+    },
+    {
+      "id": "yunling-airport-t1",
+      "nameZh": "云岭机场1号航站楼",
+      "nameEn": "Yunling Airport Terminal 1",
+      "schematic": {
+        "x": 80,
+        "y": 260
+      },
+      "geoKm": {
+        "x": 0.0,
+        "y": 6.0
+      },
+      "area": "西山市",
+      "role": "airport-terminal",
+      "hubType": "airport",
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "13"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beibu-hsr",
+      "nameZh": "北部高铁站",
+      "nameEn": "Beibu High-Speed Railway Station",
+      "schematic": {
+        "x": 640,
+        "y": 260
+      },
+      "geoKm": {
+        "x": 25.0,
+        "y": 6.0
+      },
+      "area": "北川区",
+      "role": "railway-hub",
+      "hubType": "railway",
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5",
+        "12",
+        "14"
+      ],
+      "transferLines": [
+        "5",
+        "12",
+        "14"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beichuan-medical-center",
+      "nameZh": "北川医疗中心",
+      "nameEn": "Beichuan Medical Center",
+      "schematic": {
+        "x": 820,
+        "y": 270
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 6.5
+      },
+      "area": "北川区",
+      "role": "hospital",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beicheng-park",
+      "nameZh": "北城公园",
+      "nameEn": "Beicheng Park",
+      "schematic": {
+        "x": 820,
+        "y": 320
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 9.0
+      },
+      "area": "北川区",
+      "role": "park",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yunling-airport-t2",
+      "nameZh": "云岭机场2号航站楼",
+      "nameEn": "Yunling Airport Terminal 2",
+      "schematic": {
+        "x": 160,
+        "y": 340
+      },
+      "geoKm": {
+        "x": 3.57,
+        "y": 10.0
+      },
+      "area": "西山市",
+      "role": "airport-terminal",
+      "hubType": "airport",
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "13"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "zhuyuan",
+      "nameZh": "竹园",
+      "nameEn": "Zhuyuan",
+      "schematic": {
+        "x": 560,
+        "y": 340
+      },
+      "geoKm": {
+        "x": 21.43,
+        "y": 10.0
+      },
+      "area": "北川区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yuntai-road",
+      "nameZh": "云台路",
+      "nameEn": "Yuntai Road",
+      "schematic": {
+        "x": 720,
+        "y": 340
+      },
+      "geoKm": {
+        "x": 28.57,
+        "y": 10.0
+      },
+      "area": "北川区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "north-software-park",
+      "nameZh": "软件园北",
+      "nameEn": "Software Park North",
+      "schematic": {
+        "x": 1280,
+        "y": 340
+      },
+      "geoKm": {
+        "x": 53.57,
+        "y": 10.0
+      },
+      "area": "东科区",
+      "role": "tech",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "17"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "under-construction"
+    },
+    {
+      "id": "zhuyuan-south",
+      "nameZh": "竹园南",
+      "nameEn": "Zhuyuan South",
+      "schematic": {
+        "x": 540,
+        "y": 360
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 11.0
+      },
+      "area": "北川区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jingan-north",
+      "nameZh": "靖安北",
+      "nameEn": "Jing'an North",
+      "schematic": {
+        "x": 820,
+        "y": 380
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 12.0
+      },
+      "area": "靖安区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "old-academy",
+      "nameZh": "旧书院",
+      "nameEn": "Old Academy",
+      "schematic": {
+        "x": 860,
+        "y": 400
+      },
+      "geoKm": {
+        "x": 34.82,
+        "y": 13.0
+      },
+      "area": "靖安区",
+      "role": "historic",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "old-academy-east",
+      "nameZh": "书院东",
+      "nameEn": "Academy East",
+      "schematic": {
+        "x": 900,
+        "y": 400
+      },
+      "geoKm": {
+        "x": 36.61,
+        "y": 13.0
+      },
+      "area": "靖安区",
+      "role": "historic",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "north-machine-works",
+      "nameZh": "北机厂",
+      "nameEn": "North Machine Works",
+      "schematic": {
+        "x": 220,
+        "y": 420
+      },
+      "geoKm": {
+        "x": 6.25,
+        "y": 14.0
+      },
+      "area": "西浦区",
+      "role": "industrial",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "9"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "rolling-stock-works",
+      "nameZh": "车辆厂",
+      "nameEn": "Rolling Stock Works",
+      "schematic": {
+        "x": 340,
+        "y": 420
+      },
+      "geoKm": {
+        "x": 11.61,
+        "y": 14.0
+      },
+      "area": "西浦区",
+      "role": "industrial",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "9"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "textile-mill-road",
+      "nameZh": "纱厂路",
+      "nameEn": "Textile Mill Road",
+      "schematic": {
+        "x": 460,
+        "y": 420
+      },
+      "geoKm": {
+        "x": 16.96,
+        "y": 14.0
+      },
+      "area": "西浦区",
+      "role": "industrial-road",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "9"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "northwest-freight-yard",
+      "nameZh": "西北货场",
+      "nameEn": "Northwest Freight Yard",
+      "schematic": {
+        "x": 540,
+        "y": 420
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 14.0
+      },
+      "area": "西浦区",
+      "role": "freight-yard",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "9",
+        "12"
+      ],
+      "transferLines": [
+        "9",
+        "12"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "north-gate-bridge",
+      "nameZh": "北门桥",
+      "nameEn": "North Gate Bridge",
+      "schematic": {
+        "x": 720,
+        "y": 440
+      },
+      "geoKm": {
+        "x": 28.57,
+        "y": 15.0
+      },
+      "area": "靖安区",
+      "role": "bridge",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4",
+        "5"
+      ],
+      "transferLines": [
+        "4",
+        "5"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "lanhai-railway",
+      "nameZh": "澜海火车站",
+      "nameEn": "Lanhai Railway Station",
+      "schematic": {
+        "x": 820,
+        "y": 440
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 15.0
+      },
+      "area": "靖安区",
+      "role": "old-railway-hub",
+      "hubType": "railway",
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2",
+        "4",
+        "A"
+      ],
+      "transferLines": [
+        "2",
+        "4",
+        "A"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "mingde-road",
+      "nameZh": "明德路",
+      "nameEn": "Mingde Road",
+      "schematic": {
+        "x": 940,
+        "y": 440
+      },
+      "geoKm": {
+        "x": 38.39,
+        "y": 15.0
+      },
+      "area": "靖安区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4",
+        "7"
+      ],
+      "transferLines": [
+        "4",
+        "7"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beicheng-express",
+      "nameZh": "北城快线站",
+      "nameEn": "Beicheng Express Station",
+      "schematic": {
+        "x": 840,
+        "y": 460
+      },
+      "geoKm": {
+        "x": 33.93,
+        "y": 16.0
+      },
+      "area": "北川区",
+      "role": "regional-express",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "14"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "biomedicine-park-north",
+      "nameZh": "生物医药园北",
+      "nameEn": "Biomedicine Park North",
+      "schematic": {
+        "x": 1400,
+        "y": 460
+      },
+      "geoKm": {
+        "x": 58.93,
+        "y": 16.0
+      },
+      "area": "东科区",
+      "role": "biomedicine",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "17"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "under-construction"
+    },
+    {
+      "id": "bailu-valley",
+      "nameZh": "白鹭谷",
+      "nameEn": "Bailu Valley",
+      "schematic": {
+        "x": 300,
+        "y": 480
+      },
+      "geoKm": {
+        "x": 9.82,
+        "y": 17.0
+      },
+      "area": "西山市",
+      "role": "valley",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "13"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "tielubang",
+      "nameZh": "铁炉浜",
+      "nameEn": "Tielubang",
+      "schematic": {
+        "x": 540,
+        "y": 480
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 17.0
+      },
+      "area": "西浦区",
+      "role": "industrial-village",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "9"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beimen-street",
+      "nameZh": "北门大街",
+      "nameEn": "Beimen Street",
+      "schematic": {
+        "x": 820,
+        "y": 500
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 18.0
+      },
+      "area": "靖安区",
+      "role": "historic-street",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "donggang-north",
+      "nameZh": "东港北",
+      "nameEn": "Donggang North",
+      "schematic": {
+        "x": 1800,
+        "y": 500
+      },
+      "geoKm": {
+        "x": 76.79,
+        "y": 18.0
+      },
+      "area": "港湾区",
+      "role": "port-adjacent",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "water-tower-street",
+      "nameZh": "水塔街",
+      "nameEn": "Water Tower Street",
+      "schematic": {
+        "x": 540,
+        "y": 540
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 20.0
+      },
+      "area": "西浦区",
+      "role": "industrial-heritage",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "9"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "west-bridge",
+      "nameZh": "西桥",
+      "nameEn": "Xiqiao",
+      "schematic": {
+        "x": 540,
+        "y": 540
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 20.0
+      },
+      "area": "西浦区",
+      "role": "bridge",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "west-city-wall",
+      "nameZh": "西城墙",
+      "nameEn": "West City Wall",
+      "schematic": {
+        "x": 620,
+        "y": 540
+      },
+      "geoKm": {
+        "x": 24.11,
+        "y": 20.0
+      },
+      "area": "靖安区",
+      "role": "historic-wall",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beisi-west",
+      "nameZh": "北寺西",
+      "nameEn": "Beisi West",
+      "schematic": {
+        "x": 820,
+        "y": 540
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 20.0
+      },
+      "area": "靖安区",
+      "role": "historic-temple",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "transferLines": [
+        "2",
+        "5"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "mingtang-north",
+      "nameZh": "明堂北",
+      "nameEn": "Mingtang North",
+      "schematic": {
+        "x": 1040,
+        "y": 540
+      },
+      "geoKm": {
+        "x": 42.86,
+        "y": 20.0
+      },
+      "area": "明堂区",
+      "role": "business",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "donggang-park",
+      "nameZh": "东港园",
+      "nameEn": "Donggang Park",
+      "schematic": {
+        "x": 1760,
+        "y": 540
+      },
+      "geoKm": {
+        "x": 75.0,
+        "y": 20.0
+      },
+      "area": "港湾区",
+      "role": "park",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "beisi",
+      "nameZh": "北寺",
+      "nameEn": "Beisi Temple",
+      "schematic": {
+        "x": 820,
+        "y": 560
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 21.0
+      },
+      "area": "靖安区",
+      "role": "historic-temple",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "dongta-temple",
+      "nameZh": "东塔寺",
+      "nameEn": "Dongta Temple",
+      "schematic": {
+        "x": 840,
+        "y": 560
+      },
+      "geoKm": {
+        "x": 33.93,
+        "y": 21.0
+      },
+      "area": "靖安区",
+      "role": "historic-temple",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "civic-center",
+      "nameZh": "市民中心",
+      "nameEn": "Civic Center",
+      "schematic": {
+        "x": 1040,
+        "y": 560
+      },
+      "geoKm": {
+        "x": 42.86,
+        "y": 21.0
+      },
+      "area": "明堂区",
+      "role": "civic",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5",
+        "7"
+      ],
+      "transferLines": [
+        "5",
+        "7"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xishan-intercity",
+      "nameZh": "西山城际站",
+      "nameEn": "Xishan Intercity Station",
+      "schematic": {
+        "x": 400,
+        "y": 580
+      },
+      "geoKm": {
+        "x": 14.29,
+        "y": 22.0
+      },
+      "area": "西山市",
+      "role": "intercity-hub",
+      "hubType": "railway",
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "13"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "software-park-east",
+      "nameZh": "软件园东",
+      "nameEn": "Software Park East",
+      "schematic": {
+        "x": 1520,
+        "y": 580
+      },
+      "geoKm": {
+        "x": 64.29,
+        "y": 22.0
+      },
+      "area": "东科区",
+      "role": "tech",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "17"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "under-construction"
+    },
+    {
+      "id": "software-park",
+      "nameZh": "软件园",
+      "nameEn": "Software Park",
+      "schematic": {
+        "x": 1600,
+        "y": 580
+      },
+      "geoKm": {
+        "x": 67.86,
+        "y": 22.0
+      },
+      "area": "东科区",
+      "role": "tech",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "songlinbang",
+      "nameZh": "松林浜",
+      "nameEn": "Songlinbang",
+      "schematic": {
+        "x": 1660,
+        "y": 580
+      },
+      "geoKm": {
+        "x": 70.54,
+        "y": 22.0
+      },
+      "area": "东科区",
+      "role": "village",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "biomedicine-park",
+      "nameZh": "生物医药园",
+      "nameEn": "Biomedicine Park",
+      "schematic": {
+        "x": 1720,
+        "y": 580
+      },
+      "geoKm": {
+        "x": 73.21,
+        "y": 22.0
+      },
+      "area": "东科区",
+      "role": "biomedicine",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiucangshan",
+      "nameZh": "旧仓山",
+      "nameEn": "Jiucangshan",
+      "schematic": {
+        "x": 540,
+        "y": 600
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 23.0
+      },
+      "area": "西浦区",
+      "role": "industrial-heritage",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "9"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jinsha-bay",
+      "nameZh": "金沙湾",
+      "nameEn": "Jinsha Bay",
+      "schematic": {
+        "x": 220,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 6.25,
+        "y": 26.0
+      },
+      "area": "西山市",
+      "role": "residential",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "shahe-west",
+      "nameZh": "沙河西",
+      "nameEn": "Shahe West",
+      "schematic": {
+        "x": 260,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 8.04,
+        "y": 26.0
+      },
+      "area": "西山市",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "changqiao-west",
+      "nameZh": "长桥西",
+      "nameEn": "Changqiao West",
+      "schematic": {
+        "x": 300,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 9.82,
+        "y": 26.0
+      },
+      "area": "西山市",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yintang",
+      "nameZh": "银塘",
+      "nameEn": "Yintang",
+      "schematic": {
+        "x": 380,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 13.39,
+        "y": 26.0
+      },
+      "area": "西浦区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yintang-east",
+      "nameZh": "银塘东",
+      "nameEn": "Yintang East",
+      "schematic": {
+        "x": 420,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 15.18,
+        "y": 26.0
+      },
+      "area": "西浦区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xishikou",
+      "nameZh": "西市口",
+      "nameEn": "Xishikou",
+      "schematic": {
+        "x": 460,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 16.96,
+        "y": 26.0
+      },
+      "area": "靖安区",
+      "role": "old-market",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xishan-new-town",
+      "nameZh": "西山新城",
+      "nameEn": "Xishan New Town",
+      "schematic": {
+        "x": 480,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 17.86,
+        "y": 26.0
+      },
+      "area": "西山市",
+      "role": "satellite-city",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "13"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jichang-park",
+      "nameZh": "机厂公园",
+      "nameEn": "Machine Works Park",
+      "schematic": {
+        "x": 540,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 26.0
+      },
+      "area": "西浦区",
+      "role": "industrial-renewal",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "9"
+      ],
+      "transferLines": [
+        "1",
+        "9"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xishikou-south",
+      "nameZh": "西市口南",
+      "nameEn": "Xishikou South",
+      "schematic": {
+        "x": 540,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 26.0
+      },
+      "area": "靖安区",
+      "role": "old-market",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "ximen",
+      "nameZh": "西门",
+      "nameEn": "West Gate",
+      "schematic": {
+        "x": 620,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 24.11,
+        "y": 26.0
+      },
+      "area": "靖安区",
+      "role": "old-city-gate",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "4",
+        "9"
+      ],
+      "transferLines": [
+        "1",
+        "4",
+        "9"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "gulou",
+      "nameZh": "鼓楼",
+      "nameEn": "Gulou",
+      "schematic": {
+        "x": 700,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 27.68,
+        "y": 26.0
+      },
+      "area": "靖安区",
+      "role": "historic-core",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "9"
+      ],
+      "transferLines": [
+        "1",
+        "9"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "chenghuang-temple",
+      "nameZh": "城隍庙",
+      "nameEn": "Chenghuang Temple",
+      "schematic": {
+        "x": 760,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 30.36,
+        "y": 26.0
+      },
+      "area": "靖安区",
+      "role": "historic-temple",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "people-square",
+      "nameZh": "人民广场",
+      "nameEn": "People's Square",
+      "schematic": {
+        "x": 820,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 26.0
+      },
+      "area": "靖安区",
+      "role": "civic-core",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "2",
+        "9",
+        "13"
+      ],
+      "transferLines": [
+        "1",
+        "2",
+        "9",
+        "13"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yongning-gate",
+      "nameZh": "永宁门",
+      "nameEn": "Yongning Gate",
+      "schematic": {
+        "x": 940,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 38.39,
+        "y": 26.0
+      },
+      "area": "靖安区",
+      "role": "old-city-gate",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "9"
+      ],
+      "transferLines": [
+        "1",
+        "9"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "mingtang-west",
+      "nameZh": "明堂西",
+      "nameEn": "Mingtang West",
+      "schematic": {
+        "x": 1020,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 41.96,
+        "y": 26.0
+      },
+      "area": "明堂区",
+      "role": "business",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "13"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "central-business-district",
+      "nameZh": "中央商务区",
+      "nameEn": "Central Business District",
+      "schematic": {
+        "x": 1040,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 42.86,
+        "y": 26.0
+      },
+      "area": "明堂区",
+      "role": "cbd",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "7",
+        "14",
+        "A"
+      ],
+      "transferLines": [
+        "1",
+        "7",
+        "14",
+        "A"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "mingtang-east",
+      "nameZh": "明堂东",
+      "nameEn": "Mingtang East",
+      "schematic": {
+        "x": 1100,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 45.54,
+        "y": 26.0
+      },
+      "area": "明堂区",
+      "role": "business",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "mingtang-square",
+      "nameZh": "明堂广场",
+      "nameEn": "Mingtang Square",
+      "schematic": {
+        "x": 1140,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 47.32,
+        "y": 26.0
+      },
+      "area": "明堂区",
+      "role": "business",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "bowuguan",
+      "nameZh": "博物馆",
+      "nameEn": "Museum",
+      "schematic": {
+        "x": 1160,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 48.21,
+        "y": 26.0
+      },
+      "area": "明堂区",
+      "role": "cultural-landmark",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "4",
+        "7"
+      ],
+      "transferLines": [
+        "1",
+        "4",
+        "7"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "financial-street",
+      "nameZh": "金融街",
+      "nameEn": "Financial Street",
+      "schematic": {
+        "x": 1240,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 51.79,
+        "y": 26.0
+      },
+      "area": "明堂区",
+      "role": "finance",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "5",
+        "13"
+      ],
+      "transferLines": [
+        "1",
+        "5",
+        "13"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "donghu-west",
+      "nameZh": "东湖西",
+      "nameEn": "Donghu West",
+      "schematic": {
+        "x": 1280,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 53.57,
+        "y": 26.0
+      },
+      "area": "东科区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "7"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "qinghe",
+      "nameZh": "青禾",
+      "nameEn": "Qinghe",
+      "schematic": {
+        "x": 1340,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 56.25,
+        "y": 26.0
+      },
+      "area": "东科区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "7"
+      ],
+      "transferLines": [
+        "1",
+        "7"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "donghu-road",
+      "nameZh": "东湖路",
+      "nameEn": "Donghu Road",
+      "schematic": {
+        "x": 1440,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 60.71,
+        "y": 26.0
+      },
+      "area": "东科区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "7"
+      ],
+      "transferLines": [
+        "1",
+        "7"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "technology-city",
+      "nameZh": "科技城",
+      "nameEn": "Technology City",
+      "schematic": {
+        "x": 1520,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 64.29,
+        "y": 26.0
+      },
+      "area": "东科区",
+      "role": "tech",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "7",
+        "14"
+      ],
+      "transferLines": [
+        "1",
+        "7",
+        "14"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "convention-north",
+      "nameZh": "会展北",
+      "nameEn": "Convention Center North",
+      "schematic": {
+        "x": 1640,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 69.64,
+        "y": 26.0
+      },
+      "area": "东科区",
+      "role": "convention",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "lanhai-east-railway",
+      "nameZh": "澜海东站",
+      "nameEn": "Lanhai East Railway Station",
+      "schematic": {
+        "x": 1740,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 74.11,
+        "y": 26.0
+      },
+      "area": "东科区",
+      "role": "railway-hub",
+      "hubType": "railway",
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1",
+        "13",
+        "14"
+      ],
+      "transferLines": [
+        "1",
+        "13",
+        "14"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "songgang",
+      "nameZh": "松港",
+      "nameEn": "Songgang",
+      "schematic": {
+        "x": 1860,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 79.46,
+        "y": 26.0
+      },
+      "area": "港湾区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "north",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haizhou-west",
+      "nameZh": "海洲西",
+      "nameEn": "Haizhou West",
+      "schematic": {
+        "x": 1980,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 84.82,
+        "y": 26.0
+      },
+      "area": "海洲岛",
+      "role": "island-gateway",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haizhou-north",
+      "nameZh": "海洲北",
+      "nameEn": "Haizhou North",
+      "schematic": {
+        "x": 2100,
+        "y": 660
+      },
+      "geoKm": {
+        "x": 90.18,
+        "y": 26.0
+      },
+      "area": "海洲岛",
+      "role": "island-gateway",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "1"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xijiang-yard",
+      "nameZh": "西江货场",
+      "nameEn": "Xijiang Freight Yard",
+      "schematic": {
+        "x": 420,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 15.18,
+        "y": 31.0
+      },
+      "area": "西浦区",
+      "role": "freight-yard",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xicang",
+      "nameZh": "西仓",
+      "nameEn": "Xicang Warehouse",
+      "schematic": {
+        "x": 500,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 18.75,
+        "y": 31.0
+      },
+      "area": "靖安区",
+      "role": "historic-warehouse",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "cangqian-ferry",
+      "nameZh": "仓前渡",
+      "nameEn": "Cangqian Ferry",
+      "schematic": {
+        "x": 540,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 31.0
+      },
+      "area": "靖安区",
+      "role": "ferry",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "12"
+      ],
+      "transferLines": [
+        "3",
+        "12"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "old-wharf",
+      "nameZh": "老码头",
+      "nameEn": "Old Wharf",
+      "schematic": {
+        "x": 580,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 22.32,
+        "y": 31.0
+      },
+      "area": "商浦区",
+      "role": "historic-wharf",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xiguan-ferry",
+      "nameZh": "西关渡",
+      "nameEn": "Xiguan Ferry",
+      "schematic": {
+        "x": 620,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 24.11,
+        "y": 31.0
+      },
+      "area": "靖安区",
+      "role": "ferry",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "4"
+      ],
+      "transferLines": [
+        "3",
+        "4"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "shisanhang-street",
+      "nameZh": "十三行街",
+      "nameEn": "Shisanhang Street",
+      "schematic": {
+        "x": 660,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 25.89,
+        "y": 31.0
+      },
+      "area": "商浦区",
+      "role": "historic-street",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "guangji-bridge",
+      "nameZh": "广济桥",
+      "nameEn": "Guangji Bridge",
+      "schematic": {
+        "x": 740,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 29.46,
+        "y": 31.0
+      },
+      "area": "商浦区",
+      "role": "bridge",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "4"
+      ],
+      "transferLines": [
+        "3",
+        "4"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "luzhou-west",
+      "nameZh": "鹭洲西",
+      "nameEn": "Luzhou West",
+      "schematic": {
+        "x": 820,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 31.0
+      },
+      "area": "鹭洲",
+      "role": "river-island",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2",
+        "3",
+        "6"
+      ],
+      "transferLines": [
+        "2",
+        "3",
+        "6"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "luzhou-park",
+      "nameZh": "鹭洲公园",
+      "nameEn": "Luzhou Park",
+      "schematic": {
+        "x": 920,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 37.5,
+        "y": 31.0
+      },
+      "area": "鹭洲",
+      "role": "park",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "6"
+      ],
+      "transferLines": [
+        "3",
+        "6"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "luzhou-east",
+      "nameZh": "鹭洲东",
+      "nameEn": "Luzhou East",
+      "schematic": {
+        "x": 1040,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 42.86,
+        "y": 31.0
+      },
+      "area": "鹭洲",
+      "role": "river-island",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "6"
+      ],
+      "transferLines": [
+        "3",
+        "6"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "bank-street",
+      "nameZh": "银行街",
+      "nameEn": "Bank Street",
+      "schematic": {
+        "x": 1100,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 45.54,
+        "y": 31.0
+      },
+      "area": "商浦区",
+      "role": "historic-commercial",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "6"
+      ],
+      "transferLines": [
+        "3",
+        "6"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "dongping-wharf",
+      "nameZh": "东平码头",
+      "nameEn": "Dongping Wharf",
+      "schematic": {
+        "x": 1160,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 48.21,
+        "y": 31.0
+      },
+      "area": "商浦区",
+      "role": "wharf",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "4",
+        "5"
+      ],
+      "transferLines": [
+        "3",
+        "4",
+        "5"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "finance-riverside",
+      "nameZh": "金融街南",
+      "nameEn": "Financial Street South",
+      "schematic": {
+        "x": 1240,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 51.79,
+        "y": 31.0
+      },
+      "area": "明堂区",
+      "role": "finance",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangwan-center",
+      "nameZh": "江湾中心",
+      "nameEn": "Jiangwan Center",
+      "schematic": {
+        "x": 1280,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 53.57,
+        "y": 31.0
+      },
+      "area": "明堂区",
+      "role": "riverfront-center",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "grand-theater",
+      "nameZh": "大剧院",
+      "nameEn": "Grand Theater",
+      "schematic": {
+        "x": 1400,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 58.93,
+        "y": 31.0
+      },
+      "area": "明堂区",
+      "role": "cultural-landmark",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "expo-east-gate",
+      "nameZh": "会展东门",
+      "nameEn": "Convention East Gate",
+      "schematic": {
+        "x": 1500,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 63.39,
+        "y": 31.0
+      },
+      "area": "东科区",
+      "role": "convention",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "international-convention-center",
+      "nameZh": "国际会展中心",
+      "nameEn": "International Convention Center",
+      "schematic": {
+        "x": 1520,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 64.29,
+        "y": 31.0
+      },
+      "area": "东科区",
+      "role": "convention",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "11",
+        "17"
+      ],
+      "transferLines": [
+        "3",
+        "11",
+        "17"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xinqiao",
+      "nameZh": "新桥",
+      "nameEn": "Xinqiao",
+      "schematic": {
+        "x": 1640,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 69.64,
+        "y": 31.0
+      },
+      "area": "东科区",
+      "role": "bridge",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3",
+        "11"
+      ],
+      "transferLines": [
+        "3",
+        "11"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "east-bay",
+      "nameZh": "东湾",
+      "nameEn": "Dongwan",
+      "schematic": {
+        "x": 1760,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 75.0,
+        "y": 31.0
+      },
+      "area": "港湾区",
+      "role": "bay",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haizhou-ferry",
+      "nameZh": "海洲渡",
+      "nameEn": "Haizhou Ferry",
+      "schematic": {
+        "x": 1880,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 80.36,
+        "y": 31.0
+      },
+      "area": "海洲岛",
+      "role": "ferry",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haizhou-island",
+      "nameZh": "海洲岛",
+      "nameEn": "Haizhou Island",
+      "schematic": {
+        "x": 2000,
+        "y": 760
+      },
+      "geoKm": {
+        "x": 85.71,
+        "y": 31.0
+      },
+      "area": "海洲岛",
+      "role": "island",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xicang-south",
+      "nameZh": "西仓南",
+      "nameEn": "Xicang South",
+      "schematic": {
+        "x": 540,
+        "y": 780
+      },
+      "geoKm": {
+        "x": 20.54,
+        "y": 32.0
+      },
+      "area": "靖安区",
+      "role": "historic-warehouse",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "luzhou-approach",
+      "nameZh": "鹭洲引桥",
+      "nameEn": "Luzhou Approach Bridge",
+      "schematic": {
+        "x": 820,
+        "y": 780
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 32.0
+      },
+      "area": "鹭洲",
+      "role": "bridge",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "expo-riverside",
+      "nameZh": "会展滨江",
+      "nameEn": "Convention Riverside",
+      "schematic": {
+        "x": 1480,
+        "y": 780
+      },
+      "geoKm": {
+        "x": 62.5,
+        "y": 32.0
+      },
+      "area": "东科区",
+      "role": "riverfront",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haizhou-east",
+      "nameZh": "海洲东",
+      "nameEn": "Haizhou East",
+      "schematic": {
+        "x": 2040,
+        "y": 800
+      },
+      "geoKm": {
+        "x": 87.5,
+        "y": 33.0
+      },
+      "area": "海洲岛",
+      "role": "island",
+      "hubType": null,
+      "riverSide": "island",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangwan-finance-harbor",
+      "nameZh": "江湾金融港",
+      "nameEn": "Jiangwan Finance Harbor",
+      "schematic": {
+        "x": 1200,
+        "y": 820
+      },
+      "geoKm": {
+        "x": 50.0,
+        "y": 34.0
+      },
+      "area": "明堂区",
+      "role": "riverfront-finance",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "A"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "east-bank-bridge",
+      "nameZh": "东岸桥",
+      "nameEn": "East Bank Bridge",
+      "schematic": {
+        "x": 1440,
+        "y": 820
+      },
+      "geoKm": {
+        "x": 60.71,
+        "y": 34.0
+      },
+      "area": "东科区",
+      "role": "bridge",
+      "hubType": null,
+      "riverSide": "riverfront",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "liantang-north",
+      "nameZh": "莲塘北",
+      "nameEn": "Liantang North",
+      "schematic": {
+        "x": 480,
+        "y": 840
+      },
+      "geoKm": {
+        "x": 17.86,
+        "y": 35.0
+      },
+      "area": "南江区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangnan-gate-south",
+      "nameZh": "江南门南",
+      "nameEn": "Jiangnan Gate South",
+      "schematic": {
+        "x": 760,
+        "y": 840
+      },
+      "geoKm": {
+        "x": 30.36,
+        "y": 35.0
+      },
+      "area": "南江区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "baymouth-cruise-terminal",
+      "nameZh": "湾口客运码头",
+      "nameEn": "Baymouth Passenger Pier",
+      "schematic": {
+        "x": 2080,
+        "y": 840
+      },
+      "geoKm": {
+        "x": 89.29,
+        "y": 35.0
+      },
+      "area": "港湾区",
+      "role": "passenger-pier",
+      "hubType": "port",
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "3"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "nanxi-town",
+      "nameZh": "南溪镇",
+      "nameEn": "Nanxi Town",
+      "schematic": {
+        "x": 360,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 12.5,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "town",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "liantang",
+      "nameZh": "莲塘",
+      "nameEn": "Liantang",
+      "schematic": {
+        "x": 480,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 17.86,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "village",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10",
+        "12"
+      ],
+      "transferLines": [
+        "10",
+        "12"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangwan-west",
+      "nameZh": "江湾西",
+      "nameEn": "Jiangwan West",
+      "schematic": {
+        "x": 600,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 23.21,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangnan-university-hospital",
+      "nameZh": "江南大学医院",
+      "nameEn": "Jiangnan University Hospital",
+      "schematic": {
+        "x": 740,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 29.46,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "hospital",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4",
+        "6",
+        "10"
+      ],
+      "transferLines": [
+        "4",
+        "6",
+        "10"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangnan-gate",
+      "nameZh": "江南门",
+      "nameEn": "Jiangnan Gate",
+      "schematic": {
+        "x": 820,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "old-gate",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "binjiang-park-west",
+      "nameZh": "滨江公园西",
+      "nameEn": "Binjiang Park West",
+      "schematic": {
+        "x": 840,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 33.93,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "park",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "south-bank-cultural-axis",
+      "nameZh": "南岸文化轴",
+      "nameEn": "South Bank Cultural Axis",
+      "schematic": {
+        "x": 960,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 39.29,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "culture",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "media-center",
+      "nameZh": "传媒中心",
+      "nameEn": "Media Center",
+      "schematic": {
+        "x": 1080,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 44.64,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "media",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "finance-city-west",
+      "nameZh": "金融城西",
+      "nameEn": "Finance City West",
+      "schematic": {
+        "x": 1120,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 46.43,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "finance",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "south-bank-finance-city",
+      "nameZh": "南岸金融城",
+      "nameEn": "South Bank Finance City",
+      "schematic": {
+        "x": 1160,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 48.21,
+        "y": 36.0
+      },
+      "area": "南江区",
+      "role": "finance",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4",
+        "5",
+        "10"
+      ],
+      "transferLines": [
+        "4",
+        "5",
+        "10"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "convention-west",
+      "nameZh": "会展西",
+      "nameEn": "Convention Center West",
+      "schematic": {
+        "x": 1280,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 53.57,
+        "y": 36.0
+      },
+      "area": "明堂区",
+      "role": "convention",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "convention-south",
+      "nameZh": "会展南",
+      "nameEn": "Convention Center South",
+      "schematic": {
+        "x": 1400,
+        "y": 860
+      },
+      "geoKm": {
+        "x": 58.93,
+        "y": 36.0
+      },
+      "area": "东科区",
+      "role": "convention",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "10"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "dongwan-south",
+      "nameZh": "东湾南",
+      "nameEn": "Dongwan South",
+      "schematic": {
+        "x": 1760,
+        "y": 880
+      },
+      "geoKm": {
+        "x": 75.0,
+        "y": 37.0
+      },
+      "area": "港湾区",
+      "role": "bay",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "11"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangnan-east",
+      "nameZh": "江南东",
+      "nameEn": "Jiangnan East",
+      "schematic": {
+        "x": 860,
+        "y": 900
+      },
+      "geoKm": {
+        "x": 34.82,
+        "y": 38.0
+      },
+      "area": "南江区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "expo-south",
+      "nameZh": "会展南二路",
+      "nameEn": "Expo South 2nd Road",
+      "schematic": {
+        "x": 1520,
+        "y": 900
+      },
+      "geoKm": {
+        "x": 64.29,
+        "y": 38.0
+      },
+      "area": "东科区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "17"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "under-construction"
+    },
+    {
+      "id": "linkong-north",
+      "nameZh": "临空北",
+      "nameEn": "Linkong North",
+      "schematic": {
+        "x": 1740,
+        "y": 900
+      },
+      "geoKm": {
+        "x": 74.11,
+        "y": 38.0
+      },
+      "area": "星海航空城",
+      "role": "airport-business",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "14"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "university-north",
+      "nameZh": "大学城北",
+      "nameEn": "University Town North",
+      "schematic": {
+        "x": 560,
+        "y": 940
+      },
+      "geoKm": {
+        "x": 21.43,
+        "y": 40.0
+      },
+      "area": "清溪区",
+      "role": "university",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xuefu-north",
+      "nameZh": "学府北",
+      "nameEn": "Xuefu North",
+      "schematic": {
+        "x": 660,
+        "y": 940
+      },
+      "geoKm": {
+        "x": 25.89,
+        "y": 40.0
+      },
+      "area": "清溪区",
+      "role": "university",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "south-bank-cultural-center",
+      "nameZh": "南岸文化中心",
+      "nameEn": "South Bank Cultural Center",
+      "schematic": {
+        "x": 920,
+        "y": 960
+      },
+      "geoKm": {
+        "x": 37.5,
+        "y": 41.0
+      },
+      "area": "南江区",
+      "role": "culture",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "media-harbor",
+      "nameZh": "传媒港",
+      "nameEn": "Media Harbor",
+      "schematic": {
+        "x": 1060,
+        "y": 960
+      },
+      "geoKm": {
+        "x": 43.75,
+        "y": 41.0
+      },
+      "area": "南江区",
+      "role": "media",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "changdi",
+      "nameZh": "长堤",
+      "nameEn": "Changdi",
+      "schematic": {
+        "x": 740,
+        "y": 980
+      },
+      "geoKm": {
+        "x": 29.46,
+        "y": 42.0
+      },
+      "area": "南江区",
+      "role": "riverfront",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "nanjiang-south-gate",
+      "nameZh": "南江南门",
+      "nameEn": "Nanjiang South Gate",
+      "schematic": {
+        "x": 1160,
+        "y": 980
+      },
+      "geoKm": {
+        "x": 48.21,
+        "y": 42.0
+      },
+      "area": "南江区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "shuyuan-road",
+      "nameZh": "书院路",
+      "nameEn": "Shuyuan Road",
+      "schematic": {
+        "x": 610,
+        "y": 990
+      },
+      "geoKm": {
+        "x": 23.66,
+        "y": 42.5
+      },
+      "area": "清溪区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6",
+        "12"
+      ],
+      "transferLines": [
+        "6",
+        "12"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "bonded-logistics-park",
+      "nameZh": "保税物流园",
+      "nameEn": "Bonded Logistics Park",
+      "schematic": {
+        "x": 1880,
+        "y": 1000
+      },
+      "geoKm": {
+        "x": 80.36,
+        "y": 43.0
+      },
+      "area": "港湾区",
+      "role": "logistics",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "11"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xuefu-road",
+      "nameZh": "学府路",
+      "nameEn": "Xuefu Road",
+      "schematic": {
+        "x": 640,
+        "y": 1020
+      },
+      "geoKm": {
+        "x": 25.0,
+        "y": 44.0
+      },
+      "area": "清溪区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "south-station-west",
+      "nameZh": "南站西",
+      "nameEn": "South Railway Station West",
+      "schematic": {
+        "x": 1120,
+        "y": 1020
+      },
+      "geoKm": {
+        "x": 46.43,
+        "y": 44.0
+      },
+      "area": "南江区",
+      "role": "railway-district",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "airport-express-south",
+      "nameZh": "机场快线南站",
+      "nameEn": "Airport Express South Station",
+      "schematic": {
+        "x": 1400,
+        "y": 1020
+      },
+      "geoKm": {
+        "x": 58.93,
+        "y": 44.0
+      },
+      "area": "海岸区",
+      "role": "airport-rail",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "A"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haiyan-north",
+      "nameZh": "海晏北",
+      "nameEn": "Haiyan North",
+      "schematic": {
+        "x": 1520,
+        "y": 1020
+      },
+      "geoKm": {
+        "x": 64.29,
+        "y": 44.0
+      },
+      "area": "海岸区",
+      "role": "coastal",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "17"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "under-construction"
+    },
+    {
+      "id": "airport-north",
+      "nameZh": "机场北",
+      "nameEn": "Airport North",
+      "schematic": {
+        "x": 1660,
+        "y": 1020
+      },
+      "geoKm": {
+        "x": 70.54,
+        "y": 44.0
+      },
+      "area": "星海航空城",
+      "role": "airport-city",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "A",
+        "17"
+      ],
+      "transferLines": [
+        "A",
+        "17"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangnan-fang",
+      "nameZh": "江南坊",
+      "nameEn": "Jiangnan Fang",
+      "schematic": {
+        "x": 990,
+        "y": 1030
+      },
+      "geoKm": {
+        "x": 40.62,
+        "y": 44.5
+      },
+      "area": "南江区",
+      "role": "historic-block",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2",
+        "4"
+      ],
+      "transferLines": [
+        "2",
+        "4"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "qingyan-village",
+      "nameZh": "青砚村",
+      "nameEn": "Qingyan Village",
+      "schematic": {
+        "x": 400,
+        "y": 1040
+      },
+      "geoKm": {
+        "x": 14.29,
+        "y": 45.0
+      },
+      "area": "清溪区",
+      "role": "village",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "qingxi-research-park",
+      "nameZh": "清溪科研园",
+      "nameEn": "Qingxi Research Park",
+      "schematic": {
+        "x": 480,
+        "y": 1040
+      },
+      "geoKm": {
+        "x": 17.86,
+        "y": 45.0
+      },
+      "area": "清溪区",
+      "role": "research",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "qingxi-library",
+      "nameZh": "清溪图书馆",
+      "nameEn": "Qingxi Library",
+      "schematic": {
+        "x": 520,
+        "y": 1040
+      },
+      "geoKm": {
+        "x": 19.64,
+        "y": 45.0
+      },
+      "area": "清溪区",
+      "role": "library",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yuhu",
+      "nameZh": "玉湖",
+      "nameEn": "Yuhu Lake",
+      "schematic": {
+        "x": 560,
+        "y": 1040
+      },
+      "geoKm": {
+        "x": 21.43,
+        "y": 45.0
+      },
+      "area": "清溪区",
+      "role": "lake",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6",
+        "6B"
+      ],
+      "transferLines": [
+        "6",
+        "6B"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "south-market",
+      "nameZh": "南市",
+      "nameEn": "Nanshi",
+      "schematic": {
+        "x": 820,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 33.04,
+        "y": 46.0
+      },
+      "area": "南江区",
+      "role": "old-market",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jiangnan-market",
+      "nameZh": "江南市场",
+      "nameEn": "Jiangnan Market",
+      "schematic": {
+        "x": 960,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 39.29,
+        "y": 46.0
+      },
+      "area": "南江区",
+      "role": "market",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "4"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "south-bank-civic-center",
+      "nameZh": "南岸行政中心",
+      "nameEn": "South Bank Civic Center",
+      "schematic": {
+        "x": 1020,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 41.96,
+        "y": 46.0
+      },
+      "area": "南江区",
+      "role": "civic",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "lanhai-south-railway",
+      "nameZh": "澜海南站",
+      "nameEn": "Lanhai South Railway Station",
+      "schematic": {
+        "x": 1120,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 46.43,
+        "y": 46.0
+      },
+      "area": "南江区",
+      "role": "railway-hub",
+      "hubType": "railway",
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2",
+        "5",
+        "8"
+      ],
+      "transferLines": [
+        "2",
+        "5",
+        "8"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "biyun-road",
+      "nameZh": "碧云路",
+      "nameEn": "Biyun Road",
+      "schematic": {
+        "x": 1240,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 51.79,
+        "y": 46.0
+      },
+      "area": "海岸区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "binjiang-park",
+      "nameZh": "滨江公园",
+      "nameEn": "Binjiang Park",
+      "schematic": {
+        "x": 1260,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 52.68,
+        "y": 46.0
+      },
+      "area": "南江区",
+      "role": "park",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haiyan-west",
+      "nameZh": "海晏西",
+      "nameEn": "Haiyan West",
+      "schematic": {
+        "x": 1360,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 57.14,
+        "y": 46.0
+      },
+      "area": "海岸区",
+      "role": "coastal",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "5"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "nanhu",
+      "nameZh": "南湖",
+      "nameEn": "Nanhu Lake",
+      "schematic": {
+        "x": 1360,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 57.14,
+        "y": 46.0
+      },
+      "area": "海岸区",
+      "role": "lake",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "nanhu-east",
+      "nameZh": "南湖东",
+      "nameEn": "Nanhu East",
+      "schematic": {
+        "x": 1420,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 59.82,
+        "y": 46.0
+      },
+      "area": "海岸区",
+      "role": "lake",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haiyan-bay",
+      "nameZh": "海晏湾",
+      "nameEn": "Haiyan Bay",
+      "schematic": {
+        "x": 1480,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 62.5,
+        "y": 46.0
+      },
+      "area": "海岸区",
+      "role": "coastal-center",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8",
+        "8B",
+        "12"
+      ],
+      "transferLines": [
+        "8",
+        "8B",
+        "12"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "bonded-south",
+      "nameZh": "保税南",
+      "nameEn": "Bonded South",
+      "schematic": {
+        "x": 1940,
+        "y": 1060
+      },
+      "geoKm": {
+        "x": 83.04,
+        "y": 46.0
+      },
+      "area": "港湾区",
+      "role": "logistics",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "11"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xuelin-road",
+      "nameZh": "学林路",
+      "nameEn": "Xuelin Road",
+      "schematic": {
+        "x": 500,
+        "y": 1100
+      },
+      "geoKm": {
+        "x": 18.75,
+        "y": 48.0
+      },
+      "area": "清溪区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haiyan-outer-north",
+      "nameZh": "海晏外环北",
+      "nameEn": "Haiyan Outer Ring North",
+      "schematic": {
+        "x": 1480,
+        "y": 1100
+      },
+      "geoKm": {
+        "x": 62.5,
+        "y": 48.0
+      },
+      "area": "海岸区",
+      "role": "coastal",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "airport-business-park",
+      "nameZh": "临空商务区",
+      "nameEn": "Airport Business Park",
+      "schematic": {
+        "x": 1740,
+        "y": 1100
+      },
+      "geoKm": {
+        "x": 74.11,
+        "y": 48.0
+      },
+      "area": "星海航空城",
+      "role": "airport-business",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "14"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xiling-academy",
+      "nameZh": "西岭书院",
+      "nameEn": "Xiling Academy",
+      "schematic": {
+        "x": 320,
+        "y": 1120
+      },
+      "geoKm": {
+        "x": 10.71,
+        "y": 49.0
+      },
+      "area": "清溪区",
+      "role": "academy",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "maintenance-north",
+      "nameZh": "维修区北",
+      "nameEn": "Maintenance Area North",
+      "schematic": {
+        "x": 1760,
+        "y": 1120
+      },
+      "geoKm": {
+        "x": 75.0,
+        "y": 49.0
+      },
+      "area": "星海航空城",
+      "role": "airport-maintenance",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "17"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "under-construction"
+    },
+    {
+      "id": "shipyard",
+      "nameZh": "船厂",
+      "nameEn": "Shipyard",
+      "schematic": {
+        "x": 2000,
+        "y": 1120
+      },
+      "geoKm": {
+        "x": 85.71,
+        "y": 49.0
+      },
+      "area": "港湾区",
+      "role": "shipyard",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "11"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "gangwan-avenue",
+      "nameZh": "港湾大道",
+      "nameEn": "Gangwan Avenue",
+      "schematic": {
+        "x": 2060,
+        "y": 1120
+      },
+      "geoKm": {
+        "x": 88.39,
+        "y": 49.0
+      },
+      "area": "港湾区",
+      "role": "port-road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "11"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "deepwater-port-north",
+      "nameZh": "深水港北",
+      "nameEn": "Deepwater Port North",
+      "schematic": {
+        "x": 2120,
+        "y": 1120
+      },
+      "geoKm": {
+        "x": 91.07,
+        "y": 49.0
+      },
+      "area": "港湾区",
+      "role": "port",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "11"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "container-terminal",
+      "nameZh": "集装箱码头",
+      "nameEn": "Container Terminal",
+      "schematic": {
+        "x": 2240,
+        "y": 1120
+      },
+      "geoKm": {
+        "x": 96.43,
+        "y": 49.0
+      },
+      "area": "港湾区",
+      "role": "port",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "11"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "lanhai-university",
+      "nameZh": "澜海大学",
+      "nameEn": "Lanhai University",
+      "schematic": {
+        "x": 460,
+        "y": 1140
+      },
+      "geoKm": {
+        "x": 16.96,
+        "y": 50.0
+      },
+      "area": "清溪区",
+      "role": "university",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "airport-hotel-zone",
+      "nameZh": "机场酒店区",
+      "nameEn": "Airport Hotel Zone",
+      "schematic": {
+        "x": 1780,
+        "y": 1140
+      },
+      "geoKm": {
+        "x": 75.89,
+        "y": 50.0
+      },
+      "area": "星海航空城",
+      "role": "hotel",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "A"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yunwan",
+      "nameZh": "云湾",
+      "nameEn": "Yunwan",
+      "schematic": {
+        "x": 1220,
+        "y": 1160
+      },
+      "geoKm": {
+        "x": 50.89,
+        "y": 51.0
+      },
+      "area": "海岸区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2",
+        "12"
+      ],
+      "transferLines": [
+        "2",
+        "12"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "ocean-park",
+      "nameZh": "海洋公园",
+      "nameEn": "Ocean Park",
+      "schematic": {
+        "x": 1580,
+        "y": 1160
+      },
+      "geoKm": {
+        "x": 66.96,
+        "y": 51.0
+      },
+      "area": "海岸区",
+      "role": "park",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "nanhu-west",
+      "nameZh": "南湖西",
+      "nameEn": "Nanhu West",
+      "schematic": {
+        "x": 800,
+        "y": 1180
+      },
+      "geoKm": {
+        "x": 32.14,
+        "y": 52.0
+      },
+      "area": "海岸区",
+      "role": "lake",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yunwan-north",
+      "nameZh": "云湾北",
+      "nameEn": "Yunwan North",
+      "schematic": {
+        "x": 1200,
+        "y": 1180
+      },
+      "geoKm": {
+        "x": 50.0,
+        "y": 52.0
+      },
+      "area": "海岸区",
+      "role": "neighborhood",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haiyan-outer-west",
+      "nameZh": "海晏外环西",
+      "nameEn": "Haiyan Outer Ring West",
+      "schematic": {
+        "x": 1400,
+        "y": 1180
+      },
+      "geoKm": {
+        "x": 58.93,
+        "y": 52.0
+      },
+      "area": "海岸区",
+      "role": "coastal",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "yunlan-lake",
+      "nameZh": "云澜湖",
+      "nameEn": "Yunlan Lake",
+      "schematic": {
+        "x": 1480,
+        "y": 1180
+      },
+      "geoKm": {
+        "x": 62.5,
+        "y": 52.0
+      },
+      "area": "海岸区",
+      "role": "lake",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "lianhu",
+      "nameZh": "莲湖",
+      "nameEn": "Lianhu Lake",
+      "schematic": {
+        "x": 240,
+        "y": 1200
+      },
+      "geoKm": {
+        "x": 7.14,
+        "y": 53.0
+      },
+      "area": "清溪区",
+      "role": "lake",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "binhai-university-approach",
+      "nameZh": "滨海大学路西",
+      "nameEn": "Binhai University Road West",
+      "schematic": {
+        "x": 1280,
+        "y": 1220
+      },
+      "geoKm": {
+        "x": 53.57,
+        "y": 54.0
+      },
+      "area": "海岸区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "12"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haiyan-road",
+      "nameZh": "海盐路",
+      "nameEn": "Haiyan Road",
+      "schematic": {
+        "x": 1520,
+        "y": 1220
+      },
+      "geoKm": {
+        "x": 64.29,
+        "y": 54.0
+      },
+      "area": "海岸区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "hushan-academy",
+      "nameZh": "湖山书院",
+      "nameEn": "Hushan Academy",
+      "schematic": {
+        "x": 360,
+        "y": 1240
+      },
+      "geoKm": {
+        "x": 12.5,
+        "y": 55.0
+      },
+      "area": "清溪区",
+      "role": "academy",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "binhai-university-road",
+      "nameZh": "滨海大学路",
+      "nameEn": "Binhai University Road",
+      "schematic": {
+        "x": 1320,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 55.36,
+        "y": 56.0
+      },
+      "area": "海岸区",
+      "role": "road",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2",
+        "12"
+      ],
+      "transferLines": [
+        "2",
+        "12"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "artificial-lake",
+      "nameZh": "人工湖",
+      "nameEn": "Artificial Lake",
+      "schematic": {
+        "x": 1560,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 66.07,
+        "y": 56.0
+      },
+      "area": "海岸区",
+      "role": "lake",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "aerotropolis-north",
+      "nameZh": "航空城北",
+      "nameEn": "Aerotropolis North",
+      "schematic": {
+        "x": 1680,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 71.43,
+        "y": 56.0
+      },
+      "area": "星海航空城",
+      "role": "airport-city",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "aircraft-maintenance",
+      "nameZh": "飞机维修区",
+      "nameEn": "Aircraft Maintenance Area",
+      "schematic": {
+        "x": 1760,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 75.0,
+        "y": 56.0
+      },
+      "area": "星海航空城",
+      "role": "airport-maintenance",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8",
+        "17"
+      ],
+      "transferLines": [
+        "8",
+        "17"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "airport-logistics",
+      "nameZh": "机场物流园",
+      "nameEn": "Airport Logistics Park",
+      "schematic": {
+        "x": 1800,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 76.79,
+        "y": 56.0
+      },
+      "area": "星海航空城",
+      "role": "logistics",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xinghai-airport-t2",
+      "nameZh": "星海机场2号航站楼",
+      "nameEn": "Xinghai Airport Terminal 2",
+      "schematic": {
+        "x": 1900,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 81.25,
+        "y": 56.0
+      },
+      "area": "星海航空城",
+      "role": "airport-terminal",
+      "hubType": "airport",
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8",
+        "14",
+        "A"
+      ],
+      "transferLines": [
+        "8",
+        "14",
+        "A"
+      ],
+      "isTransfer": true,
+      "isTerminal": false,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xinghai-airport-t1",
+      "nameZh": "星海机场1号航站楼",
+      "nameEn": "Xinghai Airport Terminal 1",
+      "schematic": {
+        "x": 2000,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 85.71,
+        "y": 56.0
+      },
+      "area": "星海航空城",
+      "role": "airport-terminal",
+      "hubType": "airport",
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "tidal-flat-park",
+      "nameZh": "滩涂公园",
+      "nameEn": "Tidal Flat Park",
+      "schematic": {
+        "x": 2120,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 91.07,
+        "y": 56.0
+      },
+      "area": "海岸区",
+      "role": "coastal-park",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "binhai-east",
+      "nameZh": "滨海东",
+      "nameEn": "Binhai East",
+      "schematic": {
+        "x": 2180,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 93.75,
+        "y": 56.0
+      },
+      "area": "海岸区",
+      "role": "coastal",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "binhai-east-coach-terminal",
+      "nameZh": "滨海东客运站",
+      "nameEn": "Binhai East Coach Terminal",
+      "schematic": {
+        "x": 2240,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 96.43,
+        "y": 56.0
+      },
+      "area": "海岸区",
+      "role": "coach-hub",
+      "hubType": "coach",
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "deepwater-port-passenger-terminal",
+      "nameZh": "深水港客运码头",
+      "nameEn": "Deepwater Port Passenger Terminal",
+      "schematic": {
+        "x": 2240,
+        "y": 1260
+      },
+      "geoKm": {
+        "x": 96.43,
+        "y": 56.0
+      },
+      "area": "港湾区",
+      "role": "port-passenger",
+      "hubType": "port",
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "11",
+        "14"
+      ],
+      "transferLines": [
+        "11",
+        "14"
+      ],
+      "isTransfer": true,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "bailu-reservoir",
+      "nameZh": "白鹭水库",
+      "nameEn": "Bailu Reservoir",
+      "schematic": {
+        "x": 160,
+        "y": 1280
+      },
+      "geoKm": {
+        "x": 3.57,
+        "y": 57.0
+      },
+      "area": "清溪区",
+      "role": "water-source",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "qingxi-sports-center",
+      "nameZh": "清溪体育中心",
+      "nameEn": "Qingxi Sports Center",
+      "schematic": {
+        "x": 300,
+        "y": 1300
+      },
+      "geoKm": {
+        "x": 9.82,
+        "y": 58.0
+      },
+      "area": "清溪区",
+      "role": "sports",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "songlan-town",
+      "nameZh": "松岚镇",
+      "nameEn": "Songlan Town",
+      "schematic": {
+        "x": 260,
+        "y": 1340
+      },
+      "geoKm": {
+        "x": 8.04,
+        "y": 60.0
+      },
+      "area": "清溪区",
+      "role": "town",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "haiyue-island",
+      "nameZh": "海月岛",
+      "nameEn": "Haiyue Island",
+      "schematic": {
+        "x": 1640,
+        "y": 1340
+      },
+      "geoKm": {
+        "x": 69.64,
+        "y": 60.0
+      },
+      "area": "海岸区",
+      "role": "reclaimed-island",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "jinsha-beach",
+      "nameZh": "金沙滩",
+      "nameEn": "Jinsha Beach",
+      "schematic": {
+        "x": 1420,
+        "y": 1360
+      },
+      "geoKm": {
+        "x": 59.82,
+        "y": 61.0
+      },
+      "area": "海岸区",
+      "role": "coastal",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": false,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xinghai-airport-t3",
+      "nameZh": "星海机场3号航站楼",
+      "nameEn": "Xinghai Airport Terminal 3",
+      "schematic": {
+        "x": 2000,
+        "y": 1360
+      },
+      "geoKm": {
+        "x": 85.71,
+        "y": 61.0
+      },
+      "area": "星海航空城",
+      "role": "airport-terminal",
+      "hubType": "airport",
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "A"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "xinghai-south",
+      "nameZh": "星海南",
+      "nameEn": "Xinghai South",
+      "schematic": {
+        "x": 1880,
+        "y": 1380
+      },
+      "geoKm": {
+        "x": 80.36,
+        "y": 62.0
+      },
+      "area": "星海航空城",
+      "role": "airport-city",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "17"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "under-construction"
+    },
+    {
+      "id": "qingfeng-valley",
+      "nameZh": "青峰谷",
+      "nameEn": "Qingfeng Valley",
+      "schematic": {
+        "x": 180,
+        "y": 1420
+      },
+      "geoKm": {
+        "x": 4.46,
+        "y": 64.0
+      },
+      "area": "清溪区",
+      "role": "ecological",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "6"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "nanwan-park",
+      "nameZh": "南湾公园",
+      "nameEn": "Nanwan Park",
+      "schematic": {
+        "x": 1720,
+        "y": 1420
+      },
+      "geoKm": {
+        "x": 73.21,
+        "y": 64.0
+      },
+      "area": "海岸区",
+      "role": "park",
+      "hubType": null,
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "8B"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": false,
+      "constructionStatus": "operational"
+    },
+    {
+      "id": "binhai-west-coach-terminal",
+      "nameZh": "滨海西客运站",
+      "nameEn": "Binhai West Coach Terminal",
+      "schematic": {
+        "x": 1520,
+        "y": 1460
+      },
+      "geoKm": {
+        "x": 64.29,
+        "y": 66.0
+      },
+      "area": "海岸区",
+      "role": "coach-hub",
+      "hubType": "coach",
+      "riverSide": "south",
+      "translationSource": "curated-phrase",
+      "lines": [
+        "2"
+      ],
+      "transferLines": [],
+      "isTransfer": false,
+      "isTerminal": true,
+      "isTransportHub": true,
+      "constructionStatus": "operational"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="330" viewBox="0 0 460 330">
+
+<defs>
+  <style>
+    .district-fill { opacity: .42; }
+    .route-path { fill: none; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+    .route-path.express { stroke-width: 13; }
+    .route-path.branch { stroke-width: 8; }
+    .route-path.under-construction { stroke-dasharray: 22 15; stroke-width: 9; }
+    .station-marker { fill: #fff; stroke: #242424; stroke-width: 3; }
+    .station-marker.normal { r: 5; stroke-width: 2; }
+    .station-marker.transfer { fill: #fff; stroke: #1f2933; stroke-width: 4; }
+    .station-marker.terminal { fill: #fff; stroke: #111; stroke-width: 4; }
+    .station-label { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; paint-order: stroke fill; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; fill: #1f2933; }
+    .station-label-zh { font-weight: 650; }
+    .station-label-en { fill: #59636f; font-weight: 450; stroke-width: 3px; }
+    .leader-line { fill: none; stroke: #8fa0ad; stroke-width: .7; stroke-linecap: round; opacity: .42; }
+    .legend-label, .map-note, .district-label { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; fill: #263238; }
+    .district-label { font-size: 26px; font-weight: 700; opacity: .55; }
+    .district-label-en { font-size: 13px; font-weight: 500; opacity: .48; }
+    .water-label { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; fill: #2a7fa5; font-size: 25px; font-weight: 650; opacity: .8; }
+    .water-label-en { font-size: 13px; font-weight: 500; }
+    .station-label-box-debug { fill: rgba(255, 230, 128, .36); stroke: rgba(181, 120, 0, .65); stroke-width: 1; }
+  </style>
+  <symbol id="icon-airport" viewBox="-12 -12 24 24">
+    <path d="M -10 1 L 9 -3 L 11 0 L 2 4 L 4 10 L 1 11 L -3 5 L -8 6 Z" fill="#546e7a"/>
+  </symbol>
+  <symbol id="icon-rail" viewBox="-12 -12 24 24">
+    <rect x="-7" y="-10" width="14" height="18" rx="3" fill="#455a64"/>
+    <circle cx="-3" cy="-3" r="1.4" fill="#fff"/><circle cx="3" cy="-3" r="1.4" fill="#fff"/>
+    <path d="M -6 10 L -2 6 M 6 10 L 2 6" stroke="#455a64" stroke-width="2"/>
+  </symbol>
+  <symbol id="icon-port" viewBox="-12 -12 24 24">
+    <path d="M 0 -10 L 0 7 M -5 -5 L 5 -5 M -8 -1 Q 0 8 8 -1" fill="none" stroke="#455a64" stroke-width="2.4" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-university" viewBox="-12 -12 24 24">
+    <path d="M -9 -2 L 0 -7 L 9 -2 L 0 3 Z" fill="#546e7a"/>
+    <path d="M -6 1 L -6 7 L 6 7 L 6 1" fill="#78909c"/>
+  </symbol>
+</defs>
+
+<rect x="0" y="0" width="460" height="330" rx="10" fill="#fbfcfd" stroke="#cbd5df"/>
+<text x="20" y="24" font-family="PingFang SC, Arial" font-size="18" font-weight="700" fill="#263238">地理索引图 / Geographic Index</text>
+<path d="M 28.0 150.0 L 108.0 146.0 L 180.0 146.0 L 248.0 150.0 L 316.0 154.0 L 428.0 166.0" fill="none" stroke="#b8dff0" stroke-width="12" stroke-linecap="round"/>
+<path d="M 340.0 114.0 L 372.0 142.0 L 396.0 174.0 L 404.0 210.0 L 416.0 254.0 L 428.0 278.0" fill="none" stroke="#82b7cd" stroke-width="3"/>
+<circle cx="176.0" cy="150.0" r="8" fill="#fff" stroke="#82b7cd"/>
+<circle cx="372.0" cy="162.0" r="12" fill="#fff" stroke="#82b7cd"/>
+<ellipse cx="72.0" cy="234.0" rx="50" ry="34" fill="#d9ead8" opacity=".8"/>
+<ellipse cx="52.0" cy="254.0" rx="18" ry="11" fill="#cfeaf3"/>
+<circle cx="156.0" cy="130.0" r="4.6" fill="#d71920" stroke="#fff" stroke-width="1.5"/>
+<text x="162.0" y="134.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">老城</text>
+<circle cx="204.0" cy="130.0" r="4.6" fill="#00578a" stroke="#fff" stroke-width="1.5"/>
+<text x="210.0" y="134.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">CBD</text>
+<circle cx="112.0" cy="226.0" r="4.6" fill="#009688" stroke="#fff" stroke-width="1.5"/>
+<text x="118.0" y="230.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">大学城</text>
+<circle cx="340.0" cy="250.0" r="4.6" fill="#b00020" stroke="#fff" stroke-width="1.5"/>
+<text x="346.0" y="254.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">主机场</text>
+<circle cx="40.0" cy="54.0" r="4.6" fill="#e64a19" stroke="#fff" stroke-width="1.5"/>
+<text x="46.0" y="58.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">二机场</text>
+<circle cx="128.0" cy="50.0" r="4.6" fill="#455a64" stroke="#fff" stroke-width="1.5"/>
+<text x="134.0" y="54.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">北部高铁</text>
+<circle cx="404.0" cy="242.0" r="4.6" fill="#455a64" stroke="#fff" stroke-width="1.5"/>
+<text x="410.0" y="246.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">深水港</text>
+<circle cx="284.0" cy="230.0" r="4.6" fill="#009fe3" stroke="#fff" stroke-width="1.5"/>
+<text x="290.0" y="234.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">滨海新城</text>
+<circle cx="296.0" cy="126.0" r="4.6" fill="#c2185b" stroke="#fff" stroke-width="1.5"/>
+<text x="302.0" y="130.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">科技城</text>
+<path d="M 53.0 130.0 L 60.16 130.0 L 67.28 130.0 L 81.56 130.0 L 88.72 130.0 L 95.84 130.0 L 110.16 130.0 L 124.44 130.0 L 138.72 130.0 L 149.44 130.0 L 160.16 130.0 L 181.56 130.0 L 199.44 130.0 L 210.16 130.0 L 220.84 130.0 L 235.16 130.0 L 253.0 130.0 L 270.84000000000003 130.0 L 285.16 130.0 L 306.56 130.0 L 324.44 130.0 L 345.84 130.0 L 367.28 130.0 L 388.72 130.0" fill="none" stroke="#d71920" stroke-width="1.8" opacity=".72"/>
+<path d="M 160.16 42.0 L 160.16 52.0 L 160.16 62.0 L 160.16 74.0 L 160.16 86.0 L 160.16 98.0 L 160.16 106.0 L 160.16 110.0 L 160.16 130.0 L 160.16 150.0 L 160.16 170.0 L 167.28 178.0 L 178.0 190.0 L 190.48 204.0 L 195.84 210.0 L 213.72 210.0 L 231.56 230.0 L 249.44 250.0 L 267.28 270.0 L 285.16 290.0" fill="none" stroke="#0072bc" stroke-width="1.8" opacity=".72"/>
+<path d="M 88.72 150.0 L 103.0 150.0 L 110.16 150.0 L 117.28 150.0 L 124.44 150.0 L 131.56 150.0 L 145.84 150.0 L 160.16 150.0 L 178.0 150.0 L 199.44 150.0 L 210.16 150.0 L 220.84 150.0 L 242.28 150.0 L 263.72 150.0 L 285.16 150.0 L 306.56 150.0 L 328.0 150.0 L 349.44 150.0 L 370.84 150.0 L 378.0 158.0 L 385.16 166.0" fill="none" stroke="#00a651" stroke-width="1.8" opacity=".72"/>
+<path d="M 124.44 130.0 L 124.44 106.0 L 142.28 86.0 L 160.16 86.0 L 181.56 86.0 L 220.84 130.0 L 220.84 150.0 L 220.84 170.0 L 203.0 190.0 L 190.48 204.0 L 185.16 210.0 L 160.16 210.0 L 145.84 194.0 L 145.84 170.0 L 145.84 150.0 L 124.44 150.0 Z" fill="none" stroke="#f7941d" stroke-width="1.8" opacity=".72"/>
+<path d="M 213.72 210.0 L 235.16 210.0 L 256.56 210.0 L 267.28 210.0 L 278.0 210.0 L 295.84 230.0 L 313.72 250.0 L 328.0 250.0 L 335.16 250.0 L 353.0 250.0 L 370.84 250.0 L 392.28 250.0 L 403.0 250.0 L 413.72 250.0" fill="none" stroke="#009fe3" stroke-width="1.8" opacity=".72"/>
+<path d="M 285.16 150.0 L 306.56 150.0 L 328.0 174.0 L 349.44 198.0 L 360.16 210.0 L 370.84 222.0 L 381.56 222.0 L 392.28 222.0 L 413.72 222.0 L 413.72 250.0" fill="none" stroke="#455a64" stroke-width="1.8" opacity=".72"/>
+<path d="M 28.0 50.0 L 42.28 66.0 L 67.28 94.0 L 85.16 114.0 L 99.44 130.0 L 160.16 130.0 L 195.84 130.0 L 235.16 130.0 L 324.44 130.0" fill="none" stroke="#e64a19" stroke-width="1.8" opacity=".72"/>
+<path d="M 128.0 50.0 L 163.72 90.0 L 199.44 130.0 L 285.16 130.0 L 324.44 130.0 L 324.44 178.0 L 324.44 218.0 L 353.0 250.0 L 413.72 250.0" fill="none" stroke="#00578a" stroke-width="1.8" opacity=".72"/>
+<path d="M 160.16 86.0 L 199.44 130.0 L 228.0 162.0 L 263.72 202.0 L 310.16 202.0 L 331.56 226.0 L 353.0 250.0 L 370.84 270.0" fill="none" stroke="#b00020" stroke-width="1.8" opacity=".72"/>
+<path d="M 402 44 L 402 20 L 397 28 M 402 20 L 407 28" fill="none" stroke="#263238" stroke-width="2"/><text x="408" y="44" font-family="Arial" font-size="12">N</text>
+<path d="M 310 300 L 350 300" stroke="#263238" stroke-width="3"/><text x="310" y="316" font-family="Arial" font-size="12">10 km</text>
+</svg>

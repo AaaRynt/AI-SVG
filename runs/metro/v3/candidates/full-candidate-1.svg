@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600" role="img" aria-labelledby="title desc">
+<title id="title">澜海市轨道交通线路图 / Lanhai Rail Transit Map</title>
+<desc id="desc">A fictional bilingual octilinear schematic metro map for Lanhai, a Chinese coastal megacity.</desc>
+
+<defs>
+  <style>
+    .district-fill { opacity: .42; }
+    .route-path { fill: none; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+    .route-path.express { stroke-width: 13; }
+    .route-path.branch { stroke-width: 8; }
+    .route-path.under-construction { stroke-dasharray: 22 15; stroke-width: 9; }
+    .station-marker { fill: #fff; stroke: #242424; stroke-width: 3; }
+    .station-marker.normal { r: 5; stroke-width: 2; }
+    .station-marker.transfer { fill: #fff; stroke: #1f2933; stroke-width: 4; }
+    .station-marker.terminal { fill: #fff; stroke: #111; stroke-width: 4; }
+    .station-label { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; paint-order: stroke fill; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; fill: #1f2933; }
+    .station-label-zh { font-weight: 650; }
+    .station-label-en { fill: #59636f; font-weight: 450; stroke-width: 3px; }
+    .leader-line { fill: none; stroke: #8fa0ad; stroke-width: .7; stroke-linecap: round; opacity: .42; }
+    .legend-label, .map-note, .district-label { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; fill: #263238; }
+    .district-label { font-size: 26px; font-weight: 700; opacity: .55; }
+    .district-label-en { font-size: 13px; font-weight: 500; opacity: .48; }
+    .water-label { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; fill: #2a7fa5; font-size: 25px; font-weight: 650; opacity: .8; }
+    .water-label-en { font-size: 13px; font-weight: 500; }
+    .station-label-box-debug { fill: rgba(255, 230, 128, .36); stroke: rgba(181, 120, 0, .65); stroke-width: 1; }
+  </style>
+  <symbol id="icon-airport" viewBox="-12 -12 24 24">
+    <path d="M -10 1 L 9 -3 L 11 0 L 2 4 L 4 10 L 1 11 L -3 5 L -8 6 Z" fill="#546e7a"/>
+  </symbol>
+  <symbol id="icon-rail" viewBox="-12 -12 24 24">
+    <rect x="-7" y="-10" width="14" height="18" rx="3" fill="#455a64"/>
+    <circle cx="-3" cy="-3" r="1.4" fill="#fff"/><circle cx="3" cy="-3" r="1.4" fill="#fff"/>
+    <path d="M -6 10 L -2 6 M 6 10 L 2 6" stroke="#455a64" stroke-width="2"/>
+  </symbol>
+  <symbol id="icon-port" viewBox="-12 -12 24 24">
+    <path d="M 0 -10 L 0 7 M -5 -5 L 5 -5 M -8 -1 Q 0 8 8 -1" fill="none" stroke="#455a64" stroke-width="2.4" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-university" viewBox="-12 -12 24 24">
+    <path d="M -9 -2 L 0 -7 L 9 -2 L 0 3 Z" fill="#546e7a"/>
+    <path d="M -6 1 L -6 7 L 6 7 L 6 1" fill="#78909c"/>
+  </symbol>
+</defs>
+
+<rect width="2400" height="1600" fill="#fbfcfd"/>
+
+<g id="district-backgrounds">
+  <path class="district-fill" d="M 80 180 L 560 100 L 690 330 L 510 520 L 120 500 Z" fill="#e8f5e9"/>
+  <path class="district-fill" d="M 500 420 L 1000 390 L 1080 700 L 560 760 L 470 620 Z" fill="#fff8e1"/>
+  <path class="district-fill" d="M 960 500 L 1410 540 L 1450 850 L 1040 900 L 1000 660 Z" fill="#e3f2fd"/>
+  <path class="district-fill" d="M 600 820 L 1280 820 L 1460 1080 L 1120 1220 L 680 1100 Z" fill="#f3e5f5"/>
+  <path class="district-fill" d="M 90 1030 L 700 900 L 780 1440 L 160 1510 Z" fill="#e0f2f1"/>
+  <path class="district-fill" d="M 1320 520 L 1900 480 L 1960 780 L 1480 850 Z" fill="#fce4ec"/>
+  <path class="district-fill" d="M 1180 1020 L 1810 980 L 2100 1440 L 1420 1510 Z" fill="#e0f7fa"/>
+  <path class="district-fill" d="M 1780 820 L 2320 900 L 2320 1390 L 1880 1340 Z" fill="#eceff1"/>
+  <text class="district-label" x="690" y="605">靖安老城</text><text class="district-label district-label-en" x="690" y="628">Jing'an Old City</text>
+  <text class="district-label" x="1080" y="610">明堂CBD</text><text class="district-label district-label-en" x="1080" y="633">Mingtang CBD</text>
+  <text class="district-label" x="960" y="905">南岸副中心</text><text class="district-label district-label-en" x="960" y="928">South Bank Subcenter</text>
+  <text class="district-label" x="360" y="1148">清溪大学城</text><text class="district-label district-label-en" x="360" y="1171">Qingxi University Town</text>
+  <text class="district-label" x="1538" y="548">东部科技新城</text><text class="district-label district-label-en" x="1538" y="571">Eastern Technology City</text>
+  <text class="district-label" x="1765" y="1175">星海航空城</text><text class="district-label district-label-en" x="1765" y="1198">Xinghai Aerotropolis</text>
+</g>
+
+
+<g id="water-and-geography">
+  <path d="M 0 718 C 330 684 550 710 760 724 C 1010 741 1270 714 1530 735 C 1790 758 2020 825 2400 895 L 2400 1025 C 2080 935 1780 845 1530 818 C 1270 790 1030 823 760 805 C 510 786 285 790 0 828 Z" fill="#d7edf7"/>
+  <path d="M 1870 520 C 2100 540 2290 640 2400 820 L 2400 1260 C 2280 1210 2140 1110 2040 980 C 1950 865 1880 720 1870 520 Z" fill="#e1f2f8"/>
+  <ellipse cx="910" cy="765" rx="145" ry="46" fill="#f5fbfd" opacity=".9"/>
+  <ellipse cx="2020" cy="770" rx="135" ry="68" fill="#f5fbfd" opacity=".9"/>
+  <path d="M 130 1230 C 190 1160 245 1130 310 1110 C 385 1088 430 1050 490 980" fill="none" stroke="#b6dbe9" stroke-width="18" stroke-linecap="round" opacity=".8"/>
+  <ellipse cx="155" cy="1280" rx="70" ry="42" fill="#cfeaf3" opacity=".86"/>
+  <path d="M 120 1110 C 280 1010 360 990 520 940" fill="none" stroke="#c6dfc9" stroke-width="28" stroke-linecap="round" opacity=".55"/>
+  <text class="water-label" x="1370" y="725">澜江</text><text class="water-label water-label-en" x="1370" y="748">Lan River</text>
+  <text class="water-label" x="2050" y="625">澜海湾</text><text class="water-label water-label-en" x="2050" y="648">Lanhai Bay</text>
+  <text class="water-label" x="850" y="804">鹭洲</text><text class="water-label water-label-en" x="850" y="827">Luzhou Island</text>
+  <text class="water-label" x="70" y="1330">白鹭水库</text><text class="water-label water-label-en" x="70" y="1353">Bailu Reservoir</text>
+</g>
+
+<g id="title-layer">
+<text x="58" y="66" font-size="38" font-weight="760" font-family="PingFang SC, Noto Sans CJK SC, Arial" fill="#17202a">澜海市轨道交通线路图</text>
+<text x="60" y="102" font-size="19" font-family="Arial, sans-serif" fill="#52616f">Lanhai Rail Transit Schematic Map</text>
+<text class="map-note" x="60" y="132" font-size="18">线路示意图，不按比例  /  Schematic map — not to scale</text>
+</g>
+<g id="route-layer">
+<path class="route-path" id="route-1" data-line-id="1" d="M 220 660 L 260 660 L 300 660 L 380 660 L 420 660 L 460 660 L 540 660 L 620 660 L 700 660 L 760 660 L 820 660 L 940 660 L 1040 660 L 1100 660 L 1160 660 L 1240 660 L 1340 660 L 1440 660 L 1520 660 L 1640 660 L 1740 660 L 1860 660 L 1980 660 L 2100 660" stroke="#d71920" opacity="1"/>
+<path class="route-path" id="route-2" data-line-id="2" d="M 820 220 L 820 270 L 820 320 L 820 380 L 820 440 L 820 500 L 820 540 L 820 560 L 820 660 L 820 760 L 820 860 L 860 900 L 920 960 L 990 1030 L 1020 1060 L 1120 1060 L 1220 1160 L 1320 1260 L 1420 1360 L 1520 1460" stroke="#0072bc" opacity="1"/>
+<path class="route-path" id="route-3" data-line-id="3" d="M 420 760 L 500 760 L 540 760 L 580 760 L 620 760 L 660 760 L 740 760 L 820 760 L 920 760 L 1040 760 L 1100 760 L 1160 760 L 1280 760 L 1400 760 L 1520 760 L 1640 760 L 1760 760 L 1880 760 L 2000 760 L 2040 800 L 2080 840" stroke="#00a651" opacity="1"/>
+<path class="route-path" id="route-4" data-line-id="4" d="M 620 660 L 620 540 L 720 440 L 820 440 L 940 440 L 1160 660 L 1160 760 L 1160 860 L 1060 960 L 990 1030 L 960 1060 L 820 1060 L 740 980 L 740 860 L 740 760 L 620 760 Z" stroke="#f7941d" opacity="1"/>
+<path class="route-path" id="route-5" data-line-id="5" d="M 480 100 L 520 140 L 560 180 L 600 220 L 640 260 L 720 340 L 720 440 L 820 540 L 840 560 L 1040 560 L 1140 660 L 1240 660 L 1240 760 L 1160 760 L 1160 860 L 1160 980 L 1120 1020 L 1120 1060 L 1260 1060 L 1360 1060" stroke="#8a2be2" opacity="1"/>
+<path class="route-path" id="route-6" data-line-id="6" d="M 180 1420 L 260 1340 L 300 1300 L 360 1240 L 460 1140 L 500 1100 L 560 1040 L 610 990 L 660 940 L 740 860 L 760 840 L 820 780 L 820 760 L 920 760 L 1040 760 L 1100 760" stroke="#009688" opacity="1"/>
+<path class="route-path branch" id="route-6B" data-line-id="6B" d="M 560 1040 L 520 1040 L 480 1040 L 400 1040 L 320 1120 L 240 1200 L 160 1280" stroke="#4db6ac" opacity="1"/>
+<path class="route-path" id="route-7" data-line-id="7" d="M 860 400 L 900 400 L 940 440 L 1040 540 L 1040 560 L 1040 660 L 1160 660 L 1280 660 L 1340 660 L 1440 660 L 1520 660 L 1600 580 L 1660 580 L 1720 580 L 1760 540 L 1800 500" stroke="#c2185b" opacity="1"/>
+<path class="route-path" id="route-8" data-line-id="8" d="M 1120 1060 L 1240 1060 L 1360 1060 L 1420 1060 L 1480 1060 L 1580 1160 L 1680 1260 L 1760 1260 L 1800 1260 L 1900 1260 L 2000 1260 L 2120 1260 L 2180 1260 L 2240 1260" stroke="#009fe3" opacity="1"/>
+<path class="route-path branch" id="route-8B" data-line-id="8B" d="M 1480 1060 L 1480 1180 L 1520 1220 L 1560 1260 L 1640 1340 L 1720 1420" stroke="#56c5ff" opacity="1"/>
+<path class="route-path" id="route-9" data-line-id="9" d="M 220 420 L 340 420 L 460 420 L 540 420 L 540 480 L 540 540 L 540 600 L 540 660 L 620 660 L 700 660 L 820 660 L 940 660" stroke="#795548" opacity="1"/>
+<path class="route-path" id="route-10" data-line-id="10" d="M 360 860 L 480 860 L 600 860 L 740 860 L 840 860 L 960 860 L 1080 860 L 1120 860 L 1160 860 L 1280 860 L 1400 860 L 1440 820 L 1480 780 L 1500 760" stroke="#7cb342" opacity="1"/>
+<path class="route-path" id="route-11" data-line-id="11" d="M 1520 760 L 1640 760 L 1760 880 L 1880 1000 L 1940 1060 L 2000 1120 L 2060 1120 L 2120 1120 L 2240 1120 L 2240 1260" stroke="#455a64" opacity="1"/>
+<path class="route-path" id="route-12" data-line-id="12" d="M 640 260 L 560 340 L 540 360 L 540 420 L 540 540 L 540 660 L 540 760 L 540 780 L 480 840 L 480 860 L 560 940 L 610 990 L 640 1020 L 800 1180 L 1200 1180 L 1220 1160 L 1280 1220 L 1320 1260 L 1400 1180 L 1480 1100 L 1480 1060" stroke="#ffb300" opacity="1"/>
+<path class="route-path express" id="route-13" data-line-id="13" d="M 80 260 L 160 340 L 300 480 L 400 580 L 480 660 L 820 660 L 1020 660 L 1240 660 L 1740 660" stroke="#e64a19" opacity="1"/>
+<path class="route-path express" id="route-14" data-line-id="14" d="M 640 260 L 840 460 L 1040 660 L 1520 660 L 1740 660 L 1740 900 L 1740 1100 L 1900 1260 L 2240 1260" stroke="#00578a" opacity="1"/>
+<path class="route-path express" id="route-A" data-line-id="A" d="M 820 440 L 1040 660 L 1200 820 L 1400 1020 L 1660 1020 L 1780 1140 L 1900 1260 L 2000 1360" stroke="#b00020" opacity="1"/>
+<path class="route-path under-construction" id="route-17" data-line-id="17" d="M 1160 220 L 1280 340 L 1400 460 L 1520 580 L 1520 760 L 1520 900 L 1520 1020 L 1660 1020 L 1760 1120 L 1760 1260 L 1880 1380" stroke="#9e9e9e" opacity="0.88"/>
+</g>
+<g id="station-layer">
+<circle class="station-marker normal" cx="520" cy="140" r="5.2" data-station-id="shiqiao-creek"/>
+<circle class="station-marker normal" cx="560" cy="180" r="5.2" data-station-id="beihu-bay"/>
+<circle class="station-marker normal" cx="600" cy="220" r="5.2" data-station-id="beihu-south"/>
+<circle class="station-marker normal" cx="820" cy="270" r="5.2" data-station-id="beichuan-medical-center"/>
+<circle class="station-marker normal" cx="820" cy="320" r="5.2" data-station-id="beicheng-park"/>
+<circle class="station-marker normal" cx="160" cy="340" r="5.2" data-station-id="yunling-airport-t2"/>
+<circle class="station-marker normal" cx="560" cy="340" r="5.2" data-station-id="zhuyuan"/>
+<circle class="station-marker normal" cx="720" cy="340" r="5.2" data-station-id="yuntai-road"/>
+<circle class="station-marker normal" cx="1280" cy="340" r="5.2" data-station-id="north-software-park"/>
+<circle class="station-marker normal" cx="540" cy="360" r="5.2" data-station-id="zhuyuan-south"/>
+<circle class="station-marker normal" cx="820" cy="380" r="5.2" data-station-id="jingan-north"/>
+<circle class="station-marker normal" cx="900" cy="400" r="5.2" data-station-id="old-academy-east"/>
+<circle class="station-marker normal" cx="340" cy="420" r="5.2" data-station-id="rolling-stock-works"/>
+<circle class="station-marker normal" cx="460" cy="420" r="5.2" data-station-id="textile-mill-road"/>
+<circle class="station-marker normal" cx="840" cy="460" r="5.2" data-station-id="beicheng-express"/>
+<circle class="station-marker normal" cx="1400" cy="460" r="5.2" data-station-id="biomedicine-park-north"/>
+<circle class="station-marker normal" cx="300" cy="480" r="5.2" data-station-id="bailu-valley"/>
+<circle class="station-marker normal" cx="540" cy="480" r="5.2" data-station-id="tielubang"/>
+<circle class="station-marker normal" cx="820" cy="500" r="5.2" data-station-id="beimen-street"/>
+<circle class="station-marker normal" cx="540" cy="540" r="5.2" data-station-id="water-tower-street"/>
+<circle class="station-marker normal" cx="540" cy="540" r="5.2" data-station-id="west-bridge"/>
+<circle class="station-marker normal" cx="620" cy="540" r="5.2" data-station-id="west-city-wall"/>
+<circle class="station-marker normal" cx="1040" cy="540" r="5.2" data-station-id="mingtang-north"/>
+<circle class="station-marker normal" cx="1760" cy="540" r="5.2" data-station-id="donggang-park"/>
+<circle class="station-marker normal" cx="820" cy="560" r="5.2" data-station-id="beisi"/>
+<circle class="station-marker normal" cx="840" cy="560" r="5.2" data-station-id="dongta-temple"/>
+<circle class="station-marker normal" cx="400" cy="580" r="5.2" data-station-id="xishan-intercity"/>
+<circle class="station-marker normal" cx="1520" cy="580" r="5.2" data-station-id="software-park-east"/>
+<circle class="station-marker normal" cx="1600" cy="580" r="5.2" data-station-id="software-park"/>
+<circle class="station-marker normal" cx="1660" cy="580" r="5.2" data-station-id="songlinbang"/>
+<circle class="station-marker normal" cx="1720" cy="580" r="5.2" data-station-id="biomedicine-park"/>
+<circle class="station-marker normal" cx="540" cy="600" r="5.2" data-station-id="jiucangshan"/>
+<circle class="station-marker normal" cx="260" cy="660" r="5.2" data-station-id="shahe-west"/>
+<circle class="station-marker normal" cx="300" cy="660" r="5.2" data-station-id="changqiao-west"/>
+<circle class="station-marker normal" cx="380" cy="660" r="5.2" data-station-id="yintang"/>
+<circle class="station-marker normal" cx="420" cy="660" r="5.2" data-station-id="yintang-east"/>
+<circle class="station-marker normal" cx="460" cy="660" r="5.2" data-station-id="xishikou"/>
+<circle class="station-marker normal" cx="480" cy="660" r="5.2" data-station-id="xishan-new-town"/>
+<circle class="station-marker normal" cx="540" cy="660" r="5.2" data-station-id="xishikou-south"/>
+<circle class="station-marker normal" cx="760" cy="660" r="5.2" data-station-id="chenghuang-temple"/>
+<circle class="station-marker normal" cx="1020" cy="660" r="5.2" data-station-id="mingtang-west"/>
+<circle class="station-marker normal" cx="1100" cy="660" r="5.2" data-station-id="mingtang-east"/>
+<circle class="station-marker normal" cx="1140" cy="660" r="5.2" data-station-id="mingtang-square"/>
+<circle class="station-marker normal" cx="1280" cy="660" r="5.2" data-station-id="donghu-west"/>
+<circle class="station-marker normal" cx="1640" cy="660" r="5.2" data-station-id="convention-north"/>
+<circle class="station-marker normal" cx="1860" cy="660" r="5.2" data-station-id="songgang"/>
+<circle class="station-marker normal" cx="1980" cy="660" r="5.2" data-station-id="haizhou-west"/>
+<circle class="station-marker normal" cx="500" cy="760" r="5.2" data-station-id="xicang"/>
+<circle class="station-marker normal" cx="580" cy="760" r="5.2" data-station-id="old-wharf"/>
+<circle class="station-marker normal" cx="660" cy="760" r="5.2" data-station-id="shisanhang-street"/>
+<circle class="station-marker normal" cx="1240" cy="760" r="5.2" data-station-id="finance-riverside"/>
+<circle class="station-marker normal" cx="1280" cy="760" r="5.2" data-station-id="jiangwan-center"/>
+<circle class="station-marker normal" cx="1400" cy="760" r="5.2" data-station-id="grand-theater"/>
+<circle class="station-marker normal" cx="1760" cy="760" r="5.2" data-station-id="east-bay"/>
+<circle class="station-marker normal" cx="1880" cy="760" r="5.2" data-station-id="haizhou-ferry"/>
+<circle class="station-marker normal" cx="2000" cy="760" r="5.2" data-station-id="haizhou-island"/>
+<circle class="station-marker normal" cx="540" cy="780" r="5.2" data-station-id="xicang-south"/>
+<circle class="station-marker normal" cx="820" cy="780" r="5.2" data-station-id="luzhou-approach"/>
+<circle class="station-marker normal" cx="1480" cy="780" r="5.2" data-station-id="expo-riverside"/>
+<circle class="station-marker normal" cx="2040" cy="800" r="5.2" data-station-id="haizhou-east"/>
+<circle class="station-marker normal" cx="1200" cy="820" r="5.2" data-station-id="jiangwan-finance-harbor"/>
+<circle class="station-marker normal" cx="1440" cy="820" r="5.2" data-station-id="east-bank-bridge"/>
+<circle class="station-marker normal" cx="480" cy="840" r="5.2" data-station-id="liantang-north"/>
+<circle class="station-marker normal" cx="760" cy="840" r="5.2" data-station-id="jiangnan-gate-south"/>
+<circle class="station-marker normal" cx="600" cy="860" r="5.2" data-station-id="jiangwan-west"/>
+<circle class="station-marker normal" cx="820" cy="860" r="5.2" data-station-id="jiangnan-gate"/>
+<circle class="station-marker normal" cx="840" cy="860" r="5.2" data-station-id="binjiang-park-west"/>
+<circle class="station-marker normal" cx="960" cy="860" r="5.2" data-station-id="south-bank-cultural-axis"/>
+<circle class="station-marker normal" cx="1080" cy="860" r="5.2" data-station-id="media-center"/>
+<circle class="station-marker normal" cx="1120" cy="860" r="5.2" data-station-id="finance-city-west"/>
+<circle class="station-marker normal" cx="1280" cy="860" r="5.2" data-station-id="convention-west"/>
+<circle class="station-marker normal" cx="1400" cy="860" r="5.2" data-station-id="convention-south"/>
+<circle class="station-marker normal" cx="1760" cy="880" r="5.2" data-station-id="dongwan-south"/>
+<circle class="station-marker normal" cx="860" cy="900" r="5.2" data-station-id="jiangnan-east"/>
+<circle class="station-marker normal" cx="1520" cy="900" r="5.2" data-station-id="expo-south"/>
+<circle class="station-marker normal" cx="1740" cy="900" r="5.2" data-station-id="linkong-north"/>
+<circle class="station-marker normal" cx="560" cy="940" r="5.2" data-station-id="university-north"/>
+<circle class="station-marker normal" cx="660" cy="940" r="5.2" data-station-id="xuefu-north"/>
+<circle class="station-marker normal" cx="920" cy="960" r="5.2" data-station-id="south-bank-cultural-center"/>
+<circle class="station-marker normal" cx="1060" cy="960" r="5.2" data-station-id="media-harbor"/>
+<circle class="station-marker normal" cx="740" cy="980" r="5.2" data-station-id="changdi"/>
+<circle class="station-marker normal" cx="1160" cy="980" r="5.2" data-station-id="nanjiang-south-gate"/>
+<circle class="station-marker normal" cx="1880" cy="1000" r="5.2" data-station-id="bonded-logistics-park"/>
+<circle class="station-marker normal" cx="640" cy="1020" r="5.2" data-station-id="xuefu-road"/>
+<circle class="station-marker normal" cx="1120" cy="1020" r="5.2" data-station-id="south-station-west"/>
+<circle class="station-marker normal" cx="1400" cy="1020" r="5.2" data-station-id="airport-express-south"/>
+<circle class="station-marker normal" cx="1520" cy="1020" r="5.2" data-station-id="haiyan-north"/>
+<circle class="station-marker normal" cx="400" cy="1040" r="5.2" data-station-id="qingyan-village"/>
+<circle class="station-marker normal" cx="480" cy="1040" r="5.2" data-station-id="qingxi-research-park"/>
+<circle class="station-marker normal" cx="520" cy="1040" r="5.2" data-station-id="qingxi-library"/>
+<circle class="station-marker normal" cx="820" cy="1060" r="5.2" data-station-id="south-market"/>
+<circle class="station-marker normal" cx="960" cy="1060" r="5.2" data-station-id="jiangnan-market"/>
+<circle class="station-marker normal" cx="1020" cy="1060" r="5.2" data-station-id="south-bank-civic-center"/>
+<circle class="station-marker normal" cx="1240" cy="1060" r="5.2" data-station-id="biyun-road"/>
+<circle class="station-marker normal" cx="1260" cy="1060" r="5.2" data-station-id="binjiang-park"/>
+<circle class="station-marker normal" cx="1360" cy="1060" r="5.2" data-station-id="nanhu"/>
+<circle class="station-marker normal" cx="1420" cy="1060" r="5.2" data-station-id="nanhu-east"/>
+<circle class="station-marker normal" cx="1940" cy="1060" r="5.2" data-station-id="bonded-south"/>
+<circle class="station-marker normal" cx="500" cy="1100" r="5.2" data-station-id="xuelin-road"/>
+<circle class="station-marker normal" cx="1480" cy="1100" r="5.2" data-station-id="haiyan-outer-north"/>
+<circle class="station-marker normal" cx="1740" cy="1100" r="5.2" data-station-id="airport-business-park"/>
+<circle class="station-marker normal" cx="320" cy="1120" r="5.2" data-station-id="xiling-academy"/>
+<circle class="station-marker normal" cx="1760" cy="1120" r="5.2" data-station-id="maintenance-north"/>
+<circle class="station-marker normal" cx="2000" cy="1120" r="5.2" data-station-id="shipyard"/>
+<circle class="station-marker normal" cx="2060" cy="1120" r="5.2" data-station-id="gangwan-avenue"/>
+<circle class="station-marker normal" cx="2120" cy="1120" r="5.2" data-station-id="deepwater-port-north"/>
+<circle class="station-marker normal" cx="2240" cy="1120" r="5.2" data-station-id="container-terminal"/>
+<circle class="station-marker normal" cx="460" cy="1140" r="5.2" data-station-id="lanhai-university"/>
+<circle class="station-marker normal" cx="1780" cy="1140" r="5.2" data-station-id="airport-hotel-zone"/>
+<circle class="station-marker normal" cx="1580" cy="1160" r="5.2" data-station-id="ocean-park"/>
+<circle class="station-marker normal" cx="800" cy="1180" r="5.2" data-station-id="nanhu-west"/>
+<circle class="station-marker normal" cx="1200" cy="1180" r="5.2" data-station-id="yunwan-north"/>
+<circle class="station-marker normal" cx="1400" cy="1180" r="5.2" data-station-id="haiyan-outer-west"/>
+<circle class="station-marker normal" cx="1480" cy="1180" r="5.2" data-station-id="yunlan-lake"/>
+<circle class="station-marker normal" cx="240" cy="1200" r="5.2" data-station-id="lianhu"/>
+<circle class="station-marker normal" cx="1280" cy="1220" r="5.2" data-station-id="binhai-university-approach"/>
+<circle class="station-marker normal" cx="1520" cy="1220" r="5.2" data-station-id="haiyan-road"/>
+<circle class="station-marker normal" cx="360" cy="1240" r="5.2" data-station-id="hushan-academy"/>
+<circle class="station-marker normal" cx="1560" cy="1260" r="5.2" data-station-id="artificial-lake"/>
+<circle class="station-marker normal" cx="1680" cy="1260" r="5.2" data-station-id="aerotropolis-north"/>
+<circle class="station-marker normal" cx="1800" cy="1260" r="5.2" data-station-id="airport-logistics"/>
+<circle class="station-marker normal" cx="2000" cy="1260" r="5.2" data-station-id="xinghai-airport-t1"/>
+<circle class="station-marker normal" cx="2120" cy="1260" r="5.2" data-station-id="tidal-flat-park"/>
+<circle class="station-marker normal" cx="2180" cy="1260" r="5.2" data-station-id="binhai-east"/>
+<circle class="station-marker normal" cx="300" cy="1300" r="5.2" data-station-id="qingxi-sports-center"/>
+<circle class="station-marker normal" cx="260" cy="1340" r="5.2" data-station-id="songlan-town"/>
+<circle class="station-marker normal" cx="1640" cy="1340" r="5.2" data-station-id="haiyue-island"/>
+<circle class="station-marker normal" cx="1420" cy="1360" r="5.2" data-station-id="jinsha-beach"/>
+<rect class="station-marker terminal" x="473" y="93" width="14" height="14" rx="3" data-station-id="songzhuang"/>
+<rect class="station-marker terminal" x="813" y="213" width="14" height="14" rx="3" data-station-id="beichuan-north"/>
+<rect class="station-marker terminal" x="1153" y="213" width="14" height="14" rx="3" data-station-id="wangjiang-north"/>
+<rect class="station-marker terminal" x="73" y="253" width="14" height="14" rx="3" data-station-id="yunling-airport-t1"/>
+<rect class="station-marker terminal" x="853" y="393" width="14" height="14" rx="3" data-station-id="old-academy"/>
+<rect class="station-marker terminal" x="213" y="413" width="14" height="14" rx="3" data-station-id="north-machine-works"/>
+<rect class="station-marker terminal" x="1793" y="493" width="14" height="14" rx="3" data-station-id="donggang-north"/>
+<rect class="station-marker terminal" x="213" y="653" width="14" height="14" rx="3" data-station-id="jinsha-bay"/>
+<rect class="station-marker terminal" x="2093" y="653" width="14" height="14" rx="3" data-station-id="haizhou-north"/>
+<rect class="station-marker terminal" x="413" y="753" width="14" height="14" rx="3" data-station-id="xijiang-yard"/>
+<rect class="station-marker terminal" x="1493" y="753" width="14" height="14" rx="3" data-station-id="expo-east-gate"/>
+<rect class="station-marker terminal" x="2073" y="833" width="14" height="14" rx="3" data-station-id="baymouth-cruise-terminal"/>
+<rect class="station-marker terminal" x="353" y="853" width="14" height="14" rx="3" data-station-id="nanxi-town"/>
+<rect class="station-marker terminal" x="1353" y="1053" width="14" height="14" rx="3" data-station-id="haiyan-west"/>
+<rect class="station-marker terminal" x="2233" y="1253" width="14" height="14" rx="3" data-station-id="binhai-east-coach-terminal"/>
+<rect class="station-marker terminal" x="153" y="1273" width="14" height="14" rx="3" data-station-id="bailu-reservoir"/>
+<rect class="station-marker terminal" x="1993" y="1353" width="14" height="14" rx="3" data-station-id="xinghai-airport-t3"/>
+<rect class="station-marker terminal" x="1873" y="1373" width="14" height="14" rx="3" data-station-id="xinghai-south"/>
+<rect class="station-marker terminal" x="173" y="1413" width="14" height="14" rx="3" data-station-id="qingfeng-valley"/>
+<rect class="station-marker terminal" x="1713" y="1413" width="14" height="14" rx="3" data-station-id="nanwan-park"/>
+<rect class="station-marker terminal" x="1513" y="1453" width="14" height="14" rx="3" data-station-id="binhai-west-coach-terminal"/>
+<circle class="station-marker transfer" cx="540" cy="420" r="11.8" data-station-id="northwest-freight-yard"/>
+<circle class="station-marker transfer" cx="720" cy="440" r="11.8" data-station-id="north-gate-bridge"/>
+<circle class="station-marker transfer" cx="940" cy="440" r="11.8" data-station-id="mingde-road"/>
+<circle class="station-marker transfer" cx="820" cy="540" r="11.8" data-station-id="beisi-west"/>
+<circle class="station-marker transfer" cx="1040" cy="560" r="11.8" data-station-id="civic-center"/>
+<circle class="station-marker transfer" cx="540" cy="660" r="11.8" data-station-id="jichang-park"/>
+<circle class="station-marker transfer" cx="700" cy="660" r="11.8" data-station-id="gulou"/>
+<circle class="station-marker transfer" cx="1340" cy="660" r="11.8" data-station-id="qinghe"/>
+<circle class="station-marker transfer" cx="1440" cy="660" r="11.8" data-station-id="donghu-road"/>
+<circle class="station-marker transfer" cx="540" cy="760" r="11.8" data-station-id="cangqian-ferry"/>
+<circle class="station-marker transfer" cx="740" cy="760" r="11.8" data-station-id="guangji-bridge"/>
+<circle class="station-marker transfer" cx="920" cy="760" r="11.8" data-station-id="luzhou-park"/>
+<circle class="station-marker transfer" cx="1040" cy="760" r="11.8" data-station-id="luzhou-east"/>
+<circle class="station-marker transfer" cx="1640" cy="760" r="11.8" data-station-id="xinqiao"/>
+<circle class="station-marker transfer" cx="480" cy="860" r="11.8" data-station-id="liantang"/>
+<circle class="station-marker transfer" cx="610" cy="990" r="11.8" data-station-id="shuyuan-road"/>
+<circle class="station-marker transfer" cx="1660" cy="1020" r="11.8" data-station-id="airport-north"/>
+<circle class="station-marker transfer" cx="990" cy="1030" r="11.8" data-station-id="jiangnan-fang"/>
+<circle class="station-marker transfer" cx="1220" cy="1160" r="11.8" data-station-id="yunwan"/>
+<circle class="station-marker transfer" cx="1320" cy="1260" r="11.8" data-station-id="binhai-university-road"/>
+<circle class="station-marker transfer" cx="1760" cy="1260" r="11.8" data-station-id="aircraft-maintenance"/>
+<circle class="station-marker transfer" cx="1160" cy="660" r="13.2" data-station-id="bowuguan"/>
+<circle class="station-marker transfer" cx="1240" cy="660" r="13.2" data-station-id="financial-street"/>
+<circle class="station-marker transfer" cx="1520" cy="660" r="13.2" data-station-id="technology-city"/>
+<circle class="station-marker transfer" cx="820" cy="760" r="13.2" data-station-id="luzhou-west"/>
+<circle class="station-marker transfer" cx="1160" cy="760" r="13.2" data-station-id="dongping-wharf"/>
+<circle class="station-marker transfer" cx="740" cy="860" r="13.2" data-station-id="jiangnan-university-hospital"/>
+<circle class="station-marker transfer" cx="1160" cy="860" r="13.2" data-station-id="south-bank-finance-city"/>
+<circle class="station-marker transfer" cx="1900" cy="1260" r="13.2" data-station-id="xinghai-airport-t2"/>
+<circle class="station-marker transfer" cx="820" cy="660" r="14.0" data-station-id="people-square"/>
+<circle class="station-marker transfer" cx="1040" cy="660" r="14.0" data-station-id="central-business-district"/>
+<circle class="station-marker transfer" cx="940" cy="660" r="11.8" data-station-id="yongning-gate"/>
+<circle class="station-marker transfer" cx="620" cy="760" r="11.8" data-station-id="xiguan-ferry"/>
+<circle class="station-marker transfer" cx="1100" cy="760" r="11.8" data-station-id="bank-street"/>
+<circle class="station-marker transfer" cx="560" cy="1040" r="11.8" data-station-id="yuhu"/>
+<circle class="station-marker transfer" cx="2240" cy="1260" r="11.8" data-station-id="deepwater-port-passenger-terminal"/>
+<circle class="station-marker transfer" cx="640" cy="260" r="13.2" data-station-id="beibu-hsr"/>
+<circle class="station-marker transfer" cx="820" cy="440" r="13.2" data-station-id="lanhai-railway"/>
+<circle class="station-marker transfer" cx="620" cy="660" r="13.2" data-station-id="ximen"/>
+<circle class="station-marker transfer" cx="1740" cy="660" r="13.2" data-station-id="lanhai-east-railway"/>
+<circle class="station-marker transfer" cx="1520" cy="760" r="13.2" data-station-id="international-convention-center"/>
+<circle class="station-marker transfer" cx="1120" cy="1060" r="13.2" data-station-id="lanhai-south-railway"/>
+<circle class="station-marker transfer" cx="1480" cy="1060" r="13.2" data-station-id="haiyan-bay"/>
+</g>
+<g id="landmark-icon-layer">
+<use href="#icon-rail" x="834" y="410" width="24" height="24" opacity=".9"/>
+<use href="#icon-rail" x="654" y="230" width="24" height="24" opacity=".9"/>
+<use href="#icon-rail" x="1134" y="1030" width="24" height="24" opacity=".9"/>
+<use href="#icon-rail" x="1754" y="630" width="24" height="24" opacity=".9"/>
+<use href="#icon-airport" x="1914" y="1230" width="24" height="24" opacity=".9"/>
+<use href="#icon-airport" x="94" y="230" width="24" height="24" opacity=".9"/>
+<use href="#icon-port" x="2254" y="1230" width="24" height="24" opacity=".9"/>
+<use href="#icon-university" x="474" y="1110" width="24" height="24" opacity=".9"/>
+</g>
+<g id="geographic-inset-embedded" transform="translate(1945 84) scale(.84)">
+<rect x="0" y="0" width="460" height="330" rx="10" fill="#fbfcfd" stroke="#cbd5df"/>
+<text x="20" y="24" font-family="PingFang SC, Arial" font-size="18" font-weight="700" fill="#263238">地理索引图 / Geographic Index</text>
+<path d="M 28.0 150.0 L 108.0 146.0 L 180.0 146.0 L 248.0 150.0 L 316.0 154.0 L 428.0 166.0" fill="none" stroke="#b8dff0" stroke-width="12" stroke-linecap="round"/>
+<path d="M 340.0 114.0 L 372.0 142.0 L 396.0 174.0 L 404.0 210.0 L 416.0 254.0 L 428.0 278.0" fill="none" stroke="#82b7cd" stroke-width="3"/>
+<circle cx="176.0" cy="150.0" r="8" fill="#fff" stroke="#82b7cd"/>
+<circle cx="372.0" cy="162.0" r="12" fill="#fff" stroke="#82b7cd"/>
+<ellipse cx="72.0" cy="234.0" rx="50" ry="34" fill="#d9ead8" opacity=".8"/>
+<ellipse cx="52.0" cy="254.0" rx="18" ry="11" fill="#cfeaf3"/>
+<circle cx="156.0" cy="130.0" r="4.6" fill="#d71920" stroke="#fff" stroke-width="1.5"/>
+<text x="162.0" y="134.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">老城</text>
+<circle cx="204.0" cy="130.0" r="4.6" fill="#00578a" stroke="#fff" stroke-width="1.5"/>
+<text x="210.0" y="134.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">CBD</text>
+<circle cx="112.0" cy="226.0" r="4.6" fill="#009688" stroke="#fff" stroke-width="1.5"/>
+<text x="118.0" y="230.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">大学城</text>
+<circle cx="340.0" cy="250.0" r="4.6" fill="#b00020" stroke="#fff" stroke-width="1.5"/>
+<text x="346.0" y="254.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">主机场</text>
+<circle cx="40.0" cy="54.0" r="4.6" fill="#e64a19" stroke="#fff" stroke-width="1.5"/>
+<text x="46.0" y="58.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">二机场</text>
+<circle cx="128.0" cy="50.0" r="4.6" fill="#455a64" stroke="#fff" stroke-width="1.5"/>
+<text x="134.0" y="54.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">北部高铁</text>
+<circle cx="404.0" cy="242.0" r="4.6" fill="#455a64" stroke="#fff" stroke-width="1.5"/>
+<text x="410.0" y="246.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">深水港</text>
+<circle cx="284.0" cy="230.0" r="4.6" fill="#009fe3" stroke="#fff" stroke-width="1.5"/>
+<text x="290.0" y="234.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">滨海新城</text>
+<circle cx="296.0" cy="126.0" r="4.6" fill="#c2185b" stroke="#fff" stroke-width="1.5"/>
+<text x="302.0" y="130.0" font-family="PingFang SC, Arial" font-size="11" fill="#263238">科技城</text>
+<path d="M 53.0 130.0 L 60.16 130.0 L 67.28 130.0 L 81.56 130.0 L 88.72 130.0 L 95.84 130.0 L 110.16 130.0 L 124.44 130.0 L 138.72 130.0 L 149.44 130.0 L 160.16 130.0 L 181.56 130.0 L 199.44 130.0 L 210.16 130.0 L 220.84 130.0 L 235.16 130.0 L 253.0 130.0 L 270.84000000000003 130.0 L 285.16 130.0 L 306.56 130.0 L 324.44 130.0 L 345.84 130.0 L 367.28 130.0 L 388.72 130.0" fill="none" stroke="#d71920" stroke-width="1.8" opacity=".72"/>
+<path d="M 160.16 42.0 L 160.16 52.0 L 160.16 62.0 L 160.16 74.0 L 160.16 86.0 L 160.16 98.0 L 160.16 106.0 L 160.16 110.0 L 160.16 130.0 L 160.16 150.0 L 160.16 170.0 L 167.28 178.0 L 178.0 190.0 L 190.48 204.0 L 195.84 210.0 L 213.72 210.0 L 231.56 230.0 L 249.44 250.0 L 267.28 270.0 L 285.16 290.0" fill="none" stroke="#0072bc" stroke-width="1.8" opacity=".72"/>
+<path d="M 88.72 150.0 L 103.0 150.0 L 110.16 150.0 L 117.28 150.0 L 124.44 150.0 L 131.56 150.0 L 145.84 150.0 L 160.16 150.0 L 178.0 150.0 L 199.44 150.0 L 210.16 150.0 L 220.84 150.0 L 242.28 150.0 L 263.72 150.0 L 285.16 150.0 L 306.56 150.0 L 328.0 150.0 L 349.44 150.0 L 370.84 150.0 L 378.0 158.0 L 385.16 166.0" fill="none" stroke="#00a651" stroke-width="1.8" opacity=".72"/>
+<path d="M 124.44 130.0 L 124.44 106.0 L 142.28 86.0 L 160.16 86.0 L 181.56 86.0 L 220.84 130.0 L 220.84 150.0 L 220.84 170.0 L 203.0 190.0 L 190.48 204.0 L 185.16 210.0 L 160.16 210.0 L 145.84 194.0 L 145.84 170.0 L 145.84 150.0 L 124.44 150.0 Z" fill="none" stroke="#f7941d" stroke-width="1.8" opacity=".72"/>
+<path d="M 213.72 210.0 L 235.16 210.0 L 256.56 210.0 L 267.28 210.0 L 278.0 210.0 L 295.84 230.0 L 313.72 250.0 L 328.0 250.0 L 335.16 250.0 L 353.0 250.0 L 370.84 250.0 L 392.28 250.0 L 403.0 250.0 L 413.72 250.0" fill="none" stroke="#009fe3" stroke-width="1.8" opacity=".72"/>
+<path d="M 285.16 150.0 L 306.56 150.0 L 328.0 174.0 L 349.44 198.0 L 360.16 210.0 L 370.84 222.0 L 381.56 222.0 L 392.28 222.0 L 413.72 222.0 L 413.72 250.0" fill="none" stroke="#455a64" stroke-width="1.8" opacity=".72"/>
+<path d="M 28.0 50.0 L 42.28 66.0 L 67.28 94.0 L 85.16 114.0 L 99.44 130.0 L 160.16 130.0 L 195.84 130.0 L 235.16 130.0 L 324.44 130.0" fill="none" stroke="#e64a19" stroke-width="1.8" opacity=".72"/>
+<path d="M 128.0 50.0 L 163.72 90.0 L 199.44 130.0 L 285.16 130.0 L 324.44 130.0 L 324.44 178.0 L 324.44 218.0 L 353.0 250.0 L 413.72 250.0" fill="none" stroke="#00578a" stroke-width="1.8" opacity=".72"/>
+<path d="M 160.16 86.0 L 199.44 130.0 L 228.0 162.0 L 263.72 202.0 L 310.16 202.0 L 331.56 226.0 L 353.0 250.0 L 370.84 270.0" fill="none" stroke="#b00020" stroke-width="1.8" opacity=".72"/>
+<path d="M 402 44 L 402 20 L 397 28 M 402 20 L 407 28" fill="none" stroke="#263238" stroke-width="2"/><text x="408" y="44" font-family="Arial" font-size="12">N</text>
+<path d="M 310 300 L 350 300" stroke="#263238" stroke-width="3"/><text x="310" y="316" font-family="Arial" font-size="12">10 km</text>
+</g>
+<g id="label-box-debug-layer">
+<rect class="station-label-box-debug" x="92" y="162" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="370.4" y="162.2" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="714" y="152" width="77.2" height="43"/>
+<rect class="station-label-box-debug" x="617.2" y="179.8" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="842" y="192" width="220.0" height="43"/>
+<rect class="station-label-box-debug" x="1177.2" y="179.8" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="97.2" y="219.8" width="197.4" height="43"/>
+<rect class="station-label-box-debug" x="367.5" y="252.2" width="255.4" height="46"/>
+<rect class="station-label-box-debug" x="842" y="242" width="172.4" height="43"/>
+<rect class="station-label-box-debug" x="842" y="292" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="182" y="312" width="197.4" height="43"/>
+<rect class="station-label-box-debug" x="856.4" y="20.6" width="63.6" height="43"/>
+<rect class="station-label-box-debug" x="591.2" y="312" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="1117.6" y="334.2" width="145.2" height="43"/>
+<rect class="station-label-box-debug" x="418.4" y="319.8" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="767.8" y="99" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="814.6" y="591" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="1196.4" y="80.6" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="147.4" y="367" width="145.2" height="43"/>
+<rect class="station-label-box-debug" x="129.3" y="462.5" width="145.2" height="43"/>
+<rect class="station-label-box-debug" x="208.3" y="517.1" width="131.6" height="43"/>
+<rect class="station-label-box-debug" x="569.6" y="365.4" width="180.6" height="46"/>
+<rect class="station-label-box-debug" x="648.4" y="453" width="143.2" height="46"/>
+<rect class="station-label-box-debug" x="865.2" y="460.2" width="180.6" height="46"/>
+<rect class="station-label-box-debug" x="957.2" y="397.8" width="98.3" height="46"/>
+<rect class="station-label-box-debug" x="930.5" y="346.5" width="179.2" height="43"/>
+<rect class="station-label-box-debug" x="1417.2" y="419.8" width="165.6" height="43"/>
+<rect class="station-label-box-debug" x="317.2" y="439.8" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="562" y="452" width="77.2" height="43"/>
+<rect class="station-label-box-debug" x="1367.8" y="220" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="1817.2" y="494.2" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="379.6" y="512" width="138.4" height="43"/>
+<rect class="station-label-box-debug" x="511.6" y="199" width="56.8" height="43"/>
+<rect class="station-label-box-debug" x="569.4" y="510" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="707.2" y="510" width="90.8" height="46"/>
+<rect class="station-label-box-debug" x="687.0" y="275.2" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="1958" y="512" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="841.2" y="1032" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="1367.8" y="162" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="912.2" y="530" width="105.8" height="46"/>
+<rect class="station-label-box-debug" x="203.6" y="574.2" width="179.2" height="43"/>
+<rect class="station-label-box-debug" x="1565.2" y="511.8" width="138.4" height="43"/>
+<rect class="station-label-box-debug" x="1547.8" y="239" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="1614.6" y="169" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="1737.2" y="574.2" width="124.8" height="43"/>
+<rect class="station-label-box-debug" x="427.2" y="572" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="70.5" y="571.5" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="21.6" y="791.4" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="143.6" y="682.2" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="74.6" y="395.2" width="63.6" height="43"/>
+<rect class="station-label-box-debug" x="26.0" y="340.6" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="321.8" y="1380" width="76.5" height="43"/>
+<rect class="station-label-box-debug" x="167.0" y="832.0" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="464.7" y="689" width="150.6" height="46"/>
+<rect class="station-label-box-debug" x="48.8" y="632" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="578.3" y="605" width="83.3" height="46"/>
+<rect class="station-label-box-debug" x="669.6" y="673" width="60.8" height="46"/>
+<rect class="station-label-box-debug" x="824.2" y="1148" width="131.6" height="43"/>
+<rect class="station-label-box-debug" x="755.9" y="689" width="128.2" height="46"/>
+<rect class="station-label-box-debug" x="1135.0" y="440.0" width="113.2" height="46"/>
+<rect class="station-label-box-debug" x="1261.8" y="395.2" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="938.5" y="589" width="203.0" height="46"/>
+<rect class="station-label-box-debug" x="1102.8" y="1380" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="1081.0" y="249" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="1118.4" y="511" width="83.2" height="46"/>
+<rect class="station-label-box-debug" x="1172.2" y="589" width="135.7" height="46"/>
+<rect class="station-label-box-debug" x="1234.6" y="249" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="1309.6" y="511" width="60.9" height="46"/>
+<rect class="station-label-box-debug" x="1390.9" y="511" width="98.3" height="46"/>
+<rect class="station-label-box-debug" x="1346.6" y="589.8" width="128.2" height="46"/>
+<rect class="station-label-box-debug" x="1685.2" y="682.2" width="172.4" height="43"/>
+<rect class="station-label-box-debug" x="1631.0" y="429" width="218.0" height="46"/>
+<rect class="station-label-box-debug" x="1877.2" y="619.8" width="70.4" height="43"/>
+<rect class="station-label-box-debug" x="1931.2" y="431" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="2047.8" y="607" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="250.8" y="754.2" width="152.0" height="43"/>
+<rect class="station-label-box-debug" x="220.8" y="891.4" width="124.8" height="43"/>
+<rect class="station-label-box-debug" x="585.2" y="780.2" width="120.7" height="46"/>
+<rect class="station-label-box-debug" x="586.4" y="1380" width="77.2" height="43"/>
+<rect class="station-label-box-debug" x="359.8" y="889.4" width="105.8" height="46"/>
+<rect class="station-label-box-debug" x="232.0" y="1033.4" width="131.6" height="43"/>
+<rect class="station-label-box-debug" x="679.6" y="573" width="120.7" height="46"/>
+<rect class="station-label-box-debug" x="770.9" y="949" width="98.3" height="46"/>
+<rect class="station-label-box-debug" x="867.2" y="773" width="105.6" height="46"/>
+<rect class="station-label-box-debug" x="990.9" y="789" width="98.3" height="46"/>
+<rect class="station-label-box-debug" x="1295.0" y="930.0" width="98.3" height="46"/>
+<rect class="station-label-box-debug" x="1205.2" y="689.8" width="120.7" height="46"/>
+<rect class="station-label-box-debug" x="1337.2" y="336" width="165.6" height="43"/>
+<rect class="station-label-box-debug" x="1361.0" y="278" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="1897.8" y="568" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="1609.0" y="336" width="152.0" height="43"/>
+<rect class="station-label-box-debug" x="1396.1" y="689" width="247.9" height="46"/>
+<rect class="station-label-box-debug" x="1605.8" y="773" width="68.4" height="46"/>
+<rect class="station-label-box-debug" x="1782" y="732" width="63.6" height="43"/>
+<rect class="station-label-box-debug" x="2075.0" y="542.0" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="1944.4" y="707" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="132.4" y="752" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="277.2" y="684" width="165.6" height="43"/>
+<rect class="station-label-box-debug" x="1344.0" y="1206" width="152.0" height="43"/>
+<rect class="station-label-box-debug" x="2194.4" y="622.6" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="1217.2" y="779.8" width="172.4" height="43"/>
+<rect class="station-label-box-debug" x="1457.2" y="814.2" width="124.8" height="43"/>
+<rect class="station-label-box-debug" x="72.4" y="520.6" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="687.4" y="891" width="145.2" height="43"/>
+<rect class="station-label-box-debug" x="2097.2" y="799.8" width="172.4" height="43"/>
+<rect class="station-label-box-debug" x="318.0" y="807" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="502" y="830" width="75.8" height="46"/>
+<rect class="station-label-box-debug" x="92" y="916" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="894.4" y="680.6" width="225.4" height="46"/>
+<rect class="station-label-box-debug" x="837.8" y="1438" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="885.2" y="882.2" width="138.4" height="43"/>
+<rect class="station-label-box-debug" x="535.4" y="1206" width="179.2" height="43"/>
+<rect class="station-label-box-debug" x="1106.2" y="1496" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="824.2" y="1206" width="131.6" height="43"/>
+<rect class="station-label-box-debug" x="1066.0" y="889" width="188.0" height="46"/>
+<rect class="station-label-box-debug" x="1400.1" y="957.1" width="165.6" height="43"/>
+<rect class="station-label-box-debug" x="1313.8" y="875" width="172.4" height="43"/>
+<rect class="station-label-box-debug" x="2155.6" y="684" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="572.8" y="1438" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="1542" y="872" width="145.2" height="43"/>
+<rect class="station-label-box-debug" x="2155.6" y="452" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="480.6" y="887" width="158.8" height="43"/>
+<rect class="station-label-box-debug" x="92" y="1032" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="532.2" y="1132.0" width="192.8" height="43"/>
+<rect class="station-label-box-debug" x="940.4" y="932" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="659.2" y="974.2" width="63.6" height="43"/>
+<rect class="station-label-box-debug" x="1314.4" y="1111.4" width="145.2" height="43"/>
+<rect class="station-label-box-debug" x="482.2" y="960" width="105.8" height="46"/>
+<rect class="station-label-box-debug" x="1800.6" y="853" width="158.8" height="43"/>
+<rect class="station-label-box-debug" x="685.2" y="1042.2" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="1178" y="992" width="192.8" height="43"/>
+<rect class="station-label-box-debug" x="890.4" y="1293.4" width="213.2" height="43"/>
+<rect class="station-label-box-debug" x="841.2" y="1496" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="1603.4" y="965" width="113.2" height="46"/>
+<rect class="station-label-box-debug" x="786.3" y="1095.5" width="113.2" height="46"/>
+<rect class="station-label-box-debug" x="161.9" y="1137.1" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="282.8" y="971.8" width="152.0" height="43"/>
+<rect class="station-label-box-debug" x="461.6" y="1343" width="116.8" height="43"/>
+<rect class="station-label-box-debug" x="589.6" y="1044.6" width="83.3" height="46"/>
+<rect class="station-label-box-debug" x="521.4" y="1278.8" width="56.8" height="43"/>
+<rect class="station-label-box-debug" x="901.0" y="1363" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="605.8" y="1278.8" width="172.4" height="43"/>
+<rect class="station-label-box-debug" x="1007.3" y="1089" width="225.4" height="46"/>
+<rect class="station-label-box-debug" x="92" y="1496" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="1102.8" y="1438" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="579.6" y="1496" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="92" y="278" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="1094.2" y="795.2" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="1538" y="1030" width="90.8" height="46"/>
+<rect class="station-label-box-debug" x="1962" y="1032" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="392.0" y="1059.8" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="1497.2" y="1094.2" width="172.4" height="43"/>
+<rect class="station-label-box-debug" x="1660.6" y="1343" width="158.8" height="43"/>
+<rect class="station-label-box-debug" x="88.7" y="976.9" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="1955.0" y="902.0" width="165.6" height="43"/>
+<rect class="station-label-box-debug" x="1845.6" y="1092" width="70.4" height="43"/>
+<rect class="station-label-box-debug" x="2148.8" y="742" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="1773.0" y="902.0" width="152.0" height="43"/>
+<rect class="station-label-box-debug" x="2170.8" y="891" width="138.4" height="43"/>
+<rect class="station-label-box-debug" x="394.2" y="1155" width="131.6" height="43"/>
+<rect class="station-label-box-debug" x="1710.8" y="799" width="138.4" height="43"/>
+<rect class="station-label-box-debug" x="1242" y="1130" width="60.9" height="46"/>
+<rect class="station-label-box-debug" x="1734.4" y="982.6" width="96.6" height="43"/>
+<rect class="station-label-box-debug" x="758.0" y="1327" width="84.0" height="43"/>
+<rect class="station-label-box-debug" x="1151.2" y="1327" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="1317.2" y="1289" width="165.6" height="43"/>
+<rect class="station-label-box-debug" x="314.6" y="1496" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="194.6" y="1215" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="964.4" y="1192" width="199.6" height="43"/>
+<rect class="station-label-box-debug" x="1537.2" y="1179.8" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="377.2" y="1234.2" width="111.2" height="43"/>
+<rect class="station-label-box-debug" x="1122.3" y="1252.2" width="180.6" height="46"/>
+<rect class="station-label-box-debug" x="1501.0" y="1275" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="1387.2" y="1391.4" width="138.4" height="43"/>
+<rect class="station-label-box-debug" x="1658.5" y="1289" width="203.0" height="46"/>
+<rect class="station-label-box-debug" x="1717.2" y="1031" width="165.6" height="43"/>
+<rect class="station-label-box-debug" x="1637.2" y="1189.8" width="217.6" height="46"/>
+<rect class="station-label-box-debug" x="1901.3" y="979" width="197.4" height="43"/>
+<rect class="station-label-box-debug" x="1891.0" y="800" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="92" y="1438" width="90.8" height="43"/>
+<rect class="station-label-box-debug" x="2143.6" y="979" width="192.8" height="43"/>
+<rect class="station-label-box-debug" x="2108.6" y="1029" width="262.8" height="46"/>
+<rect class="station-label-box-debug" x="24.8" y="1239.8" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="317.2" y="1294.2" width="152.0" height="43"/>
+<rect class="station-label-box-debug" x="145.2" y="1299.8" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="1518.4" y="1334.2" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="1277.2" y="1382.2" width="97.6" height="43"/>
+<rect class="station-label-box-debug" x="1682.4" y="1457.1" width="197.4" height="43"/>
+<rect class="station-label-box-debug" x="1621.2" y="1511.4" width="104.4" height="43"/>
+<rect class="station-label-box-debug" x="197.2" y="1414.2" width="118.0" height="43"/>
+<rect class="station-label-box-debug" x="1742" y="1392" width="96.6" height="43"/>
+<rect class="station-label-box-debug" x="1310.0" y="1454.2" width="192.8" height="43"/>
+</g>
+<g id="label-layer">
+<g class="station-label-group" data-station-id="songzhuang" data-lines="5"><path class="leader-line" d="M 480 100 L 92 175" /><text class="station-label station-label-zh" x="92" y="185" text-anchor="start" font-size="18">宋庄</text><text class="station-label station-label-en" x="92" y="199" text-anchor="start" font-size="10">Songzhuang</text></g>
+<g class="station-label-group" data-station-id="shiqiao-creek" data-lines="5"><text class="station-label station-label-zh" x="474.8" y="185.2" text-anchor="end" font-size="18">石桥河</text><text class="station-label station-label-en" x="474.8" y="199.2" text-anchor="end" font-size="10">Shiqiao Creek</text></g>
+<g class="station-label-group" data-station-id="beihu-bay" data-lines="5"><path class="leader-line" d="M 560 180 L 714 165" /><text class="station-label station-label-zh" x="714" y="175" text-anchor="start" font-size="18">北湖湾</text><text class="station-label station-label-en" x="714" y="189" text-anchor="start" font-size="10">Beihu Bay</text></g>
+<g class="station-label-group" data-station-id="beihu-south" data-lines="5"><text class="station-label station-label-zh" x="617.2" y="202.8" text-anchor="start" font-size="18">北湖南</text><text class="station-label station-label-en" x="617.2" y="216.8" text-anchor="start" font-size="10">Beihu South</text></g>
+<g class="station-label-group" data-station-id="beichuan-north" data-lines="2"><text class="station-label station-label-zh" x="842" y="215" text-anchor="start" font-size="18">北川北站</text><text class="station-label station-label-en" x="842" y="229" text-anchor="start" font-size="10">Beichuan North Railway Station</text></g>
+<g class="station-label-group" data-station-id="wangjiang-north" data-lines="17"><text class="station-label station-label-zh" x="1177.2" y="202.8" text-anchor="start" font-size="18">望江北</text><text class="station-label station-label-en" x="1177.2" y="216.8" text-anchor="start" font-size="10">Wangjiang North</text></g>
+<g class="station-label-group" data-station-id="yunling-airport-t1" data-lines="13"><text class="station-label station-label-zh" x="97.2" y="242.8" text-anchor="start" font-size="18">云岭机场1号航站楼</text><text class="station-label station-label-en" x="97.2" y="256.8" text-anchor="start" font-size="10">Yunling Airport Terminal 1</text></g>
+<g class="station-label-group" data-station-id="beibu-hsr" data-lines="5,12,14"><text class="station-label station-label-zh" x="622.8" y="277.2" text-anchor="end" font-size="20">北部高铁站</text><text class="station-label station-label-en" x="622.8" y="292.2" text-anchor="end" font-size="11">Beibu High-Speed Railway Station</text></g>
+<g class="station-label-group" data-station-id="beichuan-medical-center" data-lines="2"><text class="station-label station-label-zh" x="842" y="265" text-anchor="start" font-size="18">北川医疗中心</text><text class="station-label station-label-en" x="842" y="279" text-anchor="start" font-size="10">Beichuan Medical Center</text></g>
+<g class="station-label-group" data-station-id="beicheng-park" data-lines="2"><text class="station-label station-label-zh" x="842" y="315" text-anchor="start" font-size="18">北城公园</text><text class="station-label station-label-en" x="842" y="329" text-anchor="start" font-size="10">Beicheng Park</text></g>
+<g class="station-label-group" data-station-id="yunling-airport-t2" data-lines="13"><text class="station-label station-label-zh" x="182" y="335" text-anchor="start" font-size="18">云岭机场2号航站楼</text><text class="station-label station-label-en" x="182" y="349" text-anchor="start" font-size="10">Yunling Airport Terminal 2</text></g>
+<g class="station-label-group" data-station-id="zhuyuan" data-lines="12"><path class="leader-line" d="M 560 340 L 856.4 33.6" /><text class="station-label station-label-zh" x="856.4" y="43.6" text-anchor="start" font-size="18">竹园</text><text class="station-label station-label-en" x="856.4" y="57.6" text-anchor="start" font-size="10">Zhuyuan</text></g>
+<g class="station-label-group" data-station-id="yuntai-road" data-lines="5"><text class="station-label station-label-zh" x="682" y="335" text-anchor="end" font-size="18">云台路</text><text class="station-label station-label-en" x="682" y="349" text-anchor="end" font-size="10">Yuntai Road</text></g>
+<g class="station-label-group" data-station-id="north-software-park" data-lines="17"><text class="station-label station-label-zh" x="1262.8" y="357.2" text-anchor="end" font-size="18">软件园北</text><text class="station-label station-label-en" x="1262.8" y="371.2" text-anchor="end" font-size="10">Software Park North</text></g>
+<g class="station-label-group" data-station-id="zhuyuan-south" data-lines="12"><text class="station-label station-label-zh" x="522.8" y="342.8" text-anchor="end" font-size="18">竹园南</text><text class="station-label station-label-en" x="522.8" y="356.8" text-anchor="end" font-size="10">Zhuyuan South</text></g>
+<g class="station-label-group" data-station-id="jingan-north" data-lines="2"><path class="leader-line" d="M 820 380 L 820 112" /><text class="station-label station-label-zh" x="820" y="122" text-anchor="middle" font-size="18">靖安北</text><text class="station-label station-label-en" x="820" y="136" text-anchor="middle" font-size="10">Jing'an North</text></g>
+<g class="station-label-group" data-station-id="old-academy" data-lines="7"><path class="leader-line" d="M 860 400 L 860 604" /><text class="station-label station-label-zh" x="860" y="614" text-anchor="middle" font-size="18">旧书院</text><text class="station-label station-label-en" x="860" y="628" text-anchor="middle" font-size="10">Old Academy</text></g>
+<g class="station-label-group" data-station-id="old-academy-east" data-lines="7"><path class="leader-line" d="M 900 400 L 1196.4 93.6" /><text class="station-label station-label-zh" x="1196.4" y="103.6" text-anchor="start" font-size="18">书院东</text><text class="station-label station-label-en" x="1196.4" y="117.6" text-anchor="start" font-size="10">Academy East</text></g>
+<g class="station-label-group" data-station-id="north-machine-works" data-lines="9"><text class="station-label station-label-zh" x="220" y="390" text-anchor="middle" font-size="18">北机厂</text><text class="station-label station-label-en" x="220" y="404" text-anchor="middle" font-size="10">North Machine Works</text></g>
+<g class="station-label-group" data-station-id="rolling-stock-works" data-lines="9"><text class="station-label station-label-zh" x="274.5" y="485.5" text-anchor="end" font-size="18">车辆厂</text><text class="station-label station-label-en" x="274.5" y="499.5" text-anchor="end" font-size="10">Rolling Stock Works</text></g>
+<g class="station-label-group" data-station-id="textile-mill-road" data-lines="9"><path class="leader-line" d="M 460 420 L 339.9 530.1" /><text class="station-label station-label-zh" x="339.9" y="540.1" text-anchor="end" font-size="18">纱厂路</text><text class="station-label station-label-en" x="339.9" y="554.1" text-anchor="end" font-size="10">Textile Mill Road</text></g>
+<g class="station-label-group" data-station-id="northwest-freight-yard" data-lines="9,12"><text class="station-label station-label-zh" x="569.6" y="390.4" text-anchor="start" font-size="20">西北货场</text><text class="station-label station-label-en" x="569.6" y="405.4" text-anchor="start" font-size="11">Northwest Freight Yard</text></g>
+<g class="station-label-group" data-station-id="north-gate-bridge" data-lines="4,5"><text class="station-label station-label-zh" x="720" y="478" text-anchor="middle" font-size="20">北门桥</text><text class="station-label station-label-en" x="720" y="493" text-anchor="middle" font-size="11">North Gate Bridge</text></g>
+<g class="station-label-group" data-station-id="lanhai-railway" data-lines="2,4,A"><text class="station-label station-label-zh" x="865.2" y="485.2" text-anchor="start" font-size="20">澜海火车站</text><text class="station-label station-label-en" x="865.2" y="500.2" text-anchor="start" font-size="11">Lanhai Railway Station</text></g>
+<g class="station-label-group" data-station-id="mingde-road" data-lines="4,7"><text class="station-label station-label-zh" x="957.2" y="422.8" text-anchor="start" font-size="20">明德路</text><text class="station-label station-label-en" x="957.2" y="437.8" text-anchor="start" font-size="11">Mingde Road</text></g>
+<g class="station-label-group" data-station-id="beicheng-express" data-lines="14"><path class="leader-line" d="M 840 460 L 930.5 359.5" /><text class="station-label station-label-zh" x="930.5" y="369.5" text-anchor="start" font-size="18">北城快线站</text><text class="station-label station-label-en" x="930.5" y="383.5" text-anchor="start" font-size="10">Beicheng Express Station</text></g>
+<g class="station-label-group" data-station-id="biomedicine-park-north" data-lines="17"><text class="station-label station-label-zh" x="1417.2" y="442.8" text-anchor="start" font-size="18">生物医药园北</text><text class="station-label station-label-en" x="1417.2" y="456.8" text-anchor="start" font-size="10">Biomedicine Park North</text></g>
+<g class="station-label-group" data-station-id="bailu-valley" data-lines="13"><text class="station-label station-label-zh" x="317.2" y="462.8" text-anchor="start" font-size="18">白鹭谷</text><text class="station-label station-label-en" x="317.2" y="476.8" text-anchor="start" font-size="10">Bailu Valley</text></g>
+<g class="station-label-group" data-station-id="tielubang" data-lines="9"><text class="station-label station-label-zh" x="562" y="475" text-anchor="start" font-size="18">铁炉浜</text><text class="station-label station-label-en" x="562" y="489" text-anchor="start" font-size="10">Tielubang</text></g>
+<g class="station-label-group" data-station-id="beimen-street" data-lines="2"><path class="leader-line" d="M 820 500 L 1420 233" /><text class="station-label station-label-zh" x="1420" y="243" text-anchor="middle" font-size="18">北门大街</text><text class="station-label station-label-en" x="1420" y="257" text-anchor="middle" font-size="10">Beimen Street</text></g>
+<g class="station-label-group" data-station-id="donggang-north" data-lines="7"><text class="station-label station-label-zh" x="1817.2" y="517.2" text-anchor="start" font-size="18">东港北</text><text class="station-label station-label-en" x="1817.2" y="531.2" text-anchor="start" font-size="10">Donggang North</text></g>
+<g class="station-label-group" data-station-id="water-tower-street" data-lines="9"><text class="station-label station-label-zh" x="518" y="535" text-anchor="end" font-size="18">水塔街</text><text class="station-label station-label-en" x="518" y="549" text-anchor="end" font-size="10">Water Tower Street</text></g>
+<g class="station-label-group" data-station-id="west-bridge" data-lines="12"><path class="leader-line" d="M 540 540 L 540 212" /><text class="station-label station-label-zh" x="540" y="222" text-anchor="middle" font-size="18">西桥</text><text class="station-label station-label-en" x="540" y="236" text-anchor="middle" font-size="10">Xiqiao</text></g>
+<g class="station-label-group" data-station-id="west-city-wall" data-lines="4"><text class="station-label station-label-zh" x="625" y="533" text-anchor="middle" font-size="18">西城墙</text><text class="station-label station-label-en" x="625" y="547" text-anchor="middle" font-size="10">West City Wall</text></g>
+<g class="station-label-group" data-station-id="beisi-west" data-lines="2,5"><text class="station-label station-label-zh" x="798" y="535" text-anchor="end" font-size="20">北寺西</text><text class="station-label station-label-en" x="798" y="550" text-anchor="end" font-size="11">Beisi West</text></g>
+<g class="station-label-group" data-station-id="mingtang-north" data-lines="7"><path class="leader-line" d="M 1040 540 L 798.2 288.2" /><text class="station-label station-label-zh" x="798.2" y="298.2" text-anchor="end" font-size="18">明堂北</text><text class="station-label station-label-en" x="798.2" y="312.2" text-anchor="end" font-size="10">Mingtang North</text></g>
+<g class="station-label-group" data-station-id="donggang-park" data-lines="7"><path class="leader-line" d="M 1760 540 L 1958 525" /><text class="station-label station-label-zh" x="1958" y="535" text-anchor="start" font-size="18">东港园</text><text class="station-label station-label-en" x="1958" y="549" text-anchor="start" font-size="10">Donggang Park</text></g>
+<g class="station-label-group" data-station-id="beisi" data-lines="2"><path class="leader-line" d="M 820 560 L 890 1045" /><text class="station-label station-label-zh" x="890" y="1055" text-anchor="middle" font-size="18">北寺</text><text class="station-label station-label-en" x="890" y="1069" text-anchor="middle" font-size="10">Beisi Temple</text></g>
+<g class="station-label-group" data-station-id="dongta-temple" data-lines="5"><path class="leader-line" d="M 840 560 L 1420 175" /><text class="station-label station-label-zh" x="1420" y="185" text-anchor="middle" font-size="18">东塔寺</text><text class="station-label station-label-en" x="1420" y="199" text-anchor="middle" font-size="10">Dongta Temple</text></g>
+<g class="station-label-group" data-station-id="civic-center" data-lines="5,7"><text class="station-label station-label-zh" x="1018" y="555" text-anchor="end" font-size="20">市民中心</text><text class="station-label station-label-en" x="1018" y="570" text-anchor="end" font-size="11">Civic Center</text></g>
+<g class="station-label-group" data-station-id="xishan-intercity" data-lines="13"><text class="station-label station-label-zh" x="382.8" y="597.2" text-anchor="end" font-size="18">西山城际站</text><text class="station-label station-label-en" x="382.8" y="611.2" text-anchor="end" font-size="10">Xishan Intercity Station</text></g>
+<g class="station-label-group" data-station-id="software-park-east" data-lines="17"><text class="station-label station-label-zh" x="1565.2" y="534.8" text-anchor="start" font-size="18">软件园东</text><text class="station-label station-label-en" x="1565.2" y="548.8" text-anchor="start" font-size="10">Software Park East</text></g>
+<g class="station-label-group" data-station-id="software-park" data-lines="7"><path class="leader-line" d="M 1600 580 L 1600 252" /><text class="station-label station-label-zh" x="1600" y="262" text-anchor="middle" font-size="18">软件园</text><text class="station-label station-label-en" x="1600" y="276" text-anchor="middle" font-size="10">Software Park</text></g>
+<g class="station-label-group" data-station-id="songlinbang" data-lines="7"><path class="leader-line" d="M 1660 580 L 1660 182" /><text class="station-label station-label-zh" x="1660" y="192" text-anchor="middle" font-size="18">松林浜</text><text class="station-label station-label-en" x="1660" y="206" text-anchor="middle" font-size="10">Songlinbang</text></g>
+<g class="station-label-group" data-station-id="biomedicine-park" data-lines="7"><text class="station-label station-label-zh" x="1737.2" y="597.2" text-anchor="start" font-size="18">生物医药园</text><text class="station-label station-label-en" x="1737.2" y="611.2" text-anchor="start" font-size="10">Biomedicine Park</text></g>
+<g class="station-label-group" data-station-id="jiucangshan" data-lines="9"><text class="station-label station-label-zh" x="518" y="595" text-anchor="end" font-size="18">旧仓山</text><text class="station-label station-label-en" x="518" y="609" text-anchor="end" font-size="10">Jiucangshan</text></g>
+<g class="station-label-group" data-station-id="jinsha-bay" data-lines="1"><text class="station-label station-label-zh" x="154.5" y="594.5" text-anchor="end" font-size="18">金沙湾</text><text class="station-label station-label-en" x="154.5" y="608.5" text-anchor="end" font-size="10">Jinsha Bay</text></g>
+<g class="station-label-group" data-station-id="shahe-west" data-lines="1"><path class="leader-line" d="M 260 660 L 105.6 804.4" /><text class="station-label station-label-zh" x="105.6" y="814.4" text-anchor="end" font-size="18">沙河西</text><text class="station-label station-label-en" x="105.6" y="828.4" text-anchor="end" font-size="10">Shahe West</text></g>
+<g class="station-label-group" data-station-id="changqiao-west" data-lines="1"><text class="station-label station-label-zh" x="254.8" y="705.2" text-anchor="end" font-size="18">长桥西</text><text class="station-label station-label-en" x="254.8" y="719.2" text-anchor="end" font-size="10">Changqiao West</text></g>
+<g class="station-label-group" data-station-id="yintang" data-lines="1"><path class="leader-line" d="M 380 660 L 138.2 408.2" /><text class="station-label station-label-zh" x="138.2" y="418.2" text-anchor="end" font-size="18">银塘</text><text class="station-label station-label-en" x="138.2" y="432.2" text-anchor="end" font-size="10">Yintang</text></g>
+<g class="station-label-group" data-station-id="yintang-east" data-lines="1"><path class="leader-line" d="M 420 660 L 123.6 353.6" /><text class="station-label station-label-zh" x="123.6" y="363.6" text-anchor="end" font-size="18">银塘东</text><text class="station-label station-label-en" x="123.6" y="377.6" text-anchor="end" font-size="10">Yintang East</text></g>
+<g class="station-label-group" data-station-id="xishikou" data-lines="1"><path class="leader-line" d="M 460 660 L 360 1393" /><text class="station-label station-label-zh" x="360" y="1403" text-anchor="middle" font-size="18">西市口</text><text class="station-label station-label-en" x="360" y="1417" text-anchor="middle" font-size="10">Xishikou</text></g>
+<g class="station-label-group" data-station-id="xishan-new-town" data-lines="13"><path class="leader-line" d="M 480 660 L 285.0 845.0" /><text class="station-label station-label-zh" x="285.0" y="855.0" text-anchor="end" font-size="18">西山新城</text><text class="station-label station-label-en" x="285.0" y="869.0" text-anchor="end" font-size="10">Xishan New Town</text></g>
+<g class="station-label-group" data-station-id="jichang-park" data-lines="1,9"><text class="station-label station-label-zh" x="540" y="714" text-anchor="middle" font-size="20">机厂公园</text><text class="station-label station-label-en" x="540" y="729" text-anchor="middle" font-size="11">Machine Works Park</text></g>
+<g class="station-label-group" data-station-id="xishikou-south" data-lines="12"><path class="leader-line" d="M 540 660 L 160 645" /><text class="station-label station-label-zh" x="160" y="655" text-anchor="end" font-size="18">西市口南</text><text class="station-label station-label-en" x="160" y="669" text-anchor="end" font-size="10">Xishikou South</text></g>
+<g class="station-label-group" data-station-id="ximen" data-lines="1,4,9"><text class="station-label station-label-zh" x="620" y="630" text-anchor="middle" font-size="20">西门</text><text class="station-label station-label-en" x="620" y="645" text-anchor="middle" font-size="11">West Gate</text></g>
+<g class="station-label-group" data-station-id="gulou" data-lines="1,9"><text class="station-label station-label-zh" x="700" y="698" text-anchor="middle" font-size="20">鼓楼</text><text class="station-label station-label-en" x="700" y="713" text-anchor="middle" font-size="11">Gulou</text></g>
+<g class="station-label-group" data-station-id="chenghuang-temple" data-lines="1"><path class="leader-line" d="M 760 660 L 890 1161" /><text class="station-label station-label-zh" x="890" y="1171" text-anchor="middle" font-size="18">城隍庙</text><text class="station-label station-label-en" x="890" y="1185" text-anchor="middle" font-size="10">Chenghuang Temple</text></g>
+<g class="station-label-group" data-station-id="people-square" data-lines="1,2,9,13"><text class="station-label station-label-zh" x="820" y="714" text-anchor="middle" font-size="20">人民广场</text><text class="station-label station-label-en" x="820" y="729" text-anchor="middle" font-size="11">People's Square</text></g>
+<g class="station-label-group" data-station-id="yongning-gate" data-lines="1,9"><path class="leader-line" d="M 940 660 L 1135.0 455.0" /><text class="station-label station-label-zh" x="1135.0" y="465.0" text-anchor="start" font-size="20">永宁门</text><text class="station-label station-label-en" x="1135.0" y="480.0" text-anchor="start" font-size="11">Yongning Gate</text></g>
+<g class="station-label-group" data-station-id="mingtang-west" data-lines="13"><path class="leader-line" d="M 1020 660 L 1261.8 408.2" /><text class="station-label station-label-zh" x="1261.8" y="418.2" text-anchor="start" font-size="18">明堂西</text><text class="station-label station-label-en" x="1261.8" y="432.2" text-anchor="start" font-size="10">Mingtang West</text></g>
+<g class="station-label-group" data-station-id="central-business-district" data-lines="1,7,14,A"><text class="station-label station-label-zh" x="1040" y="614" text-anchor="middle" font-size="20">中央商务区</text><text class="station-label station-label-en" x="1040" y="629" text-anchor="middle" font-size="11">Central Business District</text></g>
+<g class="station-label-group" data-station-id="mingtang-east" data-lines="1"><path class="leader-line" d="M 1100 660 L 1155 1393" /><text class="station-label station-label-zh" x="1155" y="1403" text-anchor="middle" font-size="18">明堂东</text><text class="station-label station-label-en" x="1155" y="1417" text-anchor="middle" font-size="10">Mingtang East</text></g>
+<g class="station-label-group" data-station-id="mingtang-square" data-lines="5"><path class="leader-line" d="M 1140 660 L 1140 262" /><text class="station-label station-label-zh" x="1140" y="272" text-anchor="middle" font-size="18">明堂广场</text><text class="station-label station-label-en" x="1140" y="286" text-anchor="middle" font-size="10">Mingtang Square</text></g>
+<g class="station-label-group" data-station-id="bowuguan" data-lines="1,4,7"><path class="leader-line" d="M 1160 660 L 1160 526" /><text class="station-label station-label-zh" x="1160" y="536" text-anchor="middle" font-size="20">博物馆</text><text class="station-label station-label-en" x="1160" y="551" text-anchor="middle" font-size="11">Museum</text></g>
+<g class="station-label-group" data-station-id="financial-street" data-lines="1,5,13"><text class="station-label station-label-zh" x="1240" y="614" text-anchor="middle" font-size="20">金融街</text><text class="station-label station-label-en" x="1240" y="629" text-anchor="middle" font-size="11">Financial Street</text></g>
+<g class="station-label-group" data-station-id="donghu-west" data-lines="7"><path class="leader-line" d="M 1280 660 L 1280 262" /><text class="station-label station-label-zh" x="1280" y="272" text-anchor="middle" font-size="18">东湖西</text><text class="station-label station-label-en" x="1280" y="286" text-anchor="middle" font-size="10">Donghu West</text></g>
+<g class="station-label-group" data-station-id="qinghe" data-lines="1,7"><path class="leader-line" d="M 1340 660 L 1340 526" /><text class="station-label station-label-zh" x="1340" y="536" text-anchor="middle" font-size="20">青禾</text><text class="station-label station-label-en" x="1340" y="551" text-anchor="middle" font-size="11">Qinghe</text></g>
+<g class="station-label-group" data-station-id="donghu-road" data-lines="1,7"><path class="leader-line" d="M 1440 660 L 1440 526" /><text class="station-label station-label-zh" x="1440" y="536" text-anchor="middle" font-size="20">东湖路</text><text class="station-label station-label-en" x="1440" y="551" text-anchor="middle" font-size="11">Donghu Road</text></g>
+<g class="station-label-group" data-station-id="technology-city" data-lines="1,7,14"><text class="station-label station-label-zh" x="1474.8" y="614.8" text-anchor="end" font-size="20">科技城</text><text class="station-label station-label-en" x="1474.8" y="629.8" text-anchor="end" font-size="11">Technology City</text></g>
+<g class="station-label-group" data-station-id="convention-north" data-lines="1"><text class="station-label station-label-zh" x="1685.2" y="705.2" text-anchor="start" font-size="18">会展北</text><text class="station-label station-label-en" x="1685.2" y="719.2" text-anchor="start" font-size="10">Convention Center North</text></g>
+<g class="station-label-group" data-station-id="lanhai-east-railway" data-lines="1,13,14"><path class="leader-line" d="M 1740 660 L 1740 444" /><text class="station-label station-label-zh" x="1740" y="454" text-anchor="middle" font-size="20">澜海东站</text><text class="station-label station-label-en" x="1740" y="469" text-anchor="middle" font-size="11">Lanhai East Railway Station</text></g>
+<g class="station-label-group" data-station-id="songgang" data-lines="1"><text class="station-label station-label-zh" x="1877.2" y="642.8" text-anchor="start" font-size="18">松港</text><text class="station-label station-label-en" x="1877.2" y="656.8" text-anchor="start" font-size="10">Songgang</text></g>
+<g class="station-label-group" data-station-id="haizhou-west" data-lines="1"><path class="leader-line" d="M 1980 660 L 1980 444" /><text class="station-label station-label-zh" x="1980" y="454" text-anchor="middle" font-size="18">海洲西</text><text class="station-label station-label-en" x="1980" y="468" text-anchor="middle" font-size="10">Haizhou West</text></g>
+<g class="station-label-group" data-station-id="haizhou-north" data-lines="1"><text class="station-label station-label-zh" x="2100" y="630" text-anchor="middle" font-size="18">海洲北</text><text class="station-label station-label-en" x="2100" y="644" text-anchor="middle" font-size="10">Haizhou North</text></g>
+<g class="station-label-group" data-station-id="xijiang-yard" data-lines="3"><text class="station-label station-label-zh" x="402.8" y="777.2" text-anchor="end" font-size="18">西江货场</text><text class="station-label station-label-en" x="402.8" y="791.2" text-anchor="end" font-size="10">Xijiang Freight Yard</text></g>
+<g class="station-label-group" data-station-id="xicang" data-lines="3"><path class="leader-line" d="M 500 760 L 345.6 904.4" /><text class="station-label station-label-zh" x="345.6" y="914.4" text-anchor="end" font-size="18">西仓</text><text class="station-label station-label-en" x="345.6" y="928.4" text-anchor="end" font-size="10">Xicang Warehouse</text></g>
+<g class="station-label-group" data-station-id="cangqian-ferry" data-lines="3,12"><text class="station-label station-label-zh" x="585.2" y="805.2" text-anchor="start" font-size="20">仓前渡</text><text class="station-label station-label-en" x="585.2" y="820.2" text-anchor="start" font-size="11">Cangqian Ferry</text></g>
+<g class="station-label-group" data-station-id="old-wharf" data-lines="3"><path class="leader-line" d="M 580 760 L 625 1393" /><text class="station-label station-label-zh" x="625" y="1403" text-anchor="middle" font-size="18">老码头</text><text class="station-label station-label-en" x="625" y="1417" text-anchor="middle" font-size="10">Old Wharf</text></g>
+<g class="station-label-group" data-station-id="xiguan-ferry" data-lines="3,4"><path class="leader-line" d="M 620 760 L 465.6 904.4" /><text class="station-label station-label-zh" x="465.6" y="914.4" text-anchor="end" font-size="20">西关渡</text><text class="station-label station-label-en" x="465.6" y="929.4" text-anchor="end" font-size="11">Xiguan Ferry</text></g>
+<g class="station-label-group" data-station-id="shisanhang-street" data-lines="3"><path class="leader-line" d="M 660 760 L 363.6 1046.4" /><text class="station-label station-label-zh" x="363.6" y="1056.4" text-anchor="end" font-size="18">十三行街</text><text class="station-label station-label-en" x="363.6" y="1070.4" text-anchor="end" font-size="10">Shisanhang Street</text></g>
+<g class="station-label-group" data-station-id="guangji-bridge" data-lines="3,4"><path class="leader-line" d="M 740 760 L 740 588" /><text class="station-label station-label-zh" x="740" y="598" text-anchor="middle" font-size="20">广济桥</text><text class="station-label station-label-en" x="740" y="613" text-anchor="middle" font-size="11">Guangji Bridge</text></g>
+<g class="station-label-group" data-station-id="luzhou-west" data-lines="2,3,6"><path class="leader-line" d="M 820 760 L 820 964" /><text class="station-label station-label-zh" x="820" y="974" text-anchor="middle" font-size="20">鹭洲西</text><text class="station-label station-label-en" x="820" y="989" text-anchor="middle" font-size="11">Luzhou West</text></g>
+<g class="station-label-group" data-station-id="luzhou-park" data-lines="3,6"><text class="station-label station-label-zh" x="920" y="798" text-anchor="middle" font-size="20">鹭洲公园</text><text class="station-label station-label-en" x="920" y="813" text-anchor="middle" font-size="11">Luzhou Park</text></g>
+<g class="station-label-group" data-station-id="luzhou-east" data-lines="3,6"><text class="station-label station-label-zh" x="1040" y="814" text-anchor="middle" font-size="20">鹭洲东</text><text class="station-label station-label-en" x="1040" y="829" text-anchor="middle" font-size="11">Luzhou East</text></g>
+<g class="station-label-group" data-station-id="bank-street" data-lines="3,6"><path class="leader-line" d="M 1100 760 L 1295.0 945.0" /><text class="station-label station-label-zh" x="1295.0" y="955.0" text-anchor="start" font-size="20">银行街</text><text class="station-label station-label-en" x="1295.0" y="970.0" text-anchor="start" font-size="11">Bank Street</text></g>
+<g class="station-label-group" data-station-id="dongping-wharf" data-lines="3,4,5"><text class="station-label station-label-zh" x="1205.2" y="714.8" text-anchor="start" font-size="20">东平码头</text><text class="station-label station-label-en" x="1205.2" y="729.8" text-anchor="start" font-size="11">Dongping Wharf</text></g>
+<g class="station-label-group" data-station-id="finance-riverside" data-lines="5"><path class="leader-line" d="M 1240 760 L 1420 349" /><text class="station-label station-label-zh" x="1420" y="359" text-anchor="middle" font-size="18">金融街南</text><text class="station-label station-label-en" x="1420" y="373" text-anchor="middle" font-size="10">Financial Street South</text></g>
+<g class="station-label-group" data-station-id="jiangwan-center" data-lines="3"><path class="leader-line" d="M 1280 760 L 1420 291" /><text class="station-label station-label-zh" x="1420" y="301" text-anchor="middle" font-size="18">江湾中心</text><text class="station-label station-label-en" x="1420" y="315" text-anchor="middle" font-size="10">Jiangwan Center</text></g>
+<g class="station-label-group" data-station-id="grand-theater" data-lines="3"><path class="leader-line" d="M 1400 760 L 1950 581" /><text class="station-label station-label-zh" x="1950" y="591" text-anchor="middle" font-size="18">大剧院</text><text class="station-label station-label-en" x="1950" y="605" text-anchor="middle" font-size="10">Grand Theater</text></g>
+<g class="station-label-group" data-station-id="expo-east-gate" data-lines="10"><path class="leader-line" d="M 1500 760 L 1685 349" /><text class="station-label station-label-zh" x="1685" y="359" text-anchor="middle" font-size="18">会展东门</text><text class="station-label station-label-en" x="1685" y="373" text-anchor="middle" font-size="10">Convention East Gate</text></g>
+<g class="station-label-group" data-station-id="international-convention-center" data-lines="3,11,17"><text class="station-label station-label-zh" x="1520" y="714" text-anchor="middle" font-size="20">国际会展中心</text><text class="station-label station-label-en" x="1520" y="729" text-anchor="middle" font-size="11">International Convention Center</text></g>
+<g class="station-label-group" data-station-id="xinqiao" data-lines="3,11"><text class="station-label station-label-zh" x="1640" y="798" text-anchor="middle" font-size="20">新桥</text><text class="station-label station-label-en" x="1640" y="813" text-anchor="middle" font-size="11">Xinqiao</text></g>
+<g class="station-label-group" data-station-id="east-bay" data-lines="3"><text class="station-label station-label-zh" x="1782" y="755" text-anchor="start" font-size="18">东湾</text><text class="station-label station-label-en" x="1782" y="769" text-anchor="start" font-size="10">Dongwan</text></g>
+<g class="station-label-group" data-station-id="haizhou-ferry" data-lines="3"><path class="leader-line" d="M 1880 760 L 2075.0 555.0" /><text class="station-label station-label-zh" x="2075.0" y="565.0" text-anchor="start" font-size="18">海洲渡</text><text class="station-label station-label-en" x="2075.0" y="579.0" text-anchor="start" font-size="10">Haizhou Ferry</text></g>
+<g class="station-label-group" data-station-id="haizhou-island" data-lines="3"><text class="station-label station-label-zh" x="2000" y="730" text-anchor="middle" font-size="18">海洲岛</text><text class="station-label station-label-en" x="2000" y="744" text-anchor="middle" font-size="10">Haizhou Island</text></g>
+<g class="station-label-group" data-station-id="xicang-south" data-lines="12"><path class="leader-line" d="M 540 780 L 230 765" /><text class="station-label station-label-zh" x="230" y="775" text-anchor="end" font-size="18">西仓南</text><text class="station-label station-label-en" x="230" y="789" text-anchor="end" font-size="10">Xicang South</text></g>
+<g class="station-label-group" data-station-id="luzhou-approach" data-lines="6"><path class="leader-line" d="M 820 780 L 360 697" /><text class="station-label station-label-zh" x="360" y="707" text-anchor="middle" font-size="18">鹭洲引桥</text><text class="station-label station-label-en" x="360" y="721" text-anchor="middle" font-size="10">Luzhou Approach Bridge</text></g>
+<g class="station-label-group" data-station-id="expo-riverside" data-lines="10"><path class="leader-line" d="M 1480 780 L 1420 1219" /><text class="station-label station-label-zh" x="1420" y="1229" text-anchor="middle" font-size="18">会展滨江</text><text class="station-label station-label-en" x="1420" y="1243" text-anchor="middle" font-size="10">Convention Riverside</text></g>
+<g class="station-label-group" data-station-id="haizhou-east" data-lines="3"><path class="leader-line" d="M 2040 800 L 2194.4 635.6" /><text class="station-label station-label-zh" x="2194.4" y="645.6" text-anchor="start" font-size="18">海洲东</text><text class="station-label station-label-en" x="2194.4" y="659.6" text-anchor="start" font-size="10">Haizhou East</text></g>
+<g class="station-label-group" data-station-id="jiangwan-finance-harbor" data-lines="A"><text class="station-label station-label-zh" x="1217.2" y="802.8" text-anchor="start" font-size="18">江湾金融港</text><text class="station-label station-label-en" x="1217.2" y="816.8" text-anchor="start" font-size="10">Jiangwan Finance Harbor</text></g>
+<g class="station-label-group" data-station-id="east-bank-bridge" data-lines="10"><text class="station-label station-label-zh" x="1457.2" y="837.2" text-anchor="start" font-size="18">东岸桥</text><text class="station-label station-label-en" x="1457.2" y="851.2" text-anchor="start" font-size="10">East Bank Bridge</text></g>
+<g class="station-label-group" data-station-id="liantang-north" data-lines="12"><path class="leader-line" d="M 480 840 L 183.6 533.6" /><text class="station-label station-label-zh" x="183.6" y="543.6" text-anchor="end" font-size="18">莲塘北</text><text class="station-label station-label-en" x="183.6" y="557.6" text-anchor="end" font-size="10">Liantang North</text></g>
+<g class="station-label-group" data-station-id="jiangnan-gate-south" data-lines="6"><text class="station-label station-label-zh" x="760" y="914" text-anchor="middle" font-size="18">江南门南</text><text class="station-label station-label-en" x="760" y="928" text-anchor="middle" font-size="10">Jiangnan Gate South</text></g>
+<g class="station-label-group" data-station-id="baymouth-cruise-terminal" data-lines="3"><text class="station-label station-label-zh" x="2097.2" y="822.8" text-anchor="start" font-size="18">湾口客运码头</text><text class="station-label station-label-en" x="2097.2" y="836.8" text-anchor="start" font-size="10">Baymouth Passenger Pier</text></g>
+<g class="station-label-group" data-station-id="nanxi-town" data-lines="10"><text class="station-label station-label-zh" x="360" y="830" text-anchor="middle" font-size="18">南溪镇</text><text class="station-label station-label-en" x="360" y="844" text-anchor="middle" font-size="10">Nanxi Town</text></g>
+<g class="station-label-group" data-station-id="liantang" data-lines="10,12"><text class="station-label station-label-zh" x="502" y="855" text-anchor="start" font-size="20">莲塘</text><text class="station-label station-label-en" x="502" y="870" text-anchor="start" font-size="11">Liantang</text></g>
+<g class="station-label-group" data-station-id="jiangwan-west" data-lines="10"><path class="leader-line" d="M 600 860 L 92 929" /><text class="station-label station-label-zh" x="92" y="939" text-anchor="start" font-size="18">江湾西</text><text class="station-label station-label-en" x="92" y="953" text-anchor="start" font-size="10">Jiangwan West</text></g>
+<g class="station-label-group" data-station-id="jiangnan-university-hospital" data-lines="4,6,10"><path class="leader-line" d="M 740 860 L 894.4 695.6" /><text class="station-label station-label-zh" x="894.4" y="705.6" text-anchor="start" font-size="20">江南大学医院</text><text class="station-label station-label-en" x="894.4" y="720.6" text-anchor="start" font-size="11">Jiangnan University Hospital</text></g>
+<g class="station-label-group" data-station-id="jiangnan-gate" data-lines="2"><path class="leader-line" d="M 820 860 L 890 1451" /><text class="station-label station-label-zh" x="890" y="1461" text-anchor="middle" font-size="18">江南门</text><text class="station-label station-label-en" x="890" y="1475" text-anchor="middle" font-size="10">Jiangnan Gate</text></g>
+<g class="station-label-group" data-station-id="binjiang-park-west" data-lines="10"><text class="station-label station-label-zh" x="885.2" y="905.2" text-anchor="start" font-size="18">滨江公园西</text><text class="station-label station-label-en" x="885.2" y="919.2" text-anchor="start" font-size="10">Binjiang Park West</text></g>
+<g class="station-label-group" data-station-id="south-bank-cultural-axis" data-lines="10"><path class="leader-line" d="M 960 860 L 625 1219" /><text class="station-label station-label-zh" x="625" y="1229" text-anchor="middle" font-size="18">南岸文化轴</text><text class="station-label station-label-en" x="625" y="1243" text-anchor="middle" font-size="10">South Bank Cultural Axis</text></g>
+<g class="station-label-group" data-station-id="media-center" data-lines="10"><path class="leader-line" d="M 1080 860 L 1155 1509" /><text class="station-label station-label-zh" x="1155" y="1519" text-anchor="middle" font-size="18">传媒中心</text><text class="station-label station-label-en" x="1155" y="1533" text-anchor="middle" font-size="10">Media Center</text></g>
+<g class="station-label-group" data-station-id="finance-city-west" data-lines="10"><path class="leader-line" d="M 1120 860 L 890 1219" /><text class="station-label station-label-zh" x="890" y="1229" text-anchor="middle" font-size="18">金融城西</text><text class="station-label station-label-en" x="890" y="1243" text-anchor="middle" font-size="10">Finance City West</text></g>
+<g class="station-label-group" data-station-id="south-bank-finance-city" data-lines="4,5,10"><text class="station-label station-label-zh" x="1160" y="914" text-anchor="middle" font-size="20">南岸金融城</text><text class="station-label station-label-en" x="1160" y="929" text-anchor="middle" font-size="11">South Bank Finance City</text></g>
+<g class="station-label-group" data-station-id="convention-west" data-lines="10"><path class="leader-line" d="M 1280 860 L 1400.1 970.1" /><text class="station-label station-label-zh" x="1400.1" y="980.1" text-anchor="start" font-size="18">会展西</text><text class="station-label station-label-en" x="1400.1" y="994.1" text-anchor="start" font-size="10">Convention Center West</text></g>
+<g class="station-label-group" data-station-id="convention-south" data-lines="10"><text class="station-label station-label-zh" x="1400" y="898" text-anchor="middle" font-size="18">会展南</text><text class="station-label station-label-en" x="1400" y="912" text-anchor="middle" font-size="10">Convention Center South</text></g>
+<g class="station-label-group" data-station-id="dongwan-south" data-lines="11"><path class="leader-line" d="M 1760 880 L 2260 697" /><text class="station-label station-label-zh" x="2260" y="707" text-anchor="end" font-size="18">东湾南</text><text class="station-label station-label-en" x="2260" y="721" text-anchor="end" font-size="10">Dongwan South</text></g>
+<g class="station-label-group" data-station-id="jiangnan-east" data-lines="2"><path class="leader-line" d="M 860 900 L 625 1451" /><text class="station-label station-label-zh" x="625" y="1461" text-anchor="middle" font-size="18">江南东</text><text class="station-label station-label-en" x="625" y="1475" text-anchor="middle" font-size="10">Jiangnan East</text></g>
+<g class="station-label-group" data-station-id="expo-south" data-lines="17"><text class="station-label station-label-zh" x="1542" y="895" text-anchor="start" font-size="18">会展南二路</text><text class="station-label station-label-en" x="1542" y="909" text-anchor="start" font-size="10">Expo South 2nd Road</text></g>
+<g class="station-label-group" data-station-id="linkong-north" data-lines="14"><path class="leader-line" d="M 1740 900 L 2260 465" /><text class="station-label station-label-zh" x="2260" y="475" text-anchor="end" font-size="18">临空北</text><text class="station-label station-label-en" x="2260" y="489" text-anchor="end" font-size="10">Linkong North</text></g>
+<g class="station-label-group" data-station-id="university-north" data-lines="12"><text class="station-label station-label-zh" x="560" y="910" text-anchor="middle" font-size="18">大学城北</text><text class="station-label station-label-en" x="560" y="924" text-anchor="middle" font-size="10">University Town North</text></g>
+<g class="station-label-group" data-station-id="xuefu-north" data-lines="6"><path class="leader-line" d="M 660 940 L 92 1045" /><text class="station-label station-label-zh" x="92" y="1055" text-anchor="start" font-size="18">学府北</text><text class="station-label station-label-en" x="92" y="1069" text-anchor="start" font-size="10">Xuefu North</text></g>
+<g class="station-label-group" data-station-id="south-bank-cultural-center" data-lines="2"><path class="leader-line" d="M 920 960 L 725.0 1145.0" /><text class="station-label station-label-zh" x="725.0" y="1155.0" text-anchor="end" font-size="18">南岸文化中心</text><text class="station-label station-label-en" x="725.0" y="1169.0" text-anchor="end" font-size="10">South Bank Cultural Center</text></g>
+<g class="station-label-group" data-station-id="media-harbor" data-lines="4"><text class="station-label station-label-zh" x="1038" y="955" text-anchor="end" font-size="18">传媒港</text><text class="station-label station-label-en" x="1038" y="969" text-anchor="end" font-size="10">Media Harbor</text></g>
+<g class="station-label-group" data-station-id="changdi" data-lines="4"><text class="station-label station-label-zh" x="722.8" y="997.2" text-anchor="end" font-size="18">长堤</text><text class="station-label station-label-en" x="722.8" y="1011.2" text-anchor="end" font-size="10">Changdi</text></g>
+<g class="station-label-group" data-station-id="nanjiang-south-gate" data-lines="5"><path class="leader-line" d="M 1160 980 L 1314.4 1124.4" /><text class="station-label station-label-zh" x="1314.4" y="1134.4" text-anchor="start" font-size="18">南江南门</text><text class="station-label station-label-en" x="1314.4" y="1148.4" text-anchor="start" font-size="10">Nanjiang South Gate</text></g>
+<g class="station-label-group" data-station-id="shuyuan-road" data-lines="6,12"><text class="station-label station-label-zh" x="588" y="985" text-anchor="end" font-size="20">书院路</text><text class="station-label station-label-en" x="588" y="1000" text-anchor="end" font-size="11">Shuyuan Road</text></g>
+<g class="station-label-group" data-station-id="bonded-logistics-park" data-lines="11"><path class="leader-line" d="M 1880 1000 L 1880 866" /><text class="station-label station-label-zh" x="1880" y="876" text-anchor="middle" font-size="18">保税物流园</text><text class="station-label station-label-en" x="1880" y="890" text-anchor="middle" font-size="10">Bonded Logistics Park</text></g>
+<g class="station-label-group" data-station-id="xuefu-road" data-lines="12"><text class="station-label station-label-zh" x="685.2" y="1065.2" text-anchor="start" font-size="18">学府路</text><text class="station-label station-label-en" x="685.2" y="1079.2" text-anchor="start" font-size="10">Xuefu Road</text></g>
+<g class="station-label-group" data-station-id="south-station-west" data-lines="5"><text class="station-label station-label-zh" x="1178" y="1015" text-anchor="start" font-size="18">南站西</text><text class="station-label station-label-en" x="1178" y="1029" text-anchor="start" font-size="10">South Railway Station West</text></g>
+<g class="station-label-group" data-station-id="airport-express-south" data-lines="A"><path class="leader-line" d="M 1400 1020 L 1103.6 1306.4" /><text class="station-label station-label-zh" x="1103.6" y="1316.4" text-anchor="end" font-size="18">机场快线南站</text><text class="station-label station-label-en" x="1103.6" y="1330.4" text-anchor="end" font-size="10">Airport Express South Station</text></g>
+<g class="station-label-group" data-station-id="haiyan-north" data-lines="17"><path class="leader-line" d="M 1520 1020 L 890 1509" /><text class="station-label station-label-zh" x="890" y="1519" text-anchor="middle" font-size="18">海晏北</text><text class="station-label station-label-en" x="890" y="1533" text-anchor="middle" font-size="10">Haiyan North</text></g>
+<g class="station-label-group" data-station-id="airport-north" data-lines="A,17"><text class="station-label station-label-zh" x="1660" y="990" text-anchor="middle" font-size="20">机场北</text><text class="station-label station-label-en" x="1660" y="1005" text-anchor="middle" font-size="11">Airport North</text></g>
+<g class="station-label-group" data-station-id="jiangnan-fang" data-lines="2,4"><path class="leader-line" d="M 990 1030 L 899.5 1110.5" /><text class="station-label station-label-zh" x="899.5" y="1120.5" text-anchor="end" font-size="20">江南坊</text><text class="station-label station-label-en" x="899.5" y="1135.5" text-anchor="end" font-size="11">Jiangnan Fang</text></g>
+<g class="station-label-group" data-station-id="qingyan-village" data-lines="6B"><path class="leader-line" d="M 400 1040 L 279.9 1150.1" /><text class="station-label station-label-zh" x="279.9" y="1160.1" text-anchor="end" font-size="18">青砚村</text><text class="station-label station-label-en" x="279.9" y="1174.1" text-anchor="end" font-size="10">Qingyan Village</text></g>
+<g class="station-label-group" data-station-id="qingxi-research-park" data-lines="6B"><text class="station-label station-label-zh" x="434.8" y="994.8" text-anchor="end" font-size="18">清溪科研园</text><text class="station-label station-label-en" x="434.8" y="1008.8" text-anchor="end" font-size="10">Qingxi Research Park</text></g>
+<g class="station-label-group" data-station-id="qingxi-library" data-lines="6B"><path class="leader-line" d="M 520 1040 L 520 1356" /><text class="station-label station-label-zh" x="520" y="1366" text-anchor="middle" font-size="18">清溪图书馆</text><text class="station-label station-label-en" x="520" y="1380" text-anchor="middle" font-size="10">Qingxi Library</text></g>
+<g class="station-label-group" data-station-id="yuhu" data-lines="6,6B"><text class="station-label station-label-zh" x="589.6" y="1069.6" text-anchor="start" font-size="20">玉湖</text><text class="station-label station-label-en" x="589.6" y="1084.6" text-anchor="start" font-size="11">Yuhu Lake</text></g>
+<g class="station-label-group" data-station-id="south-market" data-lines="4"><path class="leader-line" d="M 820 1060 L 578.2 1291.8" /><text class="station-label station-label-zh" x="578.2" y="1301.8" text-anchor="end" font-size="18">南市</text><text class="station-label station-label-en" x="578.2" y="1315.8" text-anchor="end" font-size="10">Nanshi</text></g>
+<g class="station-label-group" data-station-id="jiangnan-market" data-lines="4"><path class="leader-line" d="M 960 1060 L 960 1376" /><text class="station-label station-label-zh" x="960" y="1386" text-anchor="middle" font-size="18">江南市场</text><text class="station-label station-label-en" x="960" y="1400" text-anchor="middle" font-size="10">Jiangnan Market</text></g>
+<g class="station-label-group" data-station-id="south-bank-civic-center" data-lines="2"><path class="leader-line" d="M 1020 1060 L 778.2 1291.8" /><text class="station-label station-label-zh" x="778.2" y="1301.8" text-anchor="end" font-size="18">南岸行政中心</text><text class="station-label station-label-en" x="778.2" y="1315.8" text-anchor="end" font-size="10">South Bank Civic Center</text></g>
+<g class="station-label-group" data-station-id="lanhai-south-railway" data-lines="2,5,8"><text class="station-label station-label-zh" x="1120" y="1114" text-anchor="middle" font-size="20">澜海南站</text><text class="station-label station-label-en" x="1120" y="1129" text-anchor="middle" font-size="11">Lanhai South Railway Station</text></g>
+<g class="station-label-group" data-station-id="biyun-road" data-lines="8"><path class="leader-line" d="M 1240 1060 L 92 1509" /><text class="station-label station-label-zh" x="92" y="1519" text-anchor="start" font-size="18">碧云路</text><text class="station-label station-label-en" x="92" y="1533" text-anchor="start" font-size="10">Biyun Road</text></g>
+<g class="station-label-group" data-station-id="binjiang-park" data-lines="5"><path class="leader-line" d="M 1260 1060 L 1155 1451" /><text class="station-label station-label-zh" x="1155" y="1461" text-anchor="middle" font-size="18">滨江公园</text><text class="station-label station-label-en" x="1155" y="1475" text-anchor="middle" font-size="10">Binjiang Park</text></g>
+<g class="station-label-group" data-station-id="haiyan-west" data-lines="5"><path class="leader-line" d="M 1360 1060 L 625 1509" /><text class="station-label station-label-zh" x="625" y="1519" text-anchor="middle" font-size="18">海晏西</text><text class="station-label station-label-en" x="625" y="1533" text-anchor="middle" font-size="10">Haiyan West</text></g>
+<g class="station-label-group" data-station-id="nanhu" data-lines="8"><path class="leader-line" d="M 1360 1060 L 92 291" /><text class="station-label station-label-zh" x="92" y="301" text-anchor="start" font-size="18">南湖</text><text class="station-label station-label-en" x="92" y="315" text-anchor="start" font-size="10">Nanhu Lake</text></g>
+<g class="station-label-group" data-station-id="nanhu-east" data-lines="8"><path class="leader-line" d="M 1420 1060 L 1178.2 808.2" /><text class="station-label station-label-zh" x="1178.2" y="818.2" text-anchor="end" font-size="18">南湖东</text><text class="station-label station-label-en" x="1178.2" y="832.2" text-anchor="end" font-size="10">Nanhu East</text></g>
+<g class="station-label-group" data-station-id="haiyan-bay" data-lines="8,8B,12"><text class="station-label station-label-zh" x="1538" y="1055" text-anchor="start" font-size="20">海晏湾</text><text class="station-label station-label-en" x="1538" y="1070" text-anchor="start" font-size="11">Haiyan Bay</text></g>
+<g class="station-label-group" data-station-id="bonded-south" data-lines="11"><text class="station-label station-label-zh" x="1962" y="1055" text-anchor="start" font-size="18">保税南</text><text class="station-label station-label-en" x="1962" y="1069" text-anchor="start" font-size="10">Bonded South</text></g>
+<g class="station-label-group" data-station-id="xuelin-road" data-lines="6"><text class="station-label station-label-zh" x="482.8" y="1082.8" text-anchor="end" font-size="18">学林路</text><text class="station-label station-label-en" x="482.8" y="1096.8" text-anchor="end" font-size="10">Xuelin Road</text></g>
+<g class="station-label-group" data-station-id="haiyan-outer-north" data-lines="12"><text class="station-label station-label-zh" x="1497.2" y="1117.2" text-anchor="start" font-size="18">海晏外环北</text><text class="station-label station-label-en" x="1497.2" y="1131.2" text-anchor="start" font-size="10">Haiyan Outer Ring North</text></g>
+<g class="station-label-group" data-station-id="airport-business-park" data-lines="14"><path class="leader-line" d="M 1740 1100 L 1740 1356" /><text class="station-label station-label-zh" x="1740" y="1366" text-anchor="middle" font-size="18">临空商务区</text><text class="station-label station-label-en" x="1740" y="1380" text-anchor="middle" font-size="10">Airport Business Park</text></g>
+<g class="station-label-group" data-station-id="xiling-academy" data-lines="6B"><path class="leader-line" d="M 320 1120 L 199.9 989.9" /><text class="station-label station-label-zh" x="199.9" y="999.9" text-anchor="end" font-size="18">西岭书院</text><text class="station-label station-label-en" x="199.9" y="1013.9" text-anchor="end" font-size="10">Xiling Academy</text></g>
+<g class="station-label-group" data-station-id="maintenance-north" data-lines="17"><path class="leader-line" d="M 1760 1120 L 1955.0 915.0" /><text class="station-label station-label-zh" x="1955.0" y="925.0" text-anchor="start" font-size="18">维修区北</text><text class="station-label station-label-en" x="1955.0" y="939.0" text-anchor="start" font-size="10">Maintenance Area North</text></g>
+<g class="station-label-group" data-station-id="shipyard" data-lines="11"><text class="station-label station-label-zh" x="1916" y="1115" text-anchor="end" font-size="18">船厂</text><text class="station-label station-label-en" x="1916" y="1129" text-anchor="end" font-size="10">Shipyard</text></g>
+<g class="station-label-group" data-station-id="gangwan-avenue" data-lines="11"><path class="leader-line" d="M 2060 1120 L 2260 755" /><text class="station-label station-label-zh" x="2260" y="765" text-anchor="end" font-size="18">港湾大道</text><text class="station-label station-label-en" x="2260" y="779" text-anchor="end" font-size="10">Gangwan Avenue</text></g>
+<g class="station-label-group" data-station-id="deepwater-port-north" data-lines="11"><path class="leader-line" d="M 2120 1120 L 1925.0 915.0" /><text class="station-label station-label-zh" x="1925.0" y="925.0" text-anchor="end" font-size="18">深水港北</text><text class="station-label station-label-en" x="1925.0" y="939.0" text-anchor="end" font-size="10">Deepwater Port North</text></g>
+<g class="station-label-group" data-station-id="container-terminal" data-lines="11"><path class="leader-line" d="M 2240 1120 L 2240 904" /><text class="station-label station-label-zh" x="2240" y="914" text-anchor="middle" font-size="18">集装箱码头</text><text class="station-label station-label-en" x="2240" y="928" text-anchor="middle" font-size="10">Container Terminal</text></g>
+<g class="station-label-group" data-station-id="lanhai-university" data-lines="6"><text class="station-label station-label-zh" x="460" y="1178" text-anchor="middle" font-size="18">澜海大学</text><text class="station-label station-label-en" x="460" y="1192" text-anchor="middle" font-size="10">Lanhai University</text></g>
+<g class="station-label-group" data-station-id="airport-hotel-zone" data-lines="A"><path class="leader-line" d="M 1780 1140 L 1780 812" /><text class="station-label station-label-zh" x="1780" y="822" text-anchor="middle" font-size="18">机场酒店区</text><text class="station-label station-label-en" x="1780" y="836" text-anchor="middle" font-size="10">Airport Hotel Zone</text></g>
+<g class="station-label-group" data-station-id="yunwan" data-lines="2,12"><text class="station-label station-label-zh" x="1242" y="1155" text-anchor="start" font-size="20">云湾</text><text class="station-label station-label-en" x="1242" y="1170" text-anchor="start" font-size="11">Yunwan</text></g>
+<g class="station-label-group" data-station-id="ocean-park" data-lines="8"><path class="leader-line" d="M 1580 1160 L 1734.4 995.6" /><text class="station-label station-label-zh" x="1734.4" y="1005.6" text-anchor="start" font-size="18">海洋公园</text><text class="station-label station-label-en" x="1734.4" y="1019.6" text-anchor="start" font-size="10">Ocean Park</text></g>
+<g class="station-label-group" data-station-id="nanhu-west" data-lines="12"><path class="leader-line" d="M 800 1180 L 800 1340" /><text class="station-label station-label-zh" x="800" y="1350" text-anchor="middle" font-size="18">南湖西</text><text class="station-label station-label-en" x="800" y="1364" text-anchor="middle" font-size="10">Nanhu West</text></g>
+<g class="station-label-group" data-station-id="yunwan-north" data-lines="12"><path class="leader-line" d="M 1200 1180 L 1200 1340" /><text class="station-label station-label-zh" x="1200" y="1350" text-anchor="middle" font-size="18">云湾北</text><text class="station-label station-label-en" x="1200" y="1364" text-anchor="middle" font-size="10">Yunwan North</text></g>
+<g class="station-label-group" data-station-id="haiyan-outer-west" data-lines="12"><path class="leader-line" d="M 1400 1180 L 1400 1302" /><text class="station-label station-label-zh" x="1400" y="1312" text-anchor="middle" font-size="18">海晏外环西</text><text class="station-label station-label-en" x="1400" y="1326" text-anchor="middle" font-size="10">Haiyan Outer Ring West</text></g>
+<g class="station-label-group" data-station-id="yunlan-lake" data-lines="8B"><path class="leader-line" d="M 1480 1180 L 360 1509" /><text class="station-label station-label-zh" x="360" y="1519" text-anchor="middle" font-size="18">云澜湖</text><text class="station-label station-label-en" x="360" y="1533" text-anchor="middle" font-size="10">Yunlan Lake</text></g>
+<g class="station-label-group" data-station-id="lianhu" data-lines="6B"><text class="station-label station-label-zh" x="240" y="1238" text-anchor="middle" font-size="18">莲湖</text><text class="station-label station-label-en" x="240" y="1252" text-anchor="middle" font-size="10">Lianhu Lake</text></g>
+<g class="station-label-group" data-station-id="binhai-university-approach" data-lines="12"><path class="leader-line" d="M 1280 1220 L 1164 1205" /><text class="station-label station-label-zh" x="1164" y="1215" text-anchor="end" font-size="18">滨海大学路西</text><text class="station-label station-label-en" x="1164" y="1229" text-anchor="end" font-size="10">Binhai University Road West</text></g>
+<g class="station-label-group" data-station-id="haiyan-road" data-lines="8B"><text class="station-label station-label-zh" x="1537.2" y="1202.8" text-anchor="start" font-size="18">海盐路</text><text class="station-label station-label-en" x="1537.2" y="1216.8" text-anchor="start" font-size="10">Haiyan Road</text></g>
+<g class="station-label-group" data-station-id="hushan-academy" data-lines="6"><text class="station-label station-label-zh" x="377.2" y="1257.2" text-anchor="start" font-size="18">湖山书院</text><text class="station-label station-label-en" x="377.2" y="1271.2" text-anchor="start" font-size="10">Hushan Academy</text></g>
+<g class="station-label-group" data-station-id="binhai-university-road" data-lines="2,12"><text class="station-label station-label-zh" x="1302.8" y="1277.2" text-anchor="end" font-size="20">滨海大学路</text><text class="station-label station-label-en" x="1302.8" y="1292.2" text-anchor="end" font-size="11">Binhai University Road</text></g>
+<g class="station-label-group" data-station-id="artificial-lake" data-lines="8B"><text class="station-label station-label-zh" x="1560" y="1298" text-anchor="middle" font-size="18">人工湖</text><text class="station-label station-label-en" x="1560" y="1312" text-anchor="middle" font-size="10">Artificial Lake</text></g>
+<g class="station-label-group" data-station-id="aerotropolis-north" data-lines="8"><path class="leader-line" d="M 1680 1260 L 1525.6 1404.4" /><text class="station-label station-label-zh" x="1525.6" y="1414.4" text-anchor="end" font-size="18">航空城北</text><text class="station-label station-label-en" x="1525.6" y="1428.4" text-anchor="end" font-size="10">Aerotropolis North</text></g>
+<g class="station-label-group" data-station-id="aircraft-maintenance" data-lines="8,17"><text class="station-label station-label-zh" x="1760" y="1314" text-anchor="middle" font-size="20">飞机维修区</text><text class="station-label station-label-en" x="1760" y="1329" text-anchor="middle" font-size="11">Aircraft Maintenance Area</text></g>
+<g class="station-label-group" data-station-id="airport-logistics" data-lines="8"><path class="leader-line" d="M 1800 1260 L 1800 1044" /><text class="station-label station-label-zh" x="1800" y="1054" text-anchor="middle" font-size="18">机场物流园</text><text class="station-label station-label-en" x="1800" y="1068" text-anchor="middle" font-size="10">Airport Logistics Park</text></g>
+<g class="station-label-group" data-station-id="xinghai-airport-t2" data-lines="8,14,A"><text class="station-label station-label-zh" x="1854.8" y="1214.8" text-anchor="end" font-size="20">星海机场2号航站楼</text><text class="station-label station-label-en" x="1854.8" y="1229.8" text-anchor="end" font-size="11">Xinghai Airport Terminal 2</text></g>
+<g class="station-label-group" data-station-id="xinghai-airport-t1" data-lines="8"><path class="leader-line" d="M 2000 1260 L 2000 992" /><text class="station-label station-label-zh" x="2000" y="1002" text-anchor="middle" font-size="18">星海机场1号航站楼</text><text class="station-label station-label-en" x="2000" y="1016" text-anchor="middle" font-size="10">Xinghai Airport Terminal 1</text></g>
+<g class="station-label-group" data-station-id="tidal-flat-park" data-lines="8"><path class="leader-line" d="M 2120 1260 L 1950 813" /><text class="station-label station-label-zh" x="1950" y="823" text-anchor="middle" font-size="18">滩涂公园</text><text class="station-label station-label-en" x="1950" y="837" text-anchor="middle" font-size="10">Tidal Flat Park</text></g>
+<g class="station-label-group" data-station-id="binhai-east" data-lines="8"><path class="leader-line" d="M 2180 1260 L 92 1451" /><text class="station-label station-label-zh" x="92" y="1461" text-anchor="start" font-size="18">滨海东</text><text class="station-label station-label-en" x="92" y="1475" text-anchor="start" font-size="10">Binhai East</text></g>
+<g class="station-label-group" data-station-id="binhai-east-coach-terminal" data-lines="8"><path class="leader-line" d="M 2240 1260 L 2240 992" /><text class="station-label station-label-zh" x="2240" y="1002" text-anchor="middle" font-size="18">滨海东客运站</text><text class="station-label station-label-en" x="2240" y="1016" text-anchor="middle" font-size="10">Binhai East Coach Terminal</text></g>
+<g class="station-label-group" data-station-id="deepwater-port-passenger-terminal" data-lines="11,14"><path class="leader-line" d="M 2240 1260 L 2240 1044" /><text class="station-label station-label-zh" x="2240" y="1054" text-anchor="middle" font-size="20">深水港客运码头</text><text class="station-label station-label-en" x="2240" y="1069" text-anchor="middle" font-size="11">Deepwater Port Passenger Terminal</text></g>
+<g class="station-label-group" data-station-id="bailu-reservoir" data-lines="6B"><text class="station-label station-label-zh" x="142.8" y="1262.8" text-anchor="end" font-size="18">白鹭水库</text><text class="station-label station-label-en" x="142.8" y="1276.8" text-anchor="end" font-size="10">Bailu Reservoir</text></g>
+<g class="station-label-group" data-station-id="qingxi-sports-center" data-lines="6"><text class="station-label station-label-zh" x="317.2" y="1317.2" text-anchor="start" font-size="18">清溪体育中心</text><text class="station-label station-label-en" x="317.2" y="1331.2" text-anchor="start" font-size="10">Qingxi Sports Center</text></g>
+<g class="station-label-group" data-station-id="songlan-town" data-lines="6"><text class="station-label station-label-zh" x="242.8" y="1322.8" text-anchor="end" font-size="18">松岚镇</text><text class="station-label station-label-en" x="242.8" y="1336.8" text-anchor="end" font-size="10">Songlan Town</text></g>
+<g class="station-label-group" data-station-id="haiyue-island" data-lines="8B"><text class="station-label station-label-zh" x="1622.8" y="1357.2" text-anchor="end" font-size="18">海月岛</text><text class="station-label station-label-en" x="1622.8" y="1371.2" text-anchor="end" font-size="10">Haiyue Island</text></g>
+<g class="station-label-group" data-station-id="jinsha-beach" data-lines="2"><text class="station-label station-label-zh" x="1374.8" y="1405.2" text-anchor="end" font-size="18">金沙滩</text><text class="station-label station-label-en" x="1374.8" y="1419.2" text-anchor="end" font-size="10">Jinsha Beach</text></g>
+<g class="station-label-group" data-station-id="xinghai-airport-t3" data-lines="A"><path class="leader-line" d="M 2000 1360 L 1879.9 1470.1" /><text class="station-label station-label-zh" x="1879.9" y="1480.1" text-anchor="end" font-size="18">星海机场3号航站楼</text><text class="station-label station-label-en" x="1879.9" y="1494.1" text-anchor="end" font-size="10">Xinghai Airport Terminal 3</text></g>
+<g class="station-label-group" data-station-id="xinghai-south" data-lines="17"><path class="leader-line" d="M 1880 1380 L 1725.6 1524.4" /><text class="station-label station-label-zh" x="1725.6" y="1534.4" text-anchor="end" font-size="18">星海南</text><text class="station-label station-label-en" x="1725.6" y="1548.4" text-anchor="end" font-size="10">Xinghai South</text></g>
+<g class="station-label-group" data-station-id="qingfeng-valley" data-lines="6"><text class="station-label station-label-zh" x="197.2" y="1437.2" text-anchor="start" font-size="18">青峰谷</text><text class="station-label station-label-en" x="197.2" y="1451.2" text-anchor="start" font-size="10">Qingfeng Valley</text></g>
+<g class="station-label-group" data-station-id="nanwan-park" data-lines="8B"><text class="station-label station-label-zh" x="1742" y="1415" text-anchor="start" font-size="18">南湾公园</text><text class="station-label station-label-en" x="1742" y="1429" text-anchor="start" font-size="10">Nanwan Park</text></g>
+<g class="station-label-group" data-station-id="binhai-west-coach-terminal" data-lines="2"><text class="station-label station-label-zh" x="1502.8" y="1477.2" text-anchor="end" font-size="18">滨海西客运站</text><text class="station-label station-label-en" x="1502.8" y="1491.2" text-anchor="end" font-size="10">Binhai West Coach Terminal</text></g>
+</g>
+<g id="legend-layer">
+<rect x="1930" y="1096" width="395" height="430" rx="8" fill="#ffffff" opacity=".92" stroke="#d6dde3"/>
+<text class="legend-label" x="1950" y="1130" font-size="24" font-weight="740">图例 / Legend</text>
+<path data-legend-line-id="1" d="M 1950 1164 L 1992 1164" stroke="#d71920" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1170" font-size="17">1号线</text>
+<path data-legend-line-id="2" d="M 1950 1198 L 1992 1198" stroke="#0072bc" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1204" font-size="17">2号线</text>
+<path data-legend-line-id="3" d="M 1950 1232 L 1992 1232" stroke="#00a651" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1238" font-size="17">3号线</text>
+<path data-legend-line-id="4" d="M 1950 1266 L 1992 1266" stroke="#f7941d" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1272" font-size="17">4号线</text>
+<path data-legend-line-id="5" d="M 1950 1300 L 1992 1300" stroke="#8a2be2" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1306" font-size="17">5号线</text>
+<path data-legend-line-id="6" d="M 1950 1334 L 1992 1334" stroke="#009688" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1340" font-size="17">6号线</text>
+<path data-legend-line-id="6B" d="M 1950 1368 L 1992 1368" stroke="#4db6ac" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1374" font-size="17">6号线支线</text>
+<path data-legend-line-id="7" d="M 1950 1402 L 1992 1402" stroke="#c2185b" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1408" font-size="17">7号线</text>
+<path data-legend-line-id="8" d="M 1950 1436 L 1992 1436" stroke="#009fe3" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2002" y="1442" font-size="17">8号线</text>
+<path data-legend-line-id="8B" d="M 2135 1164 L 2177 1164" stroke="#56c5ff" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2187" y="1170" font-size="17">8号线支线</text>
+<path data-legend-line-id="9" d="M 2135 1198 L 2177 1198" stroke="#795548" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2187" y="1204" font-size="17">9号线</text>
+<path data-legend-line-id="10" d="M 2135 1232 L 2177 1232" stroke="#7cb342" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2187" y="1238" font-size="17">10号线</text>
+<path data-legend-line-id="11" d="M 2135 1266 L 2177 1266" stroke="#455a64" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2187" y="1272" font-size="17">11号线</text>
+<path data-legend-line-id="12" d="M 2135 1300 L 2177 1300" stroke="#ffb300" stroke-width="10" stroke-linecap="round"/>
+<text class="legend-label" x="2187" y="1306" font-size="17">12号线</text>
+<path data-legend-line-id="13" d="M 2135 1334 L 2177 1334" stroke="#e64a19" stroke-width="12" stroke-linecap="round"/>
+<text class="legend-label" x="2187" y="1340" font-size="17">13号线</text>
+<path data-legend-line-id="14" d="M 2135 1368 L 2177 1368" stroke="#00578a" stroke-width="12" stroke-linecap="round"/>
+<text class="legend-label" x="2187" y="1374" font-size="17">14号线</text>
+<path data-legend-line-id="A" d="M 2135 1402 L 2177 1402" stroke="#b00020" stroke-width="12" stroke-linecap="round"/>
+<text class="legend-label" x="2187" y="1408" font-size="17">机场快线</text>
+<path data-legend-line-id="17" d="M 2135 1436 L 2177 1436" stroke="#9e9e9e" stroke-width="10" stroke-linecap="round" stroke-dasharray="14 9"/>
+<text class="legend-label" x="2187" y="1442" font-size="17">17号线</text>
+<circle cx="1958" cy="1485" r="6" fill="#fff" stroke="#222" stroke-width="2"/><text class="legend-label" x="1976" y="1491" font-size="16">普通站 / Station</text>
+<circle cx="2140" cy="1485" r="11" fill="#fff" stroke="#222" stroke-width="4"/><text class="legend-label" x="2160" y="1491" font-size="16">换乘站 / Interchange</text>
+<use href="#icon-airport" x="1950" y="1515" width="24" height="24"/><text class="legend-label" x="1982" y="1534" font-size="16">机场 / Airport</text>
+<use href="#icon-rail" x="2138" y="1515" width="24" height="24"/><text class="legend-label" x="2170" y="1534" font-size="16">铁路枢纽 / Railway hub</text>
+</g>
+</svg>

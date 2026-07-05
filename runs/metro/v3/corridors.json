@@ -1,0 +1,215 @@
+[
+  {
+    "id": "old-city-east-west",
+    "nameZh": "老城东西主轴",
+    "nameEn": "Old City East-West Spine",
+    "type": "trunk",
+    "orientation": "horizontal",
+    "regions": [
+      "靖安老城",
+      "人民广场",
+      "中央商务区",
+      "东部科技新城"
+    ],
+    "capacity": 4,
+    "riverCrossing": false
+  },
+  {
+    "id": "core-north-south",
+    "nameZh": "核心南北跨江主轴",
+    "nameEn": "Core North-South River-Crossing Spine",
+    "type": "trunk",
+    "orientation": "vertical",
+    "regions": [
+      "北川新城",
+      "老城",
+      "鹭洲",
+      "南岸副中心",
+      "滨海新城"
+    ],
+    "capacity": 3,
+    "riverCrossing": true
+  },
+  {
+    "id": "riverfront",
+    "nameZh": "沿江港埠走廊",
+    "nameEn": "Riverfront Port-Commercial Corridor",
+    "type": "trunk",
+    "orientation": "horizontal",
+    "regions": [
+      "旧码头",
+      "鹭洲",
+      "近代商埠",
+      "会展中心",
+      "海洲岛"
+    ],
+    "capacity": 3,
+    "riverCrossing": true
+  },
+  {
+    "id": "cbd-southbank",
+    "nameZh": "CBD—南岸副中心走廊",
+    "nameEn": "CBD-South Bank Subcenter Corridor",
+    "type": "trunk",
+    "orientation": "diagonal",
+    "regions": [
+      "中央商务区",
+      "东平码头",
+      "南岸金融城"
+    ],
+    "capacity": 3,
+    "riverCrossing": true
+  },
+  {
+    "id": "northern-commuter",
+    "nameZh": "北部新城通勤走廊",
+    "nameEn": "Northern New Town Commuter Corridor",
+    "type": "commuter",
+    "orientation": "diagonal",
+    "regions": [
+      "北川新城",
+      "北部高铁站",
+      "老城北缘",
+      "南岸副中心"
+    ],
+    "capacity": 3,
+    "riverCrossing": true
+  },
+  {
+    "id": "eastern-tech",
+    "nameZh": "东部科技走廊",
+    "nameEn": "Eastern Technology Corridor",
+    "type": "trunk",
+    "orientation": "horizontal",
+    "regions": [
+      "中央商务区",
+      "东湖路",
+      "科技城",
+      "东站",
+      "生物医药园"
+    ],
+    "capacity": 3,
+    "riverCrossing": false
+  },
+  {
+    "id": "southwest-university",
+    "nameZh": "西南大学城走廊",
+    "nameEn": "Southwest University Corridor",
+    "type": "commuter",
+    "orientation": "diagonal",
+    "regions": [
+      "清溪大学城",
+      "玉湖",
+      "鹭洲",
+      "中央商务区"
+    ],
+    "capacity": 2,
+    "riverCrossing": true
+  },
+  {
+    "id": "coastal-new-town",
+    "nameZh": "滨海新城走廊",
+    "nameEn": "Coastal New Town Corridor",
+    "type": "coastal",
+    "orientation": "horizontal-diagonal",
+    "regions": [
+      "澜海南站",
+      "海晏湾",
+      "航空城",
+      "星海国际机场"
+    ],
+    "capacity": 3,
+    "riverCrossing": false
+  },
+  {
+    "id": "airport-express",
+    "nameZh": "国际机场快速走廊",
+    "nameEn": "International Airport Express Corridor",
+    "type": "airport",
+    "orientation": "diagonal",
+    "regions": [
+      "澜海火车站",
+      "中央商务区",
+      "临空商务区",
+      "星海国际机场"
+    ],
+    "capacity": 2,
+    "riverCrossing": true
+  },
+  {
+    "id": "western-satellite-airport",
+    "nameZh": "第二机场与西部卫星城走廊",
+    "nameEn": "Secondary Airport and Western Satellite Corridor",
+    "type": "regional",
+    "orientation": "diagonal-horizontal",
+    "regions": [
+      "云岭机场",
+      "西山新城",
+      "人民广场",
+      "金融街"
+    ],
+    "capacity": 1,
+    "riverCrossing": false
+  },
+  {
+    "id": "port-commuter",
+    "nameZh": "港区通勤走廊",
+    "nameEn": "Port Commuter Corridor",
+    "type": "port",
+    "orientation": "diagonal-horizontal",
+    "regions": [
+      "会展中心",
+      "保税物流园",
+      "深水港"
+    ],
+    "capacity": 2,
+    "riverCrossing": true
+  },
+  {
+    "id": "rail-hub-link",
+    "nameZh": "铁路枢纽联络走廊",
+    "nameEn": "Rail Hub Link Corridor",
+    "type": "regional",
+    "orientation": "diagonal-vertical",
+    "regions": [
+      "北部高铁站",
+      "中央商务区",
+      "澜海东站",
+      "机场",
+      "深水港"
+    ],
+    "capacity": 2,
+    "riverCrossing": true
+  },
+  {
+    "id": "core-ring",
+    "nameZh": "核心环线走廊",
+    "nameEn": "Core Ring Corridor",
+    "type": "ring",
+    "orientation": "closed-octilinear",
+    "regions": [
+      "老城北缘",
+      "人民广场西",
+      "近代港埠",
+      "南岸金融城",
+      "广济桥"
+    ],
+    "capacity": 1,
+    "riverCrossing": true
+  },
+  {
+    "id": "outer-semirring",
+    "nameZh": "外围半环联络走廊",
+    "nameEn": "Outer Semi-Ring Connector",
+    "type": "semi-ring",
+    "orientation": "arc",
+    "regions": [
+      "北部高铁站",
+      "西浦",
+      "大学城北",
+      "海晏湾"
+    ],
+    "capacity": 1,
+    "riverCrossing": false
+  }
+]
