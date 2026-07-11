@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "4.0",
+  "runId": "metro-v4-sol",
+  "createdAt": null,
+  "instructionFile": "AGENTS.md",
+  "entryPrompt": "请严格按照当前目录中的 AGENTS.md 完成 v4 全部任务。必须先生成多个低成本线路骨架候选，通过真实视觉检查淘汰失败方案，再生成完整 SVG。脚本通过不代表完成，若视觉不合格必须推翻并重写。",
+  "deliveryMode": "agents-file",
+  "benchmark": {
+    "id": "fictional-chinese-megacity-metro-v4",
+    "name": "虚构中国超大城市双语轨道交通示意图",
+    "specificationVersion": "4.0",
+    "category": "structured-information-visualization",
+    "domain": "metro-map-cartography",
+    "primaryObjective": "测试AI是否能够完成从城市规划、线路拓扑到专业SVG信息设计的完整流程",
+    "previousFailureFocus": ["network-graph-like-layout", "random-line-routing", "poor-global-structure", "unreadable-label-hierarchy"]
+  },
+  "runtime": {
+    "platform": "Codex",
+    "model": "GPT-5.6 Sol",
+    "client": null,
+    "reasoningLevel": "maximum",
+    "language": "zh-CN",
+    "operatingSystem": null,
+    "browserAvailable": false,
+    "visualModelAvailable": true
+  },
+  "experiment": {
+    "mode": "pure-generation",
+    "skill": null,
+    "mcp": [],
+    "networkAllowed": false,
+    "externalAiServicesAllowed": false,
+    "pythonGenerationAllowed": true,
+    "browserAutomationAllowed": false,
+    "rasterImagesAllowedInsideSvg": false,
+    "externalResourcesAllowed": false,
+    "bilingualLabelsRequired": true,
+    "octilinearRoutingRequired": true,
+    "realVisualInspectionRequired": true,
+    "ignorePreviousVersions": true,
+    "previousVersionAccessAllowed": false,
+    "fixedRandomSeed": 20260711
+  },
+  "designRequirements": {
+    "cityScale": {
+      "populationRange": [18000000, 24000000],
+      "metropolitanPopulationRange": [28000000, 35000000],
+      "cityWidthKmRange": [90, 110],
+      "cityHeightKmRange": [55, 75]
+    },
+    "network": {
+      "lineCountRange": [14, 18],
+      "stationCountRange": [160, 200],
+      "transferStationRange": [30, 50],
+      "requiredRingLine": true,
+      "requiredAirportExpress": true,
+      "requiredRegionalExpress": true,
+      "requiredBranchLines": true,
+      "requiredCrossRiverLines": true
+    },
+    "routing": {
+      "type": "octilinear",
+      "allowedAngles": [0, 45, 90, 135, 180, 225, 270, 315],
+      "angleToleranceDegrees": 1.5,
+      "randomFreeRouting": false,
+      "longDiagonalLinesAllowed": false
+    },
+    "visual": {
+      "mainMapIsSchematic": true,
+      "mainMapScaleBar": false,
+      "notToScaleLabelRequired": true,
+      "geographicInsetRequired": true,
+      "geographicInsetScaleBarKm": 10
+    }
+  },
+  "process": {
+    "phase": "pending",
+    "cityPlanningIterations": 0,
+    "geographyPlanningIterations": 0,
+    "corridorPlanningIterations": 0,
+    "linePlanningIterations": 0,
+    "skeletonCandidateGeneration": 0,
+    "skeletonCandidateRejected": 0,
+    "fullCandidateGeneration": 0,
+    "svgGenerationAttempts": 0,
+    "renderIterations": 0,
+    "visualReviewRounds": 0,
+    "selfRepairIterations": 0,
+    "layoutRepairIterations": 0,
+    "labelRepairIterations": 0,
+    "fullRewriteCount": 0,
+    "acceptedSkeletonCandidate": null,
+    "acceptedFinalCandidate": null
+  },
+  "candidateEvaluation": {
+    "minimumSkeletonCandidates": 3,
+    "minimumRejectedSkeletonCandidates": 2,
+    "minimumFullCandidates": 2,
+    "candidates": [],
+    "rejectionHistory": []
+  },
+  "outputs": {
+    "cityPlan": "CITY_PLAN.md",
+    "namingRules": "NAMING_RULES.md",
+    "geography": "geography.json",
+    "corridors": "corridors.json",
+    "linePlan": "line_plan.json",
+    "network": "network.json",
+    "skeletonDirectory": "skeleton",
+    "generator": "generate_metro.py",
+    "validator": "validate_svg.py",
+    "networkValidator": "validate_network.py",
+    "layoutScorer": "score_layout.py",
+    "svg": "metro.svg",
+    "preview": "preview.png",
+    "previewNoLabels": "preview_no_labels.png",
+    "previewLabelsOnly": "preview_labels_only.png",
+    "previewCoreArea": "preview_core_area.png",
+    "previewZoom67": "preview_zoom67.png",
+    "previewZoom50": "preview_zoom50.png",
+    "previewGrayscale": "preview_grayscale.png",
+    "geographicInset": "geographic_inset.png",
+    "report": "REPORT.md"
+  },
+  "layoutMetrics": {
+    "nonOctilinearSegmentCount": null,
+    "maximumAngleDeviation": null,
+    "nonInterchangeCrossingCount": null,
+    "coreAreaCrossingCount": null,
+    "totalBendCount": null,
+    "averageBendsPerLine": null,
+    "maximumBendsSingleLine": null,
+    "overlongSegmentCount": null,
+    "ringLineClosed": null,
+    "lineTraceabilityPassed": null,
+    "resemblesNetworkGraph": null,
+    "resemblesProfessionalMetroMap": null
+  },
+  "networkMetrics": {
+    "lineCount": null,
+    "stationCount": null,
+    "transferStationCount": null,
+    "ringLineCount": null,
+    "regionalExpressCount": null,
+    "airportExpressCount": null,
+    "crossRiverLineCount": null,
+    "duplicateChineseStationNames": null,
+    "duplicateEnglishStationNames": null,
+    "characterPinyinGeneratedNameCount": null
+  },
+  "labelMetrics": {
+    "collisionDetectionMethod": null,
+    "totalLabelCollisionCount": null,
+    "chineseLabelCollisionCount": null,
+    "englishLabelCollisionCount": null,
+    "minimumChineseFontSize": null,
+    "minimumEnglishFontSize": null,
+    "englishNamingReviewPassed": null,
+    "phraseLevelTranslationUsed": null
+  },
+  "visualReview": {
+    "previewInspected": false,
+    "previewNoLabelsInspected": false,
+    "previewCoreAreaInspected": false,
+    "previewZoom67Inspected": false,
+    "previewZoom50Inspected": false,
+    "specificFindings": [],
+    "failedReasons": [],
+    "finalVisualApproval": null
+  },
+  "validation": {
+    "networkValidationPassed": null,
+    "svgValidationPassed": null,
+    "layoutValidationPassed": null,
+    "visualValidationPassed": null,
+    "scriptValidationAloneSufficient": false
+  },
+  "result": {
+    "status": "pending",
+    "completedAt": null,
+    "commandsExecuted": [],
+    "issuesFound": [],
+    "issuesFixed": [],
+    "knownLimitations": [],
+    "finalDecision": null,
+    "notes": ""
+  }
+}
