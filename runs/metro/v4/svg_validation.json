@@ -1,0 +1,27 @@
+{
+  "validator": "validate_svg",
+  "version": "1.0",
+  "input": "metro.svg",
+  "network": "network.json",
+  "valid": true,
+  "summary": { "passed": 15, "failed": 0, "warnings": 0, "skipped": 0 },
+  "metrics": { "viewBox": [0.0, 0.0, 4050.0, 2700.0], "routeStraightSegmentCount": 540, "routeCurveSegmentCount": 0, "nonOctilinearSegmentCount": 0, "longCurveChordCount": 0, "pathParseErrorCount": 0, "angleToleranceDegrees": 1.5, "stationMarkerCount": 184, "stationMarkerEvidence": "exact-data-or-id", "minimumChineseStationFontSize": 18.0, "minimumEnglishStationFontSize": 10.0, "elementCount": 1563, "textElementCount": 840, "legendContainerCount": 1, "lineGeometryElementCount": 36, "networkLineCount": 17, "networkStationCount": 184 },
+  "checks": [
+    { "id": "document.svg_root", "status": "pass", "message": "document root is svg" },
+    { "id": "document.network_loaded", "status": "pass", "message": "loaded 17 lines and 184 stations from network" },
+    { "id": "self_contained.forbidden_elements", "status": "pass", "message": "no image, foreignObject, script, or embedded external document elements found", "details": {} },
+    { "id": "self_contained.external_references", "status": "pass", "message": "SVG has no Base64 data or external references", "details": { "references": [], "rawFlags": { "base64": false, "externalUrl": false, "cssImport": false, "externalEntity": false }, "truncated": false } },
+    { "id": "canvas.viewbox", "status": "pass", "message": "valid viewBox is [0.0, 0.0, 4050.0, 2700.0]", "details": { "value": "0 0 4050 2700", "parsed": [0.0, 0.0, 4050.0, 2700.0] } },
+    { "id": "annotation.not_to_scale", "status": "pass", "message": "bilingual not-to-scale annotation is present" },
+    { "id": "content.legend", "status": "pass", "message": "legend exists and covers every network line", "details": { "legendContainerCount": 1, "missingLineIds": [] } },
+    { "id": "content.line_geometry", "status": "pass", "message": "route geometry exists for every line", "details": { "geometryElementCount": 36, "unassociatedGeometryElementCount": 19, "missingLineIds": [], "associatedElementsByLine": { "L1": 1, "L2": 1, "L3": 1, "L4": 1, "L5": 1, "L6": 1, "L7": 1, "L8": 1, "L9": 1, "L10": 1, "L11": 1, "L12": 1, "L13": 1, "L14": 1, "L15": 1, "B1": 1, "B2": 1 } } },
+    { "id": "routing.octilinear", "status": "pass", "message": "all straight route segments are octilinear and curves are limited to short corners", "details": { "nonOctilinear": [], "longCurves": [], "pathErrors": [], "truncated": false, "curveChordLimit": 54.0 } },
+    { "id": "content.station_symbols", "status": "pass", "message": "station symbols cover all network stations", "details": { "actual": 184, "expected": 184, "missingExactIds": [], "missingExactIdsTruncated": false, "evidence": "exact-data-or-id" } },
+    { "id": "content.chinese_station_labels", "status": "pass", "message": "every station has an exact Chinese text label", "details": { "found": 184, "expected": 184, "missingStationIds": [], "truncated": false } },
+    { "id": "content.english_station_labels", "status": "pass", "message": "every station has an exact English text label", "details": { "found": 184, "expected": 184, "missingStationIds": [], "truncated": false } },
+    { "id": "typography.minimum_chinese_station_font", "status": "pass", "message": "minimum Chinese station font is 18.0px; required ≥18.0px", "details": { "minimum": 18.0, "required": 18.0, "unknownSizeStationIds": [] } },
+    { "id": "typography.minimum_english_station_font", "status": "pass", "message": "minimum English station font is 10.0px; required ≥10.0px", "details": { "minimum": 10.0, "required": 10.0, "unknownSizeStationIds": [] } },
+    { "id": "operations.construction_style", "status": "pass", "message": "construction line geometry uses a dashed style", "details": { "constructionLineIds": ["L15"], "undashedOrMissing": [] } }
+  ],
+  "errors": []
+}

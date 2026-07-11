@@ -12,413 +12,215 @@
     "englishLabelCollisionCount": 32,
     "crossLanguageCollisionCount": 27,
     "labelStationCollisionCount": 43,
+    "labelLineIntersectionCount": 241,
     "outOfBoundsLabelCount": 3,
     "minimumChineseFontSize": 18,
     "minimumEnglishFontSize": 10,
     "pairs": [
-      [
-        "NC-NR-006",
-        "NC-NR-007"
-      ],
-      [
-        "NC-CB-001",
-        "NC-CB-004"
-      ],
-      [
-        "NC-ET-001",
-        "NC-ET-005"
-      ],
-      [
-        "NC-IN-003",
-        "NC-IN-005"
-      ],
-      [
-        "NC-WS-004",
-        "NC-IN-004"
-      ],
-      [
-        "NC-OC-003",
-        "NC-IN-007"
-      ],
-      [
-        "NC-CB-005",
-        "NC-CB-006"
-      ],
-      [
-        "NC-CB-007",
-        "NC-CB-008"
-      ],
-      [
-        "NC-CB-009",
-        "NC-CB-010"
-      ],
-      [
-        "NC-CB-012",
-        "NC-CB-013"
-      ],
-      [
-        "NC-CB-012",
-        "NC-RH-003"
-      ],
-      [
-        "NC-CB-013",
-        "NC-RH-003"
-      ],
-      [
-        "NC-ET-007",
-        "NC-ET-008"
-      ],
-      [
-        "NC-ET-009",
-        "NC-ET-010"
-      ],
-      [
-        "NC-ET-009",
-        "NC-ET-011"
-      ],
-      [
-        "NC-ET-010",
-        "NC-ET-011"
-      ],
-      [
-        "NC-OC-004",
-        "NC-OC-005"
-      ],
-      [
-        "NC-CB-014",
-        "NC-CB-015"
-      ],
-      [
-        "NC-IN-010",
-        "NC-IN-011"
-      ],
-      [
-        "NC-OC-010",
-        "NC-IN-012"
-      ],
-      [
-        "NC-OC-011",
-        "NC-OC-028"
-      ],
-      [
-        "NC-OC-011",
-        "NC-OC-012"
-      ],
-      [
-        "NC-OC-011",
-        "NC-OC-017"
-      ],
-      [
-        "NC-OC-028",
-        "NC-OC-012"
-      ],
-      [
-        "NC-OC-028",
-        "NC-OC-017"
-      ],
-      [
-        "NC-OC-012",
-        "NC-OC-017"
-      ],
-      [
-        "NC-OC-013",
-        "NC-CB-017"
-      ],
-      [
-        "NC-OC-013",
-        "NC-RH-001"
-      ],
-      [
-        "NC-CB-017",
-        "NC-RH-001"
-      ],
-      [
-        "NC-OC-014",
-        "NC-OC-018"
-      ],
-      [
-        "NC-OC-015",
-        "NC-OC-019"
-      ],
-      [
-        "NC-ET-014",
-        "NC-ET-015"
-      ],
-      [
-        "NC-OC-022",
-        "NC-ET-020"
-      ],
-      [
-        "NC-CO-002",
-        "NC-NR-013"
-      ],
-      [
-        "NC-CO-002",
-        "NC-NR-015"
-      ],
-      [
-        "NC-NR-013",
-        "NC-NR-014"
-      ],
-      [
-        "NC-NR-013",
-        "NC-NR-015"
-      ],
-      [
-        "NC-NR-014",
-        "NC-NR-015"
-      ],
-      [
-        "NC-UN-001",
-        "NC-UN-003"
-      ],
-      [
-        "NC-SF-007",
-        "NC-RH-010"
-      ],
-      [
-        "NC-RH-010",
-        "NC-SF-015"
-      ],
-      [
-        "NC-SF-010",
-        "NC-SF-011"
-      ],
-      [
-        "NC-UN-005",
-        "NC-UN-006"
-      ],
-      [
-        "NC-UN-007",
-        "NC-UN-019"
-      ],
-      [
-        "NC-IN-014",
-        "NC-IN-015"
-      ],
-      [
-        "NC-IN-014",
-        "NC-IS-006"
-      ],
-      [
-        "NC-IN-014",
-        "NC-IS-007"
-      ],
-      [
-        "NC-IN-015",
-        "NC-IS-006"
-      ],
-      [
-        "NC-IN-015",
-        "NC-IS-007"
-      ],
-      [
-        "NC-IN-016",
-        "NC-IN-017"
-      ],
-      [
-        "NC-IN-016",
-        "NC-RH-016"
-      ],
-      [
-        "NC-IN-017",
-        "NC-RH-016"
-      ],
-      [
-        "NC-IS-006",
-        "NC-IS-007"
-      ],
-      [
-        "NC-PT-006",
-        "NC-PT-007"
-      ],
-      [
-        "NC-IS-009",
-        "NC-IS-011"
-      ],
-      [
-        "NC-UN-018",
-        "NC-WS-005"
-      ]
+      ["NC-NR-006", "NC-NR-007"],
+      ["NC-CB-001", "NC-CB-004"],
+      ["NC-ET-001", "NC-ET-005"],
+      ["NC-IN-003", "NC-IN-005"],
+      ["NC-WS-004", "NC-IN-004"],
+      ["NC-OC-003", "NC-IN-007"],
+      ["NC-CB-005", "NC-CB-006"],
+      ["NC-CB-007", "NC-CB-008"],
+      ["NC-CB-009", "NC-CB-010"],
+      ["NC-CB-012", "NC-CB-013"],
+      ["NC-CB-012", "NC-RH-003"],
+      ["NC-CB-013", "NC-RH-003"],
+      ["NC-ET-007", "NC-ET-008"],
+      ["NC-ET-009", "NC-ET-010"],
+      ["NC-ET-009", "NC-ET-011"],
+      ["NC-ET-010", "NC-ET-011"],
+      ["NC-OC-004", "NC-OC-005"],
+      ["NC-CB-014", "NC-CB-015"],
+      ["NC-IN-010", "NC-IN-011"],
+      ["NC-OC-010", "NC-IN-012"],
+      ["NC-OC-011", "NC-OC-028"],
+      ["NC-OC-011", "NC-OC-012"],
+      ["NC-OC-011", "NC-OC-017"],
+      ["NC-OC-028", "NC-OC-012"],
+      ["NC-OC-028", "NC-OC-017"],
+      ["NC-OC-012", "NC-OC-017"],
+      ["NC-OC-013", "NC-CB-017"],
+      ["NC-OC-013", "NC-RH-001"],
+      ["NC-CB-017", "NC-RH-001"],
+      ["NC-OC-014", "NC-OC-018"],
+      ["NC-OC-015", "NC-OC-019"],
+      ["NC-ET-014", "NC-ET-015"],
+      ["NC-OC-022", "NC-ET-020"],
+      ["NC-CO-002", "NC-NR-013"],
+      ["NC-CO-002", "NC-NR-015"],
+      ["NC-NR-013", "NC-NR-014"],
+      ["NC-NR-013", "NC-NR-015"],
+      ["NC-NR-014", "NC-NR-015"],
+      ["NC-UN-001", "NC-UN-003"],
+      ["NC-SF-007", "NC-RH-010"],
+      ["NC-RH-010", "NC-SF-015"],
+      ["NC-SF-010", "NC-SF-011"],
+      ["NC-UN-005", "NC-UN-006"],
+      ["NC-UN-007", "NC-UN-019"],
+      ["NC-IN-014", "NC-IN-015"],
+      ["NC-IN-014", "NC-IS-006"],
+      ["NC-IN-014", "NC-IS-007"],
+      ["NC-IN-015", "NC-IS-006"],
+      ["NC-IN-015", "NC-IS-007"],
+      ["NC-IN-016", "NC-IN-017"],
+      ["NC-IN-016", "NC-RH-016"],
+      ["NC-IN-017", "NC-RH-016"],
+      ["NC-IS-006", "NC-IS-007"],
+      ["NC-PT-006", "NC-PT-007"],
+      ["NC-IS-009", "NC-IS-011"],
+      ["NC-UN-018", "NC-WS-005"]
     ],
-    "outOfBounds": [
-      "NC-PT-001",
-      "NC-PT-004",
-      "NC-PT-008"
-    ],
+    "outOfBounds": ["NC-PT-001", "NC-PT-004", "NC-PT-008"],
     "labelStationPairs": [
-      [
-        "NC-CB-001",
-        "NC-CB-004"
-      ],
-      [
-        "NC-IN-003",
-        "NC-OC-001"
-      ],
-      [
-        "NC-OC-001",
-        "NC-IN-003"
-      ],
-      [
-        "NC-OC-001",
-        "NC-IN-005"
-      ],
-      [
-        "NC-CB-004",
-        "NC-CB-001"
-      ],
-      [
-        "NC-IN-005",
-        "NC-OC-001"
-      ],
-      [
-        "NC-CB-007",
-        "NC-CB-008"
-      ],
-      [
-        "NC-CB-008",
-        "NC-CB-007"
-      ],
-      [
-        "NC-CB-009",
-        "NC-CB-010"
-      ],
-      [
-        "NC-CB-010",
-        "NC-CB-012"
-      ],
-      [
-        "NC-CB-012",
-        "NC-CB-013"
-      ],
-      [
-        "NC-RH-003",
-        "NC-CB-013"
-      ],
-      [
-        "NC-ET-007",
-        "NC-ET-008"
-      ],
-      [
-        "NC-ET-008",
-        "NC-ET-007"
-      ],
-      [
-        "NC-ET-009",
-        "NC-ET-010"
-      ],
-      [
-        "NC-ET-010",
-        "NC-ET-011"
-      ],
-      [
-        "NC-ET-011",
-        "NC-ET-010"
-      ],
-      [
-        "NC-OC-007",
-        "NC-OC-008"
-      ],
-      [
-        "NC-OC-008",
-        "NC-OC-007"
-      ],
-      [
-        "NC-OC-011",
-        "NC-OC-028"
-      ],
-      [
-        "NC-OC-011",
-        "NC-OC-017"
-      ],
-      [
-        "NC-OC-028",
-        "NC-OC-017"
-      ],
-      [
-        "NC-OC-013",
-        "NC-RH-001"
-      ],
-      [
-        "NC-CB-017",
-        "NC-OC-013"
-      ],
-      [
-        "NC-CB-017",
-        "NC-RH-001"
-      ],
-      [
-        "NC-OC-014",
-        "NC-OC-018"
-      ],
-      [
-        "NC-ET-014",
-        "NC-ET-015"
-      ],
-      [
-        "NC-ET-015",
-        "NC-ET-014"
-      ],
-      [
-        "NC-RH-001",
-        "NC-OC-013"
-      ],
-      [
-        "NC-OC-018",
-        "NC-OC-014"
-      ],
-      [
-        "NC-CO-002",
-        "NC-NR-013"
-      ],
-      [
-        "NC-CO-002",
-        "NC-NR-015"
-      ],
-      [
-        "NC-NR-013",
-        "NC-NR-015"
-      ],
-      [
-        "NC-NR-015",
-        "NC-NR-013"
-      ],
-      [
-        "NC-SF-015",
-        "NC-RH-010"
-      ],
-      [
-        "NC-UN-007",
-        "NC-UN-019"
-      ],
-      [
-        "NC-UN-019",
-        "NC-UN-007"
-      ],
-      [
-        "NC-IN-014",
-        "NC-IS-006"
-      ],
-      [
-        "NC-IN-015",
-        "NC-IS-007"
-      ],
-      [
-        "NC-RH-016",
-        "NC-IN-017"
-      ],
-      [
-        "NC-IS-006",
-        "NC-IN-014"
-      ],
-      [
-        "NC-IS-007",
-        "NC-IN-015"
-      ],
-      [
-        "NC-WS-006",
-        "NC-UN-016"
-      ]
+      ["NC-CB-001", "NC-CB-004"],
+      ["NC-IN-003", "NC-OC-001"],
+      ["NC-OC-001", "NC-IN-003"],
+      ["NC-OC-001", "NC-IN-005"],
+      ["NC-CB-004", "NC-CB-001"],
+      ["NC-IN-005", "NC-OC-001"],
+      ["NC-CB-007", "NC-CB-008"],
+      ["NC-CB-008", "NC-CB-007"],
+      ["NC-CB-009", "NC-CB-010"],
+      ["NC-CB-010", "NC-CB-012"],
+      ["NC-CB-012", "NC-CB-013"],
+      ["NC-RH-003", "NC-CB-013"],
+      ["NC-ET-007", "NC-ET-008"],
+      ["NC-ET-008", "NC-ET-007"],
+      ["NC-ET-009", "NC-ET-010"],
+      ["NC-ET-010", "NC-ET-011"],
+      ["NC-ET-011", "NC-ET-010"],
+      ["NC-OC-007", "NC-OC-008"],
+      ["NC-OC-008", "NC-OC-007"],
+      ["NC-OC-011", "NC-OC-028"],
+      ["NC-OC-011", "NC-OC-017"],
+      ["NC-OC-028", "NC-OC-017"],
+      ["NC-OC-013", "NC-RH-001"],
+      ["NC-CB-017", "NC-OC-013"],
+      ["NC-CB-017", "NC-RH-001"],
+      ["NC-OC-014", "NC-OC-018"],
+      ["NC-ET-014", "NC-ET-015"],
+      ["NC-ET-015", "NC-ET-014"],
+      ["NC-RH-001", "NC-OC-013"],
+      ["NC-OC-018", "NC-OC-014"],
+      ["NC-CO-002", "NC-NR-013"],
+      ["NC-CO-002", "NC-NR-015"],
+      ["NC-NR-013", "NC-NR-015"],
+      ["NC-NR-015", "NC-NR-013"],
+      ["NC-SF-015", "NC-RH-010"],
+      ["NC-UN-007", "NC-UN-019"],
+      ["NC-UN-019", "NC-UN-007"],
+      ["NC-IN-014", "NC-IS-006"],
+      ["NC-IN-015", "NC-IS-007"],
+      ["NC-RH-016", "NC-IN-017"],
+      ["NC-IS-006", "NC-IN-014"],
+      ["NC-IS-007", "NC-IN-015"],
+      ["NC-WS-006", "NC-UN-016"]
+    ],
+    "labelLinePairs": [
+      ["NC-NR-004", 179],
+      ["NC-NR-005", 179],
+      ["NC-RH-002", 181],
+      ["NC-NR-006", 182],
+      ["NC-NR-007", 182],
+      ["NC-NR-008", 185],
+      ["NC-WS-001", 221],
+      ["NC-IN-001", 224],
+      ["NC-AP-012", 53],
+      ["NC-WS-002", 54],
+      ["NC-NR-010", 115],
+      ["NC-IN-002", 55],
+      ["NC-CB-001", 50],
+      ["NC-CB-001", 212],
+      ["NC-ET-001", 51],
+      ["NC-ET-002", 51],
+      ["NC-ET-004", 52],
+      ["NC-ET-004", 185],
+      ["NC-IN-003", 225],
+      ["NC-WS-004", 132],
+      ["NC-IN-004", 132],
+      ["NC-OC-001", 113],
+      ["NC-OC-001", 225],
+      ["NC-OC-002", 89],
+      ["NC-CB-002", 89],
+      ["NC-CB-003", 48],
+      ["NC-CB-003", 91],
+      ["NC-CB-004", 91],
+      ["NC-CB-004", 212],
+      ["NC-IN-005", 88],
+      ["NC-IN-005", 225],
+      ["NC-IN-006", 56],
+      ["NC-OC-003", 225],
+      ["NC-IN-007", 135],
+      ["NC-CB-005", 47],
+      ["NC-CB-007", 198],
+      ["NC-CB-007", 199],
+      ["NC-CB-008", 197],
+      ["NC-CB-008", 198],
+      ["NC-CB-009", 200],
+      ["NC-CB-009", 201],
+      ["NC-CB-009", 214],
+      ["NC-CB-009", 215],
+      ["NC-CB-010", 201],
+      ["NC-CB-010", 202],
+      ["NC-CB-012", 93],
+      ["NC-CB-012", 94],
+      ["NC-CB-012", 202],
+      ["NC-CB-012", 203],
+      ["NC-CB-013", 93],
+      ["NC-CB-013", 202],
+      ["NC-RH-003", 93],
+      ["NC-RH-003", 94],
+      ["NC-RH-003", 202],
+      ["NC-RH-003", 203],
+      ["NC-ET-006", 204],
+      ["NC-ET-007", 206],
+      ["NC-ET-007", 207],
+      ["NC-ET-008", 205],
+      ["NC-ET-008", 206],
+      ["NC-ET-009", 186],
+      ["NC-ET-009", 208],
+      ["NC-ET-009", 209],
+      ["NC-ET-010", 186],
+      ["NC-ET-010", 209],
+      ["NC-ET-011", 186],
+      ["NC-ET-011", 208],
+      ["NC-ET-011", 209],
+      ["NC-OC-004", 43],
+      ["NC-OC-004", 227],
+      ["NC-OC-005", 43],
+      ["NC-OC-005", 117],
+      ["NC-OC-006", 45],
+      ["NC-ET-012", 169],
+      ["NC-OC-007", 57],
+      ["NC-OC-007", 135],
+      ["NC-ET-013", 186],
+      ["NC-OC-008", 58],
+      ["NC-OC-008", 136],
+      ["NC-OC-009", 118],
+      ["NC-OC-009", 228],
+      ["NC-CB-014", 230],
+      ["NC-CB-015", 230],
+      ["NC-IN-009", 1],
+      ["NC-IN-010", 2],
+      ["NC-IN-011", 2],
+      ["NC-OC-010", 3],
+      ["NC-OC-011", 5],
+      ["NC-OC-011", 6],
+      ["NC-OC-011", 59],
+      ["NC-OC-011", 136],
+      ["NC-OC-011", 137],
+      ["NC-OC-028", 6],
+      ["NC-OC-028", 137],
+      ["NC-OC-012", 6],
+      ["NC-OC-013", 8],
+      ["NC-OC-013", 120],
+      ["NC-CB-017", 7],
+      ["NC-CB-017", 8],
+      ["NC-CB-017", 119]
     ]
   },
   "optimized": {
@@ -434,11 +236,13 @@
     "englishLabelCollisionCount": 0,
     "crossLanguageCollisionCount": 0,
     "labelStationCollisionCount": 0,
+    "labelLineIntersectionCount": 0,
     "outOfBoundsLabelCount": 0,
     "minimumChineseFontSize": 18,
     "minimumEnglishFontSize": 10,
     "pairs": [],
     "outOfBounds": [],
-    "labelStationPairs": []
+    "labelStationPairs": [],
+    "labelLinePairs": []
   }
 }

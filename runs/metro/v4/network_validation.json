@@ -1,0 +1,56 @@
+{
+  "validator": "validate_network",
+  "version": "1.0",
+  "input": "network.json",
+  "valid": true,
+  "summary": { "passed": 21, "failed": 0, "warnings": 0, "skipped": 0 },
+  "metrics": { "lineCount": 17, "stationCount": 184, "interchangeStationCount": 50, "crossRiverLineCount": 10, "loopLineCount": 1, "branchRelationCount": 2, "constructionLineCount": 1, "airportHubCount": 9, "mainAirportLineCount": 2, "highSpeedRailHubMaxLineCount": 3 },
+  "checks": [
+    { "id": "schema.city", "status": "pass", "message": "city contains non-empty Chinese and English names" },
+    { "id": "schema.regions_geography", "status": "pass", "message": "regions and geography are present" },
+    { "id": "schema.unique_ids", "status": "pass", "message": "all line and station ids are non-empty and unique", "details": { "missingLineIdIndexes": [], "duplicateLineIds": [], "missingStationIdIndexes": [], "duplicateStationIds": [] } },
+    { "id": "scale.line_count", "status": "pass", "message": "line count is 17; expected exactly 17", "details": { "actual": 17, "expected": 17 } },
+    { "id": "scale.station_count", "status": "pass", "message": "unique station record count is 184; expected 180–190", "details": { "actual": 184, "minimum": 180, "maximum": 190 } },
+    { "id": "names.lines", "status": "pass", "message": "all bilingual line names are non-empty and unique", "details": { "missing": [], "duplicateChinese": {}, "duplicateEnglish": {} } },
+    { "id": "names.station_chinese_unique", "status": "pass", "message": "all Chinese station names are non-empty and unique", "details": { "missing": [], "duplicates": {} } },
+    { "id": "names.station_english_unique", "status": "pass", "message": "all English station names are non-empty and unique", "details": { "missing": [], "duplicates": {} } },
+    { "id": "names.no_character_pinyin_traces", "status": "pass", "message": "no character-by-character pinyin traces detected", "details": { "suspicious": [], "truncated": false } },
+    { "id": "topology.line_station_order", "status": "pass", "message": "all lines have complete ordered station lists", "details": { "fewerThanTwoStations": [], "unexpectedDuplicates": {}, "unknownStationIds": {} } },
+    { "id": "topology.symmetric_line_membership", "status": "pass", "message": "station.lines and line.stations are symmetric", "details": { "asymmetricRelations": [], "asymmetricTruncated": false, "unknownLineIds": {} } },
+    { "id": "scale.interchange_count", "status": "pass", "message": "interchange count is 50; expected 35–50", "details": { "actual": 50, "minimum": 35, "maximum": 50 } },
+    { "id": "topology.interchange_concentration", "status": "pass", "message": "interchanges are limited to at most two four-line hubs and no five-line hubs", "details": { "moreThanFourLines": [], "fourLineStations": [] } },
+    { "id": "topology.loop_closed", "status": "pass", "message": "at least one loop line has explicit closure evidence", "details": { "loopLines": ["L6"], "unclosed": [] } },
+    {
+      "id": "topology.real_branches",
+      "status": "pass",
+      "message": "at least 2 explicit, divergent branch relations are valid",
+      "details": {
+        "valid": [
+          { "branch": "B1", "parent": "L10", "junction": "NC-CO-002", "sharedStations": ["NC-CO-002"], "reasons": [] },
+          { "branch": "B2", "parent": "L3", "junction": "NC-UN-019", "sharedStations": ["NC-UN-019"], "reasons": [] }
+        ],
+        "invalid": [],
+        "minimum": 2
+      }
+    },
+    { "id": "hubs.international_airport_two_lines", "status": "pass", "message": "the international airport complex is served by at least two lines", "details": { "selectedAirportGroup": "ningcang international airport", "lineIds": ["L13", "L4"], "groups": { "north coach terminal": { "stations": ["NC-NR-008"], "lines": ["L11"] }, "west ridge airport": { "stations": ["NC-AP-012"], "lines": ["L14", "L4"] }, "north container terminal": { "stations": ["NC-PT-002"], "lines": ["L11"] }, "south container terminal": { "stations": ["NC-PT-003"], "lines": ["B1"] }, "三号": { "stations": ["NC-AP-004"], "lines": ["L5"] }, "二号": { "stations": ["NC-AP-003"], "lines": ["L13"] }, "一号": { "stations": ["NC-AP-002"], "lines": ["L4"] }, "ningcang international airport": { "stations": ["NC-AP-001"], "lines": ["L13", "L4"] }, "cloudridge coach terminal": { "stations": ["NC-WS-006"], "lines": ["L15"] } } } },
+    {
+      "id": "hubs.high_speed_rail_three_lines",
+      "status": "pass",
+      "message": "a high-speed railway hub is served by at least three lines",
+      "details": {
+        "station": "NC-RH-016",
+        "lineIds": ["L11", "L15", "L6"],
+        "candidates": [
+          { "id": "NC-RH-002", "lines": ["L11", "L2"] },
+          { "id": "NC-RH-016", "lines": ["L11", "L15", "L6"] }
+        ]
+      }
+    },
+    { "id": "geography.cross_river_lines", "status": "pass", "message": "10 lines connect north and south banks; minimum is 6", "details": { "lineIds": ["L2", "L3", "L4", "L6", "L7", "L8", "L9", "L10", "L11", "L13"], "minimum": 6 } },
+    { "id": "operations.construction_line", "status": "pass", "message": "construction line count is 1; expected exactly 1", "details": { "lineIds": ["L15"], "expected": 1 } },
+    { "id": "schema.station_fields", "status": "pass", "message": "all station records contain the required v4 fields and coordinates", "details": { "stations": {}, "truncated": false } },
+    { "id": "schema.line_fields", "status": "pass", "message": "all line records contain required v4 fields", "details": { "lines": {} } }
+  ],
+  "errors": []
+}

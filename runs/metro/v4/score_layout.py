@@ -174,6 +174,11 @@ def _normalise_geometry(value: Any, station_points: dict[str, Point]) -> tuple[l
 
 
 def _is_loop(line: dict[str, Any]) -> bool:
+    line_type = _string(line.get("type")).casefold()
+    if line_type in {"semi-ring", "semi ring", "half-ring", "half ring"}:
+        return False
+    if line_type == "ring":
+        return True
     text = _tokens(line.get("type"), line.get("role"), line.get("nameZh"), line.get("nameEn"))
     return any(token in text for token in ("环线", "环状", "loop", "ring", "circle"))
 
@@ -406,6 +411,19 @@ def _load_bbox_metrics(path: Path, width: float, height: float) -> dict[str, Any
         return result
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(payload, dict) and isinstance(payload.get("optimized"), dict):
+            measured = payload["optimized"]
+            method = _string(measured.get("collisionDetectionMethod"))
+            if not re.search(r"getbbox|render|freetype", method, flags=re.I):
+                raise ValueError("optimized bbox report must identify rendered getbbox/FreeType measurement")
+            result.update({
+                "labelCollisionCount": measured.get("totalLabelCollisionCount"),
+                "labelOutOfBoundsCount": measured.get("outOfBoundsLabelCount"),
+                "minimumChineseFontSize": measured.get("minimumChineseFontSize"),
+                "minimumEnglishFontSize": measured.get("minimumEnglishFontSize"),
+                "source": f"{path.name}:{method}",
+            })
+            return result
         boxes = payload.get("boxes") if isinstance(payload, dict) else payload
         method = _string(payload.get("measurementMethod") or payload.get("source")) if isinstance(payload, dict) else ""
         if not isinstance(boxes, list):
@@ -762,7 +780,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--input", default="network.json", help="network JSON path")
     parser.add_argument("--output", default="layout_metrics.json", help="metrics output path")
     parser.add_argument("--svg", default="metro.svg", help="SVG used only to obtain the actual viewBox")
-    parser.add_argument("--label-bboxes", default="label_bboxes.json", help="optional browser getBBox JSON")
+    parser.add_argument("--label-bboxes", default="label_bbox_report.json", help="rendered text-bounds JSON")
     parser.add_argument("--angle-tolerance", type=float, default=1.5)
     parser.add_argument("--core-segment-fraction", type=float, default=0.10)
     parser.add_argument("--outer-segment-fraction", type=float, default=0.16)

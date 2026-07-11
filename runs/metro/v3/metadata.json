@@ -80,16 +80,7 @@
     },
     "layout": {
       "routingMode": "octilinear",
-      "allowedAnglesDegrees": [
-        0,
-        45,
-        90,
-        135,
-        180,
-        225,
-        270,
-        315
-      ],
+      "allowedAnglesDegrees": [0, 45, 90, 135, 180, 225, 270, 315],
       "angleToleranceDegrees": 1.5,
       "suggestedBaseGridPx": 20,
       "suggestedCoreGridPx": 10,
@@ -433,50 +424,20 @@
         "reason": "二轮完整图采用重排标签、保留核心环线骨架，为最终候选。"
       }
     ],
-    "rejectionReasonsHistory": [
-      "核心区东西线和沿江线贴合过近，人民广场至鹭洲段换乘符号拥挤。",
-      "机场快线与东部快线在东南形成大面积斜向并行，港区方向追踪性不足。",
-      "半环靠近大学城处与 6 号线视觉距离不足，标签空间被压缩。",
-      "首轮完整图标签盒显示出东部会展和大学城北缘拥挤，需要扩大标签偏移。"
-    ]
+    "rejectionReasonsHistory": ["核心区东西线和沿江线贴合过近，人民广场至鹭洲段换乘符号拥挤。", "机场快线与东部快线在东南形成大面积斜向并行，港区方向追踪性不足。", "半环靠近大学城处与 6 号线视觉距离不足，标签空间被压缩。", "首轮完整图标签盒显示出东部会展和大学城北缘拥挤，需要扩大标签偏移。"]
   },
   "reviewArtifacts": {
-    "previewArtifacts": [
-      "preview.png",
-      "preview_no_labels.png",
-      "preview_labels_only.png",
-      "preview_label_boxes.png",
-      "preview_core_area.png",
-      "preview_zoom67.png",
-      "preview_zoom50.png",
-      "preview_grayscale.png",
-      "geographic_inset.png"
-    ],
-    "visualReviewLogFiles": [
-      "REPORT.md"
-    ],
+    "previewArtifacts": ["preview.png", "preview_no_labels.png", "preview_labels_only.png", "preview_label_boxes.png", "preview_core_area.png", "preview_zoom67.png", "preview_zoom50.png", "preview_grayscale.png", "geographic_inset.png"],
+    "visualReviewLogFiles": ["REPORT.md"],
     "acceptedSkeletonCandidateId": "skeleton-3",
     "acceptedFinalCandidateId": "full-candidate-2"
   },
   "result": {
     "status": "completed",
     "completedAt": "2026-07-05T23:07:45.057401+00:00",
-    "commandsExecuted": [
-      "python3 runs/metro/v3/generate_metro.py",
-      "python3 runs/metro/v3/validate_network.py",
-      "python3 runs/metro/v3/score_layout.py",
-      "python3 runs/metro/v3/validate_svg.py"
-    ],
-    "issuesFound": [
-      "首轮骨架在会展中心和港区方向斜线过密。",
-      "首轮完整图在东部会展区和大学城北缘出现标签拥挤。",
-      "机场快线初稿与普通 8 号线停站差异不够明显。"
-    ],
-    "issuesFixed": [
-      "拆分 CBD 周边换乘节点，限制四线换乘数量。",
-      "扩大东部和西南部标签偏移并加入少量引导线。",
-      "机场快线减少停站并使用更粗线宽，与普通线区分。"
-    ],
+    "commandsExecuted": ["python3 runs/metro/v3/generate_metro.py", "python3 runs/metro/v3/validate_network.py", "python3 runs/metro/v3/score_layout.py", "python3 runs/metro/v3/validate_svg.py"],
+    "issuesFound": ["首轮骨架在会展中心和港区方向斜线过密。", "首轮完整图在东部会展区和大学城北缘出现标签拥挤。", "机场快线初稿与普通 8 号线停站差异不够明显。"],
+    "issuesFixed": ["拆分 CBD 周边换乘节点，限制四线换乘数量。", "扩大东部和西南部标签偏移并加入少量引导线。", "机场快线减少停站并使用更粗线宽，与普通线区分。"],
     "knownLimitations": [],
     "failureReasons": [],
     "bestCandidateSavedWhenFailed": null,

@@ -73,20 +73,7 @@
       "role": "山地、水库和饮用水源保护"
     }
   ],
-  "functionalAreas": [
-    "传统老城",
-    "近代港埠区",
-    "传统工业更新区",
-    "现代中央商务区",
-    "南岸金融文化副中心",
-    "西南大学城",
-    "东部科技新城",
-    "东南航空城",
-    "南部滨海新城",
-    "东部深水港和保税区",
-    "北部居住新城",
-    "西部生态卫星城"
-  ],
+  "functionalAreas": ["传统老城", "近代港埠区", "传统工业更新区", "现代中央商务区", "南岸金融文化副中心", "西南大学城", "东部科技新城", "东南航空城", "南部滨海新城", "东部深水港和保税区", "北部居住新城", "西部生态卫星城"],
   "geography": {
     "mainRiver": {
       "name": "浦江",
@@ -152,9 +139,7 @@
       "riverSide": "south",
       "spatialArea": "west-satellite",
       "isTransportHub": true,
-      "transferLines": [
-        "L15"
-      ],
+      "transferLines": ["L15"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -168,9 +153,7 @@
       "riverSide": "south",
       "spatialArea": "west-satellite",
       "isTransportHub": false,
-      "transferLines": [
-        "L15"
-      ],
+      "transferLines": ["L15"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -184,10 +167,7 @@
       "riverSide": "south",
       "spatialArea": "west-satellite",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L15"
-      ],
+      "transferLines": ["L1", "L15"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -201,9 +181,7 @@
       "riverSide": "south",
       "spatialArea": "west-satellite",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -217,9 +195,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -233,9 +209,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -249,9 +223,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -265,10 +237,7 @@
       "riverSide": "south",
       "spatialArea": "west-hills",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L15"
-      ],
+      "transferLines": ["L1", "L15"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -282,9 +251,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -298,9 +265,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -314,9 +279,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -330,9 +293,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -346,9 +307,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -362,9 +321,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -378,9 +335,7 @@
       "riverSide": "south",
       "spatialArea": "west-corridor",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -394,9 +349,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -410,9 +363,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -426,9 +377,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -442,9 +391,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -458,9 +405,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -474,11 +419,7 @@
       "riverSide": "north",
       "spatialArea": "west-corridor",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L12",
-        "L15"
-      ],
+      "transferLines": ["L1", "L12", "L15"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -492,9 +433,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -508,9 +447,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -524,9 +461,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -540,9 +475,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -556,9 +489,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -572,9 +503,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -588,9 +517,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -604,9 +531,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -620,9 +545,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -636,9 +559,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -652,9 +573,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -668,9 +587,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -684,9 +601,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -700,9 +615,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -716,9 +629,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -732,9 +643,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -748,9 +657,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -764,9 +671,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -780,11 +685,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3",
-        "L6",
-        "L16"
-      ],
+      "transferLines": ["L3", "L6", "L16"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -798,9 +699,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -814,11 +713,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L4",
-        "L12"
-      ],
+      "transferLines": ["L1", "L4", "L12"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -832,9 +727,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -848,9 +741,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -864,9 +755,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -880,9 +769,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -896,9 +783,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -912,9 +797,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -928,9 +811,7 @@
       "riverSide": "north",
       "spatialArea": "industrial-renewal",
       "isTransportHub": false,
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -944,9 +825,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -960,9 +839,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -976,9 +853,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -992,11 +867,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L5",
-        "L15"
-      ],
+      "transferLines": ["L1", "L5", "L15"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -1010,9 +881,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1026,9 +895,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1042,9 +909,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1058,9 +923,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1074,9 +937,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1090,9 +951,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1106,9 +965,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -1122,11 +979,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L2",
-        "L5"
-      ],
+      "transferLines": ["L1", "L2", "L5"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1140,9 +993,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1156,9 +1007,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1172,9 +1021,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1188,9 +1035,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1204,9 +1049,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1220,9 +1063,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1236,11 +1077,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": true,
-      "transferLines": [
-        "L2",
-        "L5",
-        "L10"
-      ],
+      "transferLines": ["L2", "L5", "L10"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1254,11 +1091,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L2",
-        "L5"
-      ],
+      "transferLines": ["L1", "L2", "L5"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1272,9 +1105,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1288,9 +1119,7 @@
       "riverSide": "south",
       "spatialArea": "university",
       "isTransportHub": false,
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1304,9 +1133,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1320,11 +1147,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L2",
-        "L4",
-        "L5"
-      ],
+      "transferLines": ["L2", "L4", "L5"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1338,9 +1161,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1354,9 +1175,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1370,9 +1189,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1386,9 +1203,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1402,11 +1217,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": true,
-      "transferLines": [
-        "L6",
-        "L8",
-        "L16"
-      ],
+      "transferLines": ["L6", "L8", "L16"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -1420,9 +1231,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1436,9 +1245,7 @@
       "riverSide": "north",
       "spatialArea": "old-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1452,9 +1259,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1468,11 +1273,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L3",
-        "L4",
-        "L5"
-      ],
+      "transferLines": ["L3", "L4", "L5"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1486,11 +1287,7 @@
       "riverSide": "island",
       "spatialArea": "river-island",
       "isTransportHub": false,
-      "transferLines": [
-        "L2",
-        "L9",
-        "L17"
-      ],
+      "transferLines": ["L2", "L9", "L17"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1504,9 +1301,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1520,9 +1315,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1536,9 +1329,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1552,9 +1343,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1568,11 +1357,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L5",
-        "L9"
-      ],
+      "transferLines": ["L1", "L5", "L9"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1586,9 +1371,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1602,9 +1385,7 @@
       "riverSide": "island",
       "spatialArea": "river-island",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1618,9 +1399,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1634,9 +1413,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1650,9 +1427,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1666,9 +1441,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1682,9 +1455,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1698,10 +1469,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L3",
-        "L5"
-      ],
+      "transferLines": ["L3", "L5"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1715,9 +1483,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1731,9 +1497,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1747,11 +1511,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2",
-        "L7",
-        "L15"
-      ],
+      "transferLines": ["L2", "L7", "L15"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -1765,9 +1525,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1781,9 +1539,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1797,9 +1553,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1813,10 +1567,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L9"
-      ],
+      "transferLines": ["L1", "L9"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1830,11 +1581,7 @@
       "riverSide": "island",
       "spatialArea": "river-island",
       "isTransportHub": false,
-      "transferLines": [
-        "L2",
-        "L3",
-        "L9"
-      ],
+      "transferLines": ["L2", "L3", "L9"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1848,9 +1595,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1864,9 +1609,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1880,9 +1623,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1896,12 +1637,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": true,
-      "transferLines": [
-        "L2",
-        "L7",
-        "L10",
-        "L15"
-      ],
+      "transferLines": ["L2", "L7", "L10", "L15"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -1915,9 +1651,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1931,9 +1665,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1947,9 +1679,7 @@
       "riverSide": "island",
       "spatialArea": "river-island",
       "isTransportHub": false,
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -1963,10 +1693,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L5",
-        "L6"
-      ],
+      "transferLines": ["L5", "L6"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1980,10 +1707,7 @@
       "riverSide": "north",
       "spatialArea": "cbd",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L5"
-      ],
+      "transferLines": ["L1", "L5"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -1997,9 +1721,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2013,9 +1735,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2029,9 +1749,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2045,9 +1763,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2061,9 +1777,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2077,11 +1791,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L2",
-        "L5",
-        "L10"
-      ],
+      "transferLines": ["L2", "L5", "L10"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2095,9 +1805,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2111,10 +1819,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L2",
-        "L6"
-      ],
+      "transferLines": ["L2", "L6"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2128,10 +1833,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": true,
-      "transferLines": [
-        "L2",
-        "L4"
-      ],
+      "transferLines": ["L2", "L4"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2145,11 +1847,7 @@
       "riverSide": "north",
       "spatialArea": "cbd",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L3",
-        "L10"
-      ],
+      "transferLines": ["L1", "L3", "L10"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2163,11 +1861,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L6",
-        "L8",
-        "L9"
-      ],
+      "transferLines": ["L6", "L8", "L9"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2181,10 +1875,7 @@
       "riverSide": "north",
       "spatialArea": "cbd",
       "isTransportHub": false,
-      "transferLines": [
-        "L3",
-        "L5"
-      ],
+      "transferLines": ["L3", "L5"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2198,9 +1889,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2214,9 +1903,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2230,9 +1917,7 @@
       "riverSide": "north",
       "spatialArea": "north-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2246,10 +1931,7 @@
       "riverSide": "north",
       "spatialArea": "cbd",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L5"
-      ],
+      "transferLines": ["L1", "L5"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2263,9 +1945,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2279,9 +1959,7 @@
       "riverSide": "north",
       "spatialArea": "cbd",
       "isTransportHub": false,
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2295,9 +1973,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2311,9 +1987,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2327,9 +2001,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -2343,9 +2015,7 @@
       "riverSide": "north",
       "spatialArea": "cbd",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2359,9 +2029,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2375,9 +2043,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2391,9 +2057,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -2407,9 +2071,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2423,9 +2085,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2439,11 +2099,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L4",
-        "L6",
-        "L13"
-      ],
+      "transferLines": ["L4", "L6", "L13"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2457,9 +2113,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2473,9 +2127,7 @@
       "riverSide": "north",
       "spatialArea": "riverfront",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2489,9 +2141,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2505,9 +2155,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2521,9 +2169,7 @@
       "riverSide": "south",
       "spatialArea": "south-subcenter",
       "isTransportHub": false,
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2537,10 +2183,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L7",
-        "L11"
-      ],
+      "transferLines": ["L7", "L11"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2554,9 +2197,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2570,9 +2211,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2586,11 +2225,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": true,
-      "transferLines": [
-        "L8",
-        "L10",
-        "L17"
-      ],
+      "transferLines": ["L8", "L10", "L17"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2604,9 +2239,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2620,9 +2253,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2636,11 +2267,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L3",
-        "L11"
-      ],
+      "transferLines": ["L1", "L3", "L11"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2654,9 +2281,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2670,11 +2295,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L2",
-        "L6",
-        "L13"
-      ],
+      "transferLines": ["L2", "L6", "L13"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -2688,9 +2309,7 @@
       "riverSide": "coast",
       "spatialArea": "port-buffer",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2704,9 +2323,7 @@
       "riverSide": "coast",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2720,9 +2337,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2736,9 +2351,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2752,9 +2365,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2768,9 +2379,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2784,10 +2393,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L11"
-      ],
+      "transferLines": ["L1", "L11"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2801,9 +2407,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2817,9 +2421,7 @@
       "riverSide": "coast",
       "spatialArea": "port-buffer",
       "isTransportHub": false,
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2833,9 +2435,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2849,11 +2449,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L8",
-        "L10",
-        "L17"
-      ],
+      "transferLines": ["L8", "L10", "L17"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2867,9 +2463,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2883,9 +2477,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2899,9 +2491,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2915,9 +2505,7 @@
       "riverSide": "coast",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -2931,10 +2519,7 @@
       "riverSide": "coast",
       "spatialArea": "port-buffer",
       "isTransportHub": false,
-      "transferLines": [
-        "L9",
-        "L18"
-      ],
+      "transferLines": ["L9", "L18"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2948,10 +2533,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L4",
-        "L17"
-      ],
+      "transferLines": ["L4", "L17"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -2965,9 +2547,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2981,9 +2561,7 @@
       "riverSide": "coast",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -2997,11 +2575,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L1",
-        "L7",
-        "L11"
-      ],
+      "transferLines": ["L1", "L7", "L11"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -3015,9 +2589,7 @@
       "riverSide": "coast",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -3031,9 +2603,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3047,9 +2617,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3063,10 +2631,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L13",
-        "L18"
-      ],
+      "transferLines": ["L13", "L18"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -3080,11 +2645,7 @@
       "riverSide": "south",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L6",
-        "L13",
-        "L18"
-      ],
+      "transferLines": ["L6", "L13", "L18"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -3098,9 +2659,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3114,9 +2673,7 @@
       "riverSide": "coast",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3130,12 +2687,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": true,
-      "transferLines": [
-        "L1",
-        "L3",
-        "L7",
-        "L14"
-      ],
+      "transferLines": ["L1", "L3", "L7", "L14"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -3149,9 +2701,7 @@
       "riverSide": "coast",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3165,11 +2715,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": true,
-      "transferLines": [
-        "L4",
-        "L10",
-        "L17"
-      ],
+      "transferLines": ["L4", "L10", "L17"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -3183,9 +2729,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3199,9 +2743,7 @@
       "riverSide": "north",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3215,11 +2757,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L7",
-        "L11",
-        "L18"
-      ],
+      "transferLines": ["L7", "L11", "L18"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -3233,11 +2771,7 @@
       "riverSide": "coast",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L6",
-        "L13",
-        "L18"
-      ],
+      "transferLines": ["L6", "L13", "L18"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -3251,11 +2785,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": true,
-      "transferLines": [
-        "L4",
-        "L8",
-        "L10"
-      ],
+      "transferLines": ["L4", "L8", "L10"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -3269,9 +2799,7 @@
       "riverSide": "north",
       "spatialArea": "east-tech",
       "isTransportHub": false,
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -3285,11 +2813,7 @@
       "riverSide": "north",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L7",
-        "L14",
-        "L18"
-      ],
+      "transferLines": ["L7", "L14", "L18"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -3303,9 +2827,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L14"
-      ],
+      "transferLines": ["L14"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3319,9 +2841,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3335,9 +2855,7 @@
       "riverSide": "coast",
       "spatialArea": "coastal-new-town",
       "isTransportHub": false,
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -3351,9 +2869,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3367,10 +2883,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": true,
-      "transferLines": [
-        "L8",
-        "L10"
-      ],
+      "transferLines": ["L8", "L10"],
       "isTransfer": true,
       "isTerminal": true
     },
@@ -3384,10 +2897,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L9",
-        "L14"
-      ],
+      "transferLines": ["L9", "L14"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -3401,9 +2911,7 @@
       "riverSide": "bay-island",
       "spatialArea": "east-bay",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3417,9 +2925,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3433,9 +2939,7 @@
       "riverSide": "north",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -3449,9 +2953,7 @@
       "riverSide": "bay-island",
       "spatialArea": "east-bay",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3465,9 +2967,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L14"
-      ],
+      "transferLines": ["L14"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3481,9 +2981,7 @@
       "riverSide": "bay-island",
       "spatialArea": "east-bay",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3497,9 +2995,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -3513,9 +3009,7 @@
       "riverSide": "south",
       "spatialArea": "airport-city",
       "isTransportHub": false,
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -3529,9 +3023,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L14"
-      ],
+      "transferLines": ["L14"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3545,10 +3037,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": true,
-      "transferLines": [
-        "L9",
-        "L14"
-      ],
+      "transferLines": ["L9", "L14"],
       "isTransfer": true,
       "isTerminal": false
     },
@@ -3562,9 +3051,7 @@
       "riverSide": "bay-island",
       "spatialArea": "east-bay",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3578,9 +3065,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": false,
-      "transferLines": [
-        "L14"
-      ],
+      "transferLines": ["L14"],
       "isTransfer": false,
       "isTerminal": false
     },
@@ -3594,9 +3079,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": true,
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -3610,9 +3093,7 @@
       "riverSide": "coast",
       "spatialArea": "port",
       "isTransportHub": true,
-      "transferLines": [
-        "L14"
-      ],
+      "transferLines": ["L14"],
       "isTransfer": false,
       "isTerminal": true
     },
@@ -3626,9 +3107,7 @@
       "riverSide": "bay-island",
       "spatialArea": "east-bay",
       "isTransportHub": false,
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTransfer": false,
       "isTerminal": true
     }
@@ -3645,53 +3124,9 @@
       "purpose": "老城东西主轴，连接西部卫星城、传统老城、CBD与东部科技新城。",
       "start": "西岭城",
       "end": "东沧北站",
-      "stations": [
-        "西岭城",
-        "西岭大道",
-        "西屏山",
-        "栗湾",
-        "龙潭镇",
-        "枫桥路",
-        "云梯路",
-        "机厂公园",
-        "太平仓",
-        "西关",
-        "鼓楼",
-        "启明坊",
-        "人民广场",
-        "东门",
-        "江湾路",
-        "银行街",
-        "金浦桥",
-        "金融街",
-        "中央商务区",
-        "市博物馆",
-        "云浜",
-        "国际会展中心",
-        "青浦软件园",
-        "东湖西",
-        "东部新城",
-        "东沧北站"
-      ],
+      "stations": ["西岭城", "西岭大道", "西屏山", "栗湾", "龙潭镇", "枫桥路", "云梯路", "机厂公园", "太平仓", "西关", "鼓楼", "启明坊", "人民广场", "东门", "江湾路", "银行街", "金浦桥", "金融街", "中央商务区", "市博物馆", "云浜", "国际会展中心", "青浦软件园", "东湖西", "东部新城", "东沧北站"],
       "stationCount": 26,
-      "majorTransferStations": [
-        "西岭城",
-        "西屏山",
-        "龙潭镇",
-        "机厂公园",
-        "西关",
-        "鼓楼",
-        "人民广场",
-        "江湾路",
-        "银行街",
-        "金融街",
-        "中央商务区",
-        "市博物馆",
-        "国际会展中心",
-        "青浦软件园",
-        "东部新城",
-        "东沧北站"
-      ],
+      "majorTransferStations": ["西岭城", "西屏山", "龙潭镇", "机厂公园", "西关", "鼓楼", "人民广场", "江湾路", "银行街", "金融街", "中央商务区", "市博物馆", "国际会展中心", "青浦软件园", "东部新城", "东沧北站"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": false
     },
@@ -3706,49 +3141,9 @@
       "purpose": "北部居住新城至南部滨海的南北跨江主轴。",
       "start": "北湖新城",
       "end": "海镜湖",
-      "stations": [
-        "北湖新城",
-        "清河北苑",
-        "北医中心",
-        "明德路",
-        "北城公园",
-        "浦江北站",
-        "北站南广场",
-        "松林路",
-        "主火车站",
-        "崇安门",
-        "鼓楼",
-        "人民广场",
-        "南园桥",
-        "南门渡",
-        "鹤洲北",
-        "鹤洲岛",
-        "鹤洲南",
-        "春申桥",
-        "春申南",
-        "南岸金融城",
-        "市民中心",
-        "南浦客运站",
-        "广电中心",
-        "滨海中央公园",
-        "海镜北",
-        "海镜湖"
-      ],
+      "stations": ["北湖新城", "清河北苑", "北医中心", "明德路", "北城公园", "浦江北站", "北站南广场", "松林路", "主火车站", "崇安门", "鼓楼", "人民广场", "南园桥", "南门渡", "鹤洲北", "鹤洲岛", "鹤洲南", "春申桥", "春申南", "南岸金融城", "市民中心", "南浦客运站", "广电中心", "滨海中央公园", "海镜北", "海镜湖"],
       "stationCount": 26,
-      "majorTransferStations": [
-        "北湖新城",
-        "浦江北站",
-        "主火车站",
-        "鼓楼",
-        "人民广场",
-        "南门渡",
-        "鹤洲北",
-        "鹤洲岛",
-        "南岸金融城",
-        "市民中心",
-        "南浦客运站",
-        "海镜湖"
-      ],
+      "majorTransferStations": ["北湖新城", "浦江北站", "主火车站", "鼓楼", "人民广场", "南门渡", "鹤洲北", "鹤洲岛", "南岸金融城", "市民中心", "南浦客运站", "海镜湖"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": true
     },
@@ -3763,42 +3158,9 @@
       "purpose": "西南大学城、南岸副中心、CBD与东部研发走廊的斜向跨江联系。",
       "start": "西岚湖",
       "end": "东湖东",
-      "stations": [
-        "西岚湖",
-        "湖畔图书馆",
-        "松岚村",
-        "山前书院",
-        "书香路",
-        "西南大学城",
-        "文澜路",
-        "青溪校区",
-        "青溪北",
-        "桐桥",
-        "南苑",
-        "江南西路",
-        "滨江公园",
-        "鹤洲岛",
-        "大剧院",
-        "中央商务区",
-        "金浦东",
-        "国际会展中心",
-        "望港村",
-        "生物医药园",
-        "东沧北站",
-        "东滩桥",
-        "东湖东"
-      ],
+      "stations": ["西岚湖", "湖畔图书馆", "松岚村", "山前书院", "书香路", "西南大学城", "文澜路", "青溪校区", "青溪北", "桐桥", "南苑", "江南西路", "滨江公园", "鹤洲岛", "大剧院", "中央商务区", "金浦东", "国际会展中心", "望港村", "生物医药园", "东沧北站", "东滩桥", "东湖东"],
       "stationCount": 23,
-      "majorTransferStations": [
-        "西南大学城",
-        "江南西路",
-        "滨江公园",
-        "鹤洲岛",
-        "大剧院",
-        "中央商务区",
-        "国际会展中心",
-        "东沧北站"
-      ],
+      "majorTransferStations": ["西南大学城", "江南西路", "滨江公园", "鹤洲岛", "大剧院", "中央商务区", "国际会展中心", "东沧北站"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": true
     },
@@ -3813,43 +3175,9 @@
       "purpose": "北部传统工业更新区至东南航空城的通勤线路。",
       "start": "北郊车辆段",
       "end": "龙湾机库",
-      "stations": [
-        "北郊车辆段",
-        "旧运河",
-        "北坞货场",
-        "铁西里",
-        "车辆厂",
-        "大纺厂",
-        "纱厂路",
-        "机厂公园",
-        "城隍庙",
-        "大东桥",
-        "南门渡",
-        "江南西路",
-        "南浦大道",
-        "南浦客运站",
-        "澄湖路",
-        "滨海新城",
-        "海盐路",
-        "航城北",
-        "航空物流园",
-        "机场T2",
-        "机场T1",
-        "空港南",
-        "维修基地",
-        "龙湾机库"
-      ],
+      "stations": ["北郊车辆段", "旧运河", "北坞货场", "铁西里", "车辆厂", "大纺厂", "纱厂路", "机厂公园", "城隍庙", "大东桥", "南门渡", "江南西路", "南浦大道", "南浦客运站", "澄湖路", "滨海新城", "海盐路", "航城北", "航空物流园", "机场T2", "机场T1", "空港南", "维修基地", "龙湾机库"],
       "stationCount": 24,
-      "majorTransferStations": [
-        "机厂公园",
-        "南门渡",
-        "江南西路",
-        "南浦客运站",
-        "滨海新城",
-        "航空物流园",
-        "机场T2",
-        "机场T1"
-      ],
+      "majorTransferStations": ["机厂公园", "南门渡", "江南西路", "南浦客运站", "滨海新城", "航空物流园", "机场T2", "机场T1"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": false
     },
@@ -3865,43 +3193,9 @@
       "purpose": "围绕老城、江港、CBD与南岸金融副中心的核心环线，分流中心换乘压力。",
       "start": "西关",
       "end": "西关",
-      "stations": [
-        "西关",
-        "北寺",
-        "主火车站",
-        "东仓库",
-        "江湾路",
-        "迎江坊",
-        "金融街",
-        "市博物馆",
-        "博物馆南",
-        "大剧院",
-        "南岸金融城",
-        "南岸文化中心",
-        "南岸西",
-        "滨江公园",
-        "江南西路",
-        "南门渡",
-        "人民广场",
-        "鼓楼",
-        "太平仓北"
-      ],
+      "stations": ["西关", "北寺", "主火车站", "东仓库", "江湾路", "迎江坊", "金融街", "市博物馆", "博物馆南", "大剧院", "南岸金融城", "南岸文化中心", "南岸西", "滨江公园", "江南西路", "南门渡", "人民广场", "鼓楼", "太平仓北"],
       "stationCount": 19,
-      "majorTransferStations": [
-        "西关",
-        "主火车站",
-        "江湾路",
-        "金融街",
-        "市博物馆",
-        "大剧院",
-        "南岸金融城",
-        "南岸文化中心",
-        "滨江公园",
-        "江南西路",
-        "南门渡",
-        "人民广场",
-        "鼓楼"
-      ],
+      "majorTransferStations": ["西关", "主火车站", "江湾路", "金融街", "市博物馆", "大剧院", "南岸金融城", "南岸文化中心", "滨江公园", "江南西路", "南门渡", "人民广场", "鼓楼"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": false
     },
@@ -3916,39 +3210,9 @@
       "purpose": "大学城、南岸公共中心和滨海新城的南部东西向骨干。",
       "start": "青溪镇",
       "end": "蓝湾码头",
-      "stations": [
-        "青溪镇",
-        "西岚湖南",
-        "西南大学城",
-        "书院南",
-        "紫竹园",
-        "科教园南",
-        "南溪客运站",
-        "市民中心",
-        "南岸文化中心",
-        "东江路",
-        "澄湖西",
-        "澄湖南",
-        "滨海新城",
-        "海镜湖",
-        "滩桥西",
-        "南湾海洋公园",
-        "南沧岛渡口",
-        "海堤东",
-        "蓝湾北"
-      ],
+      "stations": ["青溪镇", "西岚湖南", "西南大学城", "书院南", "紫竹园", "科教园南", "南溪客运站", "市民中心", "南岸文化中心", "东江路", "澄湖西", "澄湖南", "滨海新城", "海镜湖", "滩桥西", "南湾海洋公园", "南沧岛渡口", "海堤东", "蓝湾北"],
       "stationCount": 19,
-      "majorTransferStations": [
-        "西南大学城",
-        "南溪客运站",
-        "市民中心",
-        "南岸文化中心",
-        "东江路",
-        "滨海新城",
-        "海镜湖",
-        "南湾海洋公园",
-        "南沧岛渡口"
-      ],
+      "majorTransferStations": ["西南大学城", "南溪客运站", "市民中心", "南岸文化中心", "东江路", "滨海新城", "海镜湖", "南湾海洋公园", "南沧岛渡口"],
       "crossesMainRiver": false,
       "crossesHezhouIsland": false
     },
@@ -3963,36 +3227,9 @@
       "purpose": "北部居住新城、工业更新区和东部副中心之间的弧形联络线。",
       "start": "西北物流园",
       "end": "港城东",
-      "stations": [
-        "西北物流园",
-        "长丰镇",
-        "北城西",
-        "白塔湾",
-        "北湖新城",
-        "北湖大道",
-        "浦江北站",
-        "新桥镇",
-        "北辰公园",
-        "河滨科技园",
-        "东湖路",
-        "东郊市场",
-        "东部新城",
-        "东沧北站",
-        "海湾大道",
-        "港城西",
-        "港城北",
-        "港城东"
-      ],
+      "stations": ["西北物流园", "长丰镇", "北城西", "白塔湾", "北湖新城", "北湖大道", "浦江北站", "新桥镇", "北辰公园", "河滨科技园", "东湖路", "东郊市场", "东部新城", "东沧北站", "海湾大道", "港城西", "港城北", "港城东"],
       "stationCount": 18,
-      "majorTransferStations": [
-        "北湖新城",
-        "浦江北站",
-        "河滨科技园",
-        "东部新城",
-        "东沧北站",
-        "海湾大道",
-        "港城北"
-      ],
+      "majorTransferStations": ["北湖新城", "浦江北站", "河滨科技园", "东部新城", "东沧北站", "海湾大道", "港城北"],
       "crossesMainRiver": false,
       "crossesHezhouIsland": false
     },
@@ -4007,34 +3244,9 @@
       "purpose": "南岸文化、传媒走廊与航空城的普通服务线路。",
       "start": "南溪客运站",
       "end": "机场酒店",
-      "stations": [
-        "南溪客运站",
-        "青溪口",
-        "南苑东",
-        "江南剧场",
-        "滨江东",
-        "文化南路",
-        "东江路",
-        "海晏路",
-        "传媒港",
-        "春潮路",
-        "康桥村",
-        "东南高铁站",
-        "临空商务区",
-        "航城南",
-        "机场T1",
-        "机场T3",
-        "机场酒店"
-      ],
+      "stations": ["南溪客运站", "青溪口", "南苑东", "江南剧场", "滨江东", "文化南路", "东江路", "海晏路", "传媒港", "春潮路", "康桥村", "东南高铁站", "临空商务区", "航城南", "机场T1", "机场T3", "机场酒店"],
       "stationCount": 17,
-      "majorTransferStations": [
-        "南溪客运站",
-        "东江路",
-        "东南高铁站",
-        "临空商务区",
-        "机场T1",
-        "机场T3"
-      ],
+      "majorTransferStations": ["南溪客运站", "东江路", "东南高铁站", "临空商务区", "机场T1", "机场T3"],
       "crossesMainRiver": false,
       "crossesHezhouIsland": false
     },
@@ -4049,41 +3261,9 @@
       "purpose": "老码头、江心岛、南岸船坞更新区与东部港口客运码头的沿江线路。",
       "start": "西渡",
       "end": "邮轮中心",
-      "stations": [
-        "西渡",
-        "万安桥",
-        "北码头",
-        "汇丰仓",
-        "银行街",
-        "仓库南",
-        "江湾路",
-        "江湾东",
-        "鹤洲北",
-        "鹤洲岛",
-        "鹤洲南岸",
-        "旧船政",
-        "船坞公园",
-        "东江路",
-        "三江口",
-        "芦洲",
-        "龙湾湿地",
-        "海门桥",
-        "保税物流园",
-        "港湾南",
-        "深水港客运码头",
-        "邮轮中心"
-      ],
+      "stations": ["西渡", "万安桥", "北码头", "汇丰仓", "银行街", "仓库南", "江湾路", "江湾东", "鹤洲北", "鹤洲岛", "鹤洲南岸", "旧船政", "船坞公园", "东江路", "三江口", "芦洲", "龙湾湿地", "海门桥", "保税物流园", "港湾南", "深水港客运码头", "邮轮中心"],
       "stationCount": 22,
-      "majorTransferStations": [
-        "银行街",
-        "江湾路",
-        "鹤洲北",
-        "鹤洲岛",
-        "东江路",
-        "龙湾湿地",
-        "保税物流园",
-        "深水港客运码头"
-      ],
+      "majorTransferStations": ["银行街", "江湾路", "鹤洲北", "鹤洲岛", "东江路", "龙湾湿地", "保税物流园", "深水港客运码头"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": true
     },
@@ -4098,29 +3278,9 @@
       "purpose": "以少停站方式连接高铁总站、老城铁路站、CBD、南岸金融副中心和国际机场。",
       "start": "浦江北站",
       "end": "机场T3",
-      "stations": [
-        "浦江北站",
-        "主火车站",
-        "中央商务区",
-        "南岸金融城",
-        "东南高铁站",
-        "临空商务区",
-        "机场T2",
-        "机场T1",
-        "机场T3"
-      ],
+      "stations": ["浦江北站", "主火车站", "中央商务区", "南岸金融城", "东南高铁站", "临空商务区", "机场T2", "机场T1", "机场T3"],
       "stationCount": 9,
-      "majorTransferStations": [
-        "浦江北站",
-        "主火车站",
-        "中央商务区",
-        "南岸金融城",
-        "东南高铁站",
-        "临空商务区",
-        "机场T2",
-        "机场T1",
-        "机场T3"
-      ],
+      "majorTransferStations": ["浦江北站", "主火车站", "中央商务区", "南岸金融城", "东南高铁站", "临空商务区", "机场T2", "机场T1", "机场T3"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": false
     },
@@ -4135,32 +3295,9 @@
       "purpose": "东部科技新城、会展中心与东沧湾岛区的研发生活线。",
       "start": "月港镇",
       "end": "岛东码头",
-      "stations": [
-        "月港镇",
-        "河滨科技园",
-        "会展北",
-        "云浜北",
-        "国际会展中心",
-        "青浦软件园",
-        "星塘",
-        "望港东",
-        "生医园北",
-        "东部新城",
-        "海湾大道",
-        "东沧岛",
-        "岛心公园",
-        "东沧岛南",
-        "东沧湾北",
-        "岛东码头"
-      ],
+      "stations": ["月港镇", "河滨科技园", "会展北", "云浜北", "国际会展中心", "青浦软件园", "星塘", "望港东", "生医园北", "东部新城", "海湾大道", "东沧岛", "岛心公园", "东沧岛南", "东沧湾北", "岛东码头"],
       "stationCount": 16,
-      "majorTransferStations": [
-        "河滨科技园",
-        "国际会展中心",
-        "青浦软件园",
-        "东部新城",
-        "海湾大道"
-      ],
+      "majorTransferStations": ["河滨科技园", "国际会展中心", "青浦软件园", "东部新城", "海湾大道"],
       "crossesMainRiver": false,
       "crossesHezhouIsland": false
     },
@@ -4176,44 +3313,23 @@
       "purpose": "沿旧运河和铁路货场服务北部工业遗址更新区，并在机厂公园分叉。",
       "start": "北段修造所",
       "end": "龙潭镇 / 新织里",
-      "stations": [
-        "北段修造所",
-        "运河北",
-        "物流园北",
-        "北坞北",
-        "车辆厂北",
-        "纱厂里",
-        "机厂公园"
-      ],
+      "stations": ["北段修造所", "运河北", "物流园北", "北坞北", "车辆厂北", "纱厂里", "机厂公园"],
       "branches": [
         {
           "name": "龙潭支线",
           "englishName": "Longtan Branch",
           "from": "机厂公园",
-          "stations": [
-            "机厂公园",
-            "机械博物馆",
-            "西钢遗址",
-            "龙潭镇"
-          ]
+          "stations": ["机厂公园", "机械博物馆", "西钢遗址", "龙潭镇"]
         },
         {
           "name": "织里支线",
           "englishName": "Zhili Branch",
           "from": "机厂公园",
-          "stations": [
-            "机厂公园",
-            "仓城",
-            "九里桥",
-            "新织里"
-          ]
+          "stations": ["机厂公园", "仓城", "九里桥", "新织里"]
         }
       ],
       "stationCount": 13,
-      "majorTransferStations": [
-        "机厂公园",
-        "龙潭镇"
-      ],
+      "majorTransferStations": ["机厂公园", "龙潭镇"],
       "crossesMainRiver": false,
       "crossesHezhouIsland": false
     },
@@ -4229,38 +3345,17 @@
       "purpose": "服务滨海新城、人工湖和南沧岛渡口，在海镜湖分出人工湖支线。",
       "start": "潮音湾",
       "end": "南沧岛渡口 / 蓝湾码头",
-      "stations": [
-        "潮音湾",
-        "海风路",
-        "滨海新城",
-        "海镜湖",
-        "滩桥",
-        "滩涂公园",
-        "会展酒店",
-        "南湾海洋公园",
-        "南沧岛渡口"
-      ],
+      "stations": ["潮音湾", "海风路", "滨海新城", "海镜湖", "滩桥", "滩涂公园", "会展酒店", "南湾海洋公园", "南沧岛渡口"],
       "branches": [
         {
           "name": "人工湖支线",
           "englishName": "Artificial Lake Branch",
           "from": "海镜湖",
-          "stations": [
-            "海镜湖",
-            "人工湖西",
-            "海堤公园",
-            "蓝湾码头"
-          ]
+          "stations": ["海镜湖", "人工湖西", "海堤公园", "蓝湾码头"]
         }
       ],
       "stationCount": 12,
-      "majorTransferStations": [
-        "滨海新城",
-        "海镜湖",
-        "会展酒店",
-        "南湾海洋公园",
-        "南沧岛渡口"
-      ],
+      "majorTransferStations": ["滨海新城", "海镜湖", "会展酒店", "南湾海洋公园", "南沧岛渡口"],
       "crossesMainRiver": false,
       "crossesHezhouIsland": false
     },
@@ -4275,24 +3370,9 @@
       "purpose": "以较大站距连接东部铁路门户、港城、保税区、深水港和临港工业。",
       "start": "东沧北站",
       "end": "东沧港站",
-      "stations": [
-        "东沧北站",
-        "港城北",
-        "保税物流园",
-        "深水港客运码头",
-        "临港工业区",
-        "集装箱中心",
-        "船舶维修基地",
-        "港铁基地",
-        "东沧港站"
-      ],
+      "stations": ["东沧北站", "港城北", "保税物流园", "深水港客运码头", "临港工业区", "集装箱中心", "船舶维修基地", "港铁基地", "东沧港站"],
       "stationCount": 9,
-      "majorTransferStations": [
-        "东沧北站",
-        "港城北",
-        "保税物流园",
-        "深水港客运码头"
-      ],
+      "majorTransferStations": ["东沧北站", "港城北", "保税物流园", "深水港客运码头"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": false
     },
@@ -4307,25 +3387,9 @@
       "purpose": "连接西部卫星城、第二机场、老城西缘和北部高铁总站。",
       "start": "西岭机场",
       "end": "北湖新城",
-      "stations": [
-        "西岭机场",
-        "西岭南",
-        "西岭城",
-        "西屏山",
-        "龙潭镇",
-        "西关",
-        "浦江北站",
-        "北湖新城"
-      ],
+      "stations": ["西岭机场", "西岭南", "西岭城", "西屏山", "龙潭镇", "西关", "浦江北站", "北湖新城"],
       "stationCount": 8,
-      "majorTransferStations": [
-        "西岭城",
-        "西屏山",
-        "龙潭镇",
-        "西关",
-        "浦江北站",
-        "北湖新城"
-      ],
+      "majorTransferStations": ["西岭城", "西屏山", "龙潭镇", "西关", "浦江北站", "北湖新城"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": false
     },
@@ -4340,24 +3404,9 @@
       "purpose": "西南大学城内部和青溪科研片区的加密线路。",
       "start": "湖西书院",
       "end": "南溪客运站",
-      "stations": [
-        "湖西书院",
-        "松岚南",
-        "山前东",
-        "西南大学城",
-        "文澜桥",
-        "青溪东校区",
-        "浦江理工",
-        "科教园东",
-        "青溪镇东",
-        "青溪口南",
-        "南溪客运站"
-      ],
+      "stations": ["湖西书院", "松岚南", "山前东", "西南大学城", "文澜桥", "青溪东校区", "浦江理工", "科教园东", "青溪镇东", "青溪口南", "南溪客运站"],
       "stationCount": 11,
-      "majorTransferStations": [
-        "西南大学城",
-        "南溪客运站"
-      ],
+      "majorTransferStations": ["西南大学城", "南溪客运站"],
       "crossesMainRiver": false,
       "crossesHezhouIsland": false
     },
@@ -4372,29 +3421,9 @@
       "purpose": "北部新城经江心岛至东南高铁站和航空物流区的跨江通勤线。",
       "start": "北城东",
       "end": "机场T2",
-      "stations": [
-        "北城东",
-        "白塔东",
-        "松林东",
-        "东仓北",
-        "银行街南",
-        "鹤洲北",
-        "鹤洲东",
-        "船坞东",
-        "传媒园",
-        "东南高铁站",
-        "临空商务区",
-        "航空物流园",
-        "机场T2"
-      ],
+      "stations": ["北城东", "白塔东", "松林东", "东仓北", "银行街南", "鹤洲北", "鹤洲东", "船坞东", "传媒园", "东南高铁站", "临空商务区", "航空物流园", "机场T2"],
       "stationCount": 13,
-      "majorTransferStations": [
-        "鹤洲北",
-        "东南高铁站",
-        "临空商务区",
-        "航空物流园",
-        "机场T2"
-      ],
+      "majorTransferStations": ["鹤洲北", "东南高铁站", "临空商务区", "航空物流园", "机场T2"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": true
     },
@@ -4409,27 +3438,9 @@
       "purpose": "建设中的湾岸联络线，串联港城北、龙湾湿地、南部会展酒店和南沧岛。",
       "start": "海湾大道",
       "end": "南沧岛",
-      "stations": [
-        "海湾大道",
-        "港城北",
-        "龙湾湿地",
-        "湿地南",
-        "海晏东",
-        "会展酒店",
-        "南湾海洋公园",
-        "沿湾南",
-        "南沧岛渡口",
-        "南沧岛"
-      ],
+      "stations": ["海湾大道", "港城北", "龙湾湿地", "湿地南", "海晏东", "会展酒店", "南湾海洋公园", "沿湾南", "南沧岛渡口", "南沧岛"],
       "stationCount": 10,
-      "majorTransferStations": [
-        "海湾大道",
-        "港城北",
-        "龙湾湿地",
-        "会展酒店",
-        "南湾海洋公园",
-        "南沧岛渡口"
-      ],
+      "majorTransferStations": ["海湾大道", "港城北", "龙湾湿地", "会展酒店", "南湾海洋公园", "南沧岛渡口"],
       "crossesMainRiver": true,
       "crossesHezhouIsland": false
     }
@@ -4438,10 +3449,7 @@
     "lineCount": 18,
     "uniqueStationCount": 213,
     "transferStationCount": 49,
-    "fourLineTransferStations": [
-      "浦江北站",
-      "东沧北站"
-    ],
+    "fourLineTransferStations": ["浦江北站", "东沧北站"],
     "mainRiverCrossingLineCount": 11,
     "hezhouIslandLineCount": 4,
     "airportRelatedLineCount": 5,

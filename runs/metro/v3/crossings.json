@@ -3,150 +3,90 @@
     "x": 1140.0,
     "y": 760.0,
     "lineA": "3",
-    "segmentA": [
-      "bank-street",
-      "dongping-wharf"
-    ],
+    "segmentA": ["bank-street", "dongping-wharf"],
     "lineB": "A",
-    "segmentB": [
-      "central-business-district",
-      "jiangwan-finance-harbor"
-    ],
+    "segmentB": ["central-business-district", "jiangwan-finance-harbor"],
     "coreArea": true
   },
   {
     "x": 1740.0,
     "y": 760.0,
     "lineA": "3",
-    "segmentA": [
-      "xinqiao",
-      "east-bay"
-    ],
+    "segmentA": ["xinqiao", "east-bay"],
     "lineB": "14",
-    "segmentB": [
-      "lanhai-east-railway",
-      "linkong-north"
-    ],
+    "segmentB": ["lanhai-east-railway", "linkong-north"],
     "coreArea": false
   },
   {
     "x": 1160.0,
     "y": 780.0,
     "lineA": "4",
-    "segmentA": [
-      "dongping-wharf",
-      "south-bank-finance-city"
-    ],
+    "segmentA": ["dongping-wharf", "south-bank-finance-city"],
     "lineB": "A",
-    "segmentB": [
-      "central-business-district",
-      "jiangwan-finance-harbor"
-    ],
+    "segmentB": ["central-business-district", "jiangwan-finance-harbor"],
     "coreArea": true
   },
   {
     "x": 940.0,
     "y": 560.0,
     "lineA": "5",
-    "segmentA": [
-      "dongta-temple",
-      "civic-center"
-    ],
+    "segmentA": ["dongta-temple", "civic-center"],
     "lineB": "14",
-    "segmentB": [
-      "beicheng-express",
-      "central-business-district"
-    ],
+    "segmentB": ["beicheng-express", "central-business-district"],
     "coreArea": true
   },
   {
     "x": 940.0,
     "y": 560.0,
     "lineA": "5",
-    "segmentA": [
-      "dongta-temple",
-      "civic-center"
-    ],
+    "segmentA": ["dongta-temple", "civic-center"],
     "lineB": "A",
-    "segmentB": [
-      "lanhai-railway",
-      "central-business-district"
-    ],
+    "segmentB": ["lanhai-railway", "central-business-district"],
     "coreArea": true
   },
   {
     "x": 1160.0,
     "y": 780.0,
     "lineA": "5",
-    "segmentA": [
-      "dongping-wharf",
-      "south-bank-finance-city"
-    ],
+    "segmentA": ["dongping-wharf", "south-bank-finance-city"],
     "lineB": "A",
-    "segmentB": [
-      "central-business-district",
-      "jiangwan-finance-harbor"
-    ],
+    "segmentB": ["central-business-district", "jiangwan-finance-harbor"],
     "coreArea": true
   },
   {
     "x": 240.0,
     "y": 420.0,
     "lineA": "9",
-    "segmentA": [
-      "north-machine-works",
-      "rolling-stock-works"
-    ],
+    "segmentA": ["north-machine-works", "rolling-stock-works"],
     "lineB": "13",
-    "segmentB": [
-      "yunling-airport-t2",
-      "bailu-valley"
-    ],
+    "segmentB": ["yunling-airport-t2", "bailu-valley"],
     "coreArea": false
   },
   {
     "x": 1240.0,
     "y": 860.0,
     "lineA": "10",
-    "segmentA": [
-      "south-bank-finance-city",
-      "convention-west"
-    ],
+    "segmentA": ["south-bank-finance-city", "convention-west"],
     "lineB": "A",
-    "segmentB": [
-      "jiangwan-finance-harbor",
-      "airport-express-south"
-    ],
+    "segmentB": ["jiangwan-finance-harbor", "airport-express-south"],
     "coreArea": true
   },
   {
     "x": 1740.0,
     "y": 860.0,
     "lineA": "11",
-    "segmentA": [
-      "xinqiao",
-      "dongwan-south"
-    ],
+    "segmentA": ["xinqiao", "dongwan-south"],
     "lineB": "14",
-    "segmentB": [
-      "lanhai-east-railway",
-      "linkong-north"
-    ],
+    "segmentB": ["lanhai-east-railway", "linkong-north"],
     "coreArea": false
   },
   {
     "x": 1520.0,
     "y": 660.0,
     "lineA": "13",
-    "segmentA": [
-      "financial-street",
-      "lanhai-east-railway"
-    ],
+    "segmentA": ["financial-street", "lanhai-east-railway"],
     "lineB": "17",
-    "segmentB": [
-      "software-park-east",
-      "international-convention-center"
-    ],
+    "segmentB": ["software-park-east", "international-convention-center"],
     "coreArea": false
   }
 ]

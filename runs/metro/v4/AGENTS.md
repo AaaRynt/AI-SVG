@@ -1109,7 +1109,7 @@ layout_metrics.json
 必须优先通过浏览器实际渲染，读取：
 
 ```javascript
-element.getBBox()
+element.getBBox();
 ```
 
 或等价的真实字体边界框。

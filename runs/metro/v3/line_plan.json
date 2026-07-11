@@ -6,23 +6,10 @@
     "function": "老城东西主轴，串联人民广场、CBD、东部科技新城和东站。",
     "start": "金沙湾",
     "end": "海洲北",
-    "corridors": [
-      "old-city-east-west"
-    ],
-    "servedCoreAreas": [
-      "西山市",
-      "西浦区",
-      "靖安区",
-      "明堂区",
-      "东科区",
-      "港湾区",
-      "海洲岛"
-    ],
+    "corridors": ["old-city-east-west"],
+    "servedCoreAreas": ["西山市", "西浦区", "靖安区", "明堂区", "东科区", "港湾区", "海洲岛"],
     "crossesMainRiver": false,
-    "riverCrossingLocations": [
-      "海洲西",
-      "海洲北"
-    ],
+    "riverCrossingLocations": ["海洲西", "海洲北"],
     "passesCoreArea": true,
     "entersAirport": false,
     "entersPort": false,
@@ -32,18 +19,7 @@
     "estimatedPhysicalLengthKm": 41,
     "plannedStationCount": 24,
     "plannedTransferCount": 12,
-    "majorTransferStations": [
-      "机厂公园",
-      "西门",
-      "鼓楼",
-      "人民广场",
-      "永宁门",
-      "中央商务区",
-      "博物馆",
-      "金融街",
-      "青禾",
-      "东湖路"
-    ],
+    "majorTransferStations": ["机厂公园", "西门", "鼓楼", "人民广场", "永宁门", "中央商务区", "博物馆", "金融街", "青禾", "东湖路"],
     "maximumAllowedBends": 8,
     "branchOf": null,
     "branchPoint": null,
@@ -57,20 +33,10 @@
     "function": "北部居住新城至南部滨海新城的跨江主轴。",
     "start": "北川北站",
     "end": "滨海西客运站",
-    "corridors": [
-      "core-north-south"
-    ],
-    "servedCoreAreas": [
-      "北川区",
-      "靖安区",
-      "鹭洲",
-      "南江区",
-      "海岸区"
-    ],
+    "corridors": ["core-north-south"],
+    "servedCoreAreas": ["北川区", "靖安区", "鹭洲", "南江区", "海岸区"],
     "crossesMainRiver": true,
-    "riverCrossingLocations": [
-      "鹭洲西"
-    ],
+    "riverCrossingLocations": ["鹭洲西"],
     "passesCoreArea": true,
     "entersAirport": false,
     "entersPort": false,
@@ -80,16 +46,7 @@
     "estimatedPhysicalLengthKm": 42,
     "plannedStationCount": 20,
     "plannedTransferCount": 8,
-    "majorTransferStations": [
-      "澜海火车站",
-      "北寺西",
-      "人民广场",
-      "鹭洲西",
-      "江南坊",
-      "澜海南站",
-      "云湾",
-      "滨海大学路"
-    ],
+    "majorTransferStations": ["澜海火车站", "北寺西", "人民广场", "鹭洲西", "江南坊", "澜海南站", "云湾", "滨海大学路"],
     "maximumAllowedBends": 10,
     "branchOf": null,
     "branchPoint": null,
@@ -103,27 +60,10 @@
     "function": "沿澜江联系旧码头、鹭洲和会展中心。",
     "start": "西江货场",
     "end": "湾口客运码头",
-    "corridors": [
-      "riverfront"
-    ],
-    "servedCoreAreas": [
-      "西浦区",
-      "靖安区",
-      "商浦区",
-      "鹭洲",
-      "明堂区",
-      "东科区",
-      "港湾区",
-      "海洲岛"
-    ],
+    "corridors": ["riverfront"],
+    "servedCoreAreas": ["西浦区", "靖安区", "商浦区", "鹭洲", "明堂区", "东科区", "港湾区", "海洲岛"],
     "crossesMainRiver": false,
-    "riverCrossingLocations": [
-      "西江货场",
-      "西仓",
-      "仓前渡",
-      "老码头",
-      "西关渡"
-    ],
+    "riverCrossingLocations": ["西江货场", "西仓", "仓前渡", "老码头", "西关渡"],
     "passesCoreArea": true,
     "entersAirport": false,
     "entersPort": true,
@@ -133,18 +73,7 @@
     "estimatedPhysicalLengthKm": 36,
     "plannedStationCount": 21,
     "plannedTransferCount": 10,
-    "majorTransferStations": [
-      "仓前渡",
-      "西关渡",
-      "广济桥",
-      "鹭洲西",
-      "鹭洲公园",
-      "鹭洲东",
-      "银行街",
-      "东平码头",
-      "国际会展中心",
-      "新桥"
-    ],
+    "majorTransferStations": ["仓前渡", "西关渡", "广济桥", "鹭洲西", "鹭洲公园", "鹭洲东", "银行街", "东平码头", "国际会展中心", "新桥"],
     "maximumAllowedBends": 10,
     "branchOf": null,
     "branchPoint": null,
@@ -158,21 +87,10 @@
     "function": "核心环线，分流老城、近代港埠和南岸换乘压力。",
     "start": "西门",
     "end": "西关渡",
-    "corridors": [
-      "core-ring"
-    ],
-    "servedCoreAreas": [
-      "靖安区",
-      "明堂区",
-      "商浦区",
-      "南江区"
-    ],
+    "corridors": ["core-ring"],
+    "servedCoreAreas": ["靖安区", "明堂区", "商浦区", "南江区"],
     "crossesMainRiver": true,
-    "riverCrossingLocations": [
-      "东平码头",
-      "广济桥",
-      "西关渡"
-    ],
+    "riverCrossingLocations": ["东平码头", "广济桥", "西关渡"],
     "passesCoreArea": true,
     "entersAirport": false,
     "entersPort": false,
@@ -182,18 +100,7 @@
     "estimatedPhysicalLengthKm": 31,
     "plannedStationCount": 16,
     "plannedTransferCount": 11,
-    "majorTransferStations": [
-      "西门",
-      "北门桥",
-      "澜海火车站",
-      "明德路",
-      "博物馆",
-      "东平码头",
-      "南岸金融城",
-      "江南坊",
-      "江南大学医院",
-      "广济桥"
-    ],
+    "majorTransferStations": ["西门", "北门桥", "澜海火车站", "明德路", "博物馆", "东平码头", "南岸金融城", "江南坊", "江南大学医院", "广济桥"],
     "maximumAllowedBends": 18,
     "branchOf": null,
     "branchPoint": null,
@@ -207,23 +114,10 @@
     "function": "北部新城、北部高铁站与南岸副中心通勤联系。",
     "start": "宋庄",
     "end": "海晏西",
-    "corridors": [
-      "northern-commuter",
-      "cbd-southbank"
-    ],
-    "servedCoreAreas": [
-      "北川区",
-      "靖安区",
-      "明堂区",
-      "商浦区",
-      "南江区",
-      "海岸区"
-    ],
+    "corridors": ["northern-commuter", "cbd-southbank"],
+    "servedCoreAreas": ["北川区", "靖安区", "明堂区", "商浦区", "南江区", "海岸区"],
     "crossesMainRiver": true,
-    "riverCrossingLocations": [
-      "金融街南",
-      "东平码头"
-    ],
+    "riverCrossingLocations": ["金融街南", "东平码头"],
     "passesCoreArea": true,
     "entersAirport": false,
     "entersPort": false,
@@ -233,16 +127,7 @@
     "estimatedPhysicalLengthKm": 33,
     "plannedStationCount": 20,
     "plannedTransferCount": 8,
-    "majorTransferStations": [
-      "北部高铁站",
-      "北门桥",
-      "北寺西",
-      "市民中心",
-      "金融街",
-      "东平码头",
-      "南岸金融城",
-      "澜海南站"
-    ],
+    "majorTransferStations": ["北部高铁站", "北门桥", "北寺西", "市民中心", "金融街", "东平码头", "南岸金融城", "澜海南站"],
     "maximumAllowedBends": 12,
     "branchOf": null,
     "branchPoint": null,
@@ -256,23 +141,10 @@
     "function": "大学城与鹭洲、沿江港埠和老城东缘联系。",
     "start": "青峰谷",
     "end": "银行街",
-    "corridors": [
-      "southwest-university"
-    ],
-    "servedCoreAreas": [
-      "清溪区",
-      "南江区",
-      "鹭洲",
-      "商浦区"
-    ],
+    "corridors": ["southwest-university"],
+    "servedCoreAreas": ["清溪区", "南江区", "鹭洲", "商浦区"],
     "crossesMainRiver": false,
-    "riverCrossingLocations": [
-      "鹭洲引桥",
-      "鹭洲西",
-      "鹭洲公园",
-      "鹭洲东",
-      "银行街"
-    ],
+    "riverCrossingLocations": ["鹭洲引桥", "鹭洲西", "鹭洲公园", "鹭洲东", "银行街"],
     "passesCoreArea": true,
     "entersAirport": false,
     "entersPort": false,
@@ -282,15 +154,7 @@
     "estimatedPhysicalLengthKm": 32,
     "plannedStationCount": 16,
     "plannedTransferCount": 7,
-    "majorTransferStations": [
-      "玉湖",
-      "书院路",
-      "江南大学医院",
-      "鹭洲西",
-      "鹭洲公园",
-      "鹭洲东",
-      "银行街"
-    ],
+    "majorTransferStations": ["玉湖", "书院路", "江南大学医院", "鹭洲西", "鹭洲公园", "鹭洲东", "银行街"],
     "maximumAllowedBends": 12,
     "branchOf": null,
     "branchPoint": null,
@@ -304,12 +168,8 @@
     "function": "玉湖分叉进入西岭书院和白鹭水库片区。",
     "start": "玉湖",
     "end": "白鹭水库",
-    "corridors": [
-      "southwest-university"
-    ],
-    "servedCoreAreas": [
-      "清溪区"
-    ],
+    "corridors": ["southwest-university"],
+    "servedCoreAreas": ["清溪区"],
     "crossesMainRiver": false,
     "riverCrossingLocations": [],
     "passesCoreArea": false,
@@ -321,9 +181,7 @@
     "estimatedPhysicalLengthKm": 11,
     "plannedStationCount": 7,
     "plannedTransferCount": 1,
-    "majorTransferStations": [
-      "玉湖"
-    ],
+    "majorTransferStations": ["玉湖"],
     "maximumAllowedBends": 6,
     "branchOf": "6",
     "branchPoint": "yuhu",
@@ -337,15 +195,8 @@
     "function": "CBD与东部科技新城、软件园、生物医药园走廊。",
     "start": "旧书院",
     "end": "东港北",
-    "corridors": [
-      "eastern-tech"
-    ],
-    "servedCoreAreas": [
-      "靖安区",
-      "明堂区",
-      "东科区",
-      "港湾区"
-    ],
+    "corridors": ["eastern-tech"],
+    "servedCoreAreas": ["靖安区", "明堂区", "东科区", "港湾区"],
     "crossesMainRiver": false,
     "riverCrossingLocations": [],
     "passesCoreArea": true,
@@ -357,15 +208,7 @@
     "estimatedPhysicalLengthKm": 30,
     "plannedStationCount": 16,
     "plannedTransferCount": 7,
-    "majorTransferStations": [
-      "明德路",
-      "市民中心",
-      "中央商务区",
-      "博物馆",
-      "青禾",
-      "东湖路",
-      "科技城"
-    ],
+    "majorTransferStations": ["明德路", "市民中心", "中央商务区", "博物馆", "青禾", "东湖路", "科技城"],
     "maximumAllowedBends": 10,
     "branchOf": null,
     "branchPoint": null,
@@ -379,14 +222,8 @@
     "function": "澜海南站、滨海新城、航空城与机场普通服务。",
     "start": "澜海南站",
     "end": "滨海东客运站",
-    "corridors": [
-      "coastal-new-town"
-    ],
-    "servedCoreAreas": [
-      "南江区",
-      "海岸区",
-      "星海航空城"
-    ],
+    "corridors": ["coastal-new-town"],
+    "servedCoreAreas": ["南江区", "海岸区", "星海航空城"],
     "crossesMainRiver": false,
     "riverCrossingLocations": [],
     "passesCoreArea": true,
@@ -398,12 +235,7 @@
     "estimatedPhysicalLengthKm": 34,
     "plannedStationCount": 14,
     "plannedTransferCount": 4,
-    "majorTransferStations": [
-      "澜海南站",
-      "海晏湾",
-      "飞机维修区",
-      "星海机场2号航站楼"
-    ],
+    "majorTransferStations": ["澜海南站", "海晏湾", "飞机维修区", "星海机场2号航站楼"],
     "maximumAllowedBends": 9,
     "branchOf": null,
     "branchPoint": null,
@@ -417,12 +249,8 @@
     "function": "海晏湾分叉服务人工湖和填海居住片区。",
     "start": "海晏湾",
     "end": "南湾公园",
-    "corridors": [
-      "coastal-new-town"
-    ],
-    "servedCoreAreas": [
-      "海岸区"
-    ],
+    "corridors": ["coastal-new-town"],
+    "servedCoreAreas": ["海岸区"],
     "crossesMainRiver": false,
     "riverCrossingLocations": [],
     "passesCoreArea": false,
@@ -434,9 +262,7 @@
     "estimatedPhysicalLengthKm": 8,
     "plannedStationCount": 6,
     "plannedTransferCount": 1,
-    "majorTransferStations": [
-      "海晏湾"
-    ],
+    "majorTransferStations": ["海晏湾"],
     "maximumAllowedBends": 6,
     "branchOf": "8",
     "branchPoint": "haiyan-bay",
@@ -450,13 +276,8 @@
     "function": "西浦工业遗址更新走廊，接入人民广场。",
     "start": "北机厂",
     "end": "永宁门",
-    "corridors": [
-      "old-city-east-west"
-    ],
-    "servedCoreAreas": [
-      "西浦区",
-      "靖安区"
-    ],
+    "corridors": ["old-city-east-west"],
+    "servedCoreAreas": ["西浦区", "靖安区"],
     "crossesMainRiver": false,
     "riverCrossingLocations": [],
     "passesCoreArea": true,
@@ -468,14 +289,7 @@
     "estimatedPhysicalLengthKm": 18,
     "plannedStationCount": 12,
     "plannedTransferCount": 6,
-    "majorTransferStations": [
-      "西北货场",
-      "机厂公园",
-      "西门",
-      "鼓楼",
-      "人民广场",
-      "永宁门"
-    ],
+    "majorTransferStations": ["西北货场", "机厂公园", "西门", "鼓楼", "人民广场", "永宁门"],
     "maximumAllowedBends": 8,
     "branchOf": null,
     "branchPoint": null,
@@ -489,20 +303,10 @@
     "function": "南岸金融文化副中心横向走廊，并在东端跨江接会展片区。",
     "start": "南溪镇",
     "end": "会展东门",
-    "corridors": [
-      "cbd-southbank"
-    ],
-    "servedCoreAreas": [
-      "南江区",
-      "明堂区",
-      "东科区"
-    ],
+    "corridors": ["cbd-southbank"],
+    "servedCoreAreas": ["南江区", "明堂区", "东科区"],
     "crossesMainRiver": false,
-    "riverCrossingLocations": [
-      "东岸桥",
-      "会展滨江",
-      "会展东门"
-    ],
+    "riverCrossingLocations": ["东岸桥", "会展滨江", "会展东门"],
     "passesCoreArea": true,
     "entersAirport": false,
     "entersPort": false,
@@ -512,11 +316,7 @@
     "estimatedPhysicalLengthKm": 27,
     "plannedStationCount": 14,
     "plannedTransferCount": 3,
-    "majorTransferStations": [
-      "莲塘",
-      "江南大学医院",
-      "南岸金融城"
-    ],
+    "majorTransferStations": ["莲塘", "江南大学医院", "南岸金融城"],
     "maximumAllowedBends": 9,
     "branchOf": null,
     "branchPoint": null,
@@ -530,18 +330,10 @@
     "function": "东部会展中心至深水港和保税物流园通勤线。",
     "start": "国际会展中心",
     "end": "深水港客运码头",
-    "corridors": [
-      "port-commuter"
-    ],
-    "servedCoreAreas": [
-      "东科区",
-      "港湾区"
-    ],
+    "corridors": ["port-commuter"],
+    "servedCoreAreas": ["东科区", "港湾区"],
     "crossesMainRiver": false,
-    "riverCrossingLocations": [
-      "国际会展中心",
-      "新桥"
-    ],
+    "riverCrossingLocations": ["国际会展中心", "新桥"],
     "passesCoreArea": false,
     "entersAirport": false,
     "entersPort": true,
@@ -551,11 +343,7 @@
     "estimatedPhysicalLengthKm": 26,
     "plannedStationCount": 10,
     "plannedTransferCount": 3,
-    "majorTransferStations": [
-      "国际会展中心",
-      "新桥",
-      "深水港客运码头"
-    ],
+    "majorTransferStations": ["国际会展中心", "新桥", "深水港客运码头"],
     "maximumAllowedBends": 8,
     "branchOf": null,
     "branchPoint": null,
@@ -569,22 +357,10 @@
     "function": "北部高铁站经西部与大学城北缘至海晏湾的外围半环。",
     "start": "北部高铁站",
     "end": "海晏湾",
-    "corridors": [
-      "outer-semirring"
-    ],
-    "servedCoreAreas": [
-      "北川区",
-      "西浦区",
-      "靖安区",
-      "南江区",
-      "清溪区",
-      "海岸区"
-    ],
+    "corridors": ["outer-semirring"],
+    "servedCoreAreas": ["北川区", "西浦区", "靖安区", "南江区", "清溪区", "海岸区"],
     "crossesMainRiver": true,
-    "riverCrossingLocations": [
-      "仓前渡",
-      "西仓南"
-    ],
+    "riverCrossingLocations": ["仓前渡", "西仓南"],
     "passesCoreArea": true,
     "entersAirport": false,
     "entersPort": false,
@@ -594,16 +370,7 @@
     "estimatedPhysicalLengthKm": 45,
     "plannedStationCount": 21,
     "plannedTransferCount": 8,
-    "majorTransferStations": [
-      "北部高铁站",
-      "西北货场",
-      "仓前渡",
-      "莲塘",
-      "书院路",
-      "云湾",
-      "滨海大学路",
-      "海晏湾"
-    ],
+    "majorTransferStations": ["北部高铁站", "西北货场", "仓前渡", "莲塘", "书院路", "云湾", "滨海大学路", "海晏湾"],
     "maximumAllowedBends": 14,
     "branchOf": null,
     "branchPoint": null,
@@ -617,15 +384,8 @@
     "function": "云岭机场、西山卫星城与主城区、东站的市域快线。",
     "start": "云岭机场1号航站楼",
     "end": "澜海东站",
-    "corridors": [
-      "western-satellite-airport"
-    ],
-    "servedCoreAreas": [
-      "西山市",
-      "靖安区",
-      "明堂区",
-      "东科区"
-    ],
+    "corridors": ["western-satellite-airport"],
+    "servedCoreAreas": ["西山市", "靖安区", "明堂区", "东科区"],
     "crossesMainRiver": false,
     "riverCrossingLocations": [],
     "passesCoreArea": true,
@@ -637,11 +397,7 @@
     "estimatedPhysicalLengthKm": 58,
     "plannedStationCount": 9,
     "plannedTransferCount": 3,
-    "majorTransferStations": [
-      "人民广场",
-      "金融街",
-      "澜海东站"
-    ],
+    "majorTransferStations": ["人民广场", "金融街", "澜海东站"],
     "maximumAllowedBends": 9,
     "branchOf": null,
     "branchPoint": null,
@@ -655,16 +411,8 @@
     "function": "北部高铁站、CBD、东站、机场和深水港之间的快速联络。",
     "start": "北部高铁站",
     "end": "深水港客运码头",
-    "corridors": [
-      "rail-hub-link"
-    ],
-    "servedCoreAreas": [
-      "北川区",
-      "明堂区",
-      "东科区",
-      "星海航空城",
-      "港湾区"
-    ],
+    "corridors": ["rail-hub-link"],
+    "servedCoreAreas": ["北川区", "明堂区", "东科区", "星海航空城", "港湾区"],
     "crossesMainRiver": true,
     "riverCrossingLocations": [],
     "passesCoreArea": true,
@@ -676,14 +424,7 @@
     "estimatedPhysicalLengthKm": 64,
     "plannedStationCount": 9,
     "plannedTransferCount": 6,
-    "majorTransferStations": [
-      "北部高铁站",
-      "中央商务区",
-      "科技城",
-      "澜海东站",
-      "星海机场2号航站楼",
-      "深水港客运码头"
-    ],
+    "majorTransferStations": ["北部高铁站", "中央商务区", "科技城", "澜海东站", "星海机场2号航站楼", "深水港客运码头"],
     "maximumAllowedBends": 9,
     "branchOf": null,
     "branchPoint": null,
@@ -697,19 +438,10 @@
     "function": "澜海火车站、CBD与星海国际机场的少停站快速服务。",
     "start": "澜海火车站",
     "end": "星海机场3号航站楼",
-    "corridors": [
-      "airport-express"
-    ],
-    "servedCoreAreas": [
-      "靖安区",
-      "明堂区",
-      "海岸区",
-      "星海航空城"
-    ],
+    "corridors": ["airport-express"],
+    "servedCoreAreas": ["靖安区", "明堂区", "海岸区", "星海航空城"],
     "crossesMainRiver": true,
-    "riverCrossingLocations": [
-      "江湾金融港"
-    ],
+    "riverCrossingLocations": ["江湾金融港"],
     "passesCoreArea": true,
     "entersAirport": true,
     "entersPort": false,
@@ -719,12 +451,7 @@
     "estimatedPhysicalLengthKm": 41,
     "plannedStationCount": 8,
     "plannedTransferCount": 4,
-    "majorTransferStations": [
-      "澜海火车站",
-      "中央商务区",
-      "机场北",
-      "星海机场2号航站楼"
-    ],
+    "majorTransferStations": ["澜海火车站", "中央商务区", "机场北", "星海机场2号航站楼"],
     "maximumAllowedBends": 8,
     "branchOf": null,
     "branchPoint": null,
@@ -738,20 +465,10 @@
     "function": "建设中的东部科技城至航空城纵向加密线。",
     "start": "望江北",
     "end": "星海南",
-    "corridors": [
-      "eastern-tech",
-      "coastal-new-town"
-    ],
-    "servedCoreAreas": [
-      "北川区",
-      "东科区",
-      "海岸区",
-      "星海航空城"
-    ],
+    "corridors": ["eastern-tech", "coastal-new-town"],
+    "servedCoreAreas": ["北川区", "东科区", "海岸区", "星海航空城"],
     "crossesMainRiver": true,
-    "riverCrossingLocations": [
-      "国际会展中心"
-    ],
+    "riverCrossingLocations": ["国际会展中心"],
     "passesCoreArea": false,
     "entersAirport": false,
     "entersPort": false,
@@ -761,11 +478,7 @@
     "estimatedPhysicalLengthKm": 29,
     "plannedStationCount": 11,
     "plannedTransferCount": 3,
-    "majorTransferStations": [
-      "国际会展中心",
-      "机场北",
-      "飞机维修区"
-    ],
+    "majorTransferStations": ["国际会展中心", "机场北", "飞机维修区"],
     "maximumAllowedBends": 10,
     "branchOf": null,
     "branchPoint": null,

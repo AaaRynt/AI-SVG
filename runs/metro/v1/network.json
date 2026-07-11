@@ -116,20 +116,7 @@
       "role": "西部卫星城与第二机场"
     }
   ],
-  "functionalZones": [
-    "传统老城",
-    "近代商业与港埠区",
-    "传统工业区",
-    "现代中央商务区",
-    "南岸金融和文化副中心",
-    "西南大学城与科研区",
-    "东部科技新城",
-    "东南航空城",
-    "南部滨海新城",
-    "东部深水港和保税区",
-    "北部居住新城",
-    "西部生态和卫星城"
-  ],
+  "functionalZones": ["传统老城", "近代商业与港埠区", "传统工业区", "现代中央商务区", "南岸金融和文化副中心", "西南大学城与科研区", "东部科技新城", "东南航空城", "南部滨海新城", "东部深水港和保税区", "北部居住新城", "西部生态和卫星城"],
   "lines": [
     {
       "id": "L1",
@@ -140,54 +127,9 @@
       "type": "metro",
       "status": "operational",
       "function": "老城东西主轴，串联西阜工业更新片区、崇安老城、望江 CBD 与东澄科技走廊。",
-      "serviceAreas": [
-        "西阜工业区",
-        "崇安老城",
-        "望江 CBD",
-        "东澄科技新城"
-      ],
-      "stations": [
-        "西阜机厂",
-        "双棉厂",
-        "崇安门",
-        "鼓楼西",
-        "人民广场",
-        "文庙",
-        "东仓街",
-        "临江码头",
-        "望江商务区",
-        "博物馆",
-        "东桥",
-        "春浦",
-        "柳营",
-        "东澄站",
-        "药谷南",
-        "龙湾路",
-        "国际会展中心",
-        "云帆软件园"
-      ],
-      "segments": [
-        [
-          "西阜机厂",
-          "双棉厂",
-          "崇安门",
-          "鼓楼西",
-          "人民广场",
-          "文庙",
-          "东仓街",
-          "临江码头",
-          "望江商务区",
-          "博物馆",
-          "东桥",
-          "春浦",
-          "柳营",
-          "东澄站",
-          "药谷南",
-          "龙湾路",
-          "国际会展中心",
-          "云帆软件园"
-        ]
-      ],
+      "serviceAreas": ["西阜工业区", "崇安老城", "望江 CBD", "东澄科技新城"],
+      "stations": ["西阜机厂", "双棉厂", "崇安门", "鼓楼西", "人民广场", "文庙", "东仓街", "临江码头", "望江商务区", "博物馆", "东桥", "春浦", "柳营", "东澄站", "药谷南", "龙湾路", "国际会展中心", "云帆软件园"],
+      "segments": [["西阜机厂", "双棉厂", "崇安门", "鼓楼西", "人民广场", "文庙", "东仓街", "临江码头", "望江商务区", "博物馆", "东桥", "春浦", "柳营", "东澄站", "药谷南", "龙湾路", "国际会展中心", "云帆软件园"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -204,61 +146,9 @@
       "type": "metro",
       "status": "operational",
       "function": "北苑居住新城至南部海堤的南北跨江骨干，服务老城、江心岛、南津副中心和南湾铁路站。",
-      "serviceAreas": [
-        "北苑新城",
-        "崇安老城",
-        "江心岛",
-        "南津副中心",
-        "海堤新城"
-      ],
-      "stations": [
-        "北苑高铁站",
-        "北苑医院",
-        "桂园",
-        "松台公园",
-        "北关市场",
-        "北桥",
-        "北城火车站",
-        "西牌楼",
-        "人民广场",
-        "中洲北",
-        "中洲南",
-        "南江门",
-        "南津中心",
-        "广电中心",
-        "南湾铁路站",
-        "南湾北",
-        "海堤中央",
-        "银沙湾",
-        "海堤公园",
-        "海堤南",
-        "南部客运站"
-      ],
-      "segments": [
-        [
-          "北苑高铁站",
-          "北苑医院",
-          "桂园",
-          "松台公园",
-          "北关市场",
-          "北桥",
-          "北城火车站",
-          "西牌楼",
-          "人民广场",
-          "中洲北",
-          "中洲南",
-          "南江门",
-          "南津中心",
-          "广电中心",
-          "南湾铁路站",
-          "南湾北",
-          "海堤中央",
-          "银沙湾",
-          "海堤公园",
-          "海堤南",
-          "南部客运站"
-        ]
-      ],
+      "serviceAreas": ["北苑新城", "崇安老城", "江心岛", "南津副中心", "海堤新城"],
+      "stations": ["北苑高铁站", "北苑医院", "桂园", "松台公园", "北关市场", "北桥", "北城火车站", "西牌楼", "人民广场", "中洲北", "中洲南", "南江门", "南津中心", "广电中心", "南湾铁路站", "南湾北", "海堤中央", "银沙湾", "海堤公园", "海堤南", "南部客运站"],
+      "segments": [["北苑高铁站", "北苑医院", "桂园", "松台公园", "北关市场", "北桥", "北城火车站", "西牌楼", "人民广场", "中洲北", "中洲南", "南江门", "南津中心", "广电中心", "南湾铁路站", "南湾北", "海堤中央", "银沙湾", "海堤公园", "海堤南", "南部客运站"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -275,56 +165,9 @@
       "type": "metro",
       "status": "operational",
       "function": "沿霁江两岸和云洲岛布置的近代港埠文化线，连接老码头、银行街、岛上公共空间与东湾客运片区。",
-      "serviceAreas": [
-        "霁江沿岸",
-        "近代港埠区",
-        "云洲岛",
-        "东湾片区"
-      ],
-      "stations": [
-        "老西站",
-        "芦桥",
-        "西浦",
-        "西河口",
-        "仓桥",
-        "霁江公园",
-        "临江码头",
-        "旧码头",
-        "银行街",
-        "云洲码头",
-        "云洲公园",
-        "中洲南",
-        "南岸剧院",
-        "江湾公园",
-        "东湾渡",
-        "月浦",
-        "东澄南",
-        "东湾客运",
-        "海湾客运站"
-      ],
-      "segments": [
-        [
-          "老西站",
-          "芦桥",
-          "西浦",
-          "西河口",
-          "仓桥",
-          "霁江公园",
-          "临江码头",
-          "旧码头",
-          "银行街",
-          "云洲码头",
-          "云洲公园",
-          "中洲南",
-          "南岸剧院",
-          "江湾公园",
-          "东湾渡",
-          "月浦",
-          "东澄南",
-          "东湾客运",
-          "海湾客运站"
-        ]
-      ],
+      "serviceAreas": ["霁江沿岸", "近代港埠区", "云洲岛", "东湾片区"],
+      "stations": ["老西站", "芦桥", "西浦", "西河口", "仓桥", "霁江公园", "临江码头", "旧码头", "银行街", "云洲码头", "云洲公园", "中洲南", "南岸剧院", "江湾公园", "东湾渡", "月浦", "东澄南", "东湾客运", "海湾客运站"],
+      "segments": [["老西站", "芦桥", "西浦", "西河口", "仓桥", "霁江公园", "临江码头", "旧码头", "银行街", "云洲码头", "云洲公园", "中洲南", "南岸剧院", "江湾公园", "东湾渡", "月浦", "东澄南", "东湾客运", "海湾客运站"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -341,57 +184,9 @@
       "type": "ring",
       "status": "operational",
       "function": "中心城区闭合环线，分流人民广场、老城、主铁路站、CBD 与南岸金融文化区之间的换乘压力。",
-      "serviceAreas": [
-        "崇安老城",
-        "望江 CBD",
-        "南津副中心",
-        "云洲岛"
-      ],
-      "stations": [
-        "人民广场",
-        "小南门",
-        "旧城墙",
-        "霁江公园",
-        "西津渡",
-        "南江门",
-        "河洲公园",
-        "云洲公园",
-        "南岸剧院",
-        "金融街",
-        "文化中心",
-        "湾南路",
-        "东江桥南",
-        "东江桥北",
-        "博物馆",
-        "望江商务区",
-        "海澜总站",
-        "北仓门",
-        "西牌楼"
-      ],
-      "segments": [
-        [
-          "人民广场",
-          "小南门",
-          "旧城墙",
-          "霁江公园",
-          "西津渡",
-          "南江门",
-          "河洲公园",
-          "云洲公园",
-          "南岸剧院",
-          "金融街",
-          "文化中心",
-          "湾南路",
-          "东江桥南",
-          "东江桥北",
-          "博物馆",
-          "望江商务区",
-          "海澜总站",
-          "北仓门",
-          "西牌楼",
-          "人民广场"
-        ]
-      ],
+      "serviceAreas": ["崇安老城", "望江 CBD", "南津副中心", "云洲岛"],
+      "stations": ["人民广场", "小南门", "旧城墙", "霁江公园", "西津渡", "南江门", "河洲公园", "云洲公园", "南岸剧院", "金融街", "文化中心", "湾南路", "东江桥南", "东江桥北", "博物馆", "望江商务区", "海澜总站", "北仓门", "西牌楼"],
+      "segments": [["人民广场", "小南门", "旧城墙", "霁江公园", "西津渡", "南江门", "河洲公园", "云洲公园", "南岸剧院", "金融街", "文化中心", "湾南路", "东江桥南", "东江桥北", "博物馆", "望江商务区", "海澜总站", "北仓门", "西牌楼", "人民广场"]],
       "isRing": true,
       "isBranch": false,
       "branchInfo": null,
@@ -408,55 +203,9 @@
       "type": "metro",
       "status": "operational",
       "function": "西南大学城与中心城区、东澄软件园的通勤线，沿丘陵边缘和江心岛通道进入 CBD 外围。",
-      "serviceAreas": [
-        "青岚大学城",
-        "西南丘陵",
-        "南江门",
-        "云洲岛",
-        "东澄研发区"
-      ],
-      "stations": [
-        "青岚水库",
-        "松岭公园",
-        "青岚大学城",
-        "西山书院",
-        "书院湖",
-        "湖东村",
-        "科大南门",
-        "望溪村",
-        "南溪路",
-        "西津渡",
-        "南江门",
-        "河洲南",
-        "云洲东",
-        "望江东",
-        "盛航城",
-        "泰康社区",
-        "书城南",
-        "东澄书城"
-      ],
-      "segments": [
-        [
-          "青岚水库",
-          "松岭公园",
-          "青岚大学城",
-          "西山书院",
-          "书院湖",
-          "湖东村",
-          "科大南门",
-          "望溪村",
-          "南溪路",
-          "西津渡",
-          "南江门",
-          "河洲南",
-          "云洲东",
-          "望江东",
-          "盛航城",
-          "泰康社区",
-          "书城南",
-          "东澄书城"
-        ]
-      ],
+      "serviceAreas": ["青岚大学城", "西南丘陵", "南江门", "云洲岛", "东澄研发区"],
+      "stations": ["青岚水库", "松岭公园", "青岚大学城", "西山书院", "书院湖", "湖东村", "科大南门", "望溪村", "南溪路", "西津渡", "南江门", "河洲南", "云洲东", "望江东", "盛航城", "泰康社区", "书城南", "东澄书城"],
+      "segments": [["青岚水库", "松岭公园", "青岚大学城", "西山书院", "书院湖", "湖东村", "科大南门", "望溪村", "南溪路", "西津渡", "南江门", "河洲南", "云洲东", "望江东", "盛航城", "泰康社区", "书城南", "东澄书城"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -473,53 +222,9 @@
       "type": "metro",
       "status": "operational",
       "function": "北苑居住与医疗片区通往南津金融文化副中心的跨江通勤线。",
-      "serviceAreas": [
-        "北苑新城",
-        "崇安北部",
-        "南津金融区"
-      ],
-      "stations": [
-        "北苑高铁站",
-        "杏林湾",
-        "北苑中心",
-        "松台公园",
-        "北城火车站",
-        "太平坊",
-        "清河里",
-        "梅巷",
-        "云门桥",
-        "金融街",
-        "南津中心",
-        "传媒港",
-        "鹿洲路",
-        "滨江花园",
-        "雁塘",
-        "会文路",
-        "天衡镇",
-        "南苑路"
-      ],
-      "segments": [
-        [
-          "北苑高铁站",
-          "杏林湾",
-          "北苑中心",
-          "松台公园",
-          "北城火车站",
-          "太平坊",
-          "清河里",
-          "梅巷",
-          "云门桥",
-          "金融街",
-          "南津中心",
-          "传媒港",
-          "鹿洲路",
-          "滨江花园",
-          "雁塘",
-          "会文路",
-          "天衡镇",
-          "南苑路"
-        ]
-      ],
+      "serviceAreas": ["北苑新城", "崇安北部", "南津金融区"],
+      "stations": ["北苑高铁站", "杏林湾", "北苑中心", "松台公园", "北城火车站", "太平坊", "清河里", "梅巷", "云门桥", "金融街", "南津中心", "传媒港", "鹿洲路", "滨江花园", "雁塘", "会文路", "天衡镇", "南苑路"],
+      "segments": [["北苑高铁站", "杏林湾", "北苑中心", "松台公园", "北城火车站", "太平坊", "清河里", "梅巷", "云门桥", "金融街", "南津中心", "传媒港", "鹿洲路", "滨江花园", "雁塘", "会文路", "天衡镇", "南苑路"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -536,53 +241,9 @@
       "type": "metro",
       "status": "operational",
       "function": "东部科技新城内部骨干，串联药谷、软件谷、生物港、会展北和湾北生活区。",
-      "serviceAreas": [
-        "东澄科技新城",
-        "国际会展片区",
-        "湾北社区"
-      ],
-      "stations": [
-        "东澄站",
-        "药谷北",
-        "水木桥",
-        "科创大道",
-        "药谷中路",
-        "科技新城",
-        "国际会展中心",
-        "会展北",
-        "研发一路",
-        "软件谷",
-        "生物港",
-        "莲塘",
-        "新河镇",
-        "东岸岛北",
-        "湿地北",
-        "湾口北",
-        "北湾路",
-        "湾北"
-      ],
-      "segments": [
-        [
-          "东澄站",
-          "药谷北",
-          "水木桥",
-          "科创大道",
-          "药谷中路",
-          "科技新城",
-          "国际会展中心",
-          "会展北",
-          "研发一路",
-          "软件谷",
-          "生物港",
-          "莲塘",
-          "新河镇",
-          "东岸岛北",
-          "湿地北",
-          "湾口北",
-          "北湾路",
-          "湾北"
-        ]
-      ],
+      "serviceAreas": ["东澄科技新城", "国际会展片区", "湾北社区"],
+      "stations": ["东澄站", "药谷北", "水木桥", "科创大道", "药谷中路", "科技新城", "国际会展中心", "会展北", "研发一路", "软件谷", "生物港", "莲塘", "新河镇", "东岸岛北", "湿地北", "湾口北", "北湾路", "湾北"],
+      "segments": [["东澄站", "药谷北", "水木桥", "科创大道", "药谷中路", "科技新城", "国际会展中心", "会展北", "研发一路", "软件谷", "生物港", "莲塘", "新河镇", "东岸岛北", "湿地北", "湾口北", "北湾路", "湾北"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -599,60 +260,18 @@
       "type": "branch",
       "status": "operational",
       "function": "南部滨海新城与临湾航空城的普通服务线，在机场处分出航站楼和航空物流两支。",
-      "serviceAreas": [
-        "南湾铁路站",
-        "海堤新城",
-        "滨海新城",
-        "临湾航空城"
-      ],
-      "stations": [
-        "南湾铁路站",
-        "海堤中央",
-        "海堤东",
-        "滨海新城",
-        "人工湖",
-        "月堤",
-        "芦苇岸",
-        "临空商务区",
-        "临湾国际机场",
-        "机场二号航站楼",
-        "机场三号航站楼",
-        "维修区",
-        "航城北",
-        "航空物流园"
-      ],
+      "serviceAreas": ["南湾铁路站", "海堤新城", "滨海新城", "临湾航空城"],
+      "stations": ["南湾铁路站", "海堤中央", "海堤东", "滨海新城", "人工湖", "月堤", "芦苇岸", "临空商务区", "临湾国际机场", "机场二号航站楼", "机场三号航站楼", "维修区", "航城北", "航空物流园"],
       "segments": [
-        [
-          "南湾铁路站",
-          "海堤中央",
-          "海堤东",
-          "滨海新城",
-          "人工湖",
-          "月堤",
-          "芦苇岸",
-          "临空商务区",
-          "临湾国际机场"
-        ],
-        [
-          "临湾国际机场",
-          "机场二号航站楼",
-          "机场三号航站楼"
-        ],
-        [
-          "临湾国际机场",
-          "维修区",
-          "航城北",
-          "航空物流园"
-        ]
+        ["南湾铁路站", "海堤中央", "海堤东", "滨海新城", "人工湖", "月堤", "芦苇岸", "临空商务区", "临湾国际机场"],
+        ["临湾国际机场", "机场二号航站楼", "机场三号航站楼"],
+        ["临湾国际机场", "维修区", "航城北", "航空物流园"]
       ],
       "isRing": false,
       "isBranch": true,
       "branchInfo": {
         "branchStation": "临湾国际机场",
-        "branchNames": [
-          "航站楼支线",
-          "航空物流支线"
-        ]
+        "branchNames": ["航站楼支线", "航空物流支线"]
       },
       "crossesMainRiver": false,
       "strokeWidth": 10,
@@ -667,36 +286,9 @@
       "type": "regional_express",
       "status": "operational",
       "function": "西部卫星城经河谷快速进入海澜总站和望江东商务片区的市域快线。",
-      "serviceAreas": [
-        "西岭卫星城",
-        "西阜产业走廊",
-        "海澜总站",
-        "望江东"
-      ],
-      "stations": [
-        "西岭卫星城",
-        "西岭客运站",
-        "河谷口",
-        "谷口",
-        "老西站",
-        "西阜工业园",
-        "海澜总站",
-        "望江东",
-        "东澄软件园"
-      ],
-      "segments": [
-        [
-          "西岭卫星城",
-          "西岭客运站",
-          "河谷口",
-          "谷口",
-          "老西站",
-          "西阜工业园",
-          "海澜总站",
-          "望江东",
-          "东澄软件园"
-        ]
-      ],
+      "serviceAreas": ["西岭卫星城", "西阜产业走廊", "海澜总站", "望江东"],
+      "stations": ["西岭卫星城", "西岭客运站", "河谷口", "谷口", "老西站", "西阜工业园", "海澜总站", "望江东", "东澄软件园"],
+      "segments": [["西岭卫星城", "西岭客运站", "河谷口", "谷口", "老西站", "西阜工业园", "海澜总站", "望江东", "东澄软件园"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -713,32 +305,9 @@
       "type": "airport_express",
       "status": "operational",
       "function": "以较少停站连接海澜总站、望江 CBD、南津中心、南湾铁路站和临湾国际机场。",
-      "serviceAreas": [
-        "海澜总站",
-        "望江 CBD",
-        "南津副中心",
-        "临湾航空城"
-      ],
-      "stations": [
-        "海澜总站",
-        "望江商务区",
-        "南津中心",
-        "南湾铁路站",
-        "临空商务区",
-        "临湾国际机场",
-        "机场二号航站楼"
-      ],
-      "segments": [
-        [
-          "海澜总站",
-          "望江商务区",
-          "南津中心",
-          "南湾铁路站",
-          "临空商务区",
-          "临湾国际机场",
-          "机场二号航站楼"
-        ]
-      ],
+      "serviceAreas": ["海澜总站", "望江 CBD", "南津副中心", "临湾航空城"],
+      "stations": ["海澜总站", "望江商务区", "南津中心", "南湾铁路站", "临空商务区", "临湾国际机场", "机场二号航站楼"],
+      "segments": [["海澜总站", "望江商务区", "南津中心", "南湾铁路站", "临空商务区", "临湾国际机场", "机场二号航站楼"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -755,41 +324,9 @@
       "type": "commuter",
       "status": "operational",
       "function": "南湾东部与深水港、保税物流、船坞和邮轮中心之间的港区通勤线。",
-      "serviceAreas": [
-        "南湾货运区",
-        "保税物流园",
-        "深水港区"
-      ],
-      "stations": [
-        "南湾货场",
-        "港湾湿地",
-        "保税物流园",
-        "保税东",
-        "港湾邮轮中心",
-        "外海门",
-        "集装箱北",
-        "深水港",
-        "船坞西",
-        "船厂路",
-        "港务西",
-        "港务大厦"
-      ],
-      "segments": [
-        [
-          "南湾货场",
-          "港湾湿地",
-          "保税物流园",
-          "保税东",
-          "港湾邮轮中心",
-          "外海门",
-          "集装箱北",
-          "深水港",
-          "船坞西",
-          "船厂路",
-          "港务西",
-          "港务大厦"
-        ]
-      ],
+      "serviceAreas": ["南湾货运区", "保税物流园", "深水港区"],
+      "stations": ["南湾货场", "港湾湿地", "保税物流园", "保税东", "港湾邮轮中心", "外海门", "集装箱北", "深水港", "船坞西", "船厂路", "港务西", "港务大厦"],
+      "segments": [["南湾货场", "港湾湿地", "保税物流园", "保税东", "港湾邮轮中心", "外海门", "集装箱北", "深水港", "船坞西", "船厂路", "港务西", "港务大厦"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -806,45 +343,9 @@
       "type": "metro",
       "status": "operational",
       "function": "沿旧铁路货场和纺织机械厂区布设，服务西阜传统工业区更新与老城北侧社区。",
-      "serviceAreas": [
-        "西阜工业区",
-        "崇安老城北",
-        "旧铁路走廊"
-      ],
-      "stations": [
-        "铁西货场",
-        "西阜货场",
-        "车辆段",
-        "西阜机厂",
-        "机修厂",
-        "纺织公园",
-        "工人村",
-        "崇安门",
-        "北仓门",
-        "老城墙",
-        "太平坊",
-        "北城火车站",
-        "西河口",
-        "仓前街"
-      ],
-      "segments": [
-        [
-          "铁西货场",
-          "西阜货场",
-          "车辆段",
-          "西阜机厂",
-          "机修厂",
-          "纺织公园",
-          "工人村",
-          "崇安门",
-          "北仓门",
-          "老城墙",
-          "太平坊",
-          "北城火车站",
-          "西河口",
-          "仓前街"
-        ]
-      ],
+      "serviceAreas": ["西阜工业区", "崇安老城北", "旧铁路走廊"],
+      "stations": ["铁西货场", "西阜货场", "车辆段", "西阜机厂", "机修厂", "纺织公园", "工人村", "崇安门", "北仓门", "老城墙", "太平坊", "北城火车站", "西河口", "仓前街"],
+      "segments": [["铁西货场", "西阜货场", "车辆段", "西阜机厂", "机修厂", "纺织公园", "工人村", "崇安门", "北仓门", "老城墙", "太平坊", "北城火车站", "西河口", "仓前街"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -861,47 +362,9 @@
       "type": "arc_connector",
       "status": "operational",
       "function": "中心北侧半环，联络西阜货场、北苑高铁站、北部医疗教育片区和东澄北部。",
-      "serviceAreas": [
-        "西阜北部",
-        "北苑新城",
-        "东澄北部"
-      ],
-      "stations": [
-        "西阜货场",
-        "北部物流园",
-        "北环西",
-        "纱厂公园",
-        "北苑高铁站",
-        "北苑中心",
-        "松台公园",
-        "北苑行政中心",
-        "望北路",
-        "医科城",
-        "长浜",
-        "东澄北",
-        "科创北路",
-        "会展北路",
-        "湾北西"
-      ],
-      "segments": [
-        [
-          "西阜货场",
-          "北部物流园",
-          "北环西",
-          "纱厂公园",
-          "北苑高铁站",
-          "北苑中心",
-          "松台公园",
-          "北苑行政中心",
-          "望北路",
-          "医科城",
-          "长浜",
-          "东澄北",
-          "科创北路",
-          "会展北路",
-          "湾北西"
-        ]
-      ],
+      "serviceAreas": ["西阜北部", "北苑新城", "东澄北部"],
+      "stations": ["西阜货场", "北部物流园", "北环西", "纱厂公园", "北苑高铁站", "北苑中心", "松台公园", "北苑行政中心", "望北路", "医科城", "长浜", "东澄北", "科创北路", "会展北路", "湾北西"],
+      "segments": [["西阜货场", "北部物流园", "北环西", "纱厂公园", "北苑高铁站", "北苑中心", "松台公园", "北苑行政中心", "望北路", "医科城", "长浜", "东澄北", "科创北路", "会展北路", "湾北西"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -918,42 +381,9 @@
       "type": "metro",
       "status": "operational",
       "function": "从国际会展中心经望江东、云洲岛到南岸金融和滨海新城的跨江联络线。",
-      "serviceAreas": [
-        "国际会展片区",
-        "云洲岛",
-        "南津金融区",
-        "滨海新城"
-      ],
-      "stations": [
-        "国际会展中心",
-        "科技新城",
-        "望江东",
-        "博物馆",
-        "云洲码头",
-        "河洲公园",
-        "云洲东",
-        "金融街",
-        "文化中心",
-        "滨海新城",
-        "海洋湖",
-        "海洋公园"
-      ],
-      "segments": [
-        [
-          "国际会展中心",
-          "科技新城",
-          "望江东",
-          "博物馆",
-          "云洲码头",
-          "河洲公园",
-          "云洲东",
-          "金融街",
-          "文化中心",
-          "滨海新城",
-          "海洋湖",
-          "海洋公园"
-        ]
-      ],
+      "serviceAreas": ["国际会展片区", "云洲岛", "南津金融区", "滨海新城"],
+      "stations": ["国际会展中心", "科技新城", "望江东", "博物馆", "云洲码头", "河洲公园", "云洲东", "金融街", "文化中心", "滨海新城", "海洋湖", "海洋公园"],
+      "segments": [["国际会展中心", "科技新城", "望江东", "博物馆", "云洲码头", "河洲公园", "云洲东", "金融街", "文化中心", "滨海新城", "海洋湖", "海洋公园"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -970,47 +400,18 @@
       "type": "branch",
       "status": "operational",
       "function": "大学城内部支线，在梅岭口分向青岚水库生态片区和西岭第二机场方向。",
-      "serviceAreas": [
-        "青岚大学城",
-        "青岚生态区",
-        "西岭机场"
-      ],
-      "stations": [
-        "青岚大学城",
-        "书院湖",
-        "山前村",
-        "梅岭口",
-        "青岚水库",
-        "岚屏山",
-        "西南科园",
-        "西岭机场"
-      ],
+      "serviceAreas": ["青岚大学城", "青岚生态区", "西岭机场"],
+      "stations": ["青岚大学城", "书院湖", "山前村", "梅岭口", "青岚水库", "岚屏山", "西南科园", "西岭机场"],
       "segments": [
-        [
-          "青岚大学城",
-          "书院湖",
-          "山前村",
-          "梅岭口"
-        ],
-        [
-          "梅岭口",
-          "青岚水库",
-          "岚屏山"
-        ],
-        [
-          "梅岭口",
-          "西南科园",
-          "西岭机场"
-        ]
+        ["青岚大学城", "书院湖", "山前村", "梅岭口"],
+        ["梅岭口", "青岚水库", "岚屏山"],
+        ["梅岭口", "西南科园", "西岭机场"]
       ],
       "isRing": false,
       "isBranch": true,
       "branchInfo": {
         "branchStation": "梅岭口",
-        "branchNames": [
-          "水库支线",
-          "西岭机场支线"
-        ]
+        "branchNames": ["水库支线", "西岭机场支线"]
       },
       "crossesMainRiver": false,
       "strokeWidth": 8,
@@ -1025,29 +426,9 @@
       "type": "regional_express",
       "status": "operational",
       "function": "第二机场与西岭卫星城、北苑高铁站之间的市域快线，承担外围机场和城际换乘功能。",
-      "serviceAreas": [
-        "西岭机场",
-        "西岭卫星城",
-        "北苑高铁站"
-      ],
-      "stations": [
-        "西岭机场",
-        "河谷镇",
-        "西岭卫星城",
-        "西岭北站",
-        "北山口",
-        "北苑高铁站"
-      ],
-      "segments": [
-        [
-          "西岭机场",
-          "河谷镇",
-          "西岭卫星城",
-          "西岭北站",
-          "北山口",
-          "北苑高铁站"
-        ]
-      ],
+      "serviceAreas": ["西岭机场", "西岭卫星城", "北苑高铁站"],
+      "stations": ["西岭机场", "河谷镇", "西岭卫星城", "西岭北站", "北山口", "北苑高铁站"],
+      "segments": [["西岭机场", "河谷镇", "西岭卫星城", "西岭北站", "北山口", "北苑高铁站"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -1064,35 +445,9 @@
       "type": "port_shuttle",
       "status": "operational",
       "function": "深水港区内疏港支线，连接邮轮中心、航运大厦、东港岛和集装箱南端。",
-      "serviceAreas": [
-        "深水港",
-        "东港岛",
-        "海门岛"
-      ],
-      "stations": [
-        "港湾邮轮中心",
-        "航运大厦",
-        "航运码头",
-        "东港岛",
-        "岬角码头",
-        "海门岛",
-        "深水港",
-        "东港南",
-        "集装箱南"
-      ],
-      "segments": [
-        [
-          "港湾邮轮中心",
-          "航运大厦",
-          "航运码头",
-          "东港岛",
-          "岬角码头",
-          "海门岛",
-          "深水港",
-          "东港南",
-          "集装箱南"
-        ]
-      ],
+      "serviceAreas": ["深水港", "东港岛", "海门岛"],
+      "stations": ["港湾邮轮中心", "航运大厦", "航运码头", "东港岛", "岬角码头", "海门岛", "深水港", "东港南", "集装箱南"],
+      "segments": [["港湾邮轮中心", "航运大厦", "航运码头", "东港岛", "岬角码头", "海门岛", "深水港", "东港南", "集装箱南"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -1109,38 +464,9 @@
       "type": "metro",
       "status": "under_construction",
       "function": "建设中的东岸跨江线，未来把东澄站、会展中心、滨海新城和临湾机场串联成东南走廊。",
-      "serviceAreas": [
-        "东澄科技新城",
-        "东岸湿地",
-        "滨海新城",
-        "临湾航空城"
-      ],
-      "stations": [
-        "东澄站",
-        "东澄东",
-        "国际会展中心",
-        "东岸湿地",
-        "滨海新城",
-        "潮汐公园",
-        "临空商务区",
-        "航材园",
-        "临湾国际机场",
-        "东堤"
-      ],
-      "segments": [
-        [
-          "东澄站",
-          "东澄东",
-          "国际会展中心",
-          "东岸湿地",
-          "滨海新城",
-          "潮汐公园",
-          "临空商务区",
-          "航材园",
-          "临湾国际机场",
-          "东堤"
-        ]
-      ],
+      "serviceAreas": ["东澄科技新城", "东岸湿地", "滨海新城", "临湾航空城"],
+      "stations": ["东澄站", "东澄东", "国际会展中心", "东岸湿地", "滨海新城", "潮汐公园", "临空商务区", "航材园", "临湾国际机场", "东堤"],
+      "segments": [["东澄站", "东澄东", "国际会展中心", "东岸湿地", "滨海新城", "潮汐公园", "临空商务区", "航材园", "临湾国际机场", "东堤"]],
       "isRing": false,
       "isBranch": false,
       "branchInfo": null,
@@ -1158,10 +484,7 @@
       "y": 250,
       "district": "西岭市",
       "functionalRole": "airport",
-      "transferLines": [
-        "L15",
-        "L16"
-      ],
+      "transferLines": ["L15", "L16"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "secondary_airport",
@@ -1177,12 +500,7 @@
       "y": 250,
       "district": "北苑区",
       "functionalRole": "railway_hub",
-      "transferLines": [
-        "L13",
-        "L16",
-        "L2",
-        "L6"
-      ],
+      "transferLines": ["L13", "L16", "L2", "L6"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "major_railway_station",
@@ -1198,9 +516,7 @@
       "y": 260,
       "district": "西岭市",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1216,9 +532,7 @@
       "y": 275,
       "district": "崇安区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1234,9 +548,7 @@
       "y": 300,
       "district": "西阜区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1252,9 +564,7 @@
       "y": 305,
       "district": "北苑区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1270,9 +580,7 @@
       "y": 310,
       "district": "北苑区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1288,9 +596,7 @@
       "y": 335,
       "district": "北苑区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1306,9 +612,7 @@
       "y": 335,
       "district": "北苑区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1324,9 +628,7 @@
       "y": 340,
       "district": "西阜区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1342,10 +644,7 @@
       "y": 350,
       "district": "北苑区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L13",
-        "L6"
-      ],
+      "transferLines": ["L13", "L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1361,9 +660,7 @@
       "y": 355,
       "district": "西岭市",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1379,9 +676,7 @@
       "y": 360,
       "district": "北苑区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1397,11 +692,7 @@
       "y": 365,
       "district": "北苑区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L13",
-        "L2",
-        "L6"
-      ],
+      "transferLines": ["L13", "L2", "L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1417,9 +708,7 @@
       "y": 370,
       "district": "西岭市",
       "functionalRole": "industrial_heritage",
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -1435,9 +724,7 @@
       "y": 390,
       "district": "望江区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1453,9 +740,7 @@
       "y": 405,
       "district": "北苑区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1471,10 +756,7 @@
       "y": 415,
       "district": "西岭市",
       "functionalRole": "industrial_heritage",
-      "transferLines": [
-        "L12",
-        "L13"
-      ],
+      "transferLines": ["L12", "L13"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -1490,9 +772,7 @@
       "y": 425.0,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1508,9 +788,7 @@
       "y": 430,
       "district": "望江区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1526,9 +804,7 @@
       "y": 430,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1544,9 +820,7 @@
       "y": 430,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -1562,11 +836,7 @@
       "y": 445,
       "district": "崇安区",
       "functionalRole": "railway_hub",
-      "transferLines": [
-        "L12",
-        "L2",
-        "L6"
-      ],
+      "transferLines": ["L12", "L2", "L6"],
       "isTerminus": false,
       "isTrafficHub": true,
       "hubType": "old_railway_station",
@@ -1582,9 +852,7 @@
       "y": 450.0,
       "district": "西岭市",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1600,9 +868,7 @@
       "y": 450,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -1618,9 +884,7 @@
       "y": 455,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1636,9 +900,7 @@
       "y": 455,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1654,9 +916,7 @@
       "y": 455,
       "district": "东澄区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1672,9 +932,7 @@
       "y": 460,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1690,11 +948,7 @@
       "y": 465,
       "district": "望江区",
       "functionalRole": "railway_hub",
-      "transferLines": [
-        "L10",
-        "L4",
-        "L9"
-      ],
+      "transferLines": ["L10", "L4", "L9"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "main_high_speed_railway_station",
@@ -1710,9 +964,7 @@
       "y": 480,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1728,9 +980,7 @@
       "y": 480,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1746,10 +996,7 @@
       "y": 485,
       "district": "西阜区",
       "functionalRole": "industrial_heritage",
-      "transferLines": [
-        "L1",
-        "L12"
-      ],
+      "transferLines": ["L1", "L12"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -1765,9 +1012,7 @@
       "y": 490,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1783,9 +1028,7 @@
       "y": 492.5,
       "district": "西岭市",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L16"
-      ],
+      "transferLines": ["L16"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1801,9 +1044,7 @@
       "y": 492.5,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1819,9 +1060,7 @@
       "y": 500,
       "district": "东澄区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L13"
-      ],
+      "transferLines": ["L13"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1837,9 +1076,7 @@
       "y": 505,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1855,9 +1092,7 @@
       "y": 508.75,
       "district": "西阜区",
       "functionalRole": "industrial_heritage",
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1873,10 +1108,7 @@
       "y": 520,
       "district": "崇安区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L12",
-        "L4"
-      ],
+      "transferLines": ["L12", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1892,10 +1124,7 @@
       "y": 530,
       "district": "崇安区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L2",
-        "L4"
-      ],
+      "transferLines": ["L2", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1911,9 +1140,7 @@
       "y": 530.0,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1929,9 +1156,7 @@
       "y": 530,
       "district": "东澄区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1947,9 +1172,7 @@
       "y": 532.5,
       "district": "西阜区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1965,9 +1188,7 @@
       "y": 535,
       "district": "西阜区",
       "functionalRole": "industrial_heritage",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -1983,9 +1204,7 @@
       "y": 535.0,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2001,10 +1220,7 @@
       "y": 540,
       "district": "崇安区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L12",
-        "L6"
-      ],
+      "transferLines": ["L12", "L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2020,9 +1236,7 @@
       "y": 555.0,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2038,9 +1252,7 @@
       "y": 556.25,
       "district": "西阜区",
       "functionalRole": "industrial_heritage",
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2056,11 +1268,7 @@
       "y": 560,
       "district": "东澄区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L1",
-        "L18",
-        "L7"
-      ],
+      "transferLines": ["L1", "L18", "L7"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "major_railway_station",
@@ -2076,9 +1284,7 @@
       "y": 560,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2094,9 +1300,7 @@
       "y": 565,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2112,9 +1316,7 @@
       "y": 575,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2130,9 +1332,7 @@
       "y": 577.5,
       "district": "东澄区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2148,10 +1348,7 @@
       "y": 580,
       "district": "崇安区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L1",
-        "L12"
-      ],
+      "transferLines": ["L1", "L12"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2167,9 +1364,7 @@
       "y": 585,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2185,9 +1380,7 @@
       "y": 585,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2203,11 +1396,7 @@
       "y": 590,
       "district": "望江区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L10",
-        "L1",
-        "L4"
-      ],
+      "transferLines": ["L10", "L1", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2223,9 +1412,7 @@
       "y": 590.0,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2241,9 +1428,7 @@
       "y": 600,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2259,9 +1444,7 @@
       "y": 602,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2277,9 +1460,7 @@
       "y": 620,
       "district": "西阜区",
       "functionalRole": "industrial_heritage",
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2295,11 +1476,7 @@
       "y": 620,
       "district": "崇安区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L1",
-        "L2",
-        "L4"
-      ],
+      "transferLines": ["L1", "L2", "L4"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2315,11 +1492,7 @@
       "y": 620,
       "district": "望江区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L1",
-        "L14",
-        "L4"
-      ],
+      "transferLines": ["L1", "L14", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2335,9 +1508,7 @@
       "y": 620,
       "district": "望江区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2353,9 +1524,7 @@
       "y": 620,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2371,12 +1540,7 @@
       "y": 620,
       "district": "东澄区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L1",
-        "L14",
-        "L18",
-        "L7"
-      ],
+      "transferLines": ["L1", "L14", "L18", "L7"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2392,9 +1556,7 @@
       "y": 620,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L7"
-      ],
+      "transferLines": ["L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2410,9 +1572,7 @@
       "y": 626,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2428,9 +1588,7 @@
       "y": 628,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L1"
-      ],
+      "transferLines": ["L1"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2446,9 +1604,7 @@
       "y": 635,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2464,10 +1620,7 @@
       "y": 635,
       "district": "望江区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L1",
-        "L3"
-      ],
+      "transferLines": ["L1", "L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2483,9 +1636,7 @@
       "y": 650,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2501,10 +1652,7 @@
       "y": 650,
       "district": "东澄区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L14",
-        "L7"
-      ],
+      "transferLines": ["L14", "L7"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2520,9 +1668,7 @@
       "y": 650,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2538,9 +1684,7 @@
       "y": 660,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2556,9 +1700,7 @@
       "y": 662.5,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2574,9 +1716,7 @@
       "y": 665,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L12"
-      ],
+      "transferLines": ["L12"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2592,9 +1732,7 @@
       "y": 675,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2610,9 +1748,7 @@
       "y": 680,
       "district": "望江区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2628,9 +1764,7 @@
       "y": 680,
       "district": "东澄区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2646,9 +1780,7 @@
       "y": 690,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2664,9 +1796,7 @@
       "y": 690,
       "district": "望江区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2682,9 +1812,7 @@
       "y": 695,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2700,10 +1828,7 @@
       "y": 700,
       "district": "崇安区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L12",
-        "L3"
-      ],
+      "transferLines": ["L12", "L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2719,9 +1844,7 @@
       "y": 700,
       "district": "望江区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2737,9 +1860,7 @@
       "y": 700,
       "district": "东澄区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2755,9 +1876,7 @@
       "y": 710,
       "district": "崇安区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2773,10 +1892,7 @@
       "y": 720,
       "district": "南津区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L3",
-        "L9"
-      ],
+      "transferLines": ["L3", "L9"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2792,9 +1908,7 @@
       "y": 720,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2810,11 +1924,7 @@
       "y": 720,
       "district": "望江区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L14",
-        "L5",
-        "L9"
-      ],
+      "transferLines": ["L14", "L5", "L9"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2830,10 +1940,7 @@
       "y": 725,
       "district": "西岭市",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L16",
-        "L9"
-      ],
+      "transferLines": ["L16", "L9"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2849,10 +1956,7 @@
       "y": 725,
       "district": "云洲区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L14",
-        "L3"
-      ],
+      "transferLines": ["L14", "L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2868,9 +1972,7 @@
       "y": 740,
       "district": "云洲区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2886,9 +1988,7 @@
       "y": 755,
       "district": "西岭市",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2904,9 +2004,7 @@
       "y": 760,
       "district": "西岭市",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2922,10 +2020,7 @@
       "y": 760,
       "district": "南津区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L3",
-        "L4"
-      ],
+      "transferLines": ["L3", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2941,9 +2036,7 @@
       "y": 760,
       "district": "南津区",
       "functionalRole": "passenger_hub",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -2959,9 +2052,7 @@
       "y": 775,
       "district": "西岭市",
       "functionalRole": "passenger_hub",
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTerminus": false,
       "isTrafficHub": true,
       "hubType": "coach_terminal",
@@ -2977,9 +2068,7 @@
       "y": 780,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -2995,10 +2084,7 @@
       "y": 785,
       "district": "云洲区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L3",
-        "L4"
-      ],
+      "transferLines": ["L3", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3014,9 +2100,7 @@
       "y": 800,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3032,9 +2116,7 @@
       "y": 805,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3050,10 +2132,7 @@
       "y": 815,
       "district": "云洲区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L14",
-        "L4"
-      ],
+      "transferLines": ["L14", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3069,10 +2148,7 @@
       "y": 820,
       "district": "南津区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L4",
-        "L5"
-      ],
+      "transferLines": ["L4", "L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3088,10 +2164,7 @@
       "y": 820,
       "district": "云洲区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L2",
-        "L3"
-      ],
+      "transferLines": ["L2", "L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3107,9 +2180,7 @@
       "y": 830,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3125,9 +2196,7 @@
       "y": 840,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3143,9 +2212,7 @@
       "y": 845,
       "district": "西岭市",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L9"
-      ],
+      "transferLines": ["L9"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3161,9 +2228,7 @@
       "y": 845.0,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3179,9 +2244,7 @@
       "y": 850,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3197,9 +2260,7 @@
       "y": 850,
       "district": "港岛区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3215,10 +2276,7 @@
       "y": 855,
       "district": "云洲区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L14",
-        "L5"
-      ],
+      "transferLines": ["L14", "L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3234,9 +2292,7 @@
       "y": 865,
       "district": "云洲区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3252,9 +2308,7 @@
       "y": 870,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3270,9 +2324,7 @@
       "y": 875,
       "district": "南津区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L3"
-      ],
+      "transferLines": ["L3"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3288,11 +2340,7 @@
       "y": 900,
       "district": "南津区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L2",
-        "L4",
-        "L5"
-      ],
+      "transferLines": ["L2", "L4", "L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3308,11 +2356,7 @@
       "y": 900,
       "district": "南津区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L14",
-        "L4",
-        "L6"
-      ],
+      "transferLines": ["L14", "L4", "L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3328,10 +2372,7 @@
       "y": 905,
       "district": "南津区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L3",
-        "L4"
-      ],
+      "transferLines": ["L3", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3347,10 +2388,7 @@
       "y": 910,
       "district": "南津区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L14",
-        "L4"
-      ],
+      "transferLines": ["L14", "L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3366,10 +2404,7 @@
       "y": 910,
       "district": "港岛区",
       "functionalRole": "passenger_hub",
-      "transferLines": [
-        "L11",
-        "L17"
-      ],
+      "transferLines": ["L11", "L17"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "cruise_terminal",
@@ -3385,9 +2420,7 @@
       "y": 920,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3403,9 +2436,7 @@
       "y": 920,
       "district": "港岛区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3421,11 +2452,7 @@
       "y": 940,
       "district": "南津区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L10",
-        "L2",
-        "L6"
-      ],
+      "transferLines": ["L10", "L2", "L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3441,9 +2468,7 @@
       "y": 950,
       "district": "港岛区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3459,9 +2484,7 @@
       "y": 955,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3477,9 +2500,7 @@
       "y": 970,
       "district": "南津区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3495,9 +2516,7 @@
       "y": 980,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L4"
-      ],
+      "transferLines": ["L4"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3513,10 +2532,7 @@
       "y": 980,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L11",
-        "L17"
-      ],
+      "transferLines": ["L11", "L17"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3532,9 +2548,7 @@
       "y": 990,
       "district": "南津区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3550,9 +2564,7 @@
       "y": 990,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3568,9 +2580,7 @@
       "y": 1000,
       "district": "青岚区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3586,9 +2596,7 @@
       "y": 1005,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3604,9 +2612,7 @@
       "y": 1010,
       "district": "南津区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3622,9 +2628,7 @@
       "y": 1015,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3640,9 +2644,7 @@
       "y": 1015.0,
       "district": "南津区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3658,9 +2660,7 @@
       "y": 1015.0,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3676,9 +2676,7 @@
       "y": 1020,
       "district": "南津区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3694,9 +2692,7 @@
       "y": 1030,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3712,9 +2708,7 @@
       "y": 1040,
       "district": "青岚区",
       "functionalRole": "education",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3730,9 +2724,7 @@
       "y": 1040,
       "district": "海堤区",
       "functionalRole": "industrial_heritage",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -3748,9 +2740,7 @@
       "y": 1040,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -3766,9 +2756,7 @@
       "y": 1045,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3784,9 +2772,7 @@
       "y": 1050,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L17"
-      ],
+      "transferLines": ["L17"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -3802,10 +2788,7 @@
       "y": 1060,
       "district": "青岚区",
       "functionalRole": "education",
-      "transferLines": [
-        "L15",
-        "L5"
-      ],
+      "transferLines": ["L15", "L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3821,9 +2804,7 @@
       "y": 1060.0,
       "district": "港岛区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3839,11 +2820,7 @@
       "y": 1080,
       "district": "南津区",
       "functionalRole": "railway_hub",
-      "transferLines": [
-        "L10",
-        "L2",
-        "L8"
-      ],
+      "transferLines": ["L10", "L2", "L8"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "major_railway_station",
@@ -3859,9 +2836,7 @@
       "y": 1080,
       "district": "临湾区",
       "functionalRole": "port_industry",
-      "transferLines": [
-        "L11"
-      ],
+      "transferLines": ["L11"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3877,9 +2852,7 @@
       "y": 1085,
       "district": "青岚区",
       "functionalRole": "education",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3895,9 +2868,7 @@
       "y": 1085,
       "district": "青岚区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3913,9 +2884,7 @@
       "y": 1085,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3931,10 +2900,7 @@
       "y": 1110,
       "district": "青岚区",
       "functionalRole": "education",
-      "transferLines": [
-        "L15",
-        "L5"
-      ],
+      "transferLines": ["L15", "L5"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -3950,9 +2916,7 @@
       "y": 1120,
       "district": "临湾区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -3968,9 +2932,7 @@
       "y": 1125,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -3986,9 +2948,7 @@
       "y": 1160,
       "district": "青岚区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L5"
-      ],
+      "transferLines": ["L5"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4004,9 +2964,7 @@
       "y": 1160,
       "district": "青岚区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L15"
-      ],
+      "transferLines": ["L15"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4022,9 +2980,7 @@
       "y": 1160,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4040,10 +2996,7 @@
       "y": 1160,
       "district": "海堤区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L2",
-        "L8"
-      ],
+      "transferLines": ["L2", "L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4059,9 +3012,7 @@
       "y": 1160,
       "district": "临湾区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L18"
-      ],
+      "transferLines": ["L18"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4077,11 +3028,7 @@
       "y": 1180,
       "district": "临湾区",
       "functionalRole": "business_civic",
-      "transferLines": [
-        "L10",
-        "L18",
-        "L8"
-      ],
+      "transferLines": ["L10", "L18", "L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4097,9 +3044,7 @@
       "y": 1185,
       "district": "青岚区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L6"
-      ],
+      "transferLines": ["L6"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -4115,10 +3060,7 @@
       "y": 1190,
       "district": "西岭市",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L15",
-        "L5"
-      ],
+      "transferLines": ["L15", "L5"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -4134,9 +3076,7 @@
       "y": 1190.0,
       "district": "海堤区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4152,9 +3092,7 @@
       "y": 1210,
       "district": "海堤区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4170,11 +3108,7 @@
       "y": 1220,
       "district": "海堤区",
       "functionalRole": "transfer",
-      "transferLines": [
-        "L14",
-        "L18",
-        "L8"
-      ],
+      "transferLines": ["L14", "L18", "L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4190,10 +3124,7 @@
       "y": 1220,
       "district": "临湾区",
       "functionalRole": "airport",
-      "transferLines": [
-        "L10",
-        "L8"
-      ],
+      "transferLines": ["L10", "L8"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "airport_terminal",
@@ -4209,11 +3140,7 @@
       "y": 1230,
       "district": "临湾区",
       "functionalRole": "airport",
-      "transferLines": [
-        "L10",
-        "L18",
-        "L8"
-      ],
+      "transferLines": ["L10", "L18", "L8"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "international_airport",
@@ -4229,9 +3156,7 @@
       "y": 1240,
       "district": "青岚区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L15"
-      ],
+      "transferLines": ["L15"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -4247,9 +3172,7 @@
       "y": 1240,
       "district": "海堤区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4265,9 +3188,7 @@
       "y": 1245,
       "district": "南津区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4283,9 +3204,7 @@
       "y": 1260,
       "district": "临湾区",
       "functionalRole": "airport",
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "airport_terminal",
@@ -4301,9 +3220,7 @@
       "y": 1270,
       "district": "海堤区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4319,9 +3236,7 @@
       "y": 1275,
       "district": "海堤区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4337,9 +3252,7 @@
       "y": 1285,
       "district": "青岚区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L15"
-      ],
+      "transferLines": ["L15"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4355,9 +3268,7 @@
       "y": 1290.0,
       "district": "海堤区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L14"
-      ],
+      "transferLines": ["L14"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4373,9 +3284,7 @@
       "y": 1320,
       "district": "西岭市",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L15"
-      ],
+      "transferLines": ["L15"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -4391,9 +3300,7 @@
       "y": 1320,
       "district": "海堤区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4409,9 +3316,7 @@
       "y": 1320,
       "district": "临湾区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4427,9 +3332,7 @@
       "y": 1350,
       "district": "临湾区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -4445,9 +3348,7 @@
       "y": 1360,
       "district": "海堤区",
       "functionalRole": "ecology",
-      "transferLines": [
-        "L14"
-      ],
+      "transferLines": ["L14"],
       "isTerminus": true,
       "isTrafficHub": false,
       "hubType": null,
@@ -4463,9 +3364,7 @@
       "y": 1360,
       "district": "临湾区",
       "functionalRole": "local_station",
-      "transferLines": [
-        "L8"
-      ],
+      "transferLines": ["L8"],
       "isTerminus": false,
       "isTrafficHub": false,
       "hubType": null,
@@ -4481,9 +3380,7 @@
       "y": 1380,
       "district": "海堤区",
       "functionalRole": "passenger_hub",
-      "transferLines": [
-        "L2"
-      ],
+      "transferLines": ["L2"],
       "isTerminus": true,
       "isTrafficHub": true,
       "hubType": "coach_terminal",

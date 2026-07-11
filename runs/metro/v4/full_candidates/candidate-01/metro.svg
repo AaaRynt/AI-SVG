@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4050" height="2700" viewBox="0 0 4050 2700" role="img" aria-labelledby="map-title map-desc">
+<title id="map-title">宁沧轨道交通线网图 · 完整候选 01</title>
+<desc id="map-desc">Fictional bilingual octilinear metro map of Ningcang, a Chinese coastal megacity.</desc>
+<metadata>{&quot;city&quot;: {&quot;nameZh&quot;: &quot;宁沧市&quot;, &quot;nameEn&quot;: &quot;Ningcang&quot;, &quot;population&quot;: 21800000, &quot;metropolitanPopulation&quot;: 31700000, &quot;builtUpAreaKm2&quot;: 2640, &quot;railHistoryYears&quot;: 37}, &quot;lineCount&quot;: 17, &quot;stationCount&quot;: 184, &quot;mode&quot;: &quot;full&quot;}</metadata>
+<style>
+.label-zh{font-family:"Hiragino Sans GB","PingFang SC",sans-serif;font-weight:650;fill:#1C2931;paint-order:stroke;stroke:#F8FAFC;stroke-width:4px;stroke-linejoin:round}
+.label-en{font-family:"Avenir Next Condensed","Helvetica Neue",Arial,sans-serif;font-weight:520;letter-spacing:.15px;fill:#52616B;paint-order:stroke;stroke:#F8FAFC;stroke-width:3px;stroke-linejoin:round}
+.region-label{font-family:"Hiragino Sans GB","PingFang SC",sans-serif}
+.route{fill:none;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<rect width="4050" height="2700" fill="#F8FAFC"/>
+<g id="map-geography" transform="scale(1.35)">
+<g id="geography">
+<rect x="130" y="240" width="570" height="420" rx="52" fill="#E8F0E1" opacity="0.68"/>
+<text x="156" y="282" font-size="24" font-weight="650" fill="#68747F">西部丘陵与宁西卫星城</text>
+<text x="156" y="307" font-size="13" fill="#8C969E">Western Hills &amp; Ningxi</text>
+<rect x="1030" y="190" width="910" height="320" rx="52" fill="#EDF2F7" opacity="0.68"/>
+<text x="1056" y="232" font-size="24" font-weight="650" fill="#68747F">北部新城</text>
+<text x="1056" y="257" font-size="13" fill="#8C969E">Northern New City</text>
+<rect x="760" y="560" width="540" height="370" rx="52" fill="#F6EEE3" opacity="0.68"/>
+<text x="786" y="602" font-size="24" font-weight="650" fill="#68747F">传统老城</text>
+<text x="786" y="627" font-size="13" fill="#8C969E">Historic City</text>
+<rect x="1430" y="540" width="420" height="330" rx="52" fill="#F2EDF7" opacity="0.68"/>
+<text x="1456" y="582" font-size="24" font-weight="650" fill="#68747F">中央商务区</text>
+<text x="1456" y="607" font-size="13" fill="#8C969E">Central Business District</text>
+<rect x="1900" y="420" width="500" height="380" rx="52" fill="#E7F3F1" opacity="0.68"/>
+<text x="1926" y="462" font-size="24" font-weight="650" fill="#68747F">东部科技城</text>
+<text x="1926" y="487" font-size="13" fill="#8C969E">Eastern Science City</text>
+<rect x="420" y="1190" width="620" height="410" rx="52" fill="#EEF4E7" opacity="0.68"/>
+<text x="446" y="1232" font-size="24" font-weight="650" fill="#68747F">书岭大学城</text>
+<text x="446" y="1257" font-size="13" fill="#8C969E">Shuling University Town</text>
+<rect x="1240" y="1060" width="620" height="400" rx="52" fill="#F4EDF3" opacity="0.68"/>
+<text x="1266" y="1102" font-size="24" font-weight="650" fill="#68747F">南岸金融文化区</text>
+<text x="1266" y="1127" font-size="13" fill="#8C969E">South Bank Center</text>
+<rect x="1810" y="1260" width="650" height="420" rx="52" fill="#EAF2F7" opacity="0.68"/>
+<text x="1836" y="1302" font-size="24" font-weight="650" fill="#68747F">滨海新城与航空港</text>
+<text x="1836" y="1327" font-size="13" fill="#8C969E">Coastal New City &amp; Airport</text>
+<path d="M 100 925 C 500 900 760 930 1030 948 C 1320 968 1650 928 1910 940 C 2180 952 2390 920 2590 860 L 2590 1060 C 2370 1080 2190 1070 1950 1040 C 1650 1004 1360 1050 1040 1028 C 700 1004 420 1020 100 1045 Z" fill="#DCEFF6"/>
+<path d="M 2490 790 C 2630 860 2750 990 2860 1200 L 3000 2000 L 2350 2000 C 2420 1750 2470 1490 2500 1260 C 2520 1080 2500 920 2490 790 Z" fill="#D6EBF3"/>
+<path d="M 1210 935 L 1440 920 L 1550 978 L 1430 1042 L 1195 1028 L 1135 982 Z" fill="#F8FAFC" stroke="#B8D5E0" stroke-width="3"/>
+<path d="M 210 1690 L 470 1430 L 640 1510 L 490 1750 Z" fill="#DCE8D7" opacity="0.9"/>
+<path d="M 330 1510 C 430 1460 540 1470 620 1540 C 560 1620 440 1650 340 1605 Z" fill="#C9E1EA"/>
+<text x="1830" y="1000" font-size="34" font-weight="650" fill="#73A7BA" transform="rotate(-2 1830 1000)">沧江 · CANGJIANG RIVER</text>
+<text x="2700" y="1320" font-size="42" font-weight="650" fill="#77A9BA" transform="rotate(78 2700 1320)">澄湾 · CHENG BAY</text>
+<text x="1250" y="995" font-size="22" font-weight="650" fill="#668C78">白鹭洲 Bailuzhou</text>
+<text x="270" y="1740" font-size="20" fill="#66816B">书岭生态保育区</text>
+</g>
+</g>
+<g id="routes">
+<path class="route casing" d="M 432 1026 L 633.12 1026 L 834.24 1026 L 1035.36 1026 L 1242 1026 L 1296 1026 L 1323 1026 L 1458.4 1026 L 1593 1026 L 1715.01 1026 L 1836 1026 L 2068.7 1026 L 2295 1026 L 2491.74 1026 L 2686.5 1026 L 2727 1026 L 2970.27 1026 L 3213 1026" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L1" d="M 432 1026 L 633.12 1026 L 834.24 1026 L 1035.36 1026 L 1242 1026 L 1296 1026 L 1323 1026 L 1458.4 1026 L 1593 1026 L 1715.01 1026 L 1836 1026 L 2068.7 1026 L 2295 1026 L 2491.74 1026 L 2686.5 1026 L 2727 1026 L 2970.27 1026 L 3213 1026" stroke="#C83E4D" stroke-width="9"/>
+<path class="route casing" d="M 1836 324 L 1836 378 L 1836 486 L 1836 702 L 1836 837 L 1836 972 L 1836 1026 L 1836 1053 L 1836 1270.68 L 1836 1485 L 1836 1647 L 1836 1701 L 1836 1782 L 1836 1944 L 1836 1957.5 L 1836 2166.2 L 1836 2376" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L2" d="M 1836 324 L 1836 378 L 1836 486 L 1836 702 L 1836 837 L 1836 972 L 1836 1026 L 1836 1053 L 1836 1270.68 L 1836 1485 L 1836 1647 L 1836 1701 L 1836 1782 L 1836 1944 L 1836 1957.5 L 1836 2166.2 L 1836 2376" stroke="#2F5FA7" stroke-width="9"/>
+<path class="route casing" d="M 702 1998 L 702 1782 L 876.79 1607.21 L 1053 1431 L 1226.53 1257.47 L 1242 1242 L 1242 1026 L 1242 972 L 1242 945 L 1242 891 L 1296 891 L 1458 891 L 1662.04 891 L 1782 891 L 1836 837 L 1971 702 L 1998 675 L 2187 675 L 2577.46 675 L 2773.73 675 L 2970 675" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L3" d="M 702 1998 L 702 1782 L 876.79 1607.21 L 1053 1431 L 1226.53 1257.47 L 1242 1242 L 1242 1026 L 1242 972 L 1242 945 L 1242 891 L 1296 891 L 1458 891 L 1662.04 891 L 1782 891 L 1836 837 L 1971 702 L 1998 675 L 2187 675 L 2577.46 675 L 2773.73 675 L 2970 675" stroke="#009B77" stroke-width="9"/>
+<path class="route casing" d="M 351 486 L 622.51 486 L 756 486 L 853.6 583.6 L 1045.59 775.59 L 1242 972 L 1296 1026 L 1323 1053 L 1350 1053 L 1620 1053 L 1836 1053 L 2025 1053 L 2030.79 1058.79 L 2173.5 1201.5 L 2397.31 1425.31 L 2619 1647 L 2754 1782 L 2792.93 1820.92 L 2970 1998 L 3024 1998" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L4" d="M 351 486 L 622.51 486 L 756 486 L 853.6 583.6 L 1045.59 775.59 L 1242 972 L 1296 1026 L 1323 1053 L 1350 1053 L 1620 1053 L 1836 1053 L 2025 1053 L 2030.79 1058.79 L 2173.5 1201.5 L 2397.31 1425.31 L 2619 1647 L 2754 1782 L 2792.93 1820.92 L 2970 1998 L 3024 1998" stroke="#E8792E" stroke-width="9"/>
+<path class="route casing" d="M 648 1647 L 831.89 1647 L 1022.85 1647 L 1213.81 1647 L 1404 1647 L 1595.73 1647 L 1782 1647 L 1836 1647 L 2027.16 1647 L 2225.2 1647 L 2423.23 1647 L 2619 1647 L 2835 1647 L 2948.92 1760.92 L 3063.95 1875.95 L 3178.97 1990.97 L 3294 2106" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L5" d="M 648 1647 L 831.89 1647 L 1022.85 1647 L 1213.81 1647 L 1404 1647 L 1595.73 1647 L 1782 1647 L 1836 1647 L 2027.16 1647 L 2225.2 1647 L 2423.23 1647 L 2619 1647 L 2835 1647 L 2948.92 1760.92 L 3063.95 1875.95 L 3178.97 1990.97 L 3294 2106" stroke="#8558A8" stroke-width="9"/>
+<path class="route casing" d="M 1107 702 L 1473.08 702 L 1836 702 L 1971 702 L 2214 702 L 2362.5 702 L 2497.5 837 L 2686.5 1026 L 2781 1120.5 L 2794.5 1134 L 2794.5 1485 L 2794.5 1498.5 L 2794.5 1566 L 2626.25 1734.25 L 2416.5 1944 L 2403 1957.5 L 1998 1957.5 L 1836 1957.5 L 1714.5 1957.5 L 1476.68 1957.5 L 1458 1957.5 L 1304.8 1804.3 L 1053 1552.5 L 1053 1431 L 1053 1058.78 L 1053 756 L 1097.76 711.25 L 1107 702" stroke="#FFFFFF" stroke-width="19"/>
+<path class="route" data-line-id="L6" d="M 1107 702 L 1473.08 702 L 1836 702 L 1971 702 L 2214 702 L 2362.5 702 L 2497.5 837 L 2686.5 1026 L 2781 1120.5 L 2794.5 1134 L 2794.5 1485 L 2794.5 1498.5 L 2794.5 1566 L 2626.25 1734.25 L 2416.5 1944 L 2403 1957.5 L 1998 1957.5 L 1836 1957.5 L 1714.5 1957.5 L 1476.68 1957.5 L 1458 1957.5 L 1304.8 1804.3 L 1053 1552.5 L 1053 1431 L 1053 1058.78 L 1053 756 L 1097.76 711.25 L 1107 702" stroke="#C49A00" stroke-width="11"/>
+<path class="route casing" d="M 1404 351 L 1404 632.97 L 1404 837 L 1458 891 L 1539 972 L 1593 1026 L 1620 1053 L 1620 1267.77 L 1620 1485 L 1782 1647 L 1836 1701 L 1917 1782 L 1998 1863 L 1998 1944 L 1998 1957.5 L 1998 2139.55 L 1998 2322" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L7" d="M 1404 351 L 1404 632.97 L 1404 837 L 1458 891 L 1539 972 L 1593 1026 L 1620 1053 L 1620 1267.77 L 1620 1485 L 1782 1647 L 1836 1701 L 1917 1782 L 1998 1863 L 1998 1944 L 1998 1957.5 L 1998 2139.55 L 1998 2322" stroke="#00A6B2" stroke-width="9"/>
+<path class="route casing" d="M 486 702 L 697.3 702 L 915.88 702 L 999 702 L 1089.64 792.64 L 1242 945 L 1323 1026 L 1350 1053 L 1404 1107 L 1404 1296.32 L 1404 1485 L 1404 1647 L 1404 1782 L 1552.22 1782 L 1836 1782 L 1917 1782 L 2244.41 1782 L 2565 1782" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L8" d="M 486 702 L 697.3 702 L 915.88 702 L 999 702 L 1089.64 792.64 L 1242 945 L 1323 1026 L 1350 1053 L 1404 1107 L 1404 1296.32 L 1404 1485 L 1404 1647 L 1404 1782 L 1552.22 1782 L 1836 1782 L 1917 1782 L 2244.41 1782 L 2565 1782" stroke="#8C4A32" stroke-width="9"/>
+<path class="route casing" d="M 243 2133 L 635.78 2133 L 972 2133 L 972 2068.88 L 972 1863 L 1109.5 1725.5 L 1350 1485 L 1404 1485 L 1620 1485 L 1836 1485 L 1890 1485 L 2010.08 1364.92 L 2173.5 1201.5 L 2241 1134 L 2295 1134 L 2496.06 1134 L 2700 1134" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L9" d="M 243 2133 L 635.78 2133 L 972 2133 L 972 2068.88 L 972 1863 L 1109.5 1725.5 L 1350 1485 L 1404 1485 L 1620 1485 L 1836 1485 L 1890 1485 L 2010.08 1364.92 L 2173.5 1201.5 L 2241 1134 L 2295 1134 L 2496.06 1134 L 2700 1134" stroke="#D0448D" stroke-width="9"/>
+<path class="route casing" d="M 2565 324 L 2565 580.16 L 2565 710.76 L 2565 837 L 2565 864 L 2637.77 936.77 L 2727 1026 L 2781 1080 L 2781 1120.5 L 2781 1304.39 L 2781 1485 L 2794.5 1498.5 L 2926.77 1630.77 L 3058.18 1762.18 L 3189.59 1893.59 L 3321 2025" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L10" d="M 2565 324 L 2565 580.16 L 2565 710.76 L 2565 837 L 2565 864 L 2637.77 936.77 L 2727 1026 L 2781 1080 L 2781 1120.5 L 2781 1304.39 L 2781 1485 L 2794.5 1498.5 L 2926.77 1630.77 L 3058.18 1762.18 L 3189.59 1893.59 L 3321 2025" stroke="#658B2A" stroke-width="9"/>
+<path class="route casing" d="M 1417.5 378 L 1625.12 378 L 1836 378 L 2229.93 378 L 2428.53 378 L 2592 378 L 2616.84 402.84 L 2891.31 677.31 L 3172.17 958.17 L 3240 1026 L 3240 1128.66 L 3240 1327.26 L 3240 1512 L 3230.2 1521.8 L 3089.78 1662.22 L 2808.92 1943.08 L 2808 1944 L 2416.5 1944 L 2376 1944" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L11" d="M 1417.5 378 L 1625.12 378 L 1836 378 L 2229.93 378 L 2428.53 378 L 2592 378 L 2616.84 402.84 L 2891.31 677.31 L 3172.17 958.17 L 3240 1026 L 3240 1128.66 L 3240 1327.26 L 3240 1512 L 3230.2 1521.8 L 3089.78 1662.22 L 2808.92 1943.08 L 2808 1944 L 2416.5 1944 L 2376 1944" stroke="#436B8A" stroke-width="9"/>
+<path class="route casing" d="M 1998 837 L 2070.72 837 L 2146.13 837 L 2221.54 837 L 2295 837 L 2396.6 837 L 2497.5 837 L 2565 837 L 2692.86 837 L 2757.5 837 L 2822.14 837 L 2948.72 837 L 3013.36 837 L 3078 837" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L12" d="M 1998 837 L 2070.72 837 L 2146.13 837 L 2221.54 837 L 2295 837 L 2396.6 837 L 2497.5 837 L 2565 837 L 2692.86 837 L 2757.5 837 L 2822.14 837 L 2948.72 837 L 3013.36 837 L 3078 837" stroke="#008DB8" stroke-width="9"/>
+<path class="route casing" d="M 1512 567 L 2079 567 L 2187 675 L 2214 702 L 2295 783 L 2295 837 L 2295 1026 L 2295 1134 L 2295 1269 L 2970 1944 L 3024 1998" stroke="#FFFFFF" stroke-width="19"/>
+<path class="route" data-line-id="L13" d="M 1512 567 L 2079 567 L 2187 675 L 2214 702 L 2295 783 L 2295 837 L 2295 1026 L 2295 1134 L 2295 1269 L 2970 1944 L 3024 1998" stroke="#D7263D" stroke-width="11"/>
+<path class="route express-center" d="M 1512 567 L 2079 567 L 2187 675 L 2214 702 L 2295 783 L 2295 837 L 2295 1026 L 2295 1134 L 2295 1269 L 2970 1944 L 3024 1998" stroke="#FFFFFF" stroke-width="2.4" opacity="0.95"/>
+<path class="route casing" d="M 351 486 L 351 432 L 593.89 432 L 837 432 L 875.02 470.02 L 1084.96 679.96 L 1191.64 786.64 L 1296 891 L 1377 972 L 1539 972 L 1689.17 972 L 1836 972 L 2025 972" stroke="#FFFFFF" stroke-width="19"/>
+<path class="route" data-line-id="L14" d="M 351 486 L 351 432 L 593.89 432 L 837 432 L 875.02 470.02 L 1084.96 679.96 L 1191.64 786.64 L 1296 891 L 1377 972 L 1539 972 L 1689.17 972 L 1836 972 L 2025 972" stroke="#6F2DBD" stroke-width="11"/>
+<path class="route express-center" d="M 351 486 L 351 432 L 593.89 432 L 837 432 L 875.02 470.02 L 1084.96 679.96 L 1191.64 786.64 L 1296 891 L 1377 972 L 1539 972 L 1689.17 972 L 1836 972 L 2025 972" stroke="#FFFFFF" stroke-width="2.4" opacity="0.95"/>
+<path class="route casing" d="M 837 2349 L 964.34 2349 L 1096.06 2349 L 1227.79 2349 L 1323 2349 L 1345.72 2326.28 L 1435.76 2236.24 L 1528.9 2143.1 L 1622.05 2049.95 L 1714.5 1957.5 L 1728 1944 L 1836 1944 L 1998 1944 L 2206.06 1944 L 2416.5 1944 L 2430 1944" stroke="#FFFFFF" stroke-width="17"/>
+<path class="route" data-line-id="L15" d="M 837 2349 L 964.34 2349 L 1096.06 2349 L 1227.79 2349 L 1323 2349 L 1345.72 2326.28 L 1435.76 2236.24 L 1528.9 2143.1 L 1622.05 2049.95 L 1714.5 1957.5 L 1728 1944 L 1836 1944 L 1998 1944 L 2206.06 1944 L 2416.5 1944 L 2430 1944" stroke="#73777F" stroke-width="9" stroke-dasharray="24 18"/>
+<path class="route casing" d="M 2781 1485 L 2794.5 1485 L 2962.89 1485 L 3132 1485 L 3253.73 1606.73 L 3375 1728" stroke="#FFFFFF" stroke-width="15"/>
+<path class="route" data-line-id="B1" d="M 2781 1485 L 2794.5 1485 L 2962.89 1485 L 3132 1485 L 3253.73 1606.73 L 3375 1728" stroke="#658B2A" stroke-width="7"/>
+<path class="route casing" d="M 702 1782 L 635.01 1782 L 568.01 1782 L 434.03 1782 L 432 1782 L 385.12 1828.89 L 337.74 1876.26 L 243 1971" stroke="#FFFFFF" stroke-width="15"/>
+<path class="route" data-line-id="B2" d="M 702 1782 L 635.01 1782 L 568.01 1782 L 434.03 1782 L 432 1782 L 385.12 1828.89 L 337.74 1876.26 L 243 1971" stroke="#009B77" stroke-width="7"/>
+</g>
+<g id="stations">
+<g class="station terminal" data-station-id="NC-NR-001" data-landmark="" aria-label="北原中心 / North Plain Civic Center"><circle cx="1836.0" cy="324.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="1836.0" cy="324.0" r="2" fill="#26343D"/></g>
+<g class="station terminal" data-station-id="NC-NR-002" data-landmark="" aria-label="松荫湖 / Pine Shade Lake"><circle cx="2565.0" cy="324.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="2565.0" cy="324.0" r="2" fill="#26343D"/></g>
+<g class="station terminal" data-station-id="NC-NR-003" data-landmark="" aria-label="瑞禾里 / Harvest Quarter"><circle cx="1404.0" cy="351.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="1404.0" cy="351.0" r="2" fill="#26343D"/></g>
+<g class="station terminal" data-station-id="NC-NR-004" data-landmark="" aria-label="云杉公园 / Spruce Grove Park"><circle cx="1417.5" cy="378.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="1417.5" cy="378.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-NR-005" data-landmark="" aria-label="安居桥 / Hearthside Bridge"><circle cx="1625.122" cy="378.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-RH-002" data-landmark="rail" aria-label="宁沧北站 / Ningcang North Railway Station"><circle cx="1836.0" cy="378.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><rect x="1832.4" y="374.04" width="7.199999999999999" height="6.4799999999999995" rx="1.08" fill="none" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1834.2" y1="380.52" x2="1833.12" y2="382.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1837.8" y1="380.52" x2="1838.88" y2="382.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1833.84" y1="377.28" x2="1838.16" y2="377.28" stroke="#26343D" stroke-width="0.8999999999999999"/></g>
+<g class="station" data-station-id="NC-NR-006" data-landmark="" aria-label="新棠路 / New Crabapple Road"><circle cx="2229.935" cy="378.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-NR-007" data-landmark="" aria-label="长林医院 / Longwood Hospital"><circle cx="2428.531" cy="378.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-NR-008" data-landmark="" aria-label="北客运站 / North Coach Terminal"><circle cx="2616.837" cy="402.837" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-WS-001" data-landmark="" aria-label="镜川镇 / Mirror River Town"><circle cx="593.888" cy="432.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-IN-001" data-landmark="" aria-label="机厂路 / Railway Works Road"><circle cx="875.025" cy="470.025" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange hub terminal" data-station-id="NC-AP-012" data-landmark="airport" aria-label="西岭机场 / West Ridge Airport"><circle cx="351.0" cy="486.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><path d="M 351.0 481.68 L 351.0 490.32 M 346.68 485.28 L 355.32 485.28 M 348.48 488.88 L 351.0 487.44 L 353.52 488.88" fill="none" stroke="#26343D" stroke-width="0.8999999999999999" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="station" data-station-id="NC-WS-002" data-landmark="" aria-label="桃源坞 / Peach Orchard Hollow"><circle cx="622.513" cy="486.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-NR-009" data-landmark="" aria-label="观澜社区 / River Outlook Community"><circle cx="1836.0" cy="486.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-NR-010" data-landmark="" aria-label="荷风里 / Lotus Breeze Quarter"><circle cx="1512.0" cy="567.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="1512.0" cy="567.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-NR-011" data-landmark="" aria-label="石渠镇 / Stone Channel Town"><circle cx="2565.0" cy="580.163" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IN-002" data-landmark="" aria-label="老钢桥 / Old Steel Bridge"><circle cx="853.598" cy="583.598" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-NR-012" data-landmark="" aria-label="燕归浜 / Swallow Return Creek"><circle cx="1404.0" cy="632.968" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-CB-001" data-landmark="" aria-label="沧浦广场 / River Harbor Square"><circle cx="2187.0" cy="675.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-ET-001" data-landmark="" aria-label="东澜中心 / East River Civic Center"><circle cx="2577.463" cy="675.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-ET-002" data-landmark="" aria-label="榆塘 / Elm Pond"><circle cx="2773.732" cy="675.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-ET-003" data-landmark="" aria-label="联丰镇 / United Harvest Town"><circle cx="2970.0" cy="675.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="2970.0" cy="675.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-ET-004" data-landmark="" aria-label="葭湾 / Rushwater Bay"><circle cx="2891.311" cy="677.311" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IN-003" data-landmark="" aria-label="二纱厂 / No. 2 Textile Mill"><circle cx="1084.957" cy="679.957" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-WS-003" data-landmark="" aria-label="石门关 / Stone Gate Pass"><circle cx="486.0" cy="702.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="486.0" cy="702.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-WS-004" data-landmark="" aria-label="枫桥市集 / Maple Bridge Market"><circle cx="697.299" cy="702.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-IN-004" data-landmark="" aria-label="北货场 / North Freight Yard"><circle cx="915.885" cy="702.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-OC-001" data-landmark="" aria-label="镇海门 / Seaward Gate"><circle cx="1107.0" cy="702.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-OC-002" data-landmark="" aria-label="永安坊 / Everpeace Quarter"><circle cx="1473.075" cy="702.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-CB-002" data-landmark="" aria-label="经贸大厦 / Trade and Commerce Tower"><circle cx="1836.0" cy="702.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-CB-003" data-landmark="" aria-label="海晏路 / Calm Seas Road"><circle cx="1971.0" cy="702.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-CB-004" data-landmark="" aria-label="中央商务区 / Central Business District"><circle cx="2214.0" cy="702.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-ET-005" data-landmark="" aria-label="唐家浜 / Tang Family Creek"><circle cx="2565.0" cy="710.756" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IN-005" data-landmark="" aria-label="铸造街 / Foundry Street"><circle cx="1097.755" cy="711.245" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IN-006" data-landmark="" aria-label="锅炉房 / Boiler House"><circle cx="1045.587" cy="775.587" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-OC-003" data-landmark="" aria-label="织锦巷 / Brocade Lane"><circle cx="1191.644" cy="786.644" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IN-007" data-landmark="" aria-label="运河西 / Canal West"><circle cx="1089.639" cy="792.639" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-CB-005" data-landmark="" aria-label="城市博物馆 / City Museum"><circle cx="1836.0" cy="837.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station terminal" data-station-id="NC-CB-006" data-landmark="" aria-label="大剧院 / Grand Theatre"><circle cx="1998.0" cy="837.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="1998.0" cy="837.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-CB-007" data-landmark="" aria-label="云帆广场 / Cloud Sail Square"><circle cx="2070.718" cy="837.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-CB-008" data-landmark="" aria-label="银杏大道 / Ginkgo Avenue"><circle cx="2146.13" cy="837.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-CB-009" data-landmark="expo" aria-label="会展西 / Convention Center West"><circle cx="2221.541" cy="837.0" r="8" fill="#FFFFFF" stroke="#26343D" stroke-width="2.1"/><path d="M 2217.221 840.6 L 2217.221 834.84 L 2221.541 832.68 L 2225.8610000000003 834.84 L 2225.8610000000003 840.6 Z" fill="none" stroke="#26343D" stroke-width="0.8999999999999999" stroke-linejoin="round"/><line x1="2220.101" y1="836.28" x2="2220.101" y2="840.6" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="2222.981" y1="836.28" x2="2222.981" y2="840.6" stroke="#26343D" stroke-width="0.8999999999999999"/></g>
+<g class="station interchange" data-station-id="NC-CB-010" data-landmark="" aria-label="望江门 / River Outlook Gate"><circle cx="2295.0" cy="837.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-CB-012" data-landmark="" aria-label="国贸中心 / World Trade Center"><circle cx="2396.604" cy="837.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-CB-013" data-landmark="" aria-label="汇金桥 / Capital Bridge"><circle cx="2497.5" cy="837.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange hub" data-station-id="NC-RH-003" data-landmark="rail" aria-label="宁沧东站 / Ningcang East Railway Station"><circle cx="2565.0" cy="837.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><rect x="2561.4" y="833.04" width="7.199999999999999" height="6.4799999999999995" rx="1.08" fill="none" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="2563.2" y1="839.52" x2="2562.12" y2="841.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="2566.8" y1="839.52" x2="2567.88" y2="841.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="2562.84" y1="836.28" x2="2567.16" y2="836.28" stroke="#26343D" stroke-width="0.8999999999999999"/></g>
+<g class="station" data-station-id="NC-ET-006" data-landmark="" aria-label="柳汀桥 / Willow Bank Bridge"><circle cx="2692.863" cy="837.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-ET-007" data-landmark="" aria-label="博研院 / Advanced Research Institute"><circle cx="2757.502" cy="837.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-ET-008" data-landmark="" aria-label="生命科学园 / Life Sciences Park"><circle cx="2822.14" cy="837.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-ET-009" data-landmark="" aria-label="微电子园 / Microelectronics Park"><circle cx="2948.723" cy="837.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-ET-010" data-landmark="" aria-label="软件园 / Software Park"><circle cx="3013.362" cy="837.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-ET-011" data-landmark="expo" aria-label="会展东 / Convention Center East"><circle cx="3078.0" cy="837.0" r="8" fill="#FFFFFF" stroke="#26343D" stroke-width="2.1"/><path d="M 3073.68 840.6 L 3073.68 834.84 L 3078.0 832.68 L 3082.32 834.84 L 3082.32 840.6 Z" fill="none" stroke="#26343D" stroke-width="0.8999999999999999" stroke-linejoin="round"/><line x1="3076.56" y1="836.28" x2="3076.56" y2="840.6" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="3079.44" y1="836.28" x2="3079.44" y2="840.6" stroke="#26343D" stroke-width="0.8999999999999999"/></g>
+<g class="station interchange" data-station-id="NC-OC-004" data-landmark="" aria-label="泮池 / Academy Pond"><circle cx="1296.0" cy="891.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-OC-005" data-landmark="" aria-label="槐市 / Scholar Tree Market"><circle cx="1458.0" cy="891.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-OC-006" data-landmark="" aria-label="清晖桥 / Clear Light Bridge"><circle cx="1662.039" cy="891.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-ET-012" data-landmark="" aria-label="东部副中心 / Eastern Metropolitan Center"><circle cx="2637.774" cy="936.774" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-OC-007" data-landmark="" aria-label="东仓 / East Granary"><circle cx="1242.0" cy="945.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-ET-013" data-landmark="" aria-label="古灶村 / Old Kiln Village"><circle cx="3172.167" cy="958.167" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-OC-008" data-landmark="" aria-label="西仓 / West Granary"><circle cx="1242.0" cy="972.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-OC-009" data-landmark="" aria-label="文庙 / Confucian Temple"><circle cx="1539.0" cy="972.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-CB-014" data-landmark="" aria-label="新港公园 / New Harbor Park"><circle cx="1689.175" cy="972.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-CB-015" data-landmark="" aria-label="商务北街 / North Business Street"><circle cx="1836.0" cy="972.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station terminal" data-station-id="NC-CB-016" data-landmark="" aria-label="市政厅 / City Hall"><circle cx="2025.0" cy="972.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="2025.0" cy="972.0" r="2" fill="#26343D"/></g>
+<g class="station terminal" data-station-id="NC-IN-008" data-landmark="" aria-label="煤栈 / Coal Depot"><circle cx="432.0" cy="1026.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="432.0" cy="1026.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-IN-009" data-landmark="" aria-label="红砖仓 / Redbrick Warehouse"><circle cx="633.12" cy="1026.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IN-010" data-landmark="" aria-label="工人文化宫 / Workers&#x27; Cultural Hall"><circle cx="834.239" cy="1026.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IN-011" data-landmark="" aria-label="车辆段 / Rolling Stock Works"><circle cx="1035.36" cy="1026.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-OC-010" data-landmark="" aria-label="报恩寺 / Temple of Gratitude"><circle cx="1242.0" cy="1026.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-OC-011" data-landmark="" aria-label="百工街 / Artisans&#x27; Street"><circle cx="1296.0" cy="1026.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange hub" data-station-id="NC-OC-028" data-landmark="" aria-label="人民广场 / People&#x27;s Square"><circle cx="1323.0" cy="1026.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-OC-012" data-landmark="" aria-label="盐运司 / Salt Commission"><circle cx="1458.404" cy="1026.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-OC-013" data-landmark="" aria-label="花朝门 / Flower Dawn Gate"><circle cx="1593.0" cy="1026.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-CB-017" data-landmark="" aria-label="滨江总部 / Riverside Headquarters District"><circle cx="1715.005" cy="1026.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-OC-014" data-landmark="" aria-label="水关 / Water Gate"><circle cx="1836.0" cy="1026.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-OC-015" data-landmark="" aria-label="大井巷 / Great Well Lane"><circle cx="2068.698" cy="1026.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-CB-011" data-landmark="" aria-label="交易广场 / Exchange Square"><circle cx="2295.0" cy="1026.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-OC-016" data-landmark="" aria-label="石桥铺 / Stonebridge Market"><circle cx="2491.744" cy="1026.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-ET-014" data-landmark="" aria-label="稻香浦 / Rice Blossom Creek"><circle cx="2686.5" cy="1026.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-ET-015" data-landmark="" aria-label="陈家渡 / Chen Family Ferry"><circle cx="2727.0" cy="1026.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-ET-016" data-landmark="" aria-label="新材料研究院 / Materials Research Institute"><circle cx="2970.27" cy="1026.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-ET-017" data-landmark="" aria-label="东澜工学院 / East River Institute of Technology"><circle cx="3213.0" cy="1026.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="3213.0" cy="1026.0" r="2" fill="#26343D"/></g>
+<g class="station interchange" data-station-id="NC-OC-017" data-landmark="" aria-label="城隍阁 / City Guardian Pavilion"><circle cx="1350.0" cy="1053.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-RH-001" data-landmark="rail" aria-label="宁沧站 / Ningcang Railway Station"><circle cx="1620.0" cy="1053.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><rect x="1616.4" y="1049.04" width="7.199999999999999" height="6.4799999999999995" rx="1.08" fill="none" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1618.2" y1="1055.52" x2="1617.12" y2="1057.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1621.8" y1="1055.52" x2="1622.88" y2="1057.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1617.84" y1="1052.28" x2="1622.16" y2="1052.28" stroke="#26343D" stroke-width="0.8999999999999999"/></g>
+<g class="station interchange" data-station-id="NC-OC-018" data-landmark="" aria-label="魁星楼 / Literary Star Tower"><circle cx="1836.0" cy="1053.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-IN-012" data-landmark="" aria-label="机修里 / Mechanics&#x27; Quarter"><circle cx="1053.0" cy="1058.782" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-OC-019" data-landmark="" aria-label="南薰门 / Southern Breeze Gate"><circle cx="2030.787" cy="1058.787" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-OC-020" data-landmark="" aria-label="铁狮口 / Iron Lion Crossing"><circle cx="1404.0" cy="1107.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-ET-018" data-landmark="" aria-label="樟树里 / Camphor Quarter"><circle cx="2781.0" cy="1120.5" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-ET-019" data-landmark="" aria-label="海燕路 / Petrel Road"><circle cx="3240.0" cy="1128.665" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-OC-021" data-landmark="" aria-label="钟鼓楼 / Bell and Drum Tower"><circle cx="2295.0" cy="1134.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-OC-022" data-landmark="" aria-label="柳荫渡 / Willowshade Ferry"><circle cx="2496.056" cy="1134.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-ET-020" data-landmark="" aria-label="潮汐实验站 / Tidal Research Station"><circle cx="2700.0" cy="1134.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="2700.0" cy="1134.0" r="2" fill="#26343D"/></g>
+<g class="station interchange" data-station-id="NC-OC-023" data-landmark="" aria-label="书院前 / Academy Forecourt"><circle cx="2173.5" cy="1201.5" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-OC-024" data-landmark="" aria-label="剪子巷 / Shears Lane"><circle cx="1226.525" cy="1257.475" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-IS-001" data-landmark="" aria-label="鹭洲码头 / Heron Isle Pier"><circle cx="1620.0" cy="1267.769" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-IS-002" data-landmark="" aria-label="洲头公园 / Island Head Park"><circle cx="1836.0" cy="1270.683" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-OC-025" data-landmark="" aria-label="清平桥 / Tranquil Bridge"><circle cx="1404.0" cy="1296.324" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-OC-026" data-landmark="" aria-label="鱼行口 / Fishmongers&#x27; Corner"><circle cx="2781.0" cy="1304.388" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-OC-027" data-landmark="" aria-label="铜驼街 / Bronze Camel Street"><circle cx="3240.0" cy="1327.261" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IS-003" data-landmark="" aria-label="月堤 / Moon Embankment"><circle cx="2010.083" cy="1364.918" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-SF-001" data-landmark="" aria-label="南浦金融城 / South Harbor Financial District"><circle cx="2397.311" cy="1425.311" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-IN-013" data-landmark="" aria-label="水塔公园 / Water Tower Park"><circle cx="1053.0" cy="1431.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-SF-002" data-landmark="" aria-label="金桂广场 / Osmanthus Square"><circle cx="1404.0" cy="1485.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-SF-003" data-landmark="" aria-label="传媒中心 / Media Center"><circle cx="1620.0" cy="1485.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-SF-004" data-landmark="" aria-label="江湾文化馆 / Riverbend Arts Center"><circle cx="1836.0" cy="1485.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station hub terminal branch-junction" data-station-id="NC-CO-002" data-landmark="" aria-label="潮平 / Tidal Plain"><polygon points="2781.0,1476.0 2790.0,1485.0 2781.0,1494.0 2772.0,1485.0" fill="#FFFFFF" stroke="#26343D" stroke-width="2.5"/></g>
+<g class="station interchange" data-station-id="NC-NR-013" data-landmark="" aria-label="霜枫苑 / Frost Maple Gardens"><circle cx="2794.5" cy="1485.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-NR-014" data-landmark="" aria-label="白塔埭 / White Pagoda Levee"><circle cx="2962.892" cy="1485.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-PT-010" data-landmark="port" aria-label="邮轮母港 / Cruise Home Port"><circle cx="3132.0" cy="1485.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><path d="M 3132.0 1480.68 L 3132.0 1487.88 M 3129.12 1483.56 L 3134.88 1483.56 M 3127.68 1485.72 C 3128.4 1489.32 3130.56 1490.04 3132.0 1487.88 C 3133.44 1490.04 3135.6 1489.32 3136.32 1485.72" fill="none" stroke="#26343D" stroke-width="0.8999999999999999" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="station interchange" data-station-id="NC-NR-015" data-landmark="" aria-label="嘉禾路 / Golden Harvest Road"><circle cx="2794.5" cy="1498.5" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-PT-002" data-landmark="" aria-label="集装箱北站 / North Container Terminal"><circle cx="3230.203" cy="1521.797" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-PT-003" data-landmark="" aria-label="集装箱南站 / South Container Terminal"><circle cx="3253.732" cy="1606.732" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-UN-001" data-landmark="university" aria-label="宁沧大学 / Ningcang University"><circle cx="876.793" cy="1607.207" r="8" fill="#FFFFFF" stroke="#26343D" stroke-width="2.1"/><path d="M 876.793 1610.807 L 876.793 1604.327 C 874.633 1602.8870000000002 873.193 1603.6070000000002 872.473 1605.047 L 872.473 1610.0870000000002 C 874.633 1608.6470000000002 876.073 1609.3670000000002 876.793 1610.807 C 877.513 1609.3670000000002 878.953 1608.6470000000002 881.113 1610.0870000000002 L 881.113 1605.047 C 880.393 1603.6070000000002 878.953 1602.8870000000002 876.793 1604.327" fill="none" stroke="#26343D" stroke-width="0.8999999999999999" stroke-linejoin="round"/></g>
+<g class="station" data-station-id="NC-CO-001" data-landmark="" aria-label="海琴湾 / Sea Harp Bay"><circle cx="2926.766" cy="1630.766" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-UN-002" data-landmark="" aria-label="玄湖校区 / Mystic Lake Campus"><circle cx="648.0" cy="1647.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="648.0" cy="1647.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-UN-003" data-landmark="" aria-label="万卷书院 / Ten Thousand Volumes Academy"><circle cx="831.889" cy="1647.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-UN-004" data-landmark="" aria-label="格物路 / Inquiry Road"><circle cx="1022.849" cy="1647.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-SF-005" data-landmark="" aria-label="滨江公园 / Riverside Park"><circle cx="1213.811" cy="1647.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-SF-006" data-landmark="" aria-label="博览馆 / Exposition Hall"><circle cx="1404.0" cy="1647.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-SF-007" data-landmark="" aria-label="云影路 / Cloud Reflection Road"><circle cx="1595.732" cy="1647.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange hub" data-station-id="NC-RH-010" data-landmark="rail" aria-label="兰津站 / Orchid Ferry Railway Station"><circle cx="1782.0" cy="1647.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><rect x="1778.4" y="1643.04" width="7.199999999999999" height="6.4799999999999995" rx="1.08" fill="none" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1780.2" y1="1649.52" x2="1779.12" y2="1651.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1783.8" y1="1649.52" x2="1784.88" y2="1651.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="1779.84" y1="1646.28" x2="1784.16" y2="1646.28" stroke="#26343D" stroke-width="0.8999999999999999"/></g>
+<g class="station interchange" data-station-id="NC-SF-015" data-landmark="" aria-label="市民中心 / Civic Center"><circle cx="1836.0" cy="1647.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-SF-008" data-landmark="" aria-label="领事馆街 / Consulate Street"><circle cx="2027.163" cy="1647.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-SF-009" data-landmark="" aria-label="南岸枢纽 / Southbank Transit Hub"><circle cx="2225.196" cy="1647.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-SF-010" data-landmark="" aria-label="长桥东 / Long Bridge East"><circle cx="2423.23" cy="1647.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-SF-011" data-landmark="" aria-label="潮生里 / Rising Tide Quarter"><circle cx="2619.0" cy="1647.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-CO-003" data-landmark="" aria-label="望潮堤 / Tidewatch Embankment"><circle cx="2835.0" cy="1647.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-CO-004" data-landmark="" aria-label="贝丘公园 / Shell Mound Park"><circle cx="3089.775" cy="1662.225" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-SF-012" data-landmark="" aria-label="临江门 / Riverfront Gate"><circle cx="1836.0" cy="1701.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-SF-013" data-landmark="" aria-label="玉兰大道 / Magnolia Avenue"><circle cx="1109.502" cy="1725.498" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub terminal" data-station-id="NC-PT-001" data-landmark="port" aria-label="深水港 / Deepwater Port"><circle cx="3375.0" cy="1728.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><path d="M 3375.0 1723.68 L 3375.0 1730.88 M 3372.12 1726.56 L 3377.88 1726.56 M 3370.68 1728.72 C 3371.4 1732.32 3373.56 1733.04 3375.0 1730.88 C 3376.44 1733.04 3378.6 1732.32 3379.32 1728.72" fill="none" stroke="#26343D" stroke-width="0.8999999999999999" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="station" data-station-id="NC-PT-004" data-landmark="" aria-label="保税物流园 / Bonded Logistics Park"><circle cx="3375.0" cy="1728.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-SF-014" data-landmark="" aria-label="清波港 / Clearwater Inlet"><circle cx="2626.249" cy="1734.251" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-CO-005" data-landmark="" aria-label="海洋馆 / City Oceanarium"><circle cx="2948.924" cy="1760.924" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-CO-006" data-landmark="" aria-label="白沙湖 / White Sand Lake"><circle cx="3058.177" cy="1762.177" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-UN-005" data-landmark="" aria-label="西岭医学院 / West Ridge Medical College"><circle cx="434.026" cy="1782.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-UN-006" data-landmark="" aria-label="青岚村 / Blue Mist Village"><circle cx="568.014" cy="1782.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-UN-007" data-landmark="" aria-label="学府桥 / Scholars&#x27; Bridge"><circle cx="635.006" cy="1782.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal branch-junction" data-station-id="NC-UN-019" data-landmark="" aria-label="雨湖 / Rain Lake"><polygon points="702.0,1773.0 711.0,1782.0 702.0,1791.0 693.0,1782.0" fill="#FFFFFF" stroke="#26343D" stroke-width="2.5"/></g>
+<g class="station" data-station-id="NC-SF-016" data-landmark="" aria-label="歌剧院 / Opera House"><circle cx="1552.222" cy="1782.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-SF-017" data-landmark="" aria-label="航运交易所 / Maritime Exchange"><circle cx="1836.0" cy="1782.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-SF-018" data-landmark="" aria-label="海棠堤 / Begonia Embankment"><circle cx="1917.0" cy="1782.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-NR-016" data-landmark="" aria-label="锦屏体育馆 / Brocade Hill Arena"><circle cx="2244.409" cy="1782.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-NR-017" data-landmark="" aria-label="栖鹭公园 / Heron Roost Park"><circle cx="2565.0" cy="1782.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="2565.0" cy="1782.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-NR-018" data-landmark="" aria-label="汇泉广场 / Confluence Springs Square"><circle cx="1304.802" cy="1804.302" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-CO-007" data-landmark="" aria-label="渔火街 / Fishing Lights Street"><circle cx="2792.925" cy="1820.925" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-UN-008" data-landmark="" aria-label="柏影路 / Cypress Shade Road"><circle cx="385.115" cy="1828.886" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-AP-004" data-landmark="" aria-label="三号航站楼 / Airport Terminal 3"><circle cx="3063.949" cy="1875.949" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-UN-009" data-landmark="" aria-label="天文台 / Astronomical Observatory"><circle cx="337.743" cy="1876.257" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-PT-005" data-landmark="" aria-label="东湾船厂 / East Bay Shipyard"><circle cx="3189.588" cy="1893.588" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-CO-008" data-landmark="" aria-label="南沙嘴 / South Sand Spit"><circle cx="2808.918" cy="1943.082" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station interchange" data-station-id="NC-IN-014" data-landmark="" aria-label="旧船台 / Historic Slipway"><circle cx="1836.0" cy="1944.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-IN-015" data-landmark="" aria-label="榆木桥 / Elmwood Bridge"><circle cx="1998.0" cy="1944.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-IN-016" data-landmark="" aria-label="厂前 / Factory Forecourt"><circle cx="2206.063" cy="1944.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-IN-017" data-landmark="" aria-label="漕河湾 / Canal Bend"><circle cx="2376.0" cy="1944.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="2376.0" cy="1944.0" r="2" fill="#26343D"/></g>
+<g class="station interchange hub" data-station-id="NC-RH-016" data-landmark="rail" aria-label="宁沧高铁总站 / Ningcang High-Speed Rail Central Station"><circle cx="2416.5" cy="1944.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><rect x="2412.9" y="1940.04" width="7.199999999999999" height="6.4799999999999995" rx="1.08" fill="none" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="2414.7" y1="1946.52" x2="2413.62" y2="1948.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="2418.3" y1="1946.52" x2="2419.38" y2="1948.32" stroke="#26343D" stroke-width="0.8999999999999999"/><line x1="2414.34" y1="1943.28" x2="2418.66" y2="1943.28" stroke="#26343D" stroke-width="0.8999999999999999"/></g>
+<g class="station terminal" data-station-id="NC-IN-018" data-landmark="" aria-label="北联物流园 / North Union Logistics Park"><circle cx="2430.0" cy="1944.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="2430.0" cy="1944.0" r="2" fill="#26343D"/></g>
+<g class="station hub" data-station-id="NC-AP-003" data-landmark="" aria-label="二号航站楼 / Airport Terminal 2"><circle cx="2970.0" cy="1944.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station hub" data-station-id="NC-IS-004" data-landmark="" aria-label="旧海关 / Historic Customs House"><circle cx="1476.68" cy="1957.5" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-IS-005" data-landmark="" aria-label="三桅仓 / Three-Mast Warehouse"><circle cx="1714.5" cy="1957.5" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-IS-006" data-landmark="" aria-label="银沙滩 / Silver Sandbank"><circle cx="1836.0" cy="1957.5" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange" data-station-id="NC-IS-007" data-landmark="" aria-label="岛心花园 / Island Garden"><circle cx="1998.0" cy="1957.5" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station terminal" data-station-id="NC-UN-010" data-landmark="" aria-label="大学城图书馆 / University Town Library"><circle cx="243.0" cy="1971.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="243.0" cy="1971.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-PT-006" data-landmark="" aria-label="海工基地 / Offshore Engineering Base"><circle cx="3178.975" cy="1990.975" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-UN-011" data-landmark="" aria-label="南溪实验室 / South Creek Laboratories"><circle cx="702.0" cy="1998.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="702.0" cy="1998.0" r="2" fill="#26343D"/></g>
+<g class="station hub" data-station-id="NC-AP-002" data-landmark="" aria-label="一号航站楼 / Airport Terminal 1"><circle cx="2970.0" cy="1998.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station interchange hub terminal" data-station-id="NC-AP-001" data-landmark="airport" aria-label="宁沧国际机场 / Ningcang International Airport"><circle cx="3024.0" cy="1998.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/><path d="M 3024.0 1993.68 L 3024.0 2002.32 M 3019.68 1997.28 L 3028.32 1997.28 M 3021.48 2000.88 L 3024.0 1999.44 L 3026.52 2000.88" fill="none" stroke="#26343D" stroke-width="0.8999999999999999" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="station hub terminal" data-station-id="NC-PT-007" data-landmark="" aria-label="港务中心 / Port Authority Center"><circle cx="3321.0" cy="2025.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-IS-008" data-landmark="" aria-label="南汊口 / South Channel Mouth"><circle cx="1622.049" cy="2049.951" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-UN-012" data-landmark="" aria-label="鹤鸣谷 / Crane Call Valley"><circle cx="972.0" cy="2068.88" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub terminal" data-station-id="NC-PT-008" data-landmark="" aria-label="冷链仓储 / Cold-Chain Depot"><circle cx="3294.0" cy="2106.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station terminal" data-station-id="NC-UN-013" data-landmark="" aria-label="砚池 / Inkstone Pond"><circle cx="243.0" cy="2133.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="243.0" cy="2133.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-UN-014" data-landmark="" aria-label="松风宿舍 / Pine Wind Residences"><circle cx="635.783" cy="2133.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-IS-009" data-landmark="" aria-label="灯塔街 / Lighthouse Street"><circle cx="1998.0" cy="2139.55" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station" data-station-id="NC-IS-010" data-landmark="" aria-label="水师营 / Naval Barracks"><circle cx="1528.903" cy="2143.097" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IS-011" data-landmark="" aria-label="芦汀湿地 / Reedbank Wetlands"><circle cx="1836.0" cy="2166.195" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station" data-station-id="NC-IS-012" data-landmark="" aria-label="双桥渡 / Twin Bridges Ferry"><circle cx="1435.759" cy="2236.241" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-UN-015" data-landmark="" aria-label="大学城体育中心 / University Town Sports Center"><circle cx="1998.0" cy="2322.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="1998.0" cy="2322.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-UN-016" data-landmark="" aria-label="西山植物园 / Western Hills Botanic Garden"><circle cx="1345.718" cy="2326.282" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station terminal" data-station-id="NC-UN-017" data-landmark="" aria-label="若水书院 / Waterside Academy"><circle cx="837.0" cy="2349.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="837.0" cy="2349.0" r="2" fill="#26343D"/></g>
+<g class="station" data-station-id="NC-UN-018" data-landmark="university" aria-label="大学城中心 / University Town Center"><circle cx="964.336" cy="2349.0" r="8" fill="#FFFFFF" stroke="#26343D" stroke-width="2.1"/><path d="M 964.336 2352.6 L 964.336 2346.12 C 962.176 2344.68 960.736 2345.4 960.016 2346.84 L 960.016 2351.88 C 962.176 2350.44 963.616 2351.16 964.336 2352.6 C 965.056 2351.16 966.496 2350.44 968.6560000000001 2351.88 L 968.6560000000001 2346.84 C 967.936 2345.4 966.496 2344.68 964.336 2346.12" fill="none" stroke="#26343D" stroke-width="0.8999999999999999" stroke-linejoin="round"/></g>
+<g class="station" data-station-id="NC-WS-005" data-landmark="" aria-label="龙泉水库 / Dragon Spring Reservoir"><circle cx="1096.064" cy="2349.0" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/></g>
+<g class="station hub" data-station-id="NC-WS-006" data-landmark="" aria-label="云岭客运站 / Cloudridge Coach Terminal"><circle cx="1227.791" cy="2349.0" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/></g>
+<g class="station terminal" data-station-id="NC-WS-007" data-landmark="" aria-label="茶马街 / Tea Horse Street"><circle cx="1836.0" cy="2376.0" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="1836.0" cy="2376.0" r="2" fill="#26343D"/></g>
+</g>
+<g id="leaders" fill="none" stroke-linecap="round">
+</g><g id="station-labels">
+<g class="station-label" data-label-for="NC-NR-001">
+<text class="label-zh" x="1821.0" y="320.5" text-anchor="end" font-size="18" aria-label="北原中心"><tspan x="1821.0" dy="0">北原中心</tspan></text>
+<text class="label-en" x="1821.0" y="333.5" text-anchor="end" font-size="10" aria-label="North Plain Civic Center">
+<tspan x="1821.0" dy="0">North Plain Civic</tspan>
+<tspan x="1821.0" dy="11.0">Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-002">
+<text class="label-zh" x="2580.0" y="326.0" text-anchor="start" font-size="18" aria-label="松荫湖"><tspan x="2580.0" dy="0">松荫湖</tspan></text>
+<text class="label-en" x="2580.0" y="339.0" text-anchor="start" font-size="10" aria-label="Pine Shade Lake">
+<tspan x="2580.0" dy="0">Pine Shade Lake</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-003">
+<text class="label-zh" x="1389.0" y="353.0" text-anchor="end" font-size="18" aria-label="瑞禾里"><tspan x="1389.0" dy="0">瑞禾里</tspan></text>
+<text class="label-en" x="1389.0" y="366.0" text-anchor="end" font-size="10" aria-label="Harvest Quarter">
+<tspan x="1389.0" dy="0">Harvest Quarter</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-004">
+<text class="label-zh" x="1432.5" y="380.0" text-anchor="start" font-size="18" aria-label="云杉公园"><tspan x="1432.5" dy="0">云杉公园</tspan></text>
+<text class="label-en" x="1432.5" y="393.0" text-anchor="start" font-size="10" aria-label="Spruce Grove Park">
+<tspan x="1432.5" dy="0">Spruce Grove Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-005">
+<text class="label-zh" x="1610.12" y="380.0" text-anchor="end" font-size="18" aria-label="安居桥"><tspan x="1610.12" dy="0">安居桥</tspan></text>
+<text class="label-en" x="1610.12" y="393.0" text-anchor="end" font-size="10" aria-label="Hearthside Bridge">
+<tspan x="1610.12" dy="0">Hearthside Bridge</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-RH-002">
+<text class="label-zh" x="1851.0" y="374.0" text-anchor="start" font-size="20" aria-label="宁沧北站"><tspan x="1851.0" dy="0">宁沧北站</tspan></text>
+<text class="label-en" x="1851.0" y="388.0" text-anchor="start" font-size="11" aria-label="Ningcang North Railway Station">
+<tspan x="1851.0" dy="0">Ningcang North</tspan>
+<tspan x="1851.0" dy="12.0">Railway Station</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-006">
+<text class="label-zh" x="2244.93" y="380.0" text-anchor="start" font-size="18" aria-label="新棠路"><tspan x="2244.93" dy="0">新棠路</tspan></text>
+<text class="label-en" x="2244.93" y="393.0" text-anchor="start" font-size="10" aria-label="New Crabapple Road">
+<tspan x="2244.93" dy="0">New Crabapple Road</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-007">
+<text class="label-zh" x="2413.53" y="380.0" text-anchor="end" font-size="18" aria-label="长林医院"><tspan x="2413.53" dy="0">长林医院</tspan></text>
+<text class="label-en" x="2413.53" y="393.0" text-anchor="end" font-size="10" aria-label="Longwood Hospital">
+<tspan x="2413.53" dy="0">Longwood Hospital</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-008">
+<text class="label-zh" x="2631.84" y="404.84" text-anchor="start" font-size="20" aria-label="北客运站"><tspan x="2631.84" dy="0">北客运站</tspan></text>
+<text class="label-en" x="2631.84" y="418.84" text-anchor="start" font-size="11" aria-label="North Coach Terminal">
+<tspan x="2631.84" dy="0">North Coach Terminal</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-WS-001">
+<text class="label-zh" x="578.89" y="434.0" text-anchor="end" font-size="18" aria-label="镜川镇"><tspan x="578.89" dy="0">镜川镇</tspan></text>
+<text class="label-en" x="578.89" y="447.0" text-anchor="end" font-size="10" aria-label="Mirror River Town">
+<tspan x="578.89" dy="0">Mirror River Town</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-001">
+<text class="label-zh" x="890.02" y="472.02" text-anchor="start" font-size="20" aria-label="机厂路"><tspan x="890.02" dy="0">机厂路</tspan></text>
+<text class="label-en" x="890.02" y="486.02" text-anchor="start" font-size="11" aria-label="Railway Works Road">
+<tspan x="890.02" dy="0">Railway Works Road</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-AP-012">
+<text class="label-zh" x="366.0" y="488.0" text-anchor="start" font-size="20" aria-label="西岭机场"><tspan x="366.0" dy="0">西岭机场</tspan></text>
+<text class="label-en" x="366.0" y="502.0" text-anchor="start" font-size="11" aria-label="West Ridge Airport">
+<tspan x="366.0" dy="0">West Ridge Airport</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-WS-002">
+<text class="label-zh" x="637.51" y="488.0" text-anchor="start" font-size="18" aria-label="桃源坞"><tspan x="637.51" dy="0">桃源坞</tspan></text>
+<text class="label-en" x="637.51" y="501.0" text-anchor="start" font-size="10" aria-label="Peach Orchard Hollow">
+<tspan x="637.51" dy="0">Peach Orchard Hollow</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-009">
+<text class="label-zh" x="1821.0" y="482.5" text-anchor="end" font-size="18" aria-label="观澜社区"><tspan x="1821.0" dy="0">观澜社区</tspan></text>
+<text class="label-en" x="1821.0" y="495.5" text-anchor="end" font-size="10" aria-label="River Outlook Community">
+<tspan x="1821.0" dy="0">River Outlook</tspan>
+<tspan x="1821.0" dy="11.0">Community</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-010">
+<text class="label-zh" x="1497.0" y="569.0" text-anchor="end" font-size="18" aria-label="荷风里"><tspan x="1497.0" dy="0">荷风里</tspan></text>
+<text class="label-en" x="1497.0" y="582.0" text-anchor="end" font-size="10" aria-label="Lotus Breeze Quarter">
+<tspan x="1497.0" dy="0">Lotus Breeze Quarter</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-011">
+<text class="label-zh" x="2580.0" y="582.16" text-anchor="start" font-size="18" aria-label="石渠镇"><tspan x="2580.0" dy="0">石渠镇</tspan></text>
+<text class="label-en" x="2580.0" y="595.16" text-anchor="start" font-size="10" aria-label="Stone Channel Town">
+<tspan x="2580.0" dy="0">Stone Channel Town</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-002">
+<text class="label-zh" x="838.6" y="585.6" text-anchor="end" font-size="18" aria-label="老钢桥"><tspan x="838.6" dy="0">老钢桥</tspan></text>
+<text class="label-en" x="838.6" y="598.6" text-anchor="end" font-size="10" aria-label="Old Steel Bridge">
+<tspan x="838.6" dy="0">Old Steel Bridge</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-012">
+<text class="label-zh" x="1389.0" y="634.97" text-anchor="end" font-size="18" aria-label="燕归浜"><tspan x="1389.0" dy="0">燕归浜</tspan></text>
+<text class="label-en" x="1389.0" y="647.97" text-anchor="end" font-size="10" aria-label="Swallow Return Creek">
+<tspan x="1389.0" dy="0">Swallow Return Creek</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-001">
+<text class="label-zh" x="2202.0" y="677.0" text-anchor="start" font-size="20" aria-label="沧浦广场"><tspan x="2202.0" dy="0">沧浦广场</tspan></text>
+<text class="label-en" x="2202.0" y="691.0" text-anchor="start" font-size="11" aria-label="River Harbor Square">
+<tspan x="2202.0" dy="0">River Harbor Square</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-001">
+<text class="label-zh" x="2592.46" y="677.0" text-anchor="start" font-size="18" aria-label="东澜中心"><tspan x="2592.46" dy="0">东澜中心</tspan></text>
+<text class="label-en" x="2592.46" y="690.0" text-anchor="start" font-size="10" aria-label="East River Civic Center">
+<tspan x="2592.46" dy="0">East River Civic Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-002">
+<text class="label-zh" x="2758.73" y="677.0" text-anchor="end" font-size="18" aria-label="榆塘"><tspan x="2758.73" dy="0">榆塘</tspan></text>
+<text class="label-en" x="2758.73" y="690.0" text-anchor="end" font-size="10" aria-label="Elm Pond">
+<tspan x="2758.73" dy="0">Elm Pond</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-003">
+<text class="label-zh" x="2985.0" y="677.0" text-anchor="start" font-size="18" aria-label="联丰镇"><tspan x="2985.0" dy="0">联丰镇</tspan></text>
+<text class="label-en" x="2985.0" y="690.0" text-anchor="start" font-size="10" aria-label="United Harvest Town">
+<tspan x="2985.0" dy="0">United Harvest Town</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-004">
+<text class="label-zh" x="2876.31" y="679.31" text-anchor="end" font-size="18" aria-label="葭湾"><tspan x="2876.31" dy="0">葭湾</tspan></text>
+<text class="label-en" x="2876.31" y="692.31" text-anchor="end" font-size="10" aria-label="Rushwater Bay">
+<tspan x="2876.31" dy="0">Rushwater Bay</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-003">
+<text class="label-zh" x="1099.96" y="681.96" text-anchor="start" font-size="18" aria-label="二纱厂"><tspan x="1099.96" dy="0">二纱厂</tspan></text>
+<text class="label-en" x="1099.96" y="694.96" text-anchor="start" font-size="10" aria-label="No. 2 Textile Mill">
+<tspan x="1099.96" dy="0">No. 2 Textile Mill</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-WS-003">
+<text class="label-zh" x="471.0" y="704.0" text-anchor="end" font-size="18" aria-label="石门关"><tspan x="471.0" dy="0">石门关</tspan></text>
+<text class="label-en" x="471.0" y="717.0" text-anchor="end" font-size="10" aria-label="Stone Gate Pass">
+<tspan x="471.0" dy="0">Stone Gate Pass</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-WS-004">
+<text class="label-zh" x="712.3" y="704.0" text-anchor="start" font-size="18" aria-label="枫桥市集"><tspan x="712.3" dy="0">枫桥市集</tspan></text>
+<text class="label-en" x="712.3" y="717.0" text-anchor="start" font-size="10" aria-label="Maple Bridge Market">
+<tspan x="712.3" dy="0">Maple Bridge Market</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-004">
+<text class="label-zh" x="900.88" y="704.0" text-anchor="end" font-size="20" aria-label="北货场"><tspan x="900.88" dy="0">北货场</tspan></text>
+<text class="label-en" x="900.88" y="718.0" text-anchor="end" font-size="11" aria-label="North Freight Yard">
+<tspan x="900.88" dy="0">North Freight Yard</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-001">
+<text class="label-zh" x="1092.0" y="704.0" text-anchor="end" font-size="18" aria-label="镇海门"><tspan x="1092.0" dy="0">镇海门</tspan></text>
+<text class="label-en" x="1092.0" y="717.0" text-anchor="end" font-size="10" aria-label="Seaward Gate">
+<tspan x="1092.0" dy="0">Seaward Gate</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-002">
+<text class="label-zh" x="1488.08" y="704.0" text-anchor="start" font-size="18" aria-label="永安坊"><tspan x="1488.08" dy="0">永安坊</tspan></text>
+<text class="label-en" x="1488.08" y="717.0" text-anchor="start" font-size="10" aria-label="Everpeace Quarter">
+<tspan x="1488.08" dy="0">Everpeace Quarter</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-002">
+<text class="label-zh" x="1821.0" y="698.0" text-anchor="end" font-size="20" aria-label="经贸大厦"><tspan x="1821.0" dy="0">经贸大厦</tspan></text>
+<text class="label-en" x="1821.0" y="712.0" text-anchor="end" font-size="11" aria-label="Trade and Commerce Tower">
+<tspan x="1821.0" dy="0">Trade and Commerce</tspan>
+<tspan x="1821.0" dy="12.0">Tower</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-003">
+<text class="label-zh" x="1986.0" y="704.0" text-anchor="start" font-size="20" aria-label="海晏路"><tspan x="1986.0" dy="0">海晏路</tspan></text>
+<text class="label-en" x="1986.0" y="718.0" text-anchor="start" font-size="11" aria-label="Calm Seas Road">
+<tspan x="1986.0" dy="0">Calm Seas Road</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-004">
+<text class="label-zh" x="2199.0" y="698.0" text-anchor="end" font-size="20" aria-label="中央商务区"><tspan x="2199.0" dy="0">中央商务区</tspan></text>
+<text class="label-en" x="2199.0" y="712.0" text-anchor="end" font-size="11" aria-label="Central Business District">
+<tspan x="2199.0" dy="0">Central Business</tspan>
+<tspan x="2199.0" dy="12.0">District</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-005">
+<text class="label-zh" x="2580.0" y="712.76" text-anchor="start" font-size="18" aria-label="唐家浜"><tspan x="2580.0" dy="0">唐家浜</tspan></text>
+<text class="label-en" x="2580.0" y="725.76" text-anchor="start" font-size="10" aria-label="Tang Family Creek">
+<tspan x="2580.0" dy="0">Tang Family Creek</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-005">
+<text class="label-zh" x="1112.76" y="713.25" text-anchor="start" font-size="18" aria-label="铸造街"><tspan x="1112.76" dy="0">铸造街</tspan></text>
+<text class="label-en" x="1112.76" y="726.25" text-anchor="start" font-size="10" aria-label="Foundry Street">
+<tspan x="1112.76" dy="0">Foundry Street</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-006">
+<text class="label-zh" x="1030.59" y="777.59" text-anchor="end" font-size="18" aria-label="锅炉房"><tspan x="1030.59" dy="0">锅炉房</tspan></text>
+<text class="label-en" x="1030.59" y="790.59" text-anchor="end" font-size="10" aria-label="Boiler House">
+<tspan x="1030.59" dy="0">Boiler House</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-003">
+<text class="label-zh" x="1176.64" y="788.64" text-anchor="end" font-size="18" aria-label="织锦巷"><tspan x="1176.64" dy="0">织锦巷</tspan></text>
+<text class="label-en" x="1176.64" y="801.64" text-anchor="end" font-size="10" aria-label="Brocade Lane">
+<tspan x="1176.64" dy="0">Brocade Lane</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-007">
+<text class="label-zh" x="1104.64" y="794.64" text-anchor="start" font-size="18" aria-label="运河西"><tspan x="1104.64" dy="0">运河西</tspan></text>
+<text class="label-en" x="1104.64" y="807.64" text-anchor="start" font-size="10" aria-label="Canal West">
+<tspan x="1104.64" dy="0">Canal West</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-005">
+<text class="label-zh" x="1851.0" y="839.0" text-anchor="start" font-size="20" aria-label="城市博物馆"><tspan x="1851.0" dy="0">城市博物馆</tspan></text>
+<text class="label-en" x="1851.0" y="853.0" text-anchor="start" font-size="11" aria-label="City Museum">
+<tspan x="1851.0" dy="0">City Museum</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-006">
+<text class="label-zh" x="1983.0" y="839.0" text-anchor="end" font-size="18" aria-label="大剧院"><tspan x="1983.0" dy="0">大剧院</tspan></text>
+<text class="label-en" x="1983.0" y="852.0" text-anchor="end" font-size="10" aria-label="Grand Theatre">
+<tspan x="1983.0" dy="0">Grand Theatre</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-007">
+<text class="label-zh" x="2085.72" y="839.0" text-anchor="start" font-size="18" aria-label="云帆广场"><tspan x="2085.72" dy="0">云帆广场</tspan></text>
+<text class="label-en" x="2085.72" y="852.0" text-anchor="start" font-size="10" aria-label="Cloud Sail Square">
+<tspan x="2085.72" dy="0">Cloud Sail Square</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-008">
+<text class="label-zh" x="2131.13" y="839.0" text-anchor="end" font-size="18" aria-label="银杏大道"><tspan x="2131.13" dy="0">银杏大道</tspan></text>
+<text class="label-en" x="2131.13" y="852.0" text-anchor="end" font-size="10" aria-label="Ginkgo Avenue">
+<tspan x="2131.13" dy="0">Ginkgo Avenue</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-009">
+<text class="label-zh" x="2236.54" y="833.5" text-anchor="start" font-size="18" aria-label="会展西"><tspan x="2236.54" dy="0">会展西</tspan></text>
+<text class="label-en" x="2236.54" y="846.5" text-anchor="start" font-size="10" aria-label="Convention Center West">
+<tspan x="2236.54" dy="0">Convention Center</tspan>
+<tspan x="2236.54" dy="11.0">West</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-010">
+<text class="label-zh" x="2310.0" y="839.0" text-anchor="start" font-size="20" aria-label="望江门"><tspan x="2310.0" dy="0">望江门</tspan></text>
+<text class="label-en" x="2310.0" y="853.0" text-anchor="start" font-size="11" aria-label="River Outlook Gate">
+<tspan x="2310.0" dy="0">River Outlook Gate</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-012">
+<text class="label-zh" x="2411.6" y="839.0" text-anchor="start" font-size="18" aria-label="国贸中心"><tspan x="2411.6" dy="0">国贸中心</tspan></text>
+<text class="label-en" x="2411.6" y="852.0" text-anchor="start" font-size="10" aria-label="World Trade Center">
+<tspan x="2411.6" dy="0">World Trade Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-013">
+<text class="label-zh" x="2482.5" y="839.0" text-anchor="end" font-size="20" aria-label="汇金桥"><tspan x="2482.5" dy="0">汇金桥</tspan></text>
+<text class="label-en" x="2482.5" y="853.0" text-anchor="end" font-size="11" aria-label="Capital Bridge">
+<tspan x="2482.5" dy="0">Capital Bridge</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-RH-003">
+<text class="label-zh" x="2550.0" y="833.0" text-anchor="end" font-size="20" aria-label="宁沧东站"><tspan x="2550.0" dy="0">宁沧东站</tspan></text>
+<text class="label-en" x="2550.0" y="847.0" text-anchor="end" font-size="11" aria-label="Ningcang East Railway Station">
+<tspan x="2550.0" dy="0">Ningcang East Railway</tspan>
+<tspan x="2550.0" dy="12.0">Station</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-006">
+<text class="label-zh" x="2677.86" y="839.0" text-anchor="end" font-size="18" aria-label="柳汀桥"><tspan x="2677.86" dy="0">柳汀桥</tspan></text>
+<text class="label-en" x="2677.86" y="852.0" text-anchor="end" font-size="10" aria-label="Willow Bank Bridge">
+<tspan x="2677.86" dy="0">Willow Bank Bridge</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-007">
+<text class="label-zh" x="2772.5" y="833.5" text-anchor="start" font-size="18" aria-label="博研院"><tspan x="2772.5" dy="0">博研院</tspan></text>
+<text class="label-en" x="2772.5" y="846.5" text-anchor="start" font-size="10" aria-label="Advanced Research Institute">
+<tspan x="2772.5" dy="0">Advanced Research</tspan>
+<tspan x="2772.5" dy="11.0">Institute</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-008">
+<text class="label-zh" x="2807.14" y="839.0" text-anchor="end" font-size="18" aria-label="生命科学园"><tspan x="2807.14" dy="0">生命科学园</tspan></text>
+<text class="label-en" x="2807.14" y="852.0" text-anchor="end" font-size="10" aria-label="Life Sciences Park">
+<tspan x="2807.14" dy="0">Life Sciences Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-009">
+<text class="label-zh" x="2963.72" y="839.0" text-anchor="start" font-size="18" aria-label="微电子园"><tspan x="2963.72" dy="0">微电子园</tspan></text>
+<text class="label-en" x="2963.72" y="852.0" text-anchor="start" font-size="10" aria-label="Microelectronics Park">
+<tspan x="2963.72" dy="0">Microelectronics Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-010">
+<text class="label-zh" x="3028.36" y="839.0" text-anchor="start" font-size="18" aria-label="软件园"><tspan x="3028.36" dy="0">软件园</tspan></text>
+<text class="label-en" x="3028.36" y="852.0" text-anchor="start" font-size="10" aria-label="Software Park">
+<tspan x="3028.36" dy="0">Software Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-011">
+<text class="label-zh" x="3063.0" y="833.5" text-anchor="end" font-size="18" aria-label="会展东"><tspan x="3063.0" dy="0">会展东</tspan></text>
+<text class="label-en" x="3063.0" y="846.5" text-anchor="end" font-size="10" aria-label="Convention Center East">
+<tspan x="3063.0" dy="0">Convention Center</tspan>
+<tspan x="3063.0" dy="11.0">East</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-004">
+<text class="label-zh" x="1311.0" y="893.0" text-anchor="start" font-size="20" aria-label="泮池"><tspan x="1311.0" dy="0">泮池</tspan></text>
+<text class="label-en" x="1311.0" y="907.0" text-anchor="start" font-size="11" aria-label="Academy Pond">
+<tspan x="1311.0" dy="0">Academy Pond</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-005">
+<text class="label-zh" x="1443.0" y="893.0" text-anchor="end" font-size="20" aria-label="槐市"><tspan x="1443.0" dy="0">槐市</tspan></text>
+<text class="label-en" x="1443.0" y="907.0" text-anchor="end" font-size="11" aria-label="Scholar Tree Market">
+<tspan x="1443.0" dy="0">Scholar Tree Market</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-006">
+<text class="label-zh" x="1677.04" y="893.0" text-anchor="start" font-size="18" aria-label="清晖桥"><tspan x="1677.04" dy="0">清晖桥</tspan></text>
+<text class="label-en" x="1677.04" y="906.0" text-anchor="start" font-size="10" aria-label="Clear Light Bridge">
+<tspan x="1677.04" dy="0">Clear Light Bridge</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-012">
+<text class="label-zh" x="2652.77" y="933.27" text-anchor="start" font-size="18" aria-label="东部副中心"><tspan x="2652.77" dy="0">东部副中心</tspan></text>
+<text class="label-en" x="2652.77" y="946.27" text-anchor="start" font-size="10" aria-label="Eastern Metropolitan Center">
+<tspan x="2652.77" dy="0">Eastern Metropolitan</tspan>
+<tspan x="2652.77" dy="11.0">Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-007">
+<text class="label-zh" x="1227.0" y="947.0" text-anchor="end" font-size="20" aria-label="东仓"><tspan x="1227.0" dy="0">东仓</tspan></text>
+<text class="label-en" x="1227.0" y="961.0" text-anchor="end" font-size="11" aria-label="East Granary">
+<tspan x="1227.0" dy="0">East Granary</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-013">
+<text class="label-zh" x="3157.17" y="960.17" text-anchor="end" font-size="18" aria-label="古灶村"><tspan x="3157.17" dy="0">古灶村</tspan></text>
+<text class="label-en" x="3157.17" y="973.17" text-anchor="end" font-size="10" aria-label="Old Kiln Village">
+<tspan x="3157.17" dy="0">Old Kiln Village</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-008">
+<text class="label-zh" x="1257.0" y="974.0" text-anchor="start" font-size="20" aria-label="西仓"><tspan x="1257.0" dy="0">西仓</tspan></text>
+<text class="label-en" x="1257.0" y="988.0" text-anchor="start" font-size="11" aria-label="West Granary">
+<tspan x="1257.0" dy="0">West Granary</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-009">
+<text class="label-zh" x="1524.0" y="974.0" text-anchor="end" font-size="20" aria-label="文庙"><tspan x="1524.0" dy="0">文庙</tspan></text>
+<text class="label-en" x="1524.0" y="988.0" text-anchor="end" font-size="11" aria-label="Confucian Temple">
+<tspan x="1524.0" dy="0">Confucian Temple</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-014">
+<text class="label-zh" x="1704.17" y="974.0" text-anchor="start" font-size="18" aria-label="新港公园"><tspan x="1704.17" dy="0">新港公园</tspan></text>
+<text class="label-en" x="1704.17" y="987.0" text-anchor="start" font-size="10" aria-label="New Harbor Park">
+<tspan x="1704.17" dy="0">New Harbor Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-015">
+<text class="label-zh" x="1821.0" y="974.0" text-anchor="end" font-size="20" aria-label="商务北街"><tspan x="1821.0" dy="0">商务北街</tspan></text>
+<text class="label-en" x="1821.0" y="988.0" text-anchor="end" font-size="11" aria-label="North Business Street">
+<tspan x="1821.0" dy="0">North Business Street</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-016">
+<text class="label-zh" x="2040.0" y="974.0" text-anchor="start" font-size="18" aria-label="市政厅"><tspan x="2040.0" dy="0">市政厅</tspan></text>
+<text class="label-en" x="2040.0" y="987.0" text-anchor="start" font-size="10" aria-label="City Hall">
+<tspan x="2040.0" dy="0">City Hall</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-008">
+<text class="label-zh" x="417.0" y="1028.0" text-anchor="end" font-size="18" aria-label="煤栈"><tspan x="417.0" dy="0">煤栈</tspan></text>
+<text class="label-en" x="417.0" y="1041.0" text-anchor="end" font-size="10" aria-label="Coal Depot">
+<tspan x="417.0" dy="0">Coal Depot</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-009">
+<text class="label-zh" x="648.12" y="1028.0" text-anchor="start" font-size="18" aria-label="红砖仓"><tspan x="648.12" dy="0">红砖仓</tspan></text>
+<text class="label-en" x="648.12" y="1041.0" text-anchor="start" font-size="10" aria-label="Redbrick Warehouse">
+<tspan x="648.12" dy="0">Redbrick Warehouse</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-010">
+<text class="label-zh" x="849.24" y="1028.0" text-anchor="start" font-size="18" aria-label="工人文化宫"><tspan x="849.24" dy="0">工人文化宫</tspan></text>
+<text class="label-en" x="849.24" y="1041.0" text-anchor="start" font-size="10" aria-label="Workers&#x27; Cultural Hall">
+<tspan x="849.24" dy="0">Workers&#x27; Cultural Hall</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-011">
+<text class="label-zh" x="1020.36" y="1028.0" text-anchor="end" font-size="18" aria-label="车辆段"><tspan x="1020.36" dy="0">车辆段</tspan></text>
+<text class="label-en" x="1020.36" y="1041.0" text-anchor="end" font-size="10" aria-label="Rolling Stock Works">
+<tspan x="1020.36" dy="0">Rolling Stock Works</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-010">
+<text class="label-zh" x="1227.0" y="1028.0" text-anchor="end" font-size="20" aria-label="报恩寺"><tspan x="1227.0" dy="0">报恩寺</tspan></text>
+<text class="label-en" x="1227.0" y="1042.0" text-anchor="end" font-size="11" aria-label="Temple of Gratitude">
+<tspan x="1227.0" dy="0">Temple of Gratitude</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-011">
+<text class="label-zh" x="1311.0" y="1028.0" text-anchor="start" font-size="20" aria-label="百工街"><tspan x="1311.0" dy="0">百工街</tspan></text>
+<text class="label-en" x="1311.0" y="1042.0" text-anchor="start" font-size="11" aria-label="Artisans&#x27; Street">
+<tspan x="1311.0" dy="0">Artisans&#x27; Street</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-028">
+<text class="label-zh" x="1338.0" y="1028.0" text-anchor="start" font-size="20" aria-label="人民广场"><tspan x="1338.0" dy="0">人民广场</tspan></text>
+<text class="label-en" x="1338.0" y="1042.0" text-anchor="start" font-size="11" aria-label="People&#x27;s Square">
+<tspan x="1338.0" dy="0">People&#x27;s Square</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-012">
+<text class="label-zh" x="1443.4" y="1028.0" text-anchor="end" font-size="18" aria-label="盐运司"><tspan x="1443.4" dy="0">盐运司</tspan></text>
+<text class="label-en" x="1443.4" y="1041.0" text-anchor="end" font-size="10" aria-label="Salt Commission">
+<tspan x="1443.4" dy="0">Salt Commission</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-013">
+<text class="label-zh" x="1608.0" y="1028.0" text-anchor="start" font-size="20" aria-label="花朝门"><tspan x="1608.0" dy="0">花朝门</tspan></text>
+<text class="label-en" x="1608.0" y="1042.0" text-anchor="start" font-size="11" aria-label="Flower Dawn Gate">
+<tspan x="1608.0" dy="0">Flower Dawn Gate</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-017">
+<text class="label-zh" x="1700.01" y="1022.5" text-anchor="end" font-size="18" aria-label="滨江总部"><tspan x="1700.01" dy="0">滨江总部</tspan></text>
+<text class="label-en" x="1700.01" y="1035.5" text-anchor="end" font-size="10" aria-label="Riverside Headquarters District">
+<tspan x="1700.01" dy="0">Riverside Headquarters</tspan>
+<tspan x="1700.01" dy="11.0">District</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-014">
+<text class="label-zh" x="1821.0" y="1028.0" text-anchor="end" font-size="20" aria-label="水关"><tspan x="1821.0" dy="0">水关</tspan></text>
+<text class="label-en" x="1821.0" y="1042.0" text-anchor="end" font-size="11" aria-label="Water Gate">
+<tspan x="1821.0" dy="0">Water Gate</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-015">
+<text class="label-zh" x="2083.7" y="1028.0" text-anchor="start" font-size="18" aria-label="大井巷"><tspan x="2083.7" dy="0">大井巷</tspan></text>
+<text class="label-en" x="2083.7" y="1041.0" text-anchor="start" font-size="10" aria-label="Great Well Lane">
+<tspan x="2083.7" dy="0">Great Well Lane</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CB-011">
+<text class="label-zh" x="2280.0" y="1028.0" text-anchor="end" font-size="20" aria-label="交易广场"><tspan x="2280.0" dy="0">交易广场</tspan></text>
+<text class="label-en" x="2280.0" y="1042.0" text-anchor="end" font-size="11" aria-label="Exchange Square">
+<tspan x="2280.0" dy="0">Exchange Square</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-016">
+<text class="label-zh" x="2476.74" y="1028.0" text-anchor="end" font-size="18" aria-label="石桥铺"><tspan x="2476.74" dy="0">石桥铺</tspan></text>
+<text class="label-en" x="2476.74" y="1041.0" text-anchor="end" font-size="10" aria-label="Stonebridge Market">
+<tspan x="2476.74" dy="0">Stonebridge Market</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-014">
+<text class="label-zh" x="2701.5" y="1028.0" text-anchor="start" font-size="20" aria-label="稻香浦"><tspan x="2701.5" dy="0">稻香浦</tspan></text>
+<text class="label-en" x="2701.5" y="1042.0" text-anchor="start" font-size="11" aria-label="Rice Blossom Creek">
+<tspan x="2701.5" dy="0">Rice Blossom Creek</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-015">
+<text class="label-zh" x="2712.0" y="1028.0" text-anchor="end" font-size="20" aria-label="陈家渡"><tspan x="2712.0" dy="0">陈家渡</tspan></text>
+<text class="label-en" x="2712.0" y="1042.0" text-anchor="end" font-size="11" aria-label="Chen Family Ferry">
+<tspan x="2712.0" dy="0">Chen Family Ferry</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-016">
+<text class="label-zh" x="2985.27" y="1022.5" text-anchor="start" font-size="18" aria-label="新材料研究院"><tspan x="2985.27" dy="0">新材料研究院</tspan></text>
+<text class="label-en" x="2985.27" y="1035.5" text-anchor="start" font-size="10" aria-label="Materials Research Institute">
+<tspan x="2985.27" dy="0">Materials Research</tspan>
+<tspan x="2985.27" dy="11.0">Institute</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-017">
+<text class="label-zh" x="3198.0" y="1022.5" text-anchor="end" font-size="18" aria-label="东澜工学院"><tspan x="3198.0" dy="0">东澜工学院</tspan></text>
+<text class="label-en" x="3198.0" y="1035.5" text-anchor="end" font-size="10" aria-label="East River Institute of Technology">
+<tspan x="3198.0" dy="0">East River Institute of</tspan>
+<tspan x="3198.0" dy="11.0">Technology</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-017">
+<text class="label-zh" x="1365.0" y="1055.0" text-anchor="start" font-size="20" aria-label="城隍阁"><tspan x="1365.0" dy="0">城隍阁</tspan></text>
+<text class="label-en" x="1365.0" y="1069.0" text-anchor="start" font-size="11" aria-label="City Guardian Pavilion">
+<tspan x="1365.0" dy="0">City Guardian Pavilion</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-RH-001">
+<text class="label-zh" x="1605.0" y="1049.0" text-anchor="end" font-size="20" aria-label="宁沧站"><tspan x="1605.0" dy="0">宁沧站</tspan></text>
+<text class="label-en" x="1605.0" y="1063.0" text-anchor="end" font-size="11" aria-label="Ningcang Railway Station">
+<tspan x="1605.0" dy="0">Ningcang Railway</tspan>
+<tspan x="1605.0" dy="12.0">Station</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-018">
+<text class="label-zh" x="1821.0" y="1055.0" text-anchor="end" font-size="20" aria-label="魁星楼"><tspan x="1821.0" dy="0">魁星楼</tspan></text>
+<text class="label-en" x="1821.0" y="1069.0" text-anchor="end" font-size="11" aria-label="Literary Star Tower">
+<tspan x="1821.0" dy="0">Literary Star Tower</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-012">
+<text class="label-zh" x="1068.0" y="1060.78" text-anchor="start" font-size="18" aria-label="机修里"><tspan x="1068.0" dy="0">机修里</tspan></text>
+<text class="label-en" x="1068.0" y="1073.78" text-anchor="start" font-size="10" aria-label="Mechanics&#x27; Quarter">
+<tspan x="1068.0" dy="0">Mechanics&#x27; Quarter</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-019">
+<text class="label-zh" x="2045.79" y="1060.79" text-anchor="start" font-size="18" aria-label="南薰门"><tspan x="2045.79" dy="0">南薰门</tspan></text>
+<text class="label-en" x="2045.79" y="1073.79" text-anchor="start" font-size="10" aria-label="Southern Breeze Gate">
+<tspan x="2045.79" dy="0">Southern Breeze Gate</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-020">
+<text class="label-zh" x="1419.0" y="1109.0" text-anchor="start" font-size="18" aria-label="铁狮口"><tspan x="1419.0" dy="0">铁狮口</tspan></text>
+<text class="label-en" x="1419.0" y="1122.0" text-anchor="start" font-size="10" aria-label="Iron Lion Crossing">
+<tspan x="1419.0" dy="0">Iron Lion Crossing</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-018">
+<text class="label-zh" x="2796.0" y="1122.5" text-anchor="start" font-size="20" aria-label="樟树里"><tspan x="2796.0" dy="0">樟树里</tspan></text>
+<text class="label-en" x="2796.0" y="1136.5" text-anchor="start" font-size="11" aria-label="Camphor Quarter">
+<tspan x="2796.0" dy="0">Camphor Quarter</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-019">
+<text class="label-zh" x="3225.0" y="1130.66" text-anchor="end" font-size="18" aria-label="海燕路"><tspan x="3225.0" dy="0">海燕路</tspan></text>
+<text class="label-en" x="3225.0" y="1143.66" text-anchor="end" font-size="10" aria-label="Petrel Road">
+<tspan x="3225.0" dy="0">Petrel Road</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-021">
+<text class="label-zh" x="2280.0" y="1136.0" text-anchor="end" font-size="20" aria-label="钟鼓楼"><tspan x="2280.0" dy="0">钟鼓楼</tspan></text>
+<text class="label-en" x="2280.0" y="1150.0" text-anchor="end" font-size="11" aria-label="Bell and Drum Tower">
+<tspan x="2280.0" dy="0">Bell and Drum Tower</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-022">
+<text class="label-zh" x="2511.06" y="1136.0" text-anchor="start" font-size="18" aria-label="柳荫渡"><tspan x="2511.06" dy="0">柳荫渡</tspan></text>
+<text class="label-en" x="2511.06" y="1149.0" text-anchor="start" font-size="10" aria-label="Willowshade Ferry">
+<tspan x="2511.06" dy="0">Willowshade Ferry</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-ET-020">
+<text class="label-zh" x="2685.0" y="1136.0" text-anchor="end" font-size="18" aria-label="潮汐实验站"><tspan x="2685.0" dy="0">潮汐实验站</tspan></text>
+<text class="label-en" x="2685.0" y="1149.0" text-anchor="end" font-size="10" aria-label="Tidal Research Station">
+<tspan x="2685.0" dy="0">Tidal Research Station</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-023">
+<text class="label-zh" x="2158.5" y="1203.5" text-anchor="end" font-size="20" aria-label="书院前"><tspan x="2158.5" dy="0">书院前</tspan></text>
+<text class="label-en" x="2158.5" y="1217.5" text-anchor="end" font-size="11" aria-label="Academy Forecourt">
+<tspan x="2158.5" dy="0">Academy Forecourt</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-024">
+<text class="label-zh" x="1241.53" y="1259.47" text-anchor="start" font-size="18" aria-label="剪子巷"><tspan x="1241.53" dy="0">剪子巷</tspan></text>
+<text class="label-en" x="1241.53" y="1272.47" text-anchor="start" font-size="10" aria-label="Shears Lane">
+<tspan x="1241.53" dy="0">Shears Lane</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-001">
+<text class="label-zh" x="1605.0" y="1269.77" text-anchor="end" font-size="20" aria-label="鹭洲码头"><tspan x="1605.0" dy="0">鹭洲码头</tspan></text>
+<text class="label-en" x="1605.0" y="1283.77" text-anchor="end" font-size="11" aria-label="Heron Isle Pier">
+<tspan x="1605.0" dy="0">Heron Isle Pier</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-002">
+<text class="label-zh" x="1851.0" y="1272.68" text-anchor="start" font-size="18" aria-label="洲头公园"><tspan x="1851.0" dy="0">洲头公园</tspan></text>
+<text class="label-en" x="1851.0" y="1285.68" text-anchor="start" font-size="10" aria-label="Island Head Park">
+<tspan x="1851.0" dy="0">Island Head Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-025">
+<text class="label-zh" x="1389.0" y="1298.32" text-anchor="end" font-size="18" aria-label="清平桥"><tspan x="1389.0" dy="0">清平桥</tspan></text>
+<text class="label-en" x="1389.0" y="1311.32" text-anchor="end" font-size="10" aria-label="Tranquil Bridge">
+<tspan x="1389.0" dy="0">Tranquil Bridge</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-026">
+<text class="label-zh" x="2796.0" y="1306.39" text-anchor="start" font-size="18" aria-label="鱼行口"><tspan x="2796.0" dy="0">鱼行口</tspan></text>
+<text class="label-en" x="2796.0" y="1319.39" text-anchor="start" font-size="10" aria-label="Fishmongers&#x27; Corner">
+<tspan x="2796.0" dy="0">Fishmongers&#x27; Corner</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-OC-027">
+<text class="label-zh" x="3225.0" y="1329.26" text-anchor="end" font-size="18" aria-label="铜驼街"><tspan x="3225.0" dy="0">铜驼街</tspan></text>
+<text class="label-en" x="3225.0" y="1342.26" text-anchor="end" font-size="10" aria-label="Bronze Camel Street">
+<tspan x="3225.0" dy="0">Bronze Camel Street</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-003">
+<text class="label-zh" x="1995.08" y="1366.92" text-anchor="end" font-size="18" aria-label="月堤"><tspan x="1995.08" dy="0">月堤</tspan></text>
+<text class="label-en" x="1995.08" y="1379.92" text-anchor="end" font-size="10" aria-label="Moon Embankment">
+<tspan x="1995.08" dy="0">Moon Embankment</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-001">
+<text class="label-zh" x="2412.31" y="1421.81" text-anchor="start" font-size="18" aria-label="南浦金融城"><tspan x="2412.31" dy="0">南浦金融城</tspan></text>
+<text class="label-en" x="2412.31" y="1434.81" text-anchor="start" font-size="10" aria-label="South Harbor Financial District">
+<tspan x="2412.31" dy="0">South Harbor Financial</tspan>
+<tspan x="2412.31" dy="11.0">District</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-013">
+<text class="label-zh" x="1038.0" y="1433.0" text-anchor="end" font-size="20" aria-label="水塔公园"><tspan x="1038.0" dy="0">水塔公园</tspan></text>
+<text class="label-en" x="1038.0" y="1447.0" text-anchor="end" font-size="11" aria-label="Water Tower Park">
+<tspan x="1038.0" dy="0">Water Tower Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-002">
+<text class="label-zh" x="1389.0" y="1487.0" text-anchor="end" font-size="20" aria-label="金桂广场"><tspan x="1389.0" dy="0">金桂广场</tspan></text>
+<text class="label-en" x="1389.0" y="1501.0" text-anchor="end" font-size="11" aria-label="Osmanthus Square">
+<tspan x="1389.0" dy="0">Osmanthus Square</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-003">
+<text class="label-zh" x="1635.0" y="1487.0" text-anchor="start" font-size="20" aria-label="传媒中心"><tspan x="1635.0" dy="0">传媒中心</tspan></text>
+<text class="label-en" x="1635.0" y="1501.0" text-anchor="start" font-size="11" aria-label="Media Center">
+<tspan x="1635.0" dy="0">Media Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-004">
+<text class="label-zh" x="1821.0" y="1481.0" text-anchor="end" font-size="20" aria-label="江湾文化馆"><tspan x="1821.0" dy="0">江湾文化馆</tspan></text>
+<text class="label-en" x="1821.0" y="1495.0" text-anchor="end" font-size="11" aria-label="Riverbend Arts Center">
+<tspan x="1821.0" dy="0">Riverbend Arts</tspan>
+<tspan x="1821.0" dy="12.0">Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CO-002">
+<text class="label-zh" x="2796.0" y="1487.0" text-anchor="start" font-size="20" aria-label="潮平"><tspan x="2796.0" dy="0">潮平</tspan></text>
+<text class="label-en" x="2796.0" y="1501.0" text-anchor="start" font-size="11" aria-label="Tidal Plain">
+<tspan x="2796.0" dy="0">Tidal Plain</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-013">
+<text class="label-zh" x="2809.5" y="1487.0" text-anchor="start" font-size="20" aria-label="霜枫苑"><tspan x="2809.5" dy="0">霜枫苑</tspan></text>
+<text class="label-en" x="2809.5" y="1501.0" text-anchor="start" font-size="11" aria-label="Frost Maple Gardens">
+<tspan x="2809.5" dy="0">Frost Maple Gardens</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-014">
+<text class="label-zh" x="2947.89" y="1487.0" text-anchor="end" font-size="18" aria-label="白塔埭"><tspan x="2947.89" dy="0">白塔埭</tspan></text>
+<text class="label-en" x="2947.89" y="1500.0" text-anchor="end" font-size="10" aria-label="White Pagoda Levee">
+<tspan x="2947.89" dy="0">White Pagoda Levee</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-010">
+<text class="label-zh" x="3117.0" y="1487.0" text-anchor="end" font-size="20" aria-label="邮轮母港"><tspan x="3117.0" dy="0">邮轮母港</tspan></text>
+<text class="label-en" x="3117.0" y="1501.0" text-anchor="end" font-size="11" aria-label="Cruise Home Port">
+<tspan x="3117.0" dy="0">Cruise Home Port</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-015">
+<text class="label-zh" x="2809.5" y="1500.5" text-anchor="start" font-size="20" aria-label="嘉禾路"><tspan x="2809.5" dy="0">嘉禾路</tspan></text>
+<text class="label-en" x="2809.5" y="1514.5" text-anchor="start" font-size="11" aria-label="Golden Harvest Road">
+<tspan x="2809.5" dy="0">Golden Harvest Road</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-002">
+<text class="label-zh" x="3245.2" y="1518.3" text-anchor="start" font-size="18" aria-label="集装箱北站"><tspan x="3245.2" dy="0">集装箱北站</tspan></text>
+<text class="label-en" x="3245.2" y="1531.3" text-anchor="start" font-size="10" aria-label="North Container Terminal">
+<tspan x="3245.2" dy="0">North Container</tspan>
+<tspan x="3245.2" dy="11.0">Terminal</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-003">
+<text class="label-zh" x="3238.73" y="1603.23" text-anchor="end" font-size="18" aria-label="集装箱南站"><tspan x="3238.73" dy="0">集装箱南站</tspan></text>
+<text class="label-en" x="3238.73" y="1616.23" text-anchor="end" font-size="10" aria-label="South Container Terminal">
+<tspan x="3238.73" dy="0">South Container</tspan>
+<tspan x="3238.73" dy="11.0">Terminal</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-001">
+<text class="label-zh" x="891.79" y="1609.21" text-anchor="start" font-size="18" aria-label="宁沧大学"><tspan x="891.79" dy="0">宁沧大学</tspan></text>
+<text class="label-en" x="891.79" y="1622.21" text-anchor="start" font-size="10" aria-label="Ningcang University">
+<tspan x="891.79" dy="0">Ningcang University</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CO-001">
+<text class="label-zh" x="2911.77" y="1632.77" text-anchor="end" font-size="18" aria-label="海琴湾"><tspan x="2911.77" dy="0">海琴湾</tspan></text>
+<text class="label-en" x="2911.77" y="1645.77" text-anchor="end" font-size="10" aria-label="Sea Harp Bay">
+<tspan x="2911.77" dy="0">Sea Harp Bay</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-002">
+<text class="label-zh" x="633.0" y="1649.0" text-anchor="end" font-size="18" aria-label="玄湖校区"><tspan x="633.0" dy="0">玄湖校区</tspan></text>
+<text class="label-en" x="633.0" y="1662.0" text-anchor="end" font-size="10" aria-label="Mystic Lake Campus">
+<tspan x="633.0" dy="0">Mystic Lake Campus</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-003">
+<text class="label-zh" x="846.89" y="1643.5" text-anchor="start" font-size="18" aria-label="万卷书院"><tspan x="846.89" dy="0">万卷书院</tspan></text>
+<text class="label-en" x="846.89" y="1656.5" text-anchor="start" font-size="10" aria-label="Ten Thousand Volumes Academy">
+<tspan x="846.89" dy="0">Ten Thousand</tspan>
+<tspan x="846.89" dy="11.0">Volumes Academy</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-004">
+<text class="label-zh" x="1007.85" y="1649.0" text-anchor="end" font-size="18" aria-label="格物路"><tspan x="1007.85" dy="0">格物路</tspan></text>
+<text class="label-en" x="1007.85" y="1662.0" text-anchor="end" font-size="10" aria-label="Inquiry Road">
+<tspan x="1007.85" dy="0">Inquiry Road</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-005">
+<text class="label-zh" x="1228.81" y="1649.0" text-anchor="start" font-size="18" aria-label="滨江公园"><tspan x="1228.81" dy="0">滨江公园</tspan></text>
+<text class="label-en" x="1228.81" y="1662.0" text-anchor="start" font-size="10" aria-label="Riverside Park">
+<tspan x="1228.81" dy="0">Riverside Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-006">
+<text class="label-zh" x="1389.0" y="1649.0" text-anchor="end" font-size="20" aria-label="博览馆"><tspan x="1389.0" dy="0">博览馆</tspan></text>
+<text class="label-en" x="1389.0" y="1663.0" text-anchor="end" font-size="11" aria-label="Exposition Hall">
+<tspan x="1389.0" dy="0">Exposition Hall</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-007">
+<text class="label-zh" x="1610.73" y="1649.0" text-anchor="start" font-size="18" aria-label="云影路"><tspan x="1610.73" dy="0">云影路</tspan></text>
+<text class="label-en" x="1610.73" y="1662.0" text-anchor="start" font-size="10" aria-label="Cloud Reflection Road">
+<tspan x="1610.73" dy="0">Cloud Reflection Road</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-RH-010">
+<text class="label-zh" x="1767.0" y="1643.0" text-anchor="end" font-size="20" aria-label="兰津站"><tspan x="1767.0" dy="0">兰津站</tspan></text>
+<text class="label-en" x="1767.0" y="1657.0" text-anchor="end" font-size="11" aria-label="Orchid Ferry Railway Station">
+<tspan x="1767.0" dy="0">Orchid Ferry Railway</tspan>
+<tspan x="1767.0" dy="12.0">Station</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-015">
+<text class="label-zh" x="1821.0" y="1649.0" text-anchor="end" font-size="20" aria-label="市民中心"><tspan x="1821.0" dy="0">市民中心</tspan></text>
+<text class="label-en" x="1821.0" y="1663.0" text-anchor="end" font-size="11" aria-label="Civic Center">
+<tspan x="1821.0" dy="0">Civic Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-008">
+<text class="label-zh" x="2012.16" y="1649.0" text-anchor="end" font-size="18" aria-label="领事馆街"><tspan x="2012.16" dy="0">领事馆街</tspan></text>
+<text class="label-en" x="2012.16" y="1662.0" text-anchor="end" font-size="10" aria-label="Consulate Street">
+<tspan x="2012.16" dy="0">Consulate Street</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-009">
+<text class="label-zh" x="2240.2" y="1649.0" text-anchor="start" font-size="20" aria-label="南岸枢纽"><tspan x="2240.2" dy="0">南岸枢纽</tspan></text>
+<text class="label-en" x="2240.2" y="1663.0" text-anchor="start" font-size="11" aria-label="Southbank Transit Hub">
+<tspan x="2240.2" dy="0">Southbank Transit Hub</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-010">
+<text class="label-zh" x="2438.23" y="1649.0" text-anchor="start" font-size="18" aria-label="长桥东"><tspan x="2438.23" dy="0">长桥东</tspan></text>
+<text class="label-en" x="2438.23" y="1662.0" text-anchor="start" font-size="10" aria-label="Long Bridge East">
+<tspan x="2438.23" dy="0">Long Bridge East</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-011">
+<text class="label-zh" x="2604.0" y="1649.0" text-anchor="end" font-size="20" aria-label="潮生里"><tspan x="2604.0" dy="0">潮生里</tspan></text>
+<text class="label-en" x="2604.0" y="1663.0" text-anchor="end" font-size="11" aria-label="Rising Tide Quarter">
+<tspan x="2604.0" dy="0">Rising Tide Quarter</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CO-003">
+<text class="label-zh" x="2820.0" y="1643.5" text-anchor="end" font-size="18" aria-label="望潮堤"><tspan x="2820.0" dy="0">望潮堤</tspan></text>
+<text class="label-en" x="2820.0" y="1656.5" text-anchor="end" font-size="10" aria-label="Tidewatch Embankment">
+<tspan x="2820.0" dy="0">Tidewatch</tspan>
+<tspan x="2820.0" dy="11.0">Embankment</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CO-004">
+<text class="label-zh" x="3104.78" y="1664.22" text-anchor="start" font-size="18" aria-label="贝丘公园"><tspan x="3104.78" dy="0">贝丘公园</tspan></text>
+<text class="label-en" x="3104.78" y="1677.22" text-anchor="start" font-size="10" aria-label="Shell Mound Park">
+<tspan x="3104.78" dy="0">Shell Mound Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-012">
+<text class="label-zh" x="1851.0" y="1703.0" text-anchor="start" font-size="20" aria-label="临江门"><tspan x="1851.0" dy="0">临江门</tspan></text>
+<text class="label-en" x="1851.0" y="1717.0" text-anchor="start" font-size="11" aria-label="Riverfront Gate">
+<tspan x="1851.0" dy="0">Riverfront Gate</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-013">
+<text class="label-zh" x="1094.5" y="1727.5" text-anchor="end" font-size="18" aria-label="玉兰大道"><tspan x="1094.5" dy="0">玉兰大道</tspan></text>
+<text class="label-en" x="1094.5" y="1740.5" text-anchor="end" font-size="10" aria-label="Magnolia Avenue">
+<tspan x="1094.5" dy="0">Magnolia Avenue</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-001">
+<text class="label-zh" x="3360.0" y="1730.0" text-anchor="end" font-size="20" aria-label="深水港"><tspan x="3360.0" dy="0">深水港</tspan></text>
+<text class="label-en" x="3360.0" y="1744.0" text-anchor="end" font-size="11" aria-label="Deepwater Port">
+<tspan x="3360.0" dy="0">Deepwater Port</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-004">
+<text class="label-zh" x="3390.0" y="1730.0" text-anchor="start" font-size="18" aria-label="保税物流园"><tspan x="3390.0" dy="0">保税物流园</tspan></text>
+<text class="label-en" x="3390.0" y="1743.0" text-anchor="start" font-size="10" aria-label="Bonded Logistics Park">
+<tspan x="3390.0" dy="0">Bonded Logistics Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-014">
+<text class="label-zh" x="2641.25" y="1736.25" text-anchor="start" font-size="18" aria-label="清波港"><tspan x="2641.25" dy="0">清波港</tspan></text>
+<text class="label-en" x="2641.25" y="1749.25" text-anchor="start" font-size="10" aria-label="Clearwater Inlet">
+<tspan x="2641.25" dy="0">Clearwater Inlet</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CO-005">
+<text class="label-zh" x="2933.92" y="1762.92" text-anchor="end" font-size="18" aria-label="海洋馆"><tspan x="2933.92" dy="0">海洋馆</tspan></text>
+<text class="label-en" x="2933.92" y="1775.92" text-anchor="end" font-size="10" aria-label="City Oceanarium">
+<tspan x="2933.92" dy="0">City Oceanarium</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CO-006">
+<text class="label-zh" x="3073.18" y="1764.18" text-anchor="start" font-size="18" aria-label="白沙湖"><tspan x="3073.18" dy="0">白沙湖</tspan></text>
+<text class="label-en" x="3073.18" y="1777.18" text-anchor="start" font-size="10" aria-label="White Sand Lake">
+<tspan x="3073.18" dy="0">White Sand Lake</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-005">
+<text class="label-zh" x="449.03" y="1778.5" text-anchor="start" font-size="18" aria-label="西岭医学院"><tspan x="449.03" dy="0">西岭医学院</tspan></text>
+<text class="label-en" x="449.03" y="1791.5" text-anchor="start" font-size="10" aria-label="West Ridge Medical College">
+<tspan x="449.03" dy="0">West Ridge Medical</tspan>
+<tspan x="449.03" dy="11.0">College</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-006">
+<text class="label-zh" x="553.01" y="1784.0" text-anchor="end" font-size="18" aria-label="青岚村"><tspan x="553.01" dy="0">青岚村</tspan></text>
+<text class="label-en" x="553.01" y="1797.0" text-anchor="end" font-size="10" aria-label="Blue Mist Village">
+<tspan x="553.01" dy="0">Blue Mist Village</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-007">
+<text class="label-zh" x="650.01" y="1784.0" text-anchor="start" font-size="18" aria-label="学府桥"><tspan x="650.01" dy="0">学府桥</tspan></text>
+<text class="label-en" x="650.01" y="1797.0" text-anchor="start" font-size="10" aria-label="Scholars&#x27; Bridge">
+<tspan x="650.01" dy="0">Scholars&#x27; Bridge</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-019">
+<text class="label-zh" x="687.0" y="1784.0" text-anchor="end" font-size="18" aria-label="雨湖"><tspan x="687.0" dy="0">雨湖</tspan></text>
+<text class="label-en" x="687.0" y="1797.0" text-anchor="end" font-size="10" aria-label="Rain Lake">
+<tspan x="687.0" dy="0">Rain Lake</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-016">
+<text class="label-zh" x="1567.22" y="1784.0" text-anchor="start" font-size="18" aria-label="歌剧院"><tspan x="1567.22" dy="0">歌剧院</tspan></text>
+<text class="label-en" x="1567.22" y="1797.0" text-anchor="start" font-size="10" aria-label="Opera House">
+<tspan x="1567.22" dy="0">Opera House</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-017">
+<text class="label-zh" x="1821.0" y="1784.0" text-anchor="end" font-size="20" aria-label="航运交易所"><tspan x="1821.0" dy="0">航运交易所</tspan></text>
+<text class="label-en" x="1821.0" y="1798.0" text-anchor="end" font-size="11" aria-label="Maritime Exchange">
+<tspan x="1821.0" dy="0">Maritime Exchange</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-SF-018">
+<text class="label-zh" x="1932.0" y="1784.0" text-anchor="start" font-size="20" aria-label="海棠堤"><tspan x="1932.0" dy="0">海棠堤</tspan></text>
+<text class="label-en" x="1932.0" y="1798.0" text-anchor="start" font-size="11" aria-label="Begonia Embankment">
+<tspan x="1932.0" dy="0">Begonia Embankment</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-016">
+<text class="label-zh" x="2229.41" y="1784.0" text-anchor="end" font-size="18" aria-label="锦屏体育馆"><tspan x="2229.41" dy="0">锦屏体育馆</tspan></text>
+<text class="label-en" x="2229.41" y="1797.0" text-anchor="end" font-size="10" aria-label="Brocade Hill Arena">
+<tspan x="2229.41" dy="0">Brocade Hill Arena</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-017">
+<text class="label-zh" x="2580.0" y="1784.0" text-anchor="start" font-size="18" aria-label="栖鹭公园"><tspan x="2580.0" dy="0">栖鹭公园</tspan></text>
+<text class="label-en" x="2580.0" y="1797.0" text-anchor="start" font-size="10" aria-label="Heron Roost Park">
+<tspan x="2580.0" dy="0">Heron Roost Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-NR-018">
+<text class="label-zh" x="1289.8" y="1800.8" text-anchor="end" font-size="18" aria-label="汇泉广场"><tspan x="1289.8" dy="0">汇泉广场</tspan></text>
+<text class="label-en" x="1289.8" y="1813.8" text-anchor="end" font-size="10" aria-label="Confluence Springs Square">
+<tspan x="1289.8" dy="0">Confluence Springs</tspan>
+<tspan x="1289.8" dy="11.0">Square</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CO-007">
+<text class="label-zh" x="2777.93" y="1822.92" text-anchor="end" font-size="18" aria-label="渔火街"><tspan x="2777.93" dy="0">渔火街</tspan></text>
+<text class="label-en" x="2777.93" y="1835.92" text-anchor="end" font-size="10" aria-label="Fishing Lights Street">
+<tspan x="2777.93" dy="0">Fishing Lights Street</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-008">
+<text class="label-zh" x="370.12" y="1830.89" text-anchor="end" font-size="18" aria-label="柏影路"><tspan x="370.12" dy="0">柏影路</tspan></text>
+<text class="label-en" x="370.12" y="1843.89" text-anchor="end" font-size="10" aria-label="Cypress Shade Road">
+<tspan x="370.12" dy="0">Cypress Shade Road</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-AP-004">
+<text class="label-zh" x="3048.95" y="1877.95" text-anchor="end" font-size="20" aria-label="三号航站楼"><tspan x="3048.95" dy="0">三号航站楼</tspan></text>
+<text class="label-en" x="3048.95" y="1891.95" text-anchor="end" font-size="11" aria-label="Airport Terminal 3">
+<tspan x="3048.95" dy="0">Airport Terminal 3</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-009">
+<text class="label-zh" x="352.74" y="1872.76" text-anchor="start" font-size="18" aria-label="天文台"><tspan x="352.74" dy="0">天文台</tspan></text>
+<text class="label-en" x="352.74" y="1885.76" text-anchor="start" font-size="10" aria-label="Astronomical Observatory">
+<tspan x="352.74" dy="0">Astronomical</tspan>
+<tspan x="352.74" dy="11.0">Observatory</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-005">
+<text class="label-zh" x="3174.59" y="1895.59" text-anchor="end" font-size="18" aria-label="东湾船厂"><tspan x="3174.59" dy="0">东湾船厂</tspan></text>
+<text class="label-en" x="3174.59" y="1908.59" text-anchor="end" font-size="10" aria-label="East Bay Shipyard">
+<tspan x="3174.59" dy="0">East Bay Shipyard</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-CO-008">
+<text class="label-zh" x="2823.92" y="1945.08" text-anchor="start" font-size="18" aria-label="南沙嘴"><tspan x="2823.92" dy="0">南沙嘴</tspan></text>
+<text class="label-en" x="2823.92" y="1958.08" text-anchor="start" font-size="10" aria-label="South Sand Spit">
+<tspan x="2823.92" dy="0">South Sand Spit</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-014">
+<text class="label-zh" x="1851.0" y="1946.0" text-anchor="start" font-size="20" aria-label="旧船台"><tspan x="1851.0" dy="0">旧船台</tspan></text>
+<text class="label-en" x="1851.0" y="1960.0" text-anchor="start" font-size="11" aria-label="Historic Slipway">
+<tspan x="1851.0" dy="0">Historic Slipway</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-015">
+<text class="label-zh" x="1983.0" y="1946.0" text-anchor="end" font-size="20" aria-label="榆木桥"><tspan x="1983.0" dy="0">榆木桥</tspan></text>
+<text class="label-en" x="1983.0" y="1960.0" text-anchor="end" font-size="11" aria-label="Elmwood Bridge">
+<tspan x="1983.0" dy="0">Elmwood Bridge</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-016">
+<text class="label-zh" x="2221.06" y="1946.0" text-anchor="start" font-size="18" aria-label="厂前"><tspan x="2221.06" dy="0">厂前</tspan></text>
+<text class="label-en" x="2221.06" y="1959.0" text-anchor="start" font-size="10" aria-label="Factory Forecourt">
+<tspan x="2221.06" dy="0">Factory Forecourt</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-017">
+<text class="label-zh" x="2361.0" y="1946.0" text-anchor="end" font-size="18" aria-label="漕河湾"><tspan x="2361.0" dy="0">漕河湾</tspan></text>
+<text class="label-en" x="2361.0" y="1959.0" text-anchor="end" font-size="10" aria-label="Canal Bend">
+<tspan x="2361.0" dy="0">Canal Bend</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-RH-016">
+<text class="label-zh" x="2401.5" y="1930.0" text-anchor="end" font-size="20" aria-label="宁沧高铁总站"><tspan x="2401.5" dy="0">宁沧高</tspan><tspan x="2401.5" dy="20.0">铁总站</tspan></text>
+<text class="label-en" x="2401.5" y="1964.0" text-anchor="end" font-size="11" aria-label="Ningcang High-Speed Rail Central Station">
+<tspan x="2401.5" dy="0">Ningcang High-Speed Rail</tspan>
+<tspan x="2401.5" dy="12.0">Central Station</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IN-018">
+<text class="label-zh" x="2445.0" y="1940.5" text-anchor="start" font-size="18" aria-label="北联物流园"><tspan x="2445.0" dy="0">北联物流园</tspan></text>
+<text class="label-en" x="2445.0" y="1953.5" text-anchor="start" font-size="10" aria-label="North Union Logistics Park">
+<tspan x="2445.0" dy="0">North Union Logistics</tspan>
+<tspan x="2445.0" dy="11.0">Park</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-AP-003">
+<text class="label-zh" x="2985.0" y="1946.0" text-anchor="start" font-size="20" aria-label="二号航站楼"><tspan x="2985.0" dy="0">二号航站楼</tspan></text>
+<text class="label-en" x="2985.0" y="1960.0" text-anchor="start" font-size="11" aria-label="Airport Terminal 2">
+<tspan x="2985.0" dy="0">Airport Terminal 2</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-004">
+<text class="label-zh" x="1491.68" y="1959.5" text-anchor="start" font-size="20" aria-label="旧海关"><tspan x="1491.68" dy="0">旧海关</tspan></text>
+<text class="label-en" x="1491.68" y="1973.5" text-anchor="start" font-size="11" aria-label="Historic Customs House">
+<tspan x="1491.68" dy="0">Historic Customs House</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-005">
+<text class="label-zh" x="1699.5" y="1953.5" text-anchor="end" font-size="20" aria-label="三桅仓"><tspan x="1699.5" dy="0">三桅仓</tspan></text>
+<text class="label-en" x="1699.5" y="1967.5" text-anchor="end" font-size="11" aria-label="Three-Mast Warehouse">
+<tspan x="1699.5" dy="0">Three-Mast</tspan>
+<tspan x="1699.5" dy="12.0">Warehouse</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-006">
+<text class="label-zh" x="1851.0" y="1959.5" text-anchor="start" font-size="20" aria-label="银沙滩"><tspan x="1851.0" dy="0">银沙滩</tspan></text>
+<text class="label-en" x="1851.0" y="1973.5" text-anchor="start" font-size="11" aria-label="Silver Sandbank">
+<tspan x="1851.0" dy="0">Silver Sandbank</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-007">
+<text class="label-zh" x="1983.0" y="1959.5" text-anchor="end" font-size="20" aria-label="岛心花园"><tspan x="1983.0" dy="0">岛心花园</tspan></text>
+<text class="label-en" x="1983.0" y="1973.5" text-anchor="end" font-size="11" aria-label="Island Garden">
+<tspan x="1983.0" dy="0">Island Garden</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-010">
+<text class="label-zh" x="258.0" y="1973.0" text-anchor="start" font-size="18" aria-label="大学城图书馆"><tspan x="258.0" dy="0">大学城图书馆</tspan></text>
+<text class="label-en" x="258.0" y="1986.0" text-anchor="start" font-size="10" aria-label="University Town Library">
+<tspan x="258.0" dy="0">University Town Library</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-006">
+<text class="label-zh" x="3193.97" y="1987.47" text-anchor="start" font-size="18" aria-label="海工基地"><tspan x="3193.97" dy="0">海工基地</tspan></text>
+<text class="label-en" x="3193.97" y="2000.47" text-anchor="start" font-size="10" aria-label="Offshore Engineering Base">
+<tspan x="3193.97" dy="0">Offshore Engineering</tspan>
+<tspan x="3193.97" dy="11.0">Base</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-011">
+<text class="label-zh" x="687.0" y="1994.5" text-anchor="end" font-size="18" aria-label="南溪实验室"><tspan x="687.0" dy="0">南溪实验室</tspan></text>
+<text class="label-en" x="687.0" y="2007.5" text-anchor="end" font-size="10" aria-label="South Creek Laboratories">
+<tspan x="687.0" dy="0">South Creek</tspan>
+<tspan x="687.0" dy="11.0">Laboratories</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-AP-002">
+<text class="label-zh" x="2955.0" y="2000.0" text-anchor="end" font-size="20" aria-label="一号航站楼"><tspan x="2955.0" dy="0">一号航站楼</tspan></text>
+<text class="label-en" x="2955.0" y="2014.0" text-anchor="end" font-size="11" aria-label="Airport Terminal 1">
+<tspan x="2955.0" dy="0">Airport Terminal 1</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-AP-001">
+<text class="label-zh" x="3039.0" y="1984.0" text-anchor="start" font-size="20" aria-label="宁沧国际机场"><tspan x="3039.0" dy="0">宁沧国</tspan><tspan x="3039.0" dy="20.0">际机场</tspan></text>
+<text class="label-en" x="3039.0" y="2018.0" text-anchor="start" font-size="11" aria-label="Ningcang International Airport">
+<tspan x="3039.0" dy="0">Ningcang International</tspan>
+<tspan x="3039.0" dy="12.0">Airport</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-007">
+<text class="label-zh" x="3306.0" y="2027.0" text-anchor="end" font-size="20" aria-label="港务中心"><tspan x="3306.0" dy="0">港务中心</tspan></text>
+<text class="label-en" x="3306.0" y="2041.0" text-anchor="end" font-size="11" aria-label="Port Authority Center">
+<tspan x="3306.0" dy="0">Port Authority Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-008">
+<text class="label-zh" x="1637.05" y="2051.95" text-anchor="start" font-size="18" aria-label="南汊口"><tspan x="1637.05" dy="0">南汊口</tspan></text>
+<text class="label-en" x="1637.05" y="2064.95" text-anchor="start" font-size="10" aria-label="South Channel Mouth">
+<tspan x="1637.05" dy="0">South Channel Mouth</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-012">
+<text class="label-zh" x="987.0" y="2070.88" text-anchor="start" font-size="18" aria-label="鹤鸣谷"><tspan x="987.0" dy="0">鹤鸣谷</tspan></text>
+<text class="label-en" x="987.0" y="2083.88" text-anchor="start" font-size="10" aria-label="Crane Call Valley">
+<tspan x="987.0" dy="0">Crane Call Valley</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-PT-008">
+<text class="label-zh" x="3309.0" y="2108.0" text-anchor="start" font-size="20" aria-label="冷链仓储"><tspan x="3309.0" dy="0">冷链仓储</tspan></text>
+<text class="label-en" x="3309.0" y="2122.0" text-anchor="start" font-size="11" aria-label="Cold-Chain Depot">
+<tspan x="3309.0" dy="0">Cold-Chain Depot</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-013">
+<text class="label-zh" x="228.0" y="2135.0" text-anchor="end" font-size="18" aria-label="砚池"><tspan x="228.0" dy="0">砚池</tspan></text>
+<text class="label-en" x="228.0" y="2148.0" text-anchor="end" font-size="10" aria-label="Inkstone Pond">
+<tspan x="228.0" dy="0">Inkstone Pond</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-014">
+<text class="label-zh" x="650.78" y="2135.0" text-anchor="start" font-size="18" aria-label="松风宿舍"><tspan x="650.78" dy="0">松风宿舍</tspan></text>
+<text class="label-en" x="650.78" y="2148.0" text-anchor="start" font-size="10" aria-label="Pine Wind Residences">
+<tspan x="650.78" dy="0">Pine Wind Residences</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-009">
+<text class="label-zh" x="1983.0" y="2141.55" text-anchor="end" font-size="20" aria-label="灯塔街"><tspan x="1983.0" dy="0">灯塔街</tspan></text>
+<text class="label-en" x="1983.0" y="2155.55" text-anchor="end" font-size="11" aria-label="Lighthouse Street">
+<tspan x="1983.0" dy="0">Lighthouse Street</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-010">
+<text class="label-zh" x="1513.9" y="2145.1" text-anchor="end" font-size="18" aria-label="水师营"><tspan x="1513.9" dy="0">水师营</tspan></text>
+<text class="label-en" x="1513.9" y="2158.1" text-anchor="end" font-size="10" aria-label="Naval Barracks">
+<tspan x="1513.9" dy="0">Naval Barracks</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-011">
+<text class="label-zh" x="1851.0" y="2168.2" text-anchor="start" font-size="18" aria-label="芦汀湿地"><tspan x="1851.0" dy="0">芦汀湿地</tspan></text>
+<text class="label-en" x="1851.0" y="2181.2" text-anchor="start" font-size="10" aria-label="Reedbank Wetlands">
+<tspan x="1851.0" dy="0">Reedbank Wetlands</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-IS-012">
+<text class="label-zh" x="1420.76" y="2238.24" text-anchor="end" font-size="18" aria-label="双桥渡"><tspan x="1420.76" dy="0">双桥渡</tspan></text>
+<text class="label-en" x="1420.76" y="2251.24" text-anchor="end" font-size="10" aria-label="Twin Bridges Ferry">
+<tspan x="1420.76" dy="0">Twin Bridges Ferry</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-015">
+<text class="label-zh" x="1983.0" y="2309.0" text-anchor="end" font-size="18" aria-label="大学城体育中心"><tspan x="1983.0" dy="0">大学城体</tspan><tspan x="1983.0" dy="19.0">育中心</tspan></text>
+<text class="label-en" x="1983.0" y="2341.0" text-anchor="end" font-size="10" aria-label="University Town Sports Center">
+<tspan x="1983.0" dy="0">University Town Sports</tspan>
+<tspan x="1983.0" dy="11.0">Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-016">
+<text class="label-zh" x="1360.72" y="2322.78" text-anchor="start" font-size="18" aria-label="西山植物园"><tspan x="1360.72" dy="0">西山植物园</tspan></text>
+<text class="label-en" x="1360.72" y="2335.78" text-anchor="start" font-size="10" aria-label="Western Hills Botanic Garden">
+<tspan x="1360.72" dy="0">Western Hills Botanic</tspan>
+<tspan x="1360.72" dy="11.0">Garden</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-017">
+<text class="label-zh" x="822.0" y="2351.0" text-anchor="end" font-size="18" aria-label="若水书院"><tspan x="822.0" dy="0">若水书院</tspan></text>
+<text class="label-en" x="822.0" y="2364.0" text-anchor="end" font-size="10" aria-label="Waterside Academy">
+<tspan x="822.0" dy="0">Waterside Academy</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-UN-018">
+<text class="label-zh" x="979.34" y="2351.0" text-anchor="start" font-size="18" aria-label="大学城中心"><tspan x="979.34" dy="0">大学城中心</tspan></text>
+<text class="label-en" x="979.34" y="2364.0" text-anchor="start" font-size="10" aria-label="University Town Center">
+<tspan x="979.34" dy="0">University Town Center</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-WS-005">
+<text class="label-zh" x="1081.06" y="2345.5" text-anchor="end" font-size="18" aria-label="龙泉水库"><tspan x="1081.06" dy="0">龙泉水库</tspan></text>
+<text class="label-en" x="1081.06" y="2358.5" text-anchor="end" font-size="10" aria-label="Dragon Spring Reservoir">
+<tspan x="1081.06" dy="0">Dragon Spring</tspan>
+<tspan x="1081.06" dy="11.0">Reservoir</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-WS-006">
+<text class="label-zh" x="1242.79" y="2345.0" text-anchor="start" font-size="20" aria-label="云岭客运站"><tspan x="1242.79" dy="0">云岭客运站</tspan></text>
+<text class="label-en" x="1242.79" y="2359.0" text-anchor="start" font-size="11" aria-label="Cloudridge Coach Terminal">
+<tspan x="1242.79" dy="0">Cloudridge Coach</tspan>
+<tspan x="1242.79" dy="12.0">Terminal</tspan>
+</text></g>
+<g class="station-label" data-label-for="NC-WS-007">
+<text class="label-zh" x="1821.0" y="2378.0" text-anchor="end" font-size="18" aria-label="茶马街"><tspan x="1821.0" dy="0">茶马街</tspan></text>
+<text class="label-en" x="1821.0" y="2391.0" text-anchor="end" font-size="10" aria-label="Tea Horse Street">
+<tspan x="1821.0" dy="0">Tea Horse Street</tspan>
+</text></g>
+</g>
+<g id="title-block"><rect x="87.75" y="51.300000000000004" width="1444.5" height="140.4" rx="24.3" fill="#FFFFFF" opacity="0.96"/>
+<text x="124.2" y="112.05000000000001" font-size="45.900000000000006" font-family="Hiragino Sans GB, sans-serif" font-weight="750" fill="#17262F">宁沧轨道交通线网图</text>
+<text x="124.2" y="156.60000000000002" font-size="22.950000000000003" font-family="Helvetica Neue, sans-serif" letter-spacing="1.5" fill="#63727C">NINGCANG URBAN RAIL TRANSIT NETWORK</text></g>
+<text x="3334.5" y="2578.5" text-anchor="end" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" fill="#67747C">线路示意图，不按比例 · Schematic map — not to scale</text>
+<g id="legend"><rect x="3422.25" y="195.75" width="553.5" height="2220.75" rx="32.400000000000006" fill="#FFFFFF" stroke="#D7E0E5" stroke-width="2"/>
+<text x="3460.05" y="268.65" font-size="33.75" font-family="Hiragino Sans GB, sans-serif" font-weight="750" fill="#203039">线路图例</text>
+<text x="3460.05" y="306.45" font-size="17.55" font-family="Helvetica Neue, sans-serif" fill="#77858E">LINE KEY · 17 SERVICES</text>
+<line x1="3462.75" y1="365.85" x2="3547.8" y2="365.85" stroke="#C83E4D" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="361.8" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L1 沧江一号线</text>
+<text x="3570.75" y="388.8" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Cangjiang Line 1</text>
+<line x1="3462.75" y1="467.1" x2="3547.8" y2="467.1" stroke="#2F5FA7" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="463.05" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L2 南北二号线</text>
+<text x="3570.75" y="490.05" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">North–South Line 2</text>
+<line x1="3462.75" y1="568.35" x2="3547.8" y2="568.35" stroke="#009B77" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="564.3000000000001" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L3 书岭三号线</text>
+<text x="3570.75" y="591.3000000000001" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Shuling Line 3</text>
+<line x1="3462.75" y1="669.6" x2="3547.8" y2="669.6" stroke="#E8792E" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="665.5500000000001" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L4 云港四号线</text>
+<text x="3570.75" y="692.5500000000001" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Yungang Line 4</text>
+<line x1="3462.75" y1="770.85" x2="3547.8" y2="770.85" stroke="#8558A8" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="766.8000000000001" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L5 南岸五号线</text>
+<text x="3570.75" y="793.8000000000001" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">South Bank Line 5</text>
+<line x1="3462.75" y1="872.1" x2="3547.8" y2="872.1" stroke="#C49A00" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="868.0500000000001" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L6 内环六号线</text>
+<text x="3570.75" y="895.0500000000001" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Inner Ring Line 6</text>
+<line x1="3462.75" y1="973.35" x2="3547.8" y2="973.35" stroke="#00A6B2" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="969.3000000000001" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L7 洲心七号线</text>
+<text x="3570.75" y="996.3000000000001" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Zhouxin Line 7</text>
+<line x1="3462.75" y1="1074.6" x2="3547.8" y2="1074.6" stroke="#8C4A32" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1070.55" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L8 机厂八号线</text>
+<text x="3570.75" y="1097.55" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Jichang Line 8</text>
+<line x1="3462.75" y1="1175.85" x2="3547.8" y2="1175.85" stroke="#D0448D" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1171.8" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L9 西南九号线</text>
+<text x="3570.75" y="1198.8" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Southwest Line 9</text>
+<line x1="3462.75" y1="1277.1" x2="3547.8" y2="1277.1" stroke="#658B2A" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1273.05" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L10 临港十号线</text>
+<text x="3570.75" y="1300.05" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Lingang Line 10</text>
+<line x1="3462.75" y1="1378.35" x2="3547.8" y2="1378.35" stroke="#436B8A" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1374.3" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L11 东弧十一号线</text>
+<text x="3570.75" y="1401.3" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Eastern Arc Line 11</text>
+<line x1="3462.75" y1="1479.6" x2="3547.8" y2="1479.6" stroke="#008DB8" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1475.55" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L12 科城十二号线</text>
+<text x="3570.75" y="1502.55" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Science City Line 12</text>
+<line x1="3462.75" y1="1580.85" x2="3547.8" y2="1580.85" stroke="#D7263D" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1576.8" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L13 海门机场快线</text>
+<text x="3570.75" y="1603.8" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Haimen Airport Express</text>
+<line x1="3462.75" y1="1682.1" x2="3547.8" y2="1682.1" stroke="#6F2DBD" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1678.05" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L14 宁西市域快线</text>
+<text x="3570.75" y="1705.05" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Ningxi Regional Express</text>
+<line x1="3462.75" y1="1783.35" x2="3547.8" y2="1783.35" stroke="#73777F" stroke-width="10.8" stroke-linecap="round" stroke-dasharray="16 10"/>
+<text x="3570.75" y="1779.3" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">L15 滨海十五号线</text>
+<text x="3570.75" y="1806.3" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Coastal Line 15</text>
+<line x1="3462.75" y1="1884.6" x2="3547.8" y2="1884.6" stroke="#658B2A" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1880.55" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">B1 十号线港区支线</text>
+<text x="3570.75" y="1907.55" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Line 10 Harbor Branch</text>
+<line x1="3462.75" y1="1985.85" x2="3547.8" y2="1985.85" stroke="#009B77" stroke-width="10.8" stroke-linecap="round"/>
+<text x="3570.75" y="1981.8" font-size="22.950000000000003" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">B2 三号线书岭支线</text>
+<text x="3570.75" y="2008.8" font-size="13.5" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">Line 3 Shuling Branch</text>
+<line x1="3460.05" y1="2126.25" x2="3937.95" y2="2126.25" stroke="#E3E8EC"/>
+<circle cx="3481.65" cy="2185.65" r="7.0200000000000005" fill="#FFF" stroke="#26343D" stroke-width="2.295"/><text x="3512.7" y="2193.75" font-size="20.25" font-family="Hiragino Sans GB, sans-serif" fill="#42515A">普通站 · Local station</text>
+<circle cx="3481.65" cy="2242.35" r="13.5" fill="#FFF" stroke="#26343D" stroke-width="3.375"/><text x="3512.7" y="2250.45" font-size="20.25" font-family="Hiragino Sans GB, sans-serif" fill="#42515A">换乘站 · Interchange</text>
+<polygon points="3481.65,2286.8999999999996 3493.8,2299.0499999999997 3481.65,2311.2 3469.5,2299.0499999999997" fill="#FFF" stroke="#26343D" stroke-width="2.9700000000000006"/><text x="3512.7" y="2307.1499999999996" font-size="20.25" font-family="Hiragino Sans GB, sans-serif" fill="#42515A">支线分叉 · Branch junction</text>
+<circle cx="3476.25" cy="2353.0499999999997" r="12.15" fill="#FFF" stroke="#26343D" stroke-width="2.16"/><path d="M 3476.25 2347.542 L 3476.25 2358.5579999999995 M 3470.742 2352.1319999999996 L 3481.758 2352.1319999999996 M 3473.037 2356.7219999999998 L 3476.25 2354.8859999999995 L 3479.463 2356.7219999999998" fill="none" stroke="#26343D" stroke-width="1.1475000000000002" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="3476.25" y="2386.7999999999997" text-anchor="middle" font-size="14.175" font-family="Hiragino Sans GB, sans-serif" fill="#596770">机场</text>
+<circle cx="3573.45" cy="2353.0499999999997" r="12.15" fill="#FFF" stroke="#26343D" stroke-width="2.16"/><rect x="3568.8599999999997" y="2348.0009999999997" width="9.180000000000001" height="8.262" rx="1.3770000000000002" fill="none" stroke="#26343D" stroke-width="1.1475000000000002"/><line x1="3571.1549999999997" y1="2356.263" x2="3569.778" y2="2358.5579999999995" stroke="#26343D" stroke-width="1.1475000000000002"/><line x1="3575.745" y1="2356.263" x2="3577.122" y2="2358.5579999999995" stroke="#26343D" stroke-width="1.1475000000000002"/><line x1="3570.696" y1="2352.1319999999996" x2="3576.2039999999997" y2="2352.1319999999996" stroke="#26343D" stroke-width="1.1475000000000002"/>
+<text x="3573.45" y="2386.7999999999997" text-anchor="middle" font-size="14.175" font-family="Hiragino Sans GB, sans-serif" fill="#596770">铁路</text>
+<circle cx="3670.65" cy="2353.0499999999997" r="12.15" fill="#FFF" stroke="#26343D" stroke-width="2.16"/><path d="M 3670.65 2347.542 L 3670.65 2356.7219999999998 M 3666.978 2351.214 L 3674.322 2351.214 M 3665.1420000000003 2353.968 C 3666.06 2358.5579999999995 3668.8140000000003 2359.4759999999997 3670.65 2356.7219999999998 C 3672.486 2359.4759999999997 3675.2400000000002 2358.5579999999995 3676.158 2353.968" fill="none" stroke="#26343D" stroke-width="1.1475000000000002" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="3670.65" y="2386.7999999999997" text-anchor="middle" font-size="14.175" font-family="Hiragino Sans GB, sans-serif" fill="#596770">港口</text>
+<circle cx="3767.85" cy="2353.0499999999997" r="12.15" fill="#FFF" stroke="#26343D" stroke-width="2.16"/><path d="M 3767.85 2357.64 L 3767.85 2349.3779999999997 C 3765.096 2347.542 3763.2599999999998 2348.4599999999996 3762.342 2350.296 L 3762.342 2356.7219999999998 C 3765.096 2354.8859999999995 3766.932 2355.8039999999996 3767.85 2357.64 C 3768.768 2355.8039999999996 3770.604 2354.8859999999995 3773.3579999999997 2356.7219999999998 L 3773.3579999999997 2350.296 C 3772.44 2348.4599999999996 3770.604 2347.542 3767.85 2349.3779999999997" fill="none" stroke="#26343D" stroke-width="1.1475000000000002" stroke-linejoin="round"/>
+<text x="3767.85" y="2386.7999999999997" text-anchor="middle" font-size="14.175" font-family="Hiragino Sans GB, sans-serif" fill="#596770">校园</text>
+<circle cx="3865.05" cy="2353.0499999999997" r="12.15" fill="#FFF" stroke="#26343D" stroke-width="2.16"/><path d="M 3859.5420000000004 2357.64 L 3859.5420000000004 2350.296 L 3865.05 2347.542 L 3870.558 2350.296 L 3870.558 2357.64 Z" fill="none" stroke="#26343D" stroke-width="1.1475000000000002" stroke-linejoin="round"/><line x1="3863.2140000000004" y1="2352.1319999999996" x2="3863.2140000000004" y2="2357.64" stroke="#26343D" stroke-width="1.1475000000000002"/><line x1="3866.886" y1="2352.1319999999996" x2="3866.886" y2="2357.64" stroke="#26343D" stroke-width="1.1475000000000002"/>
+<text x="3865.05" y="2386.7999999999997" text-anchor="middle" font-size="14.175" font-family="Hiragino Sans GB, sans-serif" fill="#596770">会展</text>
+</g>
+</svg>

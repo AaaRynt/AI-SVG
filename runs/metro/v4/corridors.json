@@ -31,12 +31,12 @@
       "capacity": 3,
       "riverCrossing": false,
       "centerlineKm": [
-        {"x": 27.0, "y": 25.0},
-        {"x": 36.0, "y": 27.0},
-        {"x": 43.5, "y": 28.0},
-        {"x": 49.0, "y": 27.0},
-        {"x": 60.0, "y": 26.0},
-        {"x": 72.0, "y": 25.5}
+        { "x": 27.0, "y": 25.0 },
+        { "x": 36.0, "y": 27.0 },
+        { "x": 43.5, "y": 28.0 },
+        { "x": 49.0, "y": 27.0 },
+        { "x": 60.0, "y": 26.0 },
+        { "x": 72.0, "y": 25.5 }
       ],
       "servedBy": ["L1"]
     },
@@ -50,15 +50,15 @@
       "regions": ["hengbei-new-city", "cangpu-cbd", "jiangnan-financial-cultural-center", "bincheng-coastal-new-city"],
       "capacity": 3,
       "riverCrossing": true,
-      "riverCrossingZoneKm": {"west": 49.0, "east": 53.0},
+      "riverCrossingZoneKm": { "west": 49.0, "east": 53.0 },
       "centerlineKm": [
-        {"x": 48.0, "y": 7.5},
-        {"x": 52.0, "y": 15.0},
-        {"x": 51.0, "y": 24.0},
-        {"x": 51.0, "y": 32.0},
-        {"x": 51.5, "y": 38.0},
-        {"x": 55.0, "y": 45.0},
-        {"x": 68.0, "y": 53.0}
+        { "x": 48.0, "y": 7.5 },
+        { "x": 52.0, "y": 15.0 },
+        { "x": 51.0, "y": 24.0 },
+        { "x": 51.0, "y": 32.0 },
+        { "x": 51.5, "y": 38.0 },
+        { "x": 55.0, "y": 45.0 },
+        { "x": 68.0, "y": 53.0 }
       ],
       "servedBy": ["L2"]
     },
@@ -73,12 +73,12 @@
       "capacity": 3,
       "riverCrossing": false,
       "centerlineKm": [
-        {"x": 22.0, "y": 28.7},
-        {"x": 35.0, "y": 29.2},
-        {"x": 44.0, "y": 29.4},
-        {"x": 55.0, "y": 29.0},
-        {"x": 69.0, "y": 29.2},
-        {"x": 81.0, "y": 30.5}
+        { "x": 22.0, "y": 28.7 },
+        { "x": 35.0, "y": 29.2 },
+        { "x": 44.0, "y": 29.4 },
+        { "x": 55.0, "y": 29.0 },
+        { "x": 69.0, "y": 29.2 },
+        { "x": 81.0, "y": 30.5 }
       ],
       "servedBy": ["L3"]
     },
@@ -92,14 +92,14 @@
       "regions": ["traditional-old-city", "historic-port-quarter", "bailuzhou", "jiangnan-financial-cultural-center"],
       "capacity": 2,
       "riverCrossing": true,
-      "crossingLocationKm": {"x": 45.8, "y": 31.8},
+      "crossingLocationKm": { "x": 45.8, "y": 31.8 },
       "usesCentralIsland": true,
       "centerlineKm": [
-        {"x": 40.0, "y": 26.0},
-        {"x": 43.5, "y": 29.0},
-        {"x": 45.8, "y": 31.8},
-        {"x": 48.0, "y": 34.0},
-        {"x": 51.0, "y": 37.0}
+        { "x": 40.0, "y": 26.0 },
+        { "x": 43.5, "y": 29.0 },
+        { "x": 45.8, "y": 31.8 },
+        { "x": 48.0, "y": 34.0 },
+        { "x": 51.0, "y": 37.0 }
       ],
       "servedBy": ["L3", "L10"]
     },
@@ -113,14 +113,14 @@
       "regions": ["cangpu-cbd", "jiangnan-financial-cultural-center"],
       "capacity": 5,
       "riverCrossing": true,
-      "riverCrossingZoneKm": {"west": 49.0, "east": 59.0},
+      "riverCrossingZoneKm": { "west": 49.0, "east": 59.0 },
       "parallelCrossingsRequired": true,
       "centerlineKm": [
-        {"x": 52.0, "y": 23.0},
-        {"x": 52.0, "y": 28.5},
-        {"x": 53.0, "y": 32.0},
-        {"x": 52.0, "y": 36.0},
-        {"x": 54.0, "y": 42.0}
+        { "x": 52.0, "y": 23.0 },
+        { "x": 52.0, "y": 28.5 },
+        { "x": 53.0, "y": 32.0 },
+        { "x": 52.0, "y": 36.0 },
+        { "x": 54.0, "y": 42.0 }
       ],
       "servedBy": ["L2", "L4", "L7", "L8", "L13"]
     },
@@ -135,11 +135,11 @@
       "capacity": 5,
       "riverCrossing": false,
       "centerlineKm": [
-        {"x": 29.0, "y": 13.0},
-        {"x": 42.0, "y": 12.0},
-        {"x": 53.0, "y": 15.0},
-        {"x": 62.0, "y": 17.0},
-        {"x": 70.0, "y": 23.0}
+        { "x": 29.0, "y": 13.0 },
+        { "x": 42.0, "y": 12.0 },
+        { "x": 53.0, "y": 15.0 },
+        { "x": 62.0, "y": 17.0 },
+        { "x": 70.0, "y": 23.0 }
       ],
       "servedBy": ["L2", "L5", "L8", "L11", "L14"]
     },
@@ -154,11 +154,11 @@
       "capacity": 5,
       "riverCrossing": false,
       "centerlineKm": [
-        {"x": 49.0, "y": 27.0},
-        {"x": 58.0, "y": 26.0},
-        {"x": 68.0, "y": 25.0},
-        {"x": 76.0, "y": 28.0},
-        {"x": 83.0, "y": 30.5}
+        { "x": 49.0, "y": 27.0 },
+        { "x": 58.0, "y": 26.0 },
+        { "x": 68.0, "y": 25.0 },
+        { "x": 76.0, "y": 28.0 },
+        { "x": 83.0, "y": 30.5 }
       ],
       "servedBy": ["L1", "L8", "L11", "L12", "L15"]
     },
@@ -172,14 +172,14 @@
       "regions": ["traditional-old-city", "jiangnan-financial-cultural-center", "huyuan-university-town"],
       "capacity": 4,
       "riverCrossing": true,
-      "riverCrossingZoneKm": {"west": 35.0, "east": 42.0},
+      "riverCrossingZoneKm": { "west": 35.0, "east": 42.0 },
       "centerlineKm": [
-        {"x": 43.0, "y": 24.0},
-        {"x": 39.0, "y": 31.0},
-        {"x": 36.0, "y": 37.0},
-        {"x": 31.0, "y": 43.0},
-        {"x": 25.5, "y": 48.0},
-        {"x": 19.0, "y": 51.0}
+        { "x": 43.0, "y": 24.0 },
+        { "x": 39.0, "y": 31.0 },
+        { "x": 36.0, "y": 37.0 },
+        { "x": 31.0, "y": 43.0 },
+        { "x": 25.5, "y": 48.0 },
+        { "x": 19.0, "y": 51.0 }
       ],
       "servedBy": ["L5", "L7", "L9", "L11", "B2"]
     },
@@ -194,11 +194,11 @@
       "capacity": 6,
       "riverCrossing": false,
       "centerlineKm": [
-        {"x": 36.0, "y": 43.0},
-        {"x": 54.0, "y": 44.0},
-        {"x": 64.0, "y": 47.0},
-        {"x": 72.0, "y": 50.0},
-        {"x": 81.0, "y": 51.0}
+        { "x": 36.0, "y": 43.0 },
+        { "x": 54.0, "y": 44.0 },
+        { "x": 64.0, "y": 47.0 },
+        { "x": 72.0, "y": 50.0 },
+        { "x": 81.0, "y": 51.0 }
       ],
       "servedBy": ["L2", "L7", "L10", "L12", "L15", "B2"]
     },
@@ -212,14 +212,14 @@
       "regions": ["cangpu-cbd", "jiangnan-financial-cultural-center", "bincheng-coastal-new-city", "haidong-aerotropolis"],
       "capacity": 2,
       "riverCrossing": true,
-      "riverCrossingZoneKm": {"west": 55.0, "east": 59.0},
+      "riverCrossingZoneKm": { "west": 55.0, "east": 59.0 },
       "centerlineKm": [
-        {"x": 40.0, "y": 20.5},
-        {"x": 49.0, "y": 27.0},
-        {"x": 57.0, "y": 32.0},
-        {"x": 62.0, "y": 40.0},
-        {"x": 72.0, "y": 46.0},
-        {"x": 81.5, "y": 51.5}
+        { "x": 40.0, "y": 20.5 },
+        { "x": 49.0, "y": 27.0 },
+        { "x": 57.0, "y": 32.0 },
+        { "x": 62.0, "y": 40.0 },
+        { "x": 72.0, "y": 46.0 },
+        { "x": 81.5, "y": 51.5 }
       ],
       "servedBy": ["L4"]
     },
@@ -233,13 +233,13 @@
       "regions": ["hengbei-new-city", "cangpu-cbd", "jiangnan-financial-cultural-center", "haidong-aerotropolis"],
       "capacity": 1,
       "riverCrossing": true,
-      "riverCrossingZoneKm": {"west": 57.0, "east": 61.0},
+      "riverCrossingZoneKm": { "west": 57.0, "east": 61.0 },
       "centerlineKm": [
-        {"x": 53.0, "y": 15.0},
-        {"x": 49.0, "y": 27.0},
-        {"x": 58.5, "y": 33.0},
-        {"x": 54.0, "y": 44.0},
-        {"x": 81.5, "y": 51.5}
+        { "x": 53.0, "y": 15.0 },
+        { "x": 49.0, "y": 27.0 },
+        { "x": 58.5, "y": 33.0 },
+        { "x": 54.0, "y": 44.0 },
+        { "x": 81.5, "y": 51.5 }
       ],
       "servedBy": ["L13"]
     },
@@ -254,12 +254,12 @@
       "capacity": 1,
       "riverCrossing": false,
       "centerlineKm": [
-        {"x": 6.5, "y": 10.5},
-        {"x": 8.0, "y": 20.0},
-        {"x": 9.0, "y": 27.5},
-        {"x": 22.0, "y": 22.0},
-        {"x": 39.8, "y": 20.5},
-        {"x": 53.0, "y": 15.0}
+        { "x": 6.5, "y": 10.5 },
+        { "x": 8.0, "y": 20.0 },
+        { "x": 9.0, "y": 27.5 },
+        { "x": 22.0, "y": 22.0 },
+        { "x": 39.8, "y": 20.5 },
+        { "x": 53.0, "y": 15.0 }
       ],
       "servedBy": ["L14"]
     },
@@ -274,12 +274,12 @@
       "capacity": 2,
       "riverCrossing": false,
       "centerlineKm": [
-        {"x": 72.0, "y": 25.0},
-        {"x": 78.0, "y": 29.0},
-        {"x": 84.0, "y": 34.0},
-        {"x": 86.0, "y": 39.0},
-        {"x": 92.0, "y": 42.0},
-        {"x": 97.0, "y": 43.5}
+        { "x": 72.0, "y": 25.0 },
+        { "x": 78.0, "y": 29.0 },
+        { "x": 84.0, "y": 34.0 },
+        { "x": 86.0, "y": 39.0 },
+        { "x": 92.0, "y": 42.0 },
+        { "x": 97.0, "y": 43.5 }
       ],
       "servedBy": ["L12", "B1"]
     },
@@ -293,13 +293,13 @@
       "regions": ["traditional-old-city", "hengbei-new-city", "hailing-tech-city", "jiangnan-financial-cultural-center"],
       "capacity": 5,
       "riverCrossing": true,
-      "riverCrossingZoneKm": {"west": 34.0, "east": 58.0},
+      "riverCrossingZoneKm": { "west": 34.0, "east": 58.0 },
       "centerlineKm": [
-        {"x": 39.8, "y": 20.5},
-        {"x": 53.0, "y": 15.0},
-        {"x": 72.0, "y": 25.0},
-        {"x": 58.0, "y": 34.0},
-        {"x": 54.0, "y": 44.0}
+        { "x": 39.8, "y": 20.5 },
+        { "x": 53.0, "y": 15.0 },
+        { "x": 72.0, "y": 25.0 },
+        { "x": 58.0, "y": 34.0 },
+        { "x": 54.0, "y": 44.0 }
       ],
       "servedBy": ["L8", "L9", "L13", "L14"]
     },
@@ -316,15 +316,15 @@
       "riverCrossingCount": 2,
       "closed": true,
       "centerlineKm": [
-        {"x": 36.0, "y": 23.0},
-        {"x": 43.0, "y": 20.0},
-        {"x": 54.0, "y": 21.0},
-        {"x": 60.0, "y": 27.0},
-        {"x": 59.0, "y": 36.0},
-        {"x": 53.0, "y": 41.0},
-        {"x": 42.0, "y": 40.0},
-        {"x": 35.0, "y": 34.0},
-        {"x": 36.0, "y": 23.0}
+        { "x": 36.0, "y": 23.0 },
+        { "x": 43.0, "y": 20.0 },
+        { "x": 54.0, "y": 21.0 },
+        { "x": 60.0, "y": 27.0 },
+        { "x": 59.0, "y": 36.0 },
+        { "x": 53.0, "y": 41.0 },
+        { "x": 42.0, "y": 40.0 },
+        { "x": 35.0, "y": 34.0 },
+        { "x": 36.0, "y": 23.0 }
       ],
       "servedBy": ["L6"]
     },
@@ -338,17 +338,17 @@
       "regions": ["northwest-industrial-renewal", "hengbei-new-city", "hailing-tech-city", "bincheng-coastal-new-city", "huyuan-university-town"],
       "capacity": 2,
       "riverCrossing": true,
-      "riverCrossingZoneKm": {"west": 74.0, "east": 80.0},
+      "riverCrossingZoneKm": { "west": 74.0, "east": 80.0 },
       "closed": false,
       "centerlineKm": [
-        {"x": 31.0, "y": 19.0},
-        {"x": 48.0, "y": 13.0},
-        {"x": 66.0, "y": 18.0},
-        {"x": 75.0, "y": 30.0},
-        {"x": 76.0, "y": 42.0},
-        {"x": 67.0, "y": 48.0},
-        {"x": 47.0, "y": 48.0},
-        {"x": 31.0, "y": 47.0}
+        { "x": 31.0, "y": 19.0 },
+        { "x": 48.0, "y": 13.0 },
+        { "x": 66.0, "y": 18.0 },
+        { "x": 75.0, "y": 30.0 },
+        { "x": 76.0, "y": 42.0 },
+        { "x": 67.0, "y": 48.0 },
+        { "x": 47.0, "y": 48.0 },
+        { "x": 31.0, "y": 47.0 }
       ],
       "servedBy": ["L11", "L15"]
     },
@@ -363,10 +363,10 @@
       "capacity": 3,
       "riverCrossing": false,
       "centerlineKm": [
-        {"x": 18.0, "y": 12.0},
-        {"x": 28.0, "y": 15.0},
-        {"x": 39.8, "y": 20.5},
-        {"x": 41.0, "y": 27.0}
+        { "x": 18.0, "y": 12.0 },
+        { "x": 28.0, "y": 15.0 },
+        { "x": 39.8, "y": 20.5 },
+        { "x": 41.0, "y": 27.0 }
       ],
       "servedBy": ["L4", "L9", "L14"]
     },
@@ -382,12 +382,12 @@
       "riverCrossing": false,
       "ecologicalConstraint": "routes must remain west or north of Luoting Wetland except the port branch along the existing port railway",
       "centerlineKm": [
-        {"x": 25.5, "y": 48.0},
-        {"x": 40.0, "y": 46.0},
-        {"x": 54.0, "y": 44.0},
-        {"x": 69.0, "y": 49.0},
-        {"x": 80.0, "y": 47.0},
-        {"x": 88.0, "y": 41.0}
+        { "x": 25.5, "y": 48.0 },
+        { "x": 40.0, "y": 46.0 },
+        { "x": 54.0, "y": 44.0 },
+        { "x": 69.0, "y": 49.0 },
+        { "x": 80.0, "y": 47.0 },
+        { "x": 88.0, "y": 41.0 }
       ],
       "servedBy": ["L7", "L10", "L11", "L12", "L15", "B1"]
     },
@@ -403,10 +403,10 @@
       "riverCrossing": true,
       "usesCentralIsland": true,
       "centerlineKm": [
-        {"x": 42.0, "y": 28.5},
-        {"x": 45.8, "y": 31.8},
-        {"x": 50.0, "y": 36.0},
-        {"x": 57.0, "y": 40.0}
+        { "x": 42.0, "y": 28.5 },
+        { "x": 45.8, "y": 31.8 },
+        { "x": 50.0, "y": 36.0 },
+        { "x": 57.0, "y": 40.0 }
       ],
       "servedBy": ["L3", "L10"]
     }

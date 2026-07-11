@@ -4,3 +4,4 @@ node_modules
 dist
 todo/
 raw/
+__pycache__/

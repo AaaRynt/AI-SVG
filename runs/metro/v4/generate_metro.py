@@ -663,6 +663,24 @@ def generate_network(candidate: int = 8) -> None:
     network_lines = []
     for line in lines:
         ys = [point[1] for point in line["points"]]
+        expanded = []
+        for point in line["points"]:
+            along = distance_on_path(line["points"], point)
+            if along is not None:
+                expanded.append((along, (float(point[0]), float(point[1]))))
+        for key in line_keys[line["id"]]:
+            schematic = station_points[key]["schematic"]
+            coord = (float(schematic["x"]), float(schematic["y"]))
+            along = distance_on_path(line["points"], coord)
+            if along is not None:
+                expanded.append((along, coord))
+        expanded.sort(key=lambda item: item[0])
+        expanded_points = []
+        for _, point in expanded:
+            if not expanded_points or math.dist(expanded_points[-1], point) > 0.01:
+                expanded_points.append(point)
+        if line["type"] == "ring" and expanded_points[0] != expanded_points[-1]:
+            expanded_points.append(expanded_points[0])
         network_lines.append({
             "id": line["id"],
             "nameZh": line["nameZh"],
@@ -675,7 +693,7 @@ def generate_network(candidate: int = 8) -> None:
             "junctionStation": key_to_id.get("A-2060-1100") if line["id"] == "B1" else (key_to_id.get("A-520-1320") if line["id"] == "B2" else None),
             "closed": line["type"] == "ring",
             "crossesMainRiver": min(ys) < 930 and max(ys) > 1060,
-            "schematicPath": [{"x": point[0], "y": point[1]} for point in line["points"]],
+            "schematicPath": [{"x": point[0], "y": point[1]} for point in expanded_points],
             "stations": [key_to_id[key] for key in line_keys[line["id"]]],
         })
     geography = json.loads((ROOT / "geography.json").read_text(encoding="utf-8")) if (ROOT / "geography.json").exists() else {}
@@ -727,9 +745,339 @@ def generate_network(candidate: int = 8) -> None:
     }, ensure_ascii=False))
 
 
+def svg_polyline(points: list[dict]) -> str:
+    tuples = [(float(point["x"]), float(point["y"])) for point in points]
+    return path_d(tuples)
+
+
+def label_text_svg(station: dict) -> list[str]:
+    label = station["label"]
+    x, y = label["x"], label["y"]
+    anchor = label["anchor"]
+    rotation = label.get("rotation", 0)
+    transform = f' transform="rotate({rotation} {x} {y})"' if rotation else ""
+    out = [f'<g class="station-label" data-label-for="{station["id"]}"{transform}>']
+    zh_open = (
+        f'<text class="label-zh" x="{x}" y="{y}" text-anchor="{anchor}" '
+        f'font-size="{label["fontSizeZh"]}" aria-label="{html.escape(station["nameZh"])}">'
+    )
+    zh_spans = []
+    for index, line in enumerate(label.get("zhLines") or [station["nameZh"]]):
+        dy = "0" if index == 0 else str(label.get("zhLineHeight", label["fontSizeZh"] + 1))
+        zh_spans.append(f'<tspan x="{x}" dy="{dy}">{html.escape(line)}</tspan>')
+    out.append(zh_open + "".join(zh_spans) + '</text>')
+    out.append(
+        f'<text class="label-en" x="{x}" y="{label["englishY"]}" text-anchor="{anchor}" '
+        f'font-size="{label["fontSizeEn"]}" aria-label="{html.escape(station["nameEn"])}">'
+    )
+    for index, line in enumerate(label.get("enLines") or [station["nameEn"]]):
+        dy = "0" if index == 0 else str(label.get("enLineHeight", label["fontSizeEn"] + 2))
+        out.append(f'<tspan x="{x}" dy="{dy}">{html.escape(line)}</tspan>')
+    out.append('</text></g>')
+    return out
+
+
+def landmark_kind(station: dict) -> str | None:
+    station_id = station["id"]
+    if station_id in {"NC-AP-001", "NC-AP-012"}:
+        return "airport"
+    if station_id.startswith("NC-RH-"):
+        return "rail"
+    if station_id in {"NC-PT-001", "NC-PT-010"}:
+        return "port"
+    if station_id in {"NC-UN-001", "NC-UN-018"}:
+        return "university"
+    if station_id in {"NC-CB-009", "NC-ET-011"}:
+        return "expo"
+    return None
+
+
+def pictogram_svg(x: float, y: float, kind: str, scale: float = 1.0) -> str:
+    sw = 1.25 * scale
+    color = "#26343D"
+    if kind == "airport":
+        d = (
+            f'M {x} {y-6*scale} L {x} {y+6*scale} '
+            f'M {x-6*scale} {y-1*scale} L {x+6*scale} {y-1*scale} '
+            f'M {x-3.5*scale} {y+4*scale} L {x} {y+2*scale} L {x+3.5*scale} {y+4*scale}'
+        )
+        return f'<path d="{d}" fill="none" stroke="{color}" stroke-width="{sw}" stroke-linecap="round" stroke-linejoin="round"/>'
+    if kind == "rail":
+        return (
+            f'<rect x="{x-5*scale}" y="{y-5.5*scale}" width="{10*scale}" height="{9*scale}" rx="{1.5*scale}" fill="none" stroke="{color}" stroke-width="{sw}"/>'
+            f'<line x1="{x-2.5*scale}" y1="{y+3.5*scale}" x2="{x-4*scale}" y2="{y+6*scale}" stroke="{color}" stroke-width="{sw}"/>'
+            f'<line x1="{x+2.5*scale}" y1="{y+3.5*scale}" x2="{x+4*scale}" y2="{y+6*scale}" stroke="{color}" stroke-width="{sw}"/>'
+            f'<line x1="{x-3*scale}" y1="{y-1*scale}" x2="{x+3*scale}" y2="{y-1*scale}" stroke="{color}" stroke-width="{sw}"/>'
+        )
+    if kind == "port":
+        d = (
+            f'M {x} {y-6*scale} L {x} {y+4*scale} '
+            f'M {x-4*scale} {y-2*scale} L {x+4*scale} {y-2*scale} '
+            f'M {x-6*scale} {y+1*scale} C {x-5*scale} {y+6*scale} {x-2*scale} {y+7*scale} {x} {y+4*scale} '
+            f'C {x+2*scale} {y+7*scale} {x+5*scale} {y+6*scale} {x+6*scale} {y+1*scale}'
+        )
+        return f'<path d="{d}" fill="none" stroke="{color}" stroke-width="{sw}" stroke-linecap="round" stroke-linejoin="round"/>'
+    if kind == "university":
+        d = (
+            f'M {x} {y+5*scale} L {x} {y-4*scale} '
+            f'C {x-3*scale} {y-6*scale} {x-5*scale} {y-5*scale} {x-6*scale} {y-3*scale} L {x-6*scale} {y+4*scale} '
+            f'C {x-3*scale} {y+2*scale} {x-1*scale} {y+3*scale} {x} {y+5*scale} '
+            f'C {x+1*scale} {y+3*scale} {x+3*scale} {y+2*scale} {x+6*scale} {y+4*scale} L {x+6*scale} {y-3*scale} '
+            f'C {x+5*scale} {y-5*scale} {x+3*scale} {y-6*scale} {x} {y-4*scale}'
+        )
+        return f'<path d="{d}" fill="none" stroke="{color}" stroke-width="{sw}" stroke-linejoin="round"/>'
+    if kind == "expo":
+        return (
+            f'<path d="M {x-6*scale} {y+5*scale} L {x-6*scale} {y-3*scale} L {x} {y-6*scale} L {x+6*scale} {y-3*scale} L {x+6*scale} {y+5*scale} Z" fill="none" stroke="{color}" stroke-width="{sw}" stroke-linejoin="round"/>'
+            f'<line x1="{x-2*scale}" y1="{y-1*scale}" x2="{x-2*scale}" y2="{y+5*scale}" stroke="{color}" stroke-width="{sw}"/>'
+            f'<line x1="{x+2*scale}" y1="{y-1*scale}" x2="{x+2*scale}" y2="{y+5*scale}" stroke="{color}" stroke-width="{sw}"/>'
+        )
+    return ""
+
+
+def station_marker_svg(station: dict) -> str:
+    x, y = station["schematic"]["x"], station["schematic"]["y"]
+    classes = ["station"]
+    if station.get("isInterchange"):
+        classes.append("interchange")
+    if station.get("hub"):
+        classes.append("hub")
+    if station.get("terminal"):
+        classes.append("terminal")
+    if station.get("isBranchJunction"):
+        classes.append("branch-junction")
+    class_attr = " ".join(classes)
+    if station.get("isBranchJunction"):
+        points = f"{x},{y-9} {x+9},{y} {x},{y+9} {x-9},{y}"
+        shape = f'<polygon points="{points}" fill="#FFFFFF" stroke="#26343D" stroke-width="2.5"/>'
+    elif station.get("isInterchange") or station.get("hub"):
+        shape = f'<circle cx="{x}" cy="{y}" r="10" fill="#FFFFFF" stroke="#26343D" stroke-width="2.8"/>'
+    elif landmark_kind(station):
+        shape = f'<circle cx="{x}" cy="{y}" r="8" fill="#FFFFFF" stroke="#26343D" stroke-width="2.1"/>'
+    elif station.get("terminal"):
+        shape = f'<circle cx="{x}" cy="{y}" r="7" fill="#FFFFFF" stroke="#26343D" stroke-width="2.4"/><circle cx="{x}" cy="{y}" r="2" fill="#26343D"/>'
+    else:
+        shape = f'<circle cx="{x}" cy="{y}" r="5.2" fill="#FFFFFF" stroke="#26343D" stroke-width="1.7"/>'
+    kind = landmark_kind(station)
+    icon = pictogram_svg(x, y, kind, 0.72) if kind else ""
+    return f'<g class="{class_attr}" data-station-id="{station["id"]}" data-landmark="{kind or ""}" aria-label="{html.escape(station["nameZh"])} / {html.escape(station["nameEn"])}">{shape}{icon}</g>'
+
+
+def full_svg(network: dict, *, mode: str = "full", title_suffix: str = "") -> str:
+    canvas = network.get("schematicCanvas", {"width": 3000, "height": 2000, "scaleFromSkeleton": 1})
+    width, height = canvas["width"], canvas["height"]
+    scale = canvas.get("scaleFromSkeleton", 1)
+    legend_x = 2535 * scale
+    legend_w = 410 * scale
+    legend_y = 145 * scale
+    legend_h = 1645 * scale
+    meta_summary = {
+        "city": network["city"], "lineCount": len(network["lines"]),
+        "stationCount": len(network["stations"]), "mode": mode,
+    }
+    out = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="map-title map-desc">',
+        f'<title id="map-title">宁沧轨道交通线网图{html.escape(title_suffix)}</title>',
+        '<desc id="map-desc">Fictional bilingual octilinear metro map of Ningcang, a Chinese coastal megacity.</desc>',
+        f'<metadata>{html.escape(json.dumps(meta_summary, ensure_ascii=False))}</metadata>',
+        '<style>',
+        '.label-zh{font-family:"Hiragino Sans GB","PingFang SC",sans-serif;font-weight:650;fill:#1C2931;paint-order:stroke;stroke:#F8FAFC;stroke-width:4px;stroke-linejoin:round}',
+        '.label-en{font-family:"Avenir Next Condensed","Helvetica Neue",Arial,sans-serif;font-weight:520;letter-spacing:.15px;fill:#52616B;paint-order:stroke;stroke:#F8FAFC;stroke-width:3px;stroke-linejoin:round}',
+        '.region-label{font-family:"Hiragino Sans GB","PingFang SC",sans-serif}',
+        '.route{fill:none;stroke-linecap:round;stroke-linejoin:round}',
+        '</style>',
+        f'<rect width="{width}" height="{height}" fill="#F8FAFC"/>',
+    ]
+    show_background = mode in ("full", "no-labels", "label-boxes")
+    show_routes = mode in ("full", "no-labels", "label-boxes")
+    show_labels = mode in ("full", "labels-only", "label-boxes")
+    if show_background:
+        out.append(f'<g id="map-geography" transform="scale({scale})">')
+        out.extend(geography_svg())
+        out.append('</g>')
+    if show_routes:
+        out.append('<g id="routes">')
+        for line in network["lines"]:
+            d = svg_polyline(line["schematicPath"])
+            base_width = 11 if line["type"] in ("ring", "airport-express", "regional-express") else (7 if line["type"] == "branch" else 9)
+            dash = ' stroke-dasharray="24 18"' if line["status"] == "under-construction" else ""
+            out.append(f'<path class="route casing" d="{d}" stroke="#FFFFFF" stroke-width="{base_width+8}"/>')
+            out.append(f'<path class="route" data-line-id="{line["id"]}" d="{d}" stroke="{line["color"]}" stroke-width="{base_width}"{dash}/>' )
+            if line["type"] in ("airport-express", "regional-express"):
+                out.append(f'<path class="route express-center" d="{d}" stroke="#FFFFFF" stroke-width="2.4" opacity="0.95"/>')
+        out.append('</g>')
+    out.append('<g id="stations">')
+    for station in network["stations"]:
+        out.append(station_marker_svg(station))
+    out.append('</g>')
+    if show_labels:
+        out.append('<g id="leaders" fill="none" stroke-linecap="round">')
+        for station in network["stations"]:
+            label = station["label"]
+            if not label.get("leader"):
+                continue
+            sx, sy = station["schematic"]["x"], station["schematic"]["y"]
+            box = label["bbox"]
+            tx = min(max(sx, box[0]), box[2])
+            ty = min(max(sy, box[1]), box[3])
+            out.append(f'<line x1="{sx}" y1="{sy}" x2="{tx}" y2="{ty}" stroke="#FFFFFF" stroke-width="5"/>')
+            out.append(f'<line x1="{sx}" y1="{sy}" x2="{tx}" y2="{ty}" stroke="#6B7881" stroke-width="1.4"/>')
+        out.append('</g><g id="station-labels">')
+        for station in network["stations"]:
+            out.extend(label_text_svg(station))
+        out.append('</g>')
+    if mode == "label-boxes":
+        out.append('<g id="label-debug-boxes" fill="#E53935" fill-opacity="0.07" stroke="#E53935" stroke-width="0.8">')
+        for station in network["stations"]:
+            points = " ".join(f"{point[0]},{point[1]}" for point in station["label"].get("polygon", []))
+            out.append(f'<polygon data-label-box="{station["id"]}" points="{points}"/>')
+        out.append('</g>')
+    if mode != "labels-only":
+        out.extend([
+            f'<g id="title-block"><rect x="{65*scale}" y="{38*scale}" width="{1070*scale}" height="{104*scale}" rx="{18*scale}" fill="#FFFFFF" opacity="0.96"/>',
+            f'<text x="{92*scale}" y="{83*scale}" font-size="{34*scale}" font-family="Hiragino Sans GB, sans-serif" font-weight="750" fill="#17262F">宁沧轨道交通线网图</text>',
+            f'<text x="{92*scale}" y="{116*scale}" font-size="{17*scale}" font-family="Helvetica Neue, sans-serif" letter-spacing="1.5" fill="#63727C">NINGCANG URBAN RAIL TRANSIT NETWORK</text></g>',
+            f'<text x="{2470*scale}" y="{1910*scale}" text-anchor="end" font-size="{17*scale}" font-family="Hiragino Sans GB, sans-serif" fill="#67747C">线路示意图，不按比例 · Schematic map — not to scale</text>',
+        ])
+        out.append(f'<g id="legend"><rect x="{legend_x}" y="{legend_y}" width="{legend_w}" height="{legend_h}" rx="{24*scale}" fill="#FFFFFF" stroke="#D7E0E5" stroke-width="2"/>')
+        out.append(f'<text x="{legend_x+28*scale}" y="{legend_y+54*scale}" font-size="{25*scale}" font-family="Hiragino Sans GB, sans-serif" font-weight="750" fill="#203039">线路图例</text>')
+        out.append(f'<text x="{legend_x+28*scale}" y="{legend_y+82*scale}" font-size="{13*scale}" font-family="Helvetica Neue, sans-serif" fill="#77858E">LINE KEY · 17 SERVICES</text>')
+        row_y = legend_y + 126 * scale
+        row_step = 75 * scale
+        for line in network["lines"]:
+            dash = ' stroke-dasharray="16 10"' if line["status"] == "under-construction" else ""
+            out.append(f'<line x1="{legend_x+30*scale}" y1="{row_y}" x2="{legend_x+93*scale}" y2="{row_y}" stroke="{line["color"]}" stroke-width="{8*scale}" stroke-linecap="round"{dash}/>')
+            out.append(f'<text x="{legend_x+110*scale}" y="{row_y-3*scale}" font-size="{17*scale}" font-family="Hiragino Sans GB, sans-serif" font-weight="650" fill="#2A3942">{line["id"]} {html.escape(line["nameZh"])}</text>')
+            out.append(f'<text x="{legend_x+110*scale}" y="{row_y+17*scale}" font-size="{10*scale}" font-family="Avenir Next Condensed, sans-serif" fill="#77848C">{html.escape(line["nameEn"])}</text>')
+            row_y += row_step
+        symbol_y = legend_y + 1430 * scale
+        out.append(f'<line x1="{legend_x+28*scale}" y1="{symbol_y}" x2="{legend_x+382*scale}" y2="{symbol_y}" stroke="#E3E8EC"/>')
+        symbol_y += 44 * scale
+        out.append(f'<circle cx="{legend_x+44*scale}" cy="{symbol_y}" r="{5.2*scale}" fill="#FFF" stroke="#26343D" stroke-width="{1.7*scale}"/><text x="{legend_x+67*scale}" y="{symbol_y+6*scale}" font-size="{15*scale}" font-family="Hiragino Sans GB, sans-serif" fill="#42515A">普通站 · Local station</text>')
+        symbol_y += 42 * scale
+        out.append(f'<circle cx="{legend_x+44*scale}" cy="{symbol_y}" r="{10*scale}" fill="#FFF" stroke="#26343D" stroke-width="{2.5*scale}"/><text x="{legend_x+67*scale}" y="{symbol_y+6*scale}" font-size="{15*scale}" font-family="Hiragino Sans GB, sans-serif" fill="#42515A">换乘站 · Interchange</text>')
+        symbol_y += 42 * scale
+        out.append(f'<polygon points="{legend_x+44*scale},{symbol_y-9*scale} {legend_x+53*scale},{symbol_y} {legend_x+44*scale},{symbol_y+9*scale} {legend_x+35*scale},{symbol_y}" fill="#FFF" stroke="#26343D" stroke-width="{2.2*scale}"/><text x="{legend_x+67*scale}" y="{symbol_y+6*scale}" font-size="{15*scale}" font-family="Hiragino Sans GB, sans-serif" fill="#42515A">支线分叉 · Branch junction</text>')
+        icon_y = symbol_y + 40 * scale
+        icon_kinds = [("airport", "机场"), ("rail", "铁路"), ("port", "港口"), ("university", "校园"), ("expo", "会展")]
+        for index, (kind, label_text) in enumerate(icon_kinds):
+            icon_x = legend_x + (40 + index * 72) * scale
+            out.append(f'<circle cx="{icon_x}" cy="{icon_y}" r="{9*scale}" fill="#FFF" stroke="#26343D" stroke-width="{1.6*scale}"/>' + pictogram_svg(icon_x, icon_y, kind, 0.68 * scale))
+            out.append(f'<text x="{icon_x}" y="{icon_y+25*scale}" text-anchor="middle" font-size="{10.5*scale}" font-family="Hiragino Sans GB, sans-serif" fill="#596770">{label_text}</text>')
+        out.append('</g>')
+    out.append('</svg>')
+    return "\n".join(out)
+
+
+def write_full_candidates() -> None:
+    root = ROOT / "full_candidates"
+    root.mkdir(exist_ok=True)
+    for index in (1, 2):
+        folder = root / f"candidate-{index:02d}"
+        folder.mkdir(exist_ok=True)
+        network = json.loads((ROOT / f"network_full_candidate_{index:02d}.json").read_text(encoding="utf-8"))
+        (folder / "metro.svg").write_text(full_svg(network, mode="full", title_suffix=f" · 完整候选 {index:02d}"), encoding="utf-8")
+        review_path = folder / "REVIEW.md"
+        if not review_path.exists():
+            review_path.write_text(f"# 完整候选 {index:02d} 视觉审查\n\n状态：待检查。\n", encoding="utf-8")
+    print("generated 2 complete SVG candidates")
+
+
+def write_final_svgs() -> None:
+    network = json.loads((ROOT / "network.json").read_text(encoding="utf-8"))
+    (ROOT / "metro.svg").write_text(full_svg(network, mode="full"), encoding="utf-8")
+    (ROOT / "preview_no_labels.svg").write_text(full_svg(network, mode="no-labels", title_suffix=" · 无标签检查"), encoding="utf-8")
+    (ROOT / "preview_labels_only.svg").write_text(full_svg(network, mode="labels-only", title_suffix=" · 标签检查"), encoding="utf-8")
+    (ROOT / "preview_label_boxes.svg").write_text(full_svg(network, mode="label-boxes", title_suffix=" · 标签边界框"), encoding="utf-8")
+    print("generated final SVG and layered debug SVGs")
+
+
+def geographic_inset_svg(network: dict) -> str:
+    geography = json.loads((ROOT / "geography.json").read_text(encoding="utf-8"))
+    width, height = 1200, 800
+    ox, oy, sx, sy = 70, 72, 9.4, 9.6
+
+    def p(point):
+        return (ox + point["x"] * sx, oy + point["y"] * sy)
+
+    def points_attr(points):
+        return " ".join(f"{fmt(p(point)[0])},{fmt(p(point)[1])}" for point in points)
+
+    out = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">',
+        '<rect width="1200" height="800" fill="#F8FAFC"/>',
+        '<text x="70" y="42" font-family="Hiragino Sans GB, sans-serif" font-size="26" font-weight="700" fill="#203039">宁沧地理索引图 · Geographic index</text>',
+    ]
+    bay = geography["hydrography"]["bay"]["polygonKm"]
+    out.append(f'<polygon points="{points_attr(bay)}" fill="#D8ECF4"/>')
+    for terrain in geography.get("terrain", []):
+        center = terrain.get("centerKm")
+        if center:
+            x, y = p(center)
+            radius = terrain.get("radiusKm", 4) * sx
+            out.append(f'<circle cx="{x}" cy="{y}" r="{radius}" fill="#DDE9D9" opacity="0.85"/>')
+    for region in geography.get("urbanRegions", []):
+        x, y = p(region["centerKm"])
+        radius = region.get("radiusKm", 3) * sx
+        out.append(f'<circle cx="{x}" cy="{y}" r="{radius}" fill="#E9EDF1" opacity="0.58" stroke="#D0D8DE"/>')
+    for river in geography["hydrography"]["rivers"]:
+        d = path_d([p(point) for point in river["centerlineKm"]])
+        out.append(f'<path d="{d}" fill="none" stroke="#A8D5E5" stroke-width="{16 if river["role"]=="main-river" else 5}" stroke-linecap="round" stroke-linejoin="round"/>')
+    for island in geography["hydrography"].get("islands", []):
+        if island.get("polygonKm"):
+            out.append(f'<polygon points="{points_attr(island["polygonKm"])}" fill="#F8FAFC" stroke="#91BCCB"/>')
+        else:
+            x, y = p(island["centerKm"])
+            out.append(f'<circle cx="{x}" cy="{y}" r="{island.get("radiusKm",2)*sx}" fill="#F8FAFC" stroke="#91BCCB"/>')
+    reservoir = geography["hydrography"]["reservoirs"][0]
+    x, y = p(reservoir["centerKm"])
+    out.append(f'<circle cx="{x}" cy="{y}" r="{reservoir["radiusKm"]*sx}" fill="#BFDDE8"/>')
+    station_by_id = {station["id"]: station for station in network["stations"]}
+    out.append('<g id="inset-routes" fill="none" stroke-linecap="round" stroke-linejoin="round">')
+    for line in network["lines"]:
+        coords = [station_by_id[sid]["geoKm"] for sid in line["stations"]]
+        d = path_d([p(point) for point in coords])
+        dash = ' stroke-dasharray="8 6"' if line["status"] == "under-construction" else ""
+        out.append(f'<path d="{d}" stroke="{line["color"]}" stroke-width="2.5" opacity="0.58"{dash}/>')
+    out.append('</g>')
+    landmarks = []
+    for item in geography.get("airports", []):
+        landmarks.append((item["centerKm"], item["nameZh"], "airport"))
+    for item in geography.get("railHubs", []):
+        if item.get("major"):
+            landmarks.append((item["centerKm"], item["nameZh"], "rail"))
+    for item in geography.get("ports", []):
+        landmarks.append((item["centerKm"], item["nameZh"], "port"))
+    for center, name, kind in landmarks:
+        x, y = p(center)
+        color = {"airport": "#2F5FA7", "rail": "#454F56", "port": "#227A68"}[kind]
+        out.append(f'<rect x="{x-5}" y="{y-5}" width="10" height="10" rx="2" fill="#FFF" stroke="{color}" stroke-width="2"/>')
+        out.append(f'<text x="{x+8}" y="{y-7}" font-family="Hiragino Sans GB, sans-serif" font-size="11" fill="#44525B">{html.escape(name)}</text>')
+    for region_id in ("traditional-old-city", "cangpu-cbd", "jiangnan-financial-cultural-center", "huyuan-university-town", "hailing-tech-city", "bincheng-coastal-new-city"):
+        region = next((item for item in geography["urbanRegions"] if item["id"] == region_id), None)
+        if region:
+            x, y = p(region["centerKm"])
+            out.append(f'<text x="{x}" y="{y}" text-anchor="middle" font-family="Hiragino Sans GB, sans-serif" font-size="13" font-weight="650" fill="#5D6870">{html.escape(region["nameZh"])}</text>')
+    out.extend([
+        '<g id="north-arrow"><path d="M 1090 120 L 1105 82 L 1120 120 Z" fill="#23343D"/><line x1="1105" y1="120" x2="1105" y2="160" stroke="#23343D" stroke-width="3"/><text x="1105" y="72" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="18" font-weight="700">N</text></g>',
+        f'<g id="scale-bar"><line x1="70" y1="742" x2="{70+10*sx}" y2="742" stroke="#26343D" stroke-width="5"/><line x1="70" y1="733" x2="70" y2="751" stroke="#26343D" stroke-width="3"/><line x1="{70+10*sx}" y1="733" x2="{70+10*sx}" y2="751" stroke="#26343D" stroke-width="3"/><text x="{70+5*sx}" y="728" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="14">10 km</text></g>',
+        '<text x="1135" y="770" text-anchor="end" font-family="Hiragino Sans GB, sans-serif" font-size="13" fill="#6A777F">近似物理方位 · Approximate physical geography</text>',
+        '</svg>',
+    ])
+    return "\n".join(out)
+
+
+def write_geographic_inset() -> None:
+    network = json.loads((ROOT / "network.json").read_text(encoding="utf-8"))
+    (ROOT / "geographic_inset.svg").write_text(geographic_inset_svg(network), encoding="utf-8")
+    print("generated geographic_inset.svg")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--stage", choices=["candidates", "accept", "intersections", "network"], required=True)
+    parser.add_argument("--stage", choices=["candidates", "accept", "intersections", "network", "full-candidates", "final", "inset"], required=True)
     parser.add_argument("--candidate", type=int, default=4)
     args = parser.parse_args()
     if args.stage == "candidates":
@@ -741,6 +1089,12 @@ def main() -> None:
         print(json.dumps({"count": len(clusters), "clusters": clusters}, ensure_ascii=False, indent=2))
     elif args.stage == "network":
         generate_network(args.candidate)
+    elif args.stage == "full-candidates":
+        write_full_candidates()
+    elif args.stage == "final":
+        write_final_svgs()
+    elif args.stage == "inset":
+        write_geographic_inset()
 
 
 if __name__ == "__main__":

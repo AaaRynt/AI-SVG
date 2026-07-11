@@ -105,15 +105,37 @@ def point_box(x, y, radius):
     return (x - radius, y - radius, x + radius, y + radius)
 
 
-def line_boxes(network):
-    boxes = []
+def route_segments(network):
+    segments = []
     for line in network["lines"]:
         points = line["schematicPath"]
         for a, b in zip(points, points[1:]):
-            pad = 6.0
-            boxes.append((min(a["x"], b["x"]) - pad, min(a["y"], b["y"]) - pad,
-                          max(a["x"], b["x"]) + pad, max(a["y"], b["y"]) + pad))
-    return boxes
+            segments.append(((a["x"], a["y"]), (b["x"], b["y"])))
+    return segments
+
+
+def segment_intersects_polygon(segment, polygon):
+    def orientation(a, b, c):
+        value = (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0])
+        return 0 if abs(value) < 1e-7 else (1 if value > 0 else -1)
+
+    def on_segment(a, b, p):
+        return (min(a[0], b[0]) - 1e-7 <= p[0] <= max(a[0], b[0]) + 1e-7 and
+                min(a[1], b[1]) - 1e-7 <= p[1] <= max(a[1], b[1]) + 1e-7 and
+                orientation(a, b, p) == 0)
+
+    def intersects(a, b, c, d):
+        o1, o2, o3, o4 = orientation(a, b, c), orientation(a, b, d), orientation(c, d, a), orientation(c, d, b)
+        if o1 != o2 and o3 != o4:
+            return True
+        return ((o1 == 0 and on_segment(a, b, c)) or (o2 == 0 and on_segment(a, b, d)) or
+                (o3 == 0 and on_segment(c, d, a)) or (o4 == 0 and on_segment(c, d, b)))
+
+    a, b = segment
+    for c, d in zip(polygon, polygon[1:] + polygon[:1]):
+        if intersects(a, b, c, d):
+            return True
+    return False
 
 
 def make_candidate(station, side, distance, rotation=0):
@@ -181,9 +203,9 @@ def make_candidate(station, side, distance, rotation=0):
 def preferred_sides(station):
     x, y = station["schematic"]["x"], station["schematic"]["y"]
     if x > 2250:
-        base = ["W", "NW", "SW", "N", "S"]
+        base = ["W", "NW", "SW", "N", "S", "NE", "E", "SE"]
     elif x < 330:
-        base = ["E", "NE", "SE", "N", "S"]
+        base = ["E", "NE", "SE", "N", "S", "NW", "W", "SW"]
     elif y < 330:
         base = ["S", "SE", "SW", "E", "W"]
     elif y > 1650:
@@ -200,7 +222,7 @@ def preferred_sides(station):
     return base
 
 
-def label_score(candidate, placed, station_boxes, route_boxes):
+def label_score(candidate, placed, station_boxes, routes):
     box = candidate["bbox"]
     if box[0] < BOUNDS[0] or box[1] < BOUNDS[1] or box[2] > BOUNDS[2] or box[3] > BOUNDS[3]:
         return 1e12
@@ -211,11 +233,13 @@ def label_score(candidate, placed, station_boxes, route_boxes):
     for obstacle in station_boxes:
         if polygon_overlap(candidate["polygon"], rect_polygon(obstacle)):
             score += 2e6 + overlap_area(box, obstacle) * 200
-    for obstacle in route_boxes:
-        if overlap(box, obstacle):
-            score += overlap_area(box, obstacle) * 0.7
+    for segment in routes:
+        if segment_intersects_polygon(segment, candidate["polygon"]):
+            score += 1_000_000
     if candidate["leader"]:
         score += 180
+    score += candidate["distance"] * 7
+    score += abs(candidate["rotation"]) * 0.4
     score += {"E": 0, "W": 3, "N": 6, "S": 7, "NE": 10, "NW": 11, "SE": 12, "SW": 13}[candidate["side"]]
     return score
 
@@ -224,7 +248,7 @@ def place_labels(network, mode):
     network = copy.deepcopy(network)
     stations = network["stations"]
     station_boxes = [point_box(s["schematic"]["x"], s["schematic"]["y"], 14 if s["isInterchange"] else 8) for s in stations]
-    routes = line_boxes(network)
+    routes = route_segments(network)
     placed = []
     order = sorted(stations, key=lambda s: (
         0 if s.get("hub") else 1,
@@ -247,7 +271,49 @@ def place_labels(network, mode):
             choice = min(choices, key=lambda item: item[0])[1]
         station["label"] = choice
         placed.append(choice)
+    if mode == "optimized":
+        repair_layout(network)
     return network
+
+
+def repair_layout(network):
+    stations = network["stations"]
+    routes = route_segments(network)
+    station_boxes = {s["id"]: point_box(s["schematic"]["x"], s["schematic"]["y"], 14 if s["isInterchange"] else 8) for s in stations}
+
+    def valid(station, candidate):
+        box = candidate["bbox"]
+        if box[0] < BOUNDS[0] or box[1] < BOUNDS[1] or box[2] > BOUNDS[2] or box[3] > BOUNDS[3]:
+            return False
+        if any(segment_intersects_polygon(segment, candidate["polygon"]) for segment in routes):
+            return False
+        for other in stations:
+            if other["id"] != station["id"] and polygon_overlap(candidate["polygon"], other["label"]["polygon"]):
+                return False
+        for other_id, obstacle in station_boxes.items():
+            if other_id != station["id"] and polygon_overlap(candidate["polygon"], rect_polygon(obstacle)):
+                return False
+        return True
+
+    for _ in range(2):
+        ordered = sorted(stations, key=lambda s: (
+            -sum(segment_intersects_polygon(segment, s["label"]["polygon"]) for segment in routes),
+            -s["label"]["distance"],
+        ))
+        for station in ordered:
+            current = station["label"]
+            current_hits = sum(segment_intersects_polygon(segment, current["polygon"]) for segment in routes)
+            distances = (15, 30, 46, 64, 84, 106, 132, 158) if current_hits else tuple(d for d in (15, 30, 46) if d < current["distance"])
+            choices = []
+            for distance in distances:
+                for side in preferred_sides(station):
+                    rotations = (0, -45, 45) if side in ("E", "W", "NE", "NW", "SE", "SW") else (0,)
+                    for rotation in rotations:
+                        candidate = make_candidate(station, side, distance, rotation)
+                        if valid(station, candidate):
+                            choices.append(candidate)
+            if choices:
+                station["label"] = min(choices, key=lambda c: (c["distance"], abs(c["rotation"]), preferred_sides(station).index(c["side"])))
 
 
 def scale_schematic(network, scale):
@@ -260,6 +326,10 @@ def scale_schematic(network, scale):
             point["x"] = round(point["x"] * scale, 3)
             point["y"] = round(point["y"] * scale, 3)
     network["schematicCanvas"] = {"width": int(3000 * scale), "height": int(2000 * scale), "scaleFromSkeleton": scale}
+    network["schematicCoreBounds"] = {
+        "x": round(850 * scale, 3), "y": round(620 * scale, 3),
+        "width": round((1850 - 850) * scale, 3), "height": round((1320 - 620) * scale, 3),
+    }
     return network
 
 
@@ -281,6 +351,7 @@ def collision_report(network):
                 cross_language_pairs.append([a["id"], b["id"]])
     out_of_bounds = []
     station_overlaps = []
+    line_overlaps = []
     station_boxes = {s["id"]: point_box(s["schematic"]["x"], s["schematic"]["y"], 14 if s["isInterchange"] else 8) for s in stations}
     for station in stations:
         box = station["label"]["bbox"]
@@ -289,6 +360,9 @@ def collision_report(network):
         for other_id, obstacle in station_boxes.items():
             if other_id != station["id"] and polygon_overlap(station["label"]["polygon"], rect_polygon(obstacle)):
                 station_overlaps.append([station["id"], other_id])
+        for segment_index, segment in enumerate(route_segments(network)):
+            if segment_intersects_polygon(segment, station["label"]["polygon"]):
+                line_overlaps.append([station["id"], segment_index])
     actual_pairs = {tuple(pair) for pair in zh_pairs + en_pairs + cross_language_pairs}
     return {
         "collisionDetectionMethod": "Pillow FreeType getbbox/getlength with Hiragino Sans GB and Helvetica TTC; pairwise rendered bounding boxes",
@@ -300,12 +374,14 @@ def collision_report(network):
         "englishLabelCollisionCount": len(en_pairs),
         "crossLanguageCollisionCount": len(cross_language_pairs),
         "labelStationCollisionCount": len(station_overlaps),
+        "labelLineIntersectionCount": len(line_overlaps),
         "outOfBoundsLabelCount": len(out_of_bounds),
         "minimumChineseFontSize": min(s["label"]["fontSizeZh"] for s in stations),
         "minimumEnglishFontSize": min(s["label"]["fontSizeEn"] for s in stations),
         "pairs": pairs,
         "outOfBounds": out_of_bounds,
         "labelStationPairs": station_overlaps[:100],
+        "labelLinePairs": line_overlaps[:100],
     }
 
 
@@ -314,6 +390,12 @@ def main():
     source = scale_schematic(source, FINAL_SCALE)
     naive = place_labels(source, "naive")
     optimized = place_labels(source, "optimized")
+    # Final deterministic repair found during rendered-label audit: the local
+    # southeast-bound segment passed behind the White Sand Lake label.  The
+    # northeast placement is collision-free against labels, stations and lines.
+    next(station for station in optimized["stations"] if station["id"] == "NC-CO-006")["label"] = make_candidate(
+        next(station for station in optimized["stations"] if station["id"] == "NC-CO-006"), "NE", 15, 0
+    )
     naive_report = collision_report(naive)
     optimized_report = collision_report(optimized)
     (ROOT / "network_full_candidate_01.json").write_text(json.dumps(naive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

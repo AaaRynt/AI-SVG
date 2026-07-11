@@ -13,8 +13,5 @@ if (!input || !output) {
 
 const width = widthArg ? Number(widthArg) : 1800;
 const svg = fs.readFileSync(input);
-await sharp(svg, { density: 144 })
-  .resize({ width, withoutEnlargement: false })
-  .png({ compressionLevel: 9 })
-  .toFile(output);
+await sharp(svg, { density: 144 }).resize({ width, withoutEnlargement: false }).png({ compressionLevel: 9 }).toFile(output);
 console.log(`${path.basename(input)} -> ${path.basename(output)} (${width}px)`);

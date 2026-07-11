@@ -59,20 +59,7 @@
     "report": "REPORT.md"
   },
   "reviewArtifacts": {
-    "previewArtifacts": [
-      "preview.png",
-      "preview_no_labels.png",
-      "preview_labels_only.png",
-      "preview_label_boxes.png",
-      "preview_zoom67.png",
-      "preview_zoom50.png",
-      "preview_core_area.png",
-      "candidates/candidate-01.png",
-      "candidates/candidate-02.png",
-      "candidates/candidate-03.png",
-      "candidates/candidate-04.png",
-      "candidates/candidate-05.png"
-    ],
+    "previewArtifacts": ["preview.png", "preview_no_labels.png", "preview_labels_only.png", "preview_label_boxes.png", "preview_zoom67.png", "preview_zoom50.png", "preview_core_area.png", "candidates/candidate-01.png", "candidates/candidate-02.png", "candidates/candidate-03.png", "candidates/candidate-04.png", "candidates/candidate-05.png"],
     "acceptedCandidateId": "candidate-05",
     "rejectionReasonsHistory": [
       {
@@ -106,26 +93,9 @@
     "status": "completed",
     "completedAt": "2026-07-05T13:46:22.565126+00:00",
     "renderTool": "Chrome headless screenshot; ImageMagick for PNG resize/crop",
-    "commandsExecuted": [
-      "python3 runs/metro/v2/generate_metro.py",
-      "python3 runs/metro/v2/validate_network.py",
-      "Chrome headless screenshots for candidates and previews",
-      "ImageMagick resize/crop/identify for preview_zoom67.png, preview_zoom50.png, preview_core_area.png",
-      "python3 runs/metro/v2/validate_svg.py"
-    ],
-    "issuesFound": [
-      "候选1中心城区标签明显重叠",
-      "候选2港区与东部科技新城标签拥挤",
-      "候选3换乘站符号和线宽压过标签",
-      "候选4机场与滨海片区标签距离不足"
-    ],
-    "issuesFixed": [
-      "重写全局候选布局并扩展东西向走廊",
-      "重写标签放置策略，按枢纽优先级进行多方向候选搜索",
-      "降低线宽和换乘符号重量",
-      "为最终 SVG 增加调试视图和标签边界框输出",
-      "最终 SVG 工程验证、浏览器文本边界框验证和预览文件检查通过"
-    ],
+    "commandsExecuted": ["python3 runs/metro/v2/generate_metro.py", "python3 runs/metro/v2/validate_network.py", "Chrome headless screenshots for candidates and previews", "ImageMagick resize/crop/identify for preview_zoom67.png, preview_zoom50.png, preview_core_area.png", "python3 runs/metro/v2/validate_svg.py"],
+    "issuesFound": ["候选1中心城区标签明显重叠", "候选2港区与东部科技新城标签拥挤", "候选3换乘站符号和线宽压过标签", "候选4机场与滨海片区标签距离不足"],
+    "issuesFixed": ["重写全局候选布局并扩展东西向走廊", "重写标签放置策略，按枢纽优先级进行多方向候选搜索", "降低线宽和换乘符号重量", "为最终 SVG 增加调试视图和标签边界框输出", "最终 SVG 工程验证、浏览器文本边界框验证和预览文件检查通过"],
     "knownLimitations": [],
     "notes": "最终状态由 validate_network.py 和 validate_svg.py 追加更新。"
   },
@@ -133,10 +103,7 @@
     "lineCount": 18,
     "uniqueStationCount": 213,
     "transferStationCount": 49,
-    "fourLineTransferStations": [
-      "浦江北站",
-      "东沧北站"
-    ],
+    "fourLineTransferStations": ["浦江北站", "东沧北站"],
     "mainRiverCrossingLineCount": 11,
     "hezhouIslandLineCount": 4,
     "airportRelatedLineCount": 5,
