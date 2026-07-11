@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0",
+  "runId": "1",
+  "status": "completed",
+  "modelName": null,
+  "conditions": {
+    "promptLanguage": "zh-CN",
+    "mode": "纯提示词",
+    "skillUsed": false,
+    "mcpUsed": false,
+    "networkUsed": false,
+    "externalImageGenerationUsed": false,
+    "bitmapTracingUsed": false,
+    "randomSeed": 20260629
+  },
+  "outputs": {
+    "svg": "fuji.svg",
+    "preview": "preview.png",
+    "generator": "generate_fuji.py",
+    "validator": "validate_svg.py",
+    "report": "REPORT.md"
+  },
+  "metrics": {
+    "svgLines": 5794,
+    "svgNonEmptyNonCommentLines": 5775,
+    "svgBytes": 1012605,
+    "svgElements": 5622,
+    "renderedGraphics": 5372,
+    "visibleGraphicTypes": 7,
+    "semanticLayers": 19,
+    "gradientDefinitions": 18,
+    "referencedGradients": 17,
+    "pngWidth": 1600,
+    "pngHeight": 1000,
+    "pngBytes": 1207833,
+    "elementTypes": {
+      "path": 3883,
+      "rect": 1486,
+      "g": 124,
+      "stop": 61,
+      "circle": 29,
+      "linearGradient": 17,
+      "feGaussianBlur": 4,
+      "filter": 4,
+      "clipPath": 3,
+      "defs": 1,
+      "desc": 1,
+      "ellipse": 1,
+      "line": 1,
+      "mask": 1,
+      "metadata": 1,
+      "polygon": 1,
+      "polyline": 1,
+      "radialGradient": 1,
+      "svg": 1,
+      "title": 1
+    }
+  },
+  "execution": {
+    "generationRounds": 4,
+    "validationRounds": 4,
+    "renderAttempts": 5,
+    "successfulRenderInspectionRounds": 4,
+    "finalRenderer": "Google Chrome 150.0.7871.47 headless native SVG renderer",
+    "secondaryRenderer": "ImageMagick 7.1.2-18",
+    "finalValidation": {
+      "passed": true,
+      "checksPassed": 37,
+      "checksFailed": 0
+    }
+  },
+  "issues": [
+    {
+      "found": "第一版只有 path、rect、circle 三类可见图元，未达到严格验证器的六类门槛。",
+      "fixed": "为场景补充实际可见且有语义的 ellipse、line、polygon、polyline 图元，最终达到七类。"
+    },
+    {
+      "found": "ImageMagick 的本地 SVG 委托不支持蒙版内的渐变填充，首次渲染失败。",
+      "fixed": "将倒影蒙版改为中灰基底和黑色水平断裂线，纵向衰减转由反射元素自身透明度完成。"
+    },
+    {
+      "found": "ImageMagick 对复杂渐变与蒙版的预览仍出现大面积黑白块。",
+      "fixed": "改用 Chrome 原生 SVG 渲染器生成最终 1600×1000 预览，并以该结果进行视觉验收。"
+    },
+    {
+      "found": "中期预览中山顶偏双圆峰、山脊交叉偏密、云体偏尖且遮挡城市、山体倒影基底过完整、太阳射线偏强。",
+      "fixed": "重塑不对称山顶，约束山脊沿左右坡向，压低并柔化云体，提高近景建筑对比，降低完整倒影基底并保留分段反射，减弱太阳射线。"
+    },
+    {
+      "found": "山体左右冷暖分界最初形成笔直的中央阴影缝。",
+      "fixed": "把阴影边界改为沿中央山脊起伏的曲线路径。"
+    }
+  ],
+  "knownLimitations": ["ImageMagick 7.1.2-18 的内置 SVG 委托无法忠实显示本作品的部分渐变和蒙版；现代浏览器原生渲染正常。", "作品包含五千余个可见或结构元素，旧式或资源受限的 SVG 查看器可能比现代浏览器加载更慢。"]
+}
