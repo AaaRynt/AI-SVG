@@ -1,0 +1,424 @@
+{
+  "schemaVersion": "1.0",
+  "city": {
+    "nameZh": "宁沧市",
+    "nameEn": "Ningcang"
+  },
+  "coordinateReference": {
+    "source": "geography.json",
+    "unit": "km",
+    "origin": "northwest",
+    "xAxis": "east",
+    "yAxis": "south"
+  },
+  "planningPrinciples": {
+    "corridorFirst": true,
+    "routeLinesBeforeStations": true,
+    "schematicRouting": "octilinear",
+    "sharedCorridorTreatment": "parallel-with-stable-spacing",
+    "unnecessaryCrossingsProhibited": true,
+    "mainMapNotToScale": true
+  },
+  "corridors": [
+    {
+      "id": "C01",
+      "slug": "old-city-east-west",
+      "nameZh": "老城东西主轴",
+      "nameEn": "Old City East-West Trunk",
+      "type": "trunk",
+      "orientation": "east-west",
+      "regions": ["northwest-industrial-renewal", "traditional-old-city", "cangpu-cbd", "hailing-tech-city"],
+      "capacity": 3,
+      "riverCrossing": false,
+      "centerlineKm": [
+        {"x": 27.0, "y": 25.0},
+        {"x": 36.0, "y": 27.0},
+        {"x": 43.5, "y": 28.0},
+        {"x": 49.0, "y": 27.0},
+        {"x": 60.0, "y": 26.0},
+        {"x": 72.0, "y": 25.5}
+      ],
+      "servedBy": ["L1"]
+    },
+    {
+      "id": "C02",
+      "slug": "core-north-south",
+      "nameZh": "核心南北主轴",
+      "nameEn": "Core North-South Trunk",
+      "type": "trunk",
+      "orientation": "north-south",
+      "regions": ["hengbei-new-city", "cangpu-cbd", "jiangnan-financial-cultural-center", "bincheng-coastal-new-city"],
+      "capacity": 3,
+      "riverCrossing": true,
+      "riverCrossingZoneKm": {"west": 49.0, "east": 53.0},
+      "centerlineKm": [
+        {"x": 48.0, "y": 7.5},
+        {"x": 52.0, "y": 15.0},
+        {"x": 51.0, "y": 24.0},
+        {"x": 51.0, "y": 32.0},
+        {"x": 51.5, "y": 38.0},
+        {"x": 55.0, "y": 45.0},
+        {"x": 68.0, "y": 53.0}
+      ],
+      "servedBy": ["L2"]
+    },
+    {
+      "id": "C03",
+      "slug": "north-riverside",
+      "nameZh": "北岸沿江走廊",
+      "nameEn": "North Riverside Corridor",
+      "type": "urban-distributor",
+      "orientation": "east-west",
+      "regions": ["traditional-old-city", "historic-port-quarter", "cangpu-cbd", "hailing-tech-city"],
+      "capacity": 3,
+      "riverCrossing": false,
+      "centerlineKm": [
+        {"x": 22.0, "y": 28.7},
+        {"x": 35.0, "y": 29.2},
+        {"x": 44.0, "y": 29.4},
+        {"x": 55.0, "y": 29.0},
+        {"x": 69.0, "y": 29.2},
+        {"x": 81.0, "y": 30.5}
+      ],
+      "servedBy": ["L3"]
+    },
+    {
+      "id": "C04",
+      "slug": "river-island-crossing",
+      "nameZh": "白鹭洲跨江走廊",
+      "nameEn": "Bailuzhou Cross-River Corridor",
+      "type": "cross-river",
+      "orientation": "northwest-southeast",
+      "regions": ["traditional-old-city", "historic-port-quarter", "bailuzhou", "jiangnan-financial-cultural-center"],
+      "capacity": 2,
+      "riverCrossing": true,
+      "crossingLocationKm": {"x": 45.8, "y": 31.8},
+      "usesCentralIsland": true,
+      "centerlineKm": [
+        {"x": 40.0, "y": 26.0},
+        {"x": 43.5, "y": 29.0},
+        {"x": 45.8, "y": 31.8},
+        {"x": 48.0, "y": 34.0},
+        {"x": 51.0, "y": 37.0}
+      ],
+      "servedBy": ["L3", "L10"]
+    },
+    {
+      "id": "C05",
+      "slug": "cbd-southbank",
+      "nameZh": "CBD—南岸副中心走廊",
+      "nameEn": "CBD-Southbank Center Corridor",
+      "type": "high-capacity-cross-river",
+      "orientation": "north-south",
+      "regions": ["cangpu-cbd", "jiangnan-financial-cultural-center"],
+      "capacity": 5,
+      "riverCrossing": true,
+      "riverCrossingZoneKm": {"west": 49.0, "east": 59.0},
+      "parallelCrossingsRequired": true,
+      "centerlineKm": [
+        {"x": 52.0, "y": 23.0},
+        {"x": 52.0, "y": 28.5},
+        {"x": 53.0, "y": 32.0},
+        {"x": 52.0, "y": 36.0},
+        {"x": 54.0, "y": 42.0}
+      ],
+      "servedBy": ["L2", "L4", "L7", "L8", "L13"]
+    },
+    {
+      "id": "C06",
+      "slug": "northern-new-city-commute",
+      "nameZh": "北部新城通勤走廊",
+      "nameEn": "Northern New City Commuter Corridor",
+      "type": "commuter-trunk",
+      "orientation": "east-west-and-southbound",
+      "regions": ["northwest-industrial-renewal", "hengbei-new-city", "hailing-tech-city"],
+      "capacity": 5,
+      "riverCrossing": false,
+      "centerlineKm": [
+        {"x": 29.0, "y": 13.0},
+        {"x": 42.0, "y": 12.0},
+        {"x": 53.0, "y": 15.0},
+        {"x": 62.0, "y": 17.0},
+        {"x": 70.0, "y": 23.0}
+      ],
+      "servedBy": ["L2", "L5", "L8", "L11", "L14"]
+    },
+    {
+      "id": "C07",
+      "slug": "eastern-technology",
+      "nameZh": "东部科技走廊",
+      "nameEn": "Eastern Technology Corridor",
+      "type": "employment-trunk",
+      "orientation": "east-west",
+      "regions": ["cangpu-cbd", "hailing-tech-city"],
+      "capacity": 5,
+      "riverCrossing": false,
+      "centerlineKm": [
+        {"x": 49.0, "y": 27.0},
+        {"x": 58.0, "y": 26.0},
+        {"x": 68.0, "y": 25.0},
+        {"x": 76.0, "y": 28.0},
+        {"x": 83.0, "y": 30.5}
+      ],
+      "servedBy": ["L1", "L8", "L11", "L12", "L15"]
+    },
+    {
+      "id": "C08",
+      "slug": "southwest-university",
+      "nameZh": "西南大学城走廊",
+      "nameEn": "Southwest University Corridor",
+      "type": "education-commuter",
+      "orientation": "northeast-southwest",
+      "regions": ["traditional-old-city", "jiangnan-financial-cultural-center", "huyuan-university-town"],
+      "capacity": 4,
+      "riverCrossing": true,
+      "riverCrossingZoneKm": {"west": 35.0, "east": 42.0},
+      "centerlineKm": [
+        {"x": 43.0, "y": 24.0},
+        {"x": 39.0, "y": 31.0},
+        {"x": 36.0, "y": 37.0},
+        {"x": 31.0, "y": 43.0},
+        {"x": 25.5, "y": 48.0},
+        {"x": 19.0, "y": 51.0}
+      ],
+      "servedBy": ["L5", "L7", "L9", "L11", "B2"]
+    },
+    {
+      "id": "C09",
+      "slug": "south-rail-coastal",
+      "nameZh": "南站—滨海新城走廊",
+      "nameEn": "South Railway-Coastal New City Corridor",
+      "type": "coastal-urban-trunk",
+      "orientation": "east-west",
+      "regions": ["jiangnan-financial-cultural-center", "bincheng-coastal-new-city", "haidong-aerotropolis"],
+      "capacity": 6,
+      "riverCrossing": false,
+      "centerlineKm": [
+        {"x": 36.0, "y": 43.0},
+        {"x": 54.0, "y": 44.0},
+        {"x": 64.0, "y": 47.0},
+        {"x": 72.0, "y": 50.0},
+        {"x": 81.0, "y": 51.0}
+      ],
+      "servedBy": ["L2", "L7", "L10", "L12", "L15", "B2"]
+    },
+    {
+      "id": "C10",
+      "slug": "airport-local",
+      "nameZh": "航空城普通地铁走廊",
+      "nameEn": "Aerotropolis Local Metro Corridor",
+      "type": "airport-local",
+      "orientation": "northwest-southeast",
+      "regions": ["cangpu-cbd", "jiangnan-financial-cultural-center", "bincheng-coastal-new-city", "haidong-aerotropolis"],
+      "capacity": 2,
+      "riverCrossing": true,
+      "riverCrossingZoneKm": {"west": 55.0, "east": 59.0},
+      "centerlineKm": [
+        {"x": 40.0, "y": 20.5},
+        {"x": 49.0, "y": 27.0},
+        {"x": 57.0, "y": 32.0},
+        {"x": 62.0, "y": 40.0},
+        {"x": 72.0, "y": 46.0},
+        {"x": 81.5, "y": 51.5}
+      ],
+      "servedBy": ["L4"]
+    },
+    {
+      "id": "C11",
+      "slug": "international-airport-express",
+      "nameZh": "国际机场快速走廊",
+      "nameEn": "International Airport Express Corridor",
+      "type": "airport-express",
+      "orientation": "northwest-southeast",
+      "regions": ["hengbei-new-city", "cangpu-cbd", "jiangnan-financial-cultural-center", "haidong-aerotropolis"],
+      "capacity": 1,
+      "riverCrossing": true,
+      "riverCrossingZoneKm": {"west": 57.0, "east": 61.0},
+      "centerlineKm": [
+        {"x": 53.0, "y": 15.0},
+        {"x": 49.0, "y": 27.0},
+        {"x": 58.5, "y": 33.0},
+        {"x": 54.0, "y": 44.0},
+        {"x": 81.5, "y": 51.5}
+      ],
+      "servedBy": ["L13"]
+    },
+    {
+      "id": "C12",
+      "slug": "western-regional",
+      "nameZh": "西岭机场—卫星城市域走廊",
+      "nameEn": "West Ridge Airport-Satellite City Regional Corridor",
+      "type": "regional-express",
+      "orientation": "northwest-to-east",
+      "regions": ["xiling-satellite-city", "northwest-industrial-renewal", "hengbei-new-city"],
+      "capacity": 1,
+      "riverCrossing": false,
+      "centerlineKm": [
+        {"x": 6.5, "y": 10.5},
+        {"x": 8.0, "y": 20.0},
+        {"x": 9.0, "y": 27.5},
+        {"x": 22.0, "y": 22.0},
+        {"x": 39.8, "y": 20.5},
+        {"x": 53.0, "y": 15.0}
+      ],
+      "servedBy": ["L14"]
+    },
+    {
+      "id": "C13",
+      "slug": "estuary-port",
+      "nameZh": "河口—港区通勤走廊",
+      "nameEn": "Estuary-Port Commuter Corridor",
+      "type": "port-commuter",
+      "orientation": "eastbound",
+      "regions": ["hailing-tech-city", "donggang-port-district"],
+      "capacity": 2,
+      "riverCrossing": false,
+      "centerlineKm": [
+        {"x": 72.0, "y": 25.0},
+        {"x": 78.0, "y": 29.0},
+        {"x": 84.0, "y": 34.0},
+        {"x": 86.0, "y": 39.0},
+        {"x": 92.0, "y": 42.0},
+        {"x": 97.0, "y": 43.5}
+      ],
+      "servedBy": ["L12", "B1"]
+    },
+    {
+      "id": "C14",
+      "slug": "railway-hub-link",
+      "nameZh": "铁路枢纽联络走廊",
+      "nameEn": "Railway Hub Connector",
+      "type": "hub-connector",
+      "orientation": "polycentric",
+      "regions": ["traditional-old-city", "hengbei-new-city", "hailing-tech-city", "jiangnan-financial-cultural-center"],
+      "capacity": 5,
+      "riverCrossing": true,
+      "riverCrossingZoneKm": {"west": 34.0, "east": 58.0},
+      "centerlineKm": [
+        {"x": 39.8, "y": 20.5},
+        {"x": 53.0, "y": 15.0},
+        {"x": 72.0, "y": 25.0},
+        {"x": 58.0, "y": 34.0},
+        {"x": 54.0, "y": 44.0}
+      ],
+      "servedBy": ["L8", "L9", "L13", "L14"]
+    },
+    {
+      "id": "C15",
+      "slug": "core-ring",
+      "nameZh": "核心环线走廊",
+      "nameEn": "Core Ring Corridor",
+      "type": "closed-ring",
+      "orientation": "orbital",
+      "regions": ["traditional-old-city", "cangpu-cbd", "jiangnan-financial-cultural-center"],
+      "capacity": 1,
+      "riverCrossing": true,
+      "riverCrossingCount": 2,
+      "closed": true,
+      "centerlineKm": [
+        {"x": 36.0, "y": 23.0},
+        {"x": 43.0, "y": 20.0},
+        {"x": 54.0, "y": 21.0},
+        {"x": 60.0, "y": 27.0},
+        {"x": 59.0, "y": 36.0},
+        {"x": 53.0, "y": 41.0},
+        {"x": 42.0, "y": 40.0},
+        {"x": 35.0, "y": 34.0},
+        {"x": 36.0, "y": 23.0}
+      ],
+      "servedBy": ["L6"]
+    },
+    {
+      "id": "C16",
+      "slug": "outer-semicircle",
+      "nameZh": "外围半环联络走廊",
+      "nameEn": "Outer Semicircle Connector",
+      "type": "open-semicircle",
+      "orientation": "north-east-south arc",
+      "regions": ["northwest-industrial-renewal", "hengbei-new-city", "hailing-tech-city", "bincheng-coastal-new-city", "huyuan-university-town"],
+      "capacity": 2,
+      "riverCrossing": true,
+      "riverCrossingZoneKm": {"west": 74.0, "east": 80.0},
+      "closed": false,
+      "centerlineKm": [
+        {"x": 31.0, "y": 19.0},
+        {"x": 48.0, "y": 13.0},
+        {"x": 66.0, "y": 18.0},
+        {"x": 75.0, "y": 30.0},
+        {"x": 76.0, "y": 42.0},
+        {"x": 67.0, "y": 48.0},
+        {"x": 47.0, "y": 48.0},
+        {"x": 31.0, "y": 47.0}
+      ],
+      "servedBy": ["L11", "L15"]
+    },
+    {
+      "id": "C17",
+      "slug": "industrial-renewal",
+      "nameZh": "西北工业更新走廊",
+      "nameEn": "Northwest Industrial Renewal Corridor",
+      "type": "regeneration-commuter",
+      "orientation": "northwest-southeast",
+      "regions": ["northwest-industrial-renewal", "traditional-old-city"],
+      "capacity": 3,
+      "riverCrossing": false,
+      "centerlineKm": [
+        {"x": 18.0, "y": 12.0},
+        {"x": 28.0, "y": 15.0},
+        {"x": 39.8, "y": 20.5},
+        {"x": 41.0, "y": 27.0}
+      ],
+      "servedBy": ["L4", "L9", "L14"]
+    },
+    {
+      "id": "C18",
+      "slug": "southern-coast",
+      "nameZh": "南部滨海联络走廊",
+      "nameEn": "Southern Coastal Connector",
+      "type": "coastal-distributor",
+      "orientation": "east-west",
+      "regions": ["huyuan-university-town", "jiangnan-financial-cultural-center", "bincheng-coastal-new-city", "donggang-port-district"],
+      "capacity": 6,
+      "riverCrossing": false,
+      "ecologicalConstraint": "routes must remain west or north of Luoting Wetland except the port branch along the existing port railway",
+      "centerlineKm": [
+        {"x": 25.5, "y": 48.0},
+        {"x": 40.0, "y": 46.0},
+        {"x": 54.0, "y": 44.0},
+        {"x": 69.0, "y": 49.0},
+        {"x": 80.0, "y": 47.0},
+        {"x": 88.0, "y": 41.0}
+      ],
+      "servedBy": ["L7", "L10", "L11", "L12", "L15", "B1"]
+    },
+    {
+      "id": "C19",
+      "slug": "island-waterfront",
+      "nameZh": "江心岛滨水走廊",
+      "nameEn": "River Island Waterfront Corridor",
+      "type": "island-connector",
+      "orientation": "northwest-southeast",
+      "regions": ["historic-port-quarter", "bailuzhou", "jiangnan-financial-cultural-center"],
+      "capacity": 2,
+      "riverCrossing": true,
+      "usesCentralIsland": true,
+      "centerlineKm": [
+        {"x": 42.0, "y": 28.5},
+        {"x": 45.8, "y": 31.8},
+        {"x": 50.0, "y": 36.0},
+        {"x": 57.0, "y": 40.0}
+      ],
+      "servedBy": ["L3", "L10"]
+    }
+  ],
+  "corridorChecks": {
+    "requiredCorridorTypesPresent": true,
+    "allVisibleServicesAssigned": true,
+    "ringCorridorClosed": true,
+    "semicircleCorridorOpen": true,
+    "airportExpressSeparatedFromLocal": true,
+    "portCorridorCoastal": true,
+    "universityCorridorAvoidsHeavyIndustry": true,
+    "drinkingWaterBufferCrossed": false
+  }
+}

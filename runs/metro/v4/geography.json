@@ -1,0 +1,493 @@
+{
+  "schemaVersion": "1.0",
+  "city": {
+    "nameZh": "宁沧市",
+    "nameEn": "Ningcang",
+    "shortNameZh": "宁沧",
+    "population": 21800000,
+    "metropolitanPopulation": 31600000,
+    "builtUpAreaSqKm": 2630,
+    "physicalExtentKm": {
+      "width": 104,
+      "height": 66
+    },
+    "continuousBuiltUpExtentKm": {
+      "west": 13,
+      "east": 90,
+      "north": 7,
+      "south": 58,
+      "width": 77,
+      "height": 51
+    },
+    "coreExtentKm": {
+      "west": 33,
+      "east": 63,
+      "north": 18,
+      "south": 41,
+      "width": 30,
+      "height": 23
+    }
+  },
+  "coordinateSystem": {
+    "unit": "km",
+    "origin": "northwest corner of municipal planning extent",
+    "xAxis": "east",
+    "yAxis": "south",
+    "northArrow": {
+      "direction": "negative-y"
+    },
+    "mainMapUsage": "validation only; the final metro map is schematic and not to scale",
+    "insetScaleBarKm": 10
+  },
+  "referencePoints": {
+    "cityCore": {
+      "nameZh": "人民广场",
+      "nameEn": "People's Square",
+      "centerKm": {
+        "x": 43.5,
+        "y": 28.0
+      }
+    },
+    "riverMouth": {
+      "nameZh": "沧江口",
+      "nameEn": "Cangjiang Estuary",
+      "centerKm": {
+        "x": 92.0,
+        "y": 34.2
+      }
+    }
+  },
+  "hydrography": {
+    "rivers": [
+      {
+        "id": "cangjiang",
+        "nameZh": "沧江",
+        "nameEn": "Cangjiang River",
+        "role": "main-river",
+        "flowDirection": "west-to-east",
+        "centerlineKm": [
+          {"x": 0.0, "y": 30.4},
+          {"x": 12.0, "y": 30.2},
+          {"x": 24.0, "y": 30.6},
+          {"x": 36.0, "y": 31.0},
+          {"x": 44.0, "y": 31.6},
+          {"x": 54.0, "y": 31.3},
+          {"x": 66.0, "y": 31.7},
+          {"x": 78.0, "y": 32.5},
+          {"x": 88.0, "y": 33.4},
+          {"x": 96.0, "y": 35.0},
+          {"x": 104.0, "y": 36.2}
+        ],
+        "widthProfileKm": [
+          {"atX": 0.0, "width": 0.55},
+          {"atX": 36.0, "width": 0.75},
+          {"atX": 54.0, "width": 0.95},
+          {"atX": 78.0, "width": 1.75},
+          {"atX": 92.0, "width": 3.6},
+          {"atX": 104.0, "width": 5.2}
+        ],
+        "dividesCoreInto": ["north-bank", "south-bank"]
+      },
+      {
+        "id": "qingxi",
+        "nameZh": "青溪",
+        "nameEn": "Qingxi River",
+        "role": "major-tributary",
+        "flowDirection": "southwest-to-northeast",
+        "centerlineKm": [
+          {"x": 15.0, "y": 55.0},
+          {"x": 19.0, "y": 51.5},
+          {"x": 24.5, "y": 47.0},
+          {"x": 30.5, "y": 42.5},
+          {"x": 35.0, "y": 37.2},
+          {"x": 39.2, "y": 31.1}
+        ],
+        "widthProfileKm": [
+          {"atSegment": 0, "width": 0.18},
+          {"atSegment": 4, "width": 0.34}
+        ],
+        "joinsRiverId": "cangjiang"
+      }
+    ],
+    "bay": {
+      "id": "qinglan-bay",
+      "nameZh": "青岚湾",
+      "nameEn": "Qinglan Bay",
+      "polygonKm": [
+        {"x": 94.5, "y": 0.0},
+        {"x": 104.0, "y": 0.0},
+        {"x": 104.0, "y": 66.0},
+        {"x": 84.0, "y": 66.0},
+        {"x": 88.0, "y": 58.0},
+        {"x": 91.5, "y": 50.0},
+        {"x": 94.0, "y": 45.0},
+        {"x": 91.5, "y": 38.0},
+        {"x": 93.0, "y": 29.0},
+        {"x": 95.0, "y": 15.0}
+      ]
+    },
+    "coastlineKm": [
+      {"x": 94.5, "y": 0.0},
+      {"x": 95.0, "y": 15.0},
+      {"x": 93.0, "y": 29.0},
+      {"x": 91.5, "y": 38.0},
+      {"x": 94.0, "y": 45.0},
+      {"x": 91.5, "y": 50.0},
+      {"x": 88.0, "y": 58.0},
+      {"x": 84.0, "y": 66.0}
+    ],
+    "islands": [
+      {
+        "id": "bailuzhou",
+        "nameZh": "白鹭洲",
+        "nameEn": "Bailuzhou Island",
+        "role": "central-river-island",
+        "centerKm": {"x": 45.8, "y": 31.8},
+        "polygonKm": [
+          {"x": 42.8, "y": 31.2},
+          {"x": 44.0, "y": 30.8},
+          {"x": 47.5, "y": 31.0},
+          {"x": 49.0, "y": 31.7},
+          {"x": 47.2, "y": 32.6},
+          {"x": 43.8, "y": 32.5}
+        ]
+      },
+      {
+        "id": "dongsha-island",
+        "nameZh": "东沙岛",
+        "nameEn": "Dongsha Island",
+        "role": "outer-bay-island",
+        "centerKm": {"x": 98.6, "y": 24.0},
+        "radiusKm": 2.7
+      },
+      {
+        "id": "haiyu-island",
+        "nameZh": "海隅岛",
+        "nameEn": "Haiyu Island",
+        "role": "southern-bay-island",
+        "centerKm": {"x": 95.8, "y": 56.5},
+        "radiusKm": 3.1
+      }
+    ],
+    "reservoirs": [
+      {
+        "id": "songyue-reservoir",
+        "nameZh": "松月水库",
+        "nameEn": "Songyue Reservoir",
+        "centerKm": {"x": 15.5, "y": 53.5},
+        "radiusKm": 3.5,
+        "protectionClass": "municipal-drinking-water-source",
+        "railExclusionBufferKm": 1.8
+      }
+    ],
+    "wetlands": [
+      {
+        "id": "luojing-wetland",
+        "nameZh": "螺汀湿地",
+        "nameEn": "Luoting Wetland",
+        "centerKm": {"x": 84.0, "y": 44.0},
+        "radiusKm": 4.0,
+        "role": "ecological-buffer-between-coastal-new-city-and-port"
+      }
+    ]
+  },
+  "terrain": [
+    {
+      "id": "yuncang-mountains",
+      "nameZh": "云苍山",
+      "nameEn": "Yuncang Mountains",
+      "type": "low-mountains-and-hills",
+      "polygonKm": [
+        {"x": 0.0, "y": 36.0},
+        {"x": 10.0, "y": 37.5},
+        {"x": 22.0, "y": 42.0},
+        {"x": 27.0, "y": 52.0},
+        {"x": 21.0, "y": 66.0},
+        {"x": 0.0, "y": 66.0}
+      ],
+      "highestElevationM": 612
+    },
+    {
+      "id": "xishan-eco-reserve",
+      "nameZh": "西山生态保护区",
+      "nameEn": "Xishan Ecological Reserve",
+      "type": "protected-hill-forest",
+      "centerKm": {"x": 8.0, "y": 50.0},
+      "radiusKm": 7.0,
+      "heavyIndustryAllowed": false
+    },
+    {
+      "id": "eastern-alluvial-plain",
+      "nameZh": "东部冲积平原",
+      "nameEn": "Eastern Alluvial Plain",
+      "type": "plain",
+      "polygonKm": [
+        {"x": 35.0, "y": 4.0},
+        {"x": 94.0, "y": 4.0},
+        {"x": 91.0, "y": 58.0},
+        {"x": 36.0, "y": 58.0}
+      ]
+    }
+  ],
+  "airports": [
+    {
+      "id": "ningcang-international-airport",
+      "nameZh": "宁沧国际机场",
+      "nameEn": "Ningcang International Airport",
+      "role": "primary-international-airport",
+      "centerKm": {"x": 81.5, "y": 51.5},
+      "radiusKm": 4.2,
+      "terminals": [
+        {"id": "nia-t1", "nameZh": "1号航站楼", "nameEn": "Airport Terminal 1", "centerKm": {"x": 79.8, "y": 50.8}},
+        {"id": "nia-t2", "nameZh": "2号航站楼", "nameEn": "Airport Terminal 2", "centerKm": {"x": 82.2, "y": 51.8}},
+        {"id": "nia-t3", "nameZh": "3号航站楼", "nameEn": "Airport Terminal 3", "centerKm": {"x": 84.0, "y": 52.8}}
+      ],
+      "runwayOrientationDegrees": 90,
+      "metroApproach": "all rail approaches remain on the landside northwestern terminal frontage and do not cross runways"
+    },
+    {
+      "id": "xiling-airport",
+      "nameZh": "西岭机场",
+      "nameEn": "West Ridge Airport",
+      "role": "secondary-civil-airport",
+      "centerKm": {"x": 6.5, "y": 10.5},
+      "radiusKm": 2.8,
+      "terminals": [
+        {"id": "xla-terminal", "nameZh": "西岭机场航站楼", "nameEn": "West Ridge Airport Terminal", "centerKm": {"x": 7.2, "y": 11.0}}
+      ],
+      "runwayOrientationDegrees": 45
+    }
+  ],
+  "railHubs": [
+    {
+      "id": "ningcang-railway-station",
+      "nameZh": "宁沧站",
+      "nameEn": "Ningcang Railway Station",
+      "role": "historic-main-and-conventional-railway-station",
+      "centerKm": {"x": 39.8, "y": 20.5},
+      "major": true
+    },
+    {
+      "id": "ningcang-north-railway-station",
+      "nameZh": "宁沧北站",
+      "nameEn": "Ningcang North Railway Station",
+      "role": "primary-high-speed-rail-terminal",
+      "centerKm": {"x": 53.0, "y": 15.0},
+      "major": true,
+      "minimumMetroServices": 3
+    },
+    {
+      "id": "ningcang-east-railway-station",
+      "nameZh": "宁沧东站",
+      "nameEn": "Ningcang East Railway Station",
+      "role": "eastern-high-speed-and-regional-station",
+      "centerKm": {"x": 72.0, "y": 25.0},
+      "major": true
+    },
+    {
+      "id": "ningcang-south-railway-station",
+      "nameZh": "宁沧南站",
+      "nameEn": "Ningcang South Railway Station",
+      "role": "southern-high-speed-and-intercity-station",
+      "centerKm": {"x": 54.0, "y": 44.0},
+      "major": true,
+      "minimumMetroServices": 3
+    },
+    {
+      "id": "ningcang-high-speed-rail-central-station",
+      "nameZh": "宁沧高铁总站",
+      "nameEn": "Ningcang High-Speed Rail Central Station",
+      "role": "southern-coastal-high-speed-rail-terminal",
+      "centerKm": {"x": 70.4, "y": 52.5},
+      "major": true,
+      "minimumMetroServices": 3
+    },
+    {
+      "id": "beiyuan-intercity-station",
+      "nameZh": "北原城际站",
+      "nameEn": "Beiyuan Intercity Station",
+      "role": "northern-intercity-hub",
+      "centerKm": {"x": 47.0, "y": 7.5},
+      "major": false
+    }
+  ],
+  "ports": [
+    {
+      "id": "qinglan-deepwater-port",
+      "nameZh": "青岚深水港",
+      "nameEn": "Qinglan Deepwater Port",
+      "role": "container-and-deepwater-industrial-port",
+      "centerKm": {"x": 97.0, "y": 43.5},
+      "coastal": true,
+      "residentPopulationDensity": "low",
+      "facilities": ["container-terminal", "bonded-logistics", "ship-repair", "port-railway"]
+    },
+    {
+      "id": "cangjiang-cruise-terminal",
+      "nameZh": "沧江邮轮港",
+      "nameEn": "Cangjiang Cruise Terminal",
+      "role": "cruise-and-passenger-terminal",
+      "centerKm": {"x": 89.5, "y": 34.8},
+      "coastal": true
+    }
+  ],
+  "coachHubs": [
+    {
+      "id": "chengbei-coach-terminal",
+      "nameZh": "城北客运枢纽",
+      "nameEn": "Chengbei Coach Terminal",
+      "centerKm": {"x": 57.0, "y": 15.5},
+      "role": "intercity-coach-terminal"
+    }
+  ],
+  "urbanRegions": [
+    {
+      "id": "traditional-old-city",
+      "nameZh": "宣津老城",
+      "nameEn": "Xuanjin Old City",
+      "category": "historic-core",
+      "centerKm": {"x": 41.0, "y": 27.0},
+      "radiusKm": 4.5,
+      "riverSide": "north-bank",
+      "builtForm": "irregular-pre-modern-street-network"
+    },
+    {
+      "id": "historic-port-quarter",
+      "nameZh": "平码港埠区",
+      "nameEn": "Pingma Historic Port Quarter",
+      "category": "historic-commercial-waterfront",
+      "centerKm": {"x": 46.0, "y": 29.0},
+      "radiusKm": 3.0,
+      "riverSide": "north-bank"
+    },
+    {
+      "id": "cangpu-cbd",
+      "nameZh": "沧浦中央商务区",
+      "nameEn": "Cangpu CBD",
+      "category": "modern-cbd",
+      "centerKm": {"x": 49.0, "y": 27.0},
+      "radiusKm": 4.5,
+      "riverSide": "north-bank"
+    },
+    {
+      "id": "jiangnan-financial-cultural-center",
+      "nameZh": "江南金融文化中心",
+      "nameEn": "Jiangnan Financial and Cultural Center",
+      "category": "south-bank-secondary-center",
+      "centerKm": {"x": 50.0, "y": 36.0},
+      "radiusKm": 4.8,
+      "riverSide": "south-bank"
+    },
+    {
+      "id": "northwest-industrial-renewal",
+      "nameZh": "北皋工业更新区",
+      "nameEn": "Beigao Industrial Renewal District",
+      "category": "traditional-industry-and-regeneration",
+      "centerKm": {"x": 28.0, "y": 15.0},
+      "radiusKm": 7.0,
+      "riverSide": "north-bank",
+      "heavyIndustry": "retained-only-in-northern-rail-freight-edge"
+    },
+    {
+      "id": "huyuan-university-town",
+      "nameZh": "湖原大学城",
+      "nameEn": "Huyuan University Town",
+      "category": "university-and-research",
+      "centerKm": {"x": 25.5, "y": 48.0},
+      "radiusKm": 6.0,
+      "riverSide": "south-bank",
+      "adjacentLandscape": ["qingxi", "yuncang-mountains"],
+      "heavyIndustryAllowed": false
+    },
+    {
+      "id": "hailing-tech-city",
+      "nameZh": "海陵科技新城",
+      "nameEn": "Hailing Tech City",
+      "category": "technology-and-convention",
+      "centerKm": {"x": 70.0, "y": 25.0},
+      "radiusKm": 7.0,
+      "riverSide": "north-bank"
+    },
+    {
+      "id": "hengbei-new-city",
+      "nameZh": "衡北新城",
+      "nameEn": "Hengbei New City",
+      "category": "northern-residential-employment-center",
+      "centerKm": {"x": 51.0, "y": 11.5},
+      "radiusKm": 7.0,
+      "riverSide": "north-bank"
+    },
+    {
+      "id": "bincheng-coastal-new-city",
+      "nameZh": "滨城新城",
+      "nameEn": "Bincheng Coastal New City",
+      "category": "coastal-residential-cultural-center",
+      "centerKm": {"x": 71.5, "y": 50.0},
+      "radiusKm": 8.0,
+      "riverSide": "south-bank",
+      "reclaimedLandShare": 0.28
+    },
+    {
+      "id": "haidong-aerotropolis",
+      "nameZh": "海东航空城",
+      "nameEn": "Haidong Aerotropolis",
+      "category": "airport-city",
+      "centerKm": {"x": 78.0, "y": 48.0},
+      "radiusKm": 8.0,
+      "riverSide": "south-bank"
+    },
+    {
+      "id": "donggang-port-district",
+      "nameZh": "东港临港区",
+      "nameEn": "Donggang Port District",
+      "category": "deepwater-port-and-bonded-logistics",
+      "centerKm": {"x": 94.5, "y": 42.5},
+      "radiusKm": 6.0,
+      "riverSide": "estuary-south",
+      "residentialIntensity": "low"
+    },
+    {
+      "id": "xiling-satellite-city",
+      "nameZh": "西岭卫星城",
+      "nameEn": "West Ridge Satellite City",
+      "category": "western-satellite-city",
+      "centerKm": {"x": 9.0, "y": 27.5},
+      "radiusKm": 6.5,
+      "riverSide": "north-bank"
+    }
+  ],
+  "administrativeDistricts": [
+    {"id": "xuanjin-district", "nameZh": "宣津区", "nameEn": "Xuanjin District", "centerKm": {"x": 40.0, "y": 25.0}},
+    {"id": "cangpu-district", "nameZh": "沧浦区", "nameEn": "Cangpu District", "centerKm": {"x": 51.0, "y": 25.0}},
+    {"id": "linjiang-district", "nameZh": "临江区", "nameEn": "Linjiang District", "centerKm": {"x": 49.0, "y": 38.0}},
+    {"id": "beigao-district", "nameZh": "北皋区", "nameEn": "Beigao District", "centerKm": {"x": 27.0, "y": 14.0}},
+    {"id": "hengbei-district", "nameZh": "衡北区", "nameEn": "Hengbei District", "centerKm": {"x": 52.0, "y": 11.0}},
+    {"id": "huyuan-district", "nameZh": "湖原区", "nameEn": "Huyuan District", "centerKm": {"x": 25.0, "y": 48.0}},
+    {"id": "hailing-district", "nameZh": "海陵区", "nameEn": "Hailing District", "centerKm": {"x": 70.0, "y": 24.0}},
+    {"id": "bincheng-district", "nameZh": "滨城区", "nameEn": "Bincheng District", "centerKm": {"x": 70.0, "y": 50.0}},
+    {"id": "konggang-district", "nameZh": "空港区", "nameEn": "Konggang District", "centerKm": {"x": 82.0, "y": 52.0}},
+    {"id": "donggang-district", "nameZh": "东港区", "nameEn": "Donggang District", "centerKm": {"x": 95.0, "y": 42.0}},
+    {"id": "xishan-district", "nameZh": "西山区", "nameEn": "Xishan District", "centerKm": {"x": 9.0, "y": 48.0}},
+    {"id": "xiling-district", "nameZh": "西岭区", "nameEn": "West Ridge District", "centerKm": {"x": 9.0, "y": 23.0}}
+  ],
+  "keyDistancesKm": [
+    {"from": "traditional-old-city", "to": "cangpu-cbd", "distance": 8.0, "requiredRange": [4, 9], "passed": true},
+    {"from": "cityCore", "to": "huyuan-university-town", "distance": 26.9, "requiredRange": [15, 28], "passed": true},
+    {"from": "cityCore", "to": "ningcang-international-airport", "distance": 44.7, "requiredRange": [28, 45], "passed": true},
+    {"from": "cityCore", "to": "xiling-airport", "distance": 40.9, "requiredRange": [35, 60], "passed": true},
+    {"from": "cityCore", "to": "qinglan-deepwater-port", "distance": 55.7, "requiredRange": [35, 60], "passed": true},
+    {"from": "cityCore", "to": "ningcang-north-railway-station", "distance": 16.1, "requiredRange": [6, 18], "passed": true},
+    {"from": "huyuan-university-town", "to": "northwest-industrial-renewal", "distance": 33.1, "rule": "university town is not adjacent to heavy industry", "passed": true},
+    {"from": "songyue-reservoir", "to": "northwest-industrial-renewal", "distance": 40.5, "rule": "drinking-water source is separated from traditional industry", "passed": true}
+  ],
+  "spatialRules": {
+    "oldCityOnReclaimedLand": false,
+    "primaryAirportInCore": false,
+    "deepwaterPortOnCoast": true,
+    "universityAdjacentToHeavyIndustry": false,
+    "industrialUseInsideDrinkingWaterBuffer": false,
+    "mainRiverCrossesCityWestToEast": true,
+    "centralRiverIslandPresent": true,
+    "coastalWetlandBufferPresent": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "lineCount": 17,
+  "segmentCount": 46,
+  "nonOctilinearSegmentCount": 18,
+  "maximumAngleDeviation": 20.772,
+  "rawProperCrossingCount": 64,
+  "totalBendCount": 29,
+  "overlongSegmentCount": 27,
+  "ringLineClosed": true
+}

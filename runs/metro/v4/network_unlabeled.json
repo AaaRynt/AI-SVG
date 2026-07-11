@@ -1,0 +1,8766 @@
+{
+  "schemaVersion": "4.0",
+  "city": {
+    "nameZh": "宁沧市",
+    "nameEn": "Ningcang",
+    "population": 21800000,
+    "metropolitanPopulation": 31700000,
+    "builtUpAreaKm2": 2640,
+    "railHistoryYears": 37
+  },
+  "regions": [
+    {
+      "id": "old-city",
+      "nameZh": "传统老城",
+      "count": 28
+    },
+    {
+      "id": "north-residential",
+      "nameZh": "北部居住新城",
+      "count": 18
+    },
+    {
+      "id": "old-industry",
+      "nameZh": "旧工业更新区",
+      "count": 18
+    },
+    {
+      "id": "north-cbd",
+      "nameZh": "北岸中央商务区",
+      "count": 17
+    },
+    {
+      "id": "river-island",
+      "nameZh": "沧洲江心岛",
+      "count": 12
+    },
+    {
+      "id": "south-finance",
+      "nameZh": "南岸金融文化区",
+      "count": 18
+    },
+    {
+      "id": "university-town",
+      "nameZh": "西南大学城",
+      "count": 19
+    },
+    {
+      "id": "west-satellite",
+      "nameZh": "西部卫星城",
+      "count": 17
+    },
+    {
+      "id": "east-tech",
+      "nameZh": "东部科技新城",
+      "count": 20
+    },
+    {
+      "id": "coastal-city",
+      "nameZh": "南部滨海新城",
+      "count": 18
+    },
+    {
+      "id": "airport-city",
+      "nameZh": "东南航空城",
+      "count": 11
+    },
+    {
+      "id": "west-airport",
+      "nameZh": "西岭机场片区",
+      "count": 3
+    },
+    {
+      "id": "deepwater-port",
+      "nameZh": "东部深水港区",
+      "count": 14
+    },
+    {
+      "id": "rail-hubs",
+      "nameZh": "铁路枢纽体系",
+      "count": 16
+    }
+  ],
+  "geography": {
+    "schemaVersion": "1.0",
+    "city": {
+      "nameZh": "宁沧市",
+      "nameEn": "Ningcang",
+      "shortNameZh": "宁沧",
+      "population": 21800000,
+      "metropolitanPopulation": 31600000,
+      "builtUpAreaSqKm": 2630,
+      "physicalExtentKm": {
+        "width": 104,
+        "height": 66
+      },
+      "continuousBuiltUpExtentKm": {
+        "west": 13,
+        "east": 90,
+        "north": 7,
+        "south": 58,
+        "width": 77,
+        "height": 51
+      },
+      "coreExtentKm": {
+        "west": 33,
+        "east": 63,
+        "north": 18,
+        "south": 41,
+        "width": 30,
+        "height": 23
+      }
+    },
+    "coordinateSystem": {
+      "unit": "km",
+      "origin": "northwest corner of municipal planning extent",
+      "xAxis": "east",
+      "yAxis": "south",
+      "northArrow": {
+        "direction": "negative-y"
+      },
+      "mainMapUsage": "validation only; the final metro map is schematic and not to scale",
+      "insetScaleBarKm": 10
+    },
+    "referencePoints": {
+      "cityCore": {
+        "nameZh": "人民广场",
+        "nameEn": "People's Square",
+        "centerKm": {
+          "x": 43.5,
+          "y": 28.0
+        }
+      },
+      "riverMouth": {
+        "nameZh": "沧江口",
+        "nameEn": "Cangjiang Estuary",
+        "centerKm": {
+          "x": 92.0,
+          "y": 34.2
+        }
+      }
+    },
+    "hydrography": {
+      "rivers": [
+        {
+          "id": "cangjiang",
+          "nameZh": "沧江",
+          "nameEn": "Cangjiang River",
+          "role": "main-river",
+          "flowDirection": "west-to-east",
+          "centerlineKm": [
+            {
+              "x": 0.0,
+              "y": 30.4
+            },
+            {
+              "x": 12.0,
+              "y": 30.2
+            },
+            {
+              "x": 24.0,
+              "y": 30.6
+            },
+            {
+              "x": 36.0,
+              "y": 31.0
+            },
+            {
+              "x": 44.0,
+              "y": 31.6
+            },
+            {
+              "x": 54.0,
+              "y": 31.3
+            },
+            {
+              "x": 66.0,
+              "y": 31.7
+            },
+            {
+              "x": 78.0,
+              "y": 32.5
+            },
+            {
+              "x": 88.0,
+              "y": 33.4
+            },
+            {
+              "x": 96.0,
+              "y": 35.0
+            },
+            {
+              "x": 104.0,
+              "y": 36.2
+            }
+          ],
+          "widthProfileKm": [
+            {
+              "atX": 0.0,
+              "width": 0.55
+            },
+            {
+              "atX": 36.0,
+              "width": 0.75
+            },
+            {
+              "atX": 54.0,
+              "width": 0.95
+            },
+            {
+              "atX": 78.0,
+              "width": 1.75
+            },
+            {
+              "atX": 92.0,
+              "width": 3.6
+            },
+            {
+              "atX": 104.0,
+              "width": 5.2
+            }
+          ],
+          "dividesCoreInto": [
+            "north-bank",
+            "south-bank"
+          ]
+        },
+        {
+          "id": "qingxi",
+          "nameZh": "青溪",
+          "nameEn": "Qingxi River",
+          "role": "major-tributary",
+          "flowDirection": "southwest-to-northeast",
+          "centerlineKm": [
+            {
+              "x": 15.0,
+              "y": 55.0
+            },
+            {
+              "x": 19.0,
+              "y": 51.5
+            },
+            {
+              "x": 24.5,
+              "y": 47.0
+            },
+            {
+              "x": 30.5,
+              "y": 42.5
+            },
+            {
+              "x": 35.0,
+              "y": 37.2
+            },
+            {
+              "x": 39.2,
+              "y": 31.1
+            }
+          ],
+          "widthProfileKm": [
+            {
+              "atSegment": 0,
+              "width": 0.18
+            },
+            {
+              "atSegment": 4,
+              "width": 0.34
+            }
+          ],
+          "joinsRiverId": "cangjiang"
+        }
+      ],
+      "bay": {
+        "id": "qinglan-bay",
+        "nameZh": "青岚湾",
+        "nameEn": "Qinglan Bay",
+        "polygonKm": [
+          {
+            "x": 94.5,
+            "y": 0.0
+          },
+          {
+            "x": 104.0,
+            "y": 0.0
+          },
+          {
+            "x": 104.0,
+            "y": 66.0
+          },
+          {
+            "x": 84.0,
+            "y": 66.0
+          },
+          {
+            "x": 88.0,
+            "y": 58.0
+          },
+          {
+            "x": 91.5,
+            "y": 50.0
+          },
+          {
+            "x": 94.0,
+            "y": 45.0
+          },
+          {
+            "x": 91.5,
+            "y": 38.0
+          },
+          {
+            "x": 93.0,
+            "y": 29.0
+          },
+          {
+            "x": 95.0,
+            "y": 15.0
+          }
+        ]
+      },
+      "coastlineKm": [
+        {
+          "x": 94.5,
+          "y": 0.0
+        },
+        {
+          "x": 95.0,
+          "y": 15.0
+        },
+        {
+          "x": 93.0,
+          "y": 29.0
+        },
+        {
+          "x": 91.5,
+          "y": 38.0
+        },
+        {
+          "x": 94.0,
+          "y": 45.0
+        },
+        {
+          "x": 91.5,
+          "y": 50.0
+        },
+        {
+          "x": 88.0,
+          "y": 58.0
+        },
+        {
+          "x": 84.0,
+          "y": 66.0
+        }
+      ],
+      "islands": [
+        {
+          "id": "bailuzhou",
+          "nameZh": "白鹭洲",
+          "nameEn": "Bailuzhou Island",
+          "role": "central-river-island",
+          "centerKm": {
+            "x": 45.8,
+            "y": 31.8
+          },
+          "polygonKm": [
+            {
+              "x": 42.8,
+              "y": 31.2
+            },
+            {
+              "x": 44.0,
+              "y": 30.8
+            },
+            {
+              "x": 47.5,
+              "y": 31.0
+            },
+            {
+              "x": 49.0,
+              "y": 31.7
+            },
+            {
+              "x": 47.2,
+              "y": 32.6
+            },
+            {
+              "x": 43.8,
+              "y": 32.5
+            }
+          ]
+        },
+        {
+          "id": "dongsha-island",
+          "nameZh": "东沙岛",
+          "nameEn": "Dongsha Island",
+          "role": "outer-bay-island",
+          "centerKm": {
+            "x": 98.6,
+            "y": 24.0
+          },
+          "radiusKm": 2.7
+        },
+        {
+          "id": "haiyu-island",
+          "nameZh": "海隅岛",
+          "nameEn": "Haiyu Island",
+          "role": "southern-bay-island",
+          "centerKm": {
+            "x": 95.8,
+            "y": 56.5
+          },
+          "radiusKm": 3.1
+        }
+      ],
+      "reservoirs": [
+        {
+          "id": "songyue-reservoir",
+          "nameZh": "松月水库",
+          "nameEn": "Songyue Reservoir",
+          "centerKm": {
+            "x": 15.5,
+            "y": 53.5
+          },
+          "radiusKm": 3.5,
+          "protectionClass": "municipal-drinking-water-source",
+          "railExclusionBufferKm": 1.8
+        }
+      ],
+      "wetlands": [
+        {
+          "id": "luojing-wetland",
+          "nameZh": "螺汀湿地",
+          "nameEn": "Luoting Wetland",
+          "centerKm": {
+            "x": 84.0,
+            "y": 44.0
+          },
+          "radiusKm": 4.0,
+          "role": "ecological-buffer-between-coastal-new-city-and-port"
+        }
+      ]
+    },
+    "terrain": [
+      {
+        "id": "yuncang-mountains",
+        "nameZh": "云苍山",
+        "nameEn": "Yuncang Mountains",
+        "type": "low-mountains-and-hills",
+        "polygonKm": [
+          {
+            "x": 0.0,
+            "y": 36.0
+          },
+          {
+            "x": 10.0,
+            "y": 37.5
+          },
+          {
+            "x": 22.0,
+            "y": 42.0
+          },
+          {
+            "x": 27.0,
+            "y": 52.0
+          },
+          {
+            "x": 21.0,
+            "y": 66.0
+          },
+          {
+            "x": 0.0,
+            "y": 66.0
+          }
+        ],
+        "highestElevationM": 612
+      },
+      {
+        "id": "xishan-eco-reserve",
+        "nameZh": "西山生态保护区",
+        "nameEn": "Xishan Ecological Reserve",
+        "type": "protected-hill-forest",
+        "centerKm": {
+          "x": 8.0,
+          "y": 50.0
+        },
+        "radiusKm": 7.0,
+        "heavyIndustryAllowed": false
+      },
+      {
+        "id": "eastern-alluvial-plain",
+        "nameZh": "东部冲积平原",
+        "nameEn": "Eastern Alluvial Plain",
+        "type": "plain",
+        "polygonKm": [
+          {
+            "x": 35.0,
+            "y": 4.0
+          },
+          {
+            "x": 94.0,
+            "y": 4.0
+          },
+          {
+            "x": 91.0,
+            "y": 58.0
+          },
+          {
+            "x": 36.0,
+            "y": 58.0
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "ningcang-international-airport",
+        "nameZh": "宁沧国际机场",
+        "nameEn": "Ningcang International Airport",
+        "role": "primary-international-airport",
+        "centerKm": {
+          "x": 81.5,
+          "y": 51.5
+        },
+        "radiusKm": 4.2,
+        "terminals": [
+          {
+            "id": "nia-t1",
+            "nameZh": "1号航站楼",
+            "nameEn": "Airport Terminal 1",
+            "centerKm": {
+              "x": 79.8,
+              "y": 50.8
+            }
+          },
+          {
+            "id": "nia-t2",
+            "nameZh": "2号航站楼",
+            "nameEn": "Airport Terminal 2",
+            "centerKm": {
+              "x": 82.2,
+              "y": 51.8
+            }
+          },
+          {
+            "id": "nia-t3",
+            "nameZh": "3号航站楼",
+            "nameEn": "Airport Terminal 3",
+            "centerKm": {
+              "x": 84.0,
+              "y": 52.8
+            }
+          }
+        ],
+        "runwayOrientationDegrees": 90,
+        "metroApproach": "all rail approaches remain on the landside northwestern terminal frontage and do not cross runways"
+      },
+      {
+        "id": "xiling-airport",
+        "nameZh": "西岭机场",
+        "nameEn": "Xiling Airport",
+        "role": "secondary-civil-airport",
+        "centerKm": {
+          "x": 6.5,
+          "y": 10.5
+        },
+        "radiusKm": 2.8,
+        "terminals": [
+          {
+            "id": "xla-terminal",
+            "nameZh": "西岭机场航站楼",
+            "nameEn": "Xiling Airport Terminal",
+            "centerKm": {
+              "x": 7.2,
+              "y": 11.0
+            }
+          }
+        ],
+        "runwayOrientationDegrees": 45
+      }
+    ],
+    "railHubs": [
+      {
+        "id": "ningcang-railway-station",
+        "nameZh": "宁沧站",
+        "nameEn": "Ningcang Railway Station",
+        "role": "historic-main-and-conventional-railway-station",
+        "centerKm": {
+          "x": 39.8,
+          "y": 20.5
+        },
+        "major": true
+      },
+      {
+        "id": "ningcang-north-railway-station",
+        "nameZh": "宁沧北站",
+        "nameEn": "Ningcang North Railway Station",
+        "role": "primary-high-speed-rail-terminal",
+        "centerKm": {
+          "x": 53.0,
+          "y": 15.0
+        },
+        "major": true,
+        "minimumMetroServices": 3
+      },
+      {
+        "id": "ningcang-east-railway-station",
+        "nameZh": "宁沧东站",
+        "nameEn": "Ningcang East Railway Station",
+        "role": "eastern-high-speed-and-regional-station",
+        "centerKm": {
+          "x": 72.0,
+          "y": 25.0
+        },
+        "major": true
+      },
+      {
+        "id": "ningcang-south-railway-station",
+        "nameZh": "宁沧南站",
+        "nameEn": "Ningcang South Railway Station",
+        "role": "southern-high-speed-and-intercity-station",
+        "centerKm": {
+          "x": 54.0,
+          "y": 44.0
+        },
+        "major": true,
+        "minimumMetroServices": 3
+      },
+      {
+        "id": "beiyuan-intercity-station",
+        "nameZh": "北原城际站",
+        "nameEn": "Beiyuan Intercity Station",
+        "role": "northern-intercity-hub",
+        "centerKm": {
+          "x": 47.0,
+          "y": 7.5
+        },
+        "major": false
+      }
+    ],
+    "ports": [
+      {
+        "id": "qinglan-deepwater-port",
+        "nameZh": "青岚深水港",
+        "nameEn": "Qinglan Deepwater Port",
+        "role": "container-and-deepwater-industrial-port",
+        "centerKm": {
+          "x": 97.0,
+          "y": 43.5
+        },
+        "coastal": true,
+        "residentPopulationDensity": "low",
+        "facilities": [
+          "container-terminal",
+          "bonded-logistics",
+          "ship-repair",
+          "port-railway"
+        ]
+      },
+      {
+        "id": "cangjiang-cruise-terminal",
+        "nameZh": "沧江邮轮港",
+        "nameEn": "Cangjiang Cruise Terminal",
+        "role": "cruise-and-passenger-terminal",
+        "centerKm": {
+          "x": 89.5,
+          "y": 34.8
+        },
+        "coastal": true
+      }
+    ],
+    "coachHubs": [
+      {
+        "id": "chengbei-coach-terminal",
+        "nameZh": "城北客运枢纽",
+        "nameEn": "Chengbei Coach Terminal",
+        "centerKm": {
+          "x": 57.0,
+          "y": 15.5
+        },
+        "role": "intercity-coach-terminal"
+      }
+    ],
+    "urbanRegions": [
+      {
+        "id": "traditional-old-city",
+        "nameZh": "宣津老城",
+        "nameEn": "Xuanjin Old City",
+        "category": "historic-core",
+        "centerKm": {
+          "x": 41.0,
+          "y": 27.0
+        },
+        "radiusKm": 4.5,
+        "riverSide": "north-bank",
+        "builtForm": "irregular-pre-modern-street-network"
+      },
+      {
+        "id": "historic-port-quarter",
+        "nameZh": "平码港埠区",
+        "nameEn": "Pingma Historic Port Quarter",
+        "category": "historic-commercial-waterfront",
+        "centerKm": {
+          "x": 46.0,
+          "y": 29.0
+        },
+        "radiusKm": 3.0,
+        "riverSide": "north-bank"
+      },
+      {
+        "id": "cangpu-cbd",
+        "nameZh": "沧浦中央商务区",
+        "nameEn": "Cangpu CBD",
+        "category": "modern-cbd",
+        "centerKm": {
+          "x": 49.0,
+          "y": 27.0
+        },
+        "radiusKm": 4.5,
+        "riverSide": "north-bank"
+      },
+      {
+        "id": "jiangnan-financial-cultural-center",
+        "nameZh": "江南金融文化中心",
+        "nameEn": "Jiangnan Financial and Cultural Center",
+        "category": "south-bank-secondary-center",
+        "centerKm": {
+          "x": 50.0,
+          "y": 36.0
+        },
+        "radiusKm": 4.8,
+        "riverSide": "south-bank"
+      },
+      {
+        "id": "northwest-industrial-renewal",
+        "nameZh": "北皋工业更新区",
+        "nameEn": "Beigao Industrial Renewal District",
+        "category": "traditional-industry-and-regeneration",
+        "centerKm": {
+          "x": 28.0,
+          "y": 15.0
+        },
+        "radiusKm": 7.0,
+        "riverSide": "north-bank",
+        "heavyIndustry": "retained-only-in-northern-rail-freight-edge"
+      },
+      {
+        "id": "huyuan-university-town",
+        "nameZh": "湖原大学城",
+        "nameEn": "Huyuan University Town",
+        "category": "university-and-research",
+        "centerKm": {
+          "x": 25.5,
+          "y": 48.0
+        },
+        "radiusKm": 6.0,
+        "riverSide": "south-bank",
+        "adjacentLandscape": [
+          "qingxi",
+          "yuncang-mountains"
+        ],
+        "heavyIndustryAllowed": false
+      },
+      {
+        "id": "hailing-tech-city",
+        "nameZh": "海陵科技新城",
+        "nameEn": "Hailing Tech City",
+        "category": "technology-and-convention",
+        "centerKm": {
+          "x": 70.0,
+          "y": 25.0
+        },
+        "radiusKm": 7.0,
+        "riverSide": "north-bank"
+      },
+      {
+        "id": "hengbei-new-city",
+        "nameZh": "衡北新城",
+        "nameEn": "Hengbei New City",
+        "category": "northern-residential-employment-center",
+        "centerKm": {
+          "x": 51.0,
+          "y": 11.5
+        },
+        "radiusKm": 7.0,
+        "riverSide": "north-bank"
+      },
+      {
+        "id": "bincheng-coastal-new-city",
+        "nameZh": "滨城新城",
+        "nameEn": "Bincheng Coastal New City",
+        "category": "coastal-residential-cultural-center",
+        "centerKm": {
+          "x": 71.5,
+          "y": 50.0
+        },
+        "radiusKm": 8.0,
+        "riverSide": "south-bank",
+        "reclaimedLandShare": 0.28
+      },
+      {
+        "id": "haidong-aerotropolis",
+        "nameZh": "海东航空城",
+        "nameEn": "Haidong Aerotropolis",
+        "category": "airport-city",
+        "centerKm": {
+          "x": 78.0,
+          "y": 48.0
+        },
+        "radiusKm": 8.0,
+        "riverSide": "south-bank"
+      },
+      {
+        "id": "donggang-port-district",
+        "nameZh": "东港临港区",
+        "nameEn": "Donggang Port District",
+        "category": "deepwater-port-and-bonded-logistics",
+        "centerKm": {
+          "x": 94.5,
+          "y": 42.5
+        },
+        "radiusKm": 6.0,
+        "riverSide": "estuary-south",
+        "residentialIntensity": "low"
+      },
+      {
+        "id": "xiling-satellite-city",
+        "nameZh": "西岭卫星城",
+        "nameEn": "Xiling Satellite City",
+        "category": "western-satellite-city",
+        "centerKm": {
+          "x": 9.0,
+          "y": 27.5
+        },
+        "radiusKm": 6.5,
+        "riverSide": "north-bank"
+      }
+    ],
+    "administrativeDistricts": [
+      {
+        "id": "xuanjin-district",
+        "nameZh": "宣津区",
+        "nameEn": "Xuanjin District",
+        "centerKm": {
+          "x": 40.0,
+          "y": 25.0
+        }
+      },
+      {
+        "id": "cangpu-district",
+        "nameZh": "沧浦区",
+        "nameEn": "Cangpu District",
+        "centerKm": {
+          "x": 51.0,
+          "y": 25.0
+        }
+      },
+      {
+        "id": "linjiang-district",
+        "nameZh": "临江区",
+        "nameEn": "Linjiang District",
+        "centerKm": {
+          "x": 49.0,
+          "y": 38.0
+        }
+      },
+      {
+        "id": "beigao-district",
+        "nameZh": "北皋区",
+        "nameEn": "Beigao District",
+        "centerKm": {
+          "x": 27.0,
+          "y": 14.0
+        }
+      },
+      {
+        "id": "hengbei-district",
+        "nameZh": "衡北区",
+        "nameEn": "Hengbei District",
+        "centerKm": {
+          "x": 52.0,
+          "y": 11.0
+        }
+      },
+      {
+        "id": "huyuan-district",
+        "nameZh": "湖原区",
+        "nameEn": "Huyuan District",
+        "centerKm": {
+          "x": 25.0,
+          "y": 48.0
+        }
+      },
+      {
+        "id": "hailing-district",
+        "nameZh": "海陵区",
+        "nameEn": "Hailing District",
+        "centerKm": {
+          "x": 70.0,
+          "y": 24.0
+        }
+      },
+      {
+        "id": "bincheng-district",
+        "nameZh": "滨城区",
+        "nameEn": "Bincheng District",
+        "centerKm": {
+          "x": 70.0,
+          "y": 50.0
+        }
+      },
+      {
+        "id": "konggang-district",
+        "nameZh": "空港区",
+        "nameEn": "Konggang District",
+        "centerKm": {
+          "x": 82.0,
+          "y": 52.0
+        }
+      },
+      {
+        "id": "donggang-district",
+        "nameZh": "东港区",
+        "nameEn": "Donggang District",
+        "centerKm": {
+          "x": 95.0,
+          "y": 42.0
+        }
+      },
+      {
+        "id": "xishan-district",
+        "nameZh": "西山区",
+        "nameEn": "Xishan District",
+        "centerKm": {
+          "x": 9.0,
+          "y": 48.0
+        }
+      },
+      {
+        "id": "xiling-district",
+        "nameZh": "西岭区",
+        "nameEn": "Xiling District",
+        "centerKm": {
+          "x": 9.0,
+          "y": 23.0
+        }
+      }
+    ],
+    "keyDistancesKm": [
+      {
+        "from": "traditional-old-city",
+        "to": "cangpu-cbd",
+        "distance": 8.0,
+        "requiredRange": [
+          4,
+          9
+        ],
+        "passed": true
+      },
+      {
+        "from": "cityCore",
+        "to": "huyuan-university-town",
+        "distance": 26.9,
+        "requiredRange": [
+          15,
+          28
+        ],
+        "passed": true
+      },
+      {
+        "from": "cityCore",
+        "to": "ningcang-international-airport",
+        "distance": 44.7,
+        "requiredRange": [
+          28,
+          45
+        ],
+        "passed": true
+      },
+      {
+        "from": "cityCore",
+        "to": "xiling-airport",
+        "distance": 40.9,
+        "requiredRange": [
+          35,
+          60
+        ],
+        "passed": true
+      },
+      {
+        "from": "cityCore",
+        "to": "qinglan-deepwater-port",
+        "distance": 55.7,
+        "requiredRange": [
+          35,
+          60
+        ],
+        "passed": true
+      },
+      {
+        "from": "cityCore",
+        "to": "ningcang-north-railway-station",
+        "distance": 16.1,
+        "requiredRange": [
+          6,
+          18
+        ],
+        "passed": true
+      },
+      {
+        "from": "huyuan-university-town",
+        "to": "northwest-industrial-renewal",
+        "distance": 33.1,
+        "rule": "university town is not adjacent to heavy industry",
+        "passed": true
+      },
+      {
+        "from": "songyue-reservoir",
+        "to": "northwest-industrial-renewal",
+        "distance": 40.5,
+        "rule": "drinking-water source is separated from traditional industry",
+        "passed": true
+      }
+    ],
+    "spatialRules": {
+      "oldCityOnReclaimedLand": false,
+      "primaryAirportInCore": false,
+      "deepwaterPortOnCoast": true,
+      "universityAdjacentToHeavyIndustry": false,
+      "industrialUseInsideDrinkingWaterBuffer": false,
+      "mainRiverCrossesCityWestToEast": true,
+      "centralRiverIslandPresent": true,
+      "coastalWetlandBufferPresent": true
+    }
+  },
+  "lines": [
+    {
+      "id": "L1",
+      "nameZh": "沧江一号线",
+      "nameEn": "Cangjiang Line 1",
+      "color": "#C83E4D",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C01",
+        "C07"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": false,
+      "schematicPath": [
+        {
+          "x": 320,
+          "y": 760
+        },
+        {
+          "x": 2380,
+          "y": 760
+        }
+      ],
+      "stations": [
+        "NC-IN-008",
+        "NC-IN-009",
+        "NC-IN-010",
+        "NC-IN-011",
+        "NC-OC-010",
+        "NC-OC-011",
+        "NC-OC-028",
+        "NC-OC-012",
+        "NC-OC-013",
+        "NC-CB-017",
+        "NC-OC-014",
+        "NC-OC-015",
+        "NC-CB-011",
+        "NC-OC-016",
+        "NC-ET-014",
+        "NC-ET-015",
+        "NC-ET-016",
+        "NC-ET-017"
+      ]
+    },
+    {
+      "id": "L2",
+      "nameZh": "南北二号线",
+      "nameEn": "North–South Line 2",
+      "color": "#2F5FA7",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C02",
+        "C05",
+        "C06",
+        "C09"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 1360,
+          "y": 240
+        },
+        {
+          "x": 1360,
+          "y": 1760
+        }
+      ],
+      "stations": [
+        "NC-NR-001",
+        "NC-RH-002",
+        "NC-NR-009",
+        "NC-CB-002",
+        "NC-CB-005",
+        "NC-CB-015",
+        "NC-OC-014",
+        "NC-OC-018",
+        "NC-IS-002",
+        "NC-SF-004",
+        "NC-SF-015",
+        "NC-SF-012",
+        "NC-SF-017",
+        "NC-IN-014",
+        "NC-IS-006",
+        "NC-IS-011",
+        "NC-WS-007"
+      ]
+    },
+    {
+      "id": "L3",
+      "nameZh": "书岭三号线",
+      "nameEn": "Shuling Line 3",
+      "color": "#009B77",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C03",
+        "C04",
+        "C19"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 520,
+          "y": 1480
+        },
+        {
+          "x": 520,
+          "y": 1320
+        },
+        {
+          "x": 920,
+          "y": 920
+        },
+        {
+          "x": 920,
+          "y": 660
+        },
+        {
+          "x": 1320,
+          "y": 660
+        },
+        {
+          "x": 1480,
+          "y": 500
+        },
+        {
+          "x": 2200,
+          "y": 500
+        }
+      ],
+      "stations": [
+        "NC-UN-011",
+        "NC-UN-019",
+        "NC-UN-001",
+        "NC-IN-013",
+        "NC-OC-024",
+        "NC-OC-010",
+        "NC-OC-008",
+        "NC-OC-007",
+        "NC-OC-004",
+        "NC-OC-005",
+        "NC-OC-006",
+        "NC-CB-005",
+        "NC-CB-003",
+        "NC-CB-001",
+        "NC-ET-001",
+        "NC-ET-002",
+        "NC-ET-003"
+      ]
+    },
+    {
+      "id": "L4",
+      "nameZh": "云港四号线",
+      "nameEn": "Yungang Line 4",
+      "color": "#E8792E",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C05",
+        "C10",
+        "C17"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 260,
+          "y": 360
+        },
+        {
+          "x": 560,
+          "y": 360
+        },
+        {
+          "x": 980,
+          "y": 780
+        },
+        {
+          "x": 1500,
+          "y": 780
+        },
+        {
+          "x": 2040,
+          "y": 1320
+        },
+        {
+          "x": 2200,
+          "y": 1480
+        },
+        {
+          "x": 2240,
+          "y": 1480
+        }
+      ],
+      "stations": [
+        "NC-AP-012",
+        "NC-WS-002",
+        "NC-IN-002",
+        "NC-IN-006",
+        "NC-OC-008",
+        "NC-OC-011",
+        "NC-OC-017",
+        "NC-RH-001",
+        "NC-OC-018",
+        "NC-OC-019",
+        "NC-OC-023",
+        "NC-SF-001",
+        "NC-SF-011",
+        "NC-CO-007",
+        "NC-AP-002",
+        "NC-AP-001"
+      ]
+    },
+    {
+      "id": "L5",
+      "nameZh": "南岸五号线",
+      "nameEn": "South Bank Line 5",
+      "color": "#8558A8",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C06",
+        "C08"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": false,
+      "schematicPath": [
+        {
+          "x": 480,
+          "y": 1220
+        },
+        {
+          "x": 2100,
+          "y": 1220
+        },
+        {
+          "x": 2440,
+          "y": 1560
+        }
+      ],
+      "stations": [
+        "NC-UN-002",
+        "NC-UN-003",
+        "NC-UN-004",
+        "NC-SF-005",
+        "NC-SF-006",
+        "NC-SF-007",
+        "NC-RH-010",
+        "NC-SF-015",
+        "NC-SF-008",
+        "NC-SF-009",
+        "NC-SF-010",
+        "NC-SF-011",
+        "NC-CO-003",
+        "NC-CO-005",
+        "NC-AP-004",
+        "NC-PT-006",
+        "NC-PT-008"
+      ]
+    },
+    {
+      "id": "L6",
+      "nameZh": "内环六号线",
+      "nameEn": "Inner Ring Line 6",
+      "color": "#C49A00",
+      "type": "ring",
+      "status": "operational",
+      "corridors": [
+        "C15"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": true,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 820,
+          "y": 520
+        },
+        {
+          "x": 1750,
+          "y": 520
+        },
+        {
+          "x": 2070,
+          "y": 840
+        },
+        {
+          "x": 2070,
+          "y": 1160
+        },
+        {
+          "x": 1780,
+          "y": 1450
+        },
+        {
+          "x": 1080,
+          "y": 1450
+        },
+        {
+          "x": 780,
+          "y": 1150
+        },
+        {
+          "x": 780,
+          "y": 560
+        },
+        {
+          "x": 820,
+          "y": 520
+        }
+      ],
+      "stations": [
+        "NC-OC-001",
+        "NC-OC-002",
+        "NC-CB-002",
+        "NC-CB-003",
+        "NC-CB-004",
+        "NC-CB-013",
+        "NC-ET-014",
+        "NC-ET-018",
+        "NC-NR-013",
+        "NC-NR-015",
+        "NC-SF-014",
+        "NC-RH-016",
+        "NC-IS-007",
+        "NC-IS-006",
+        "NC-IS-005",
+        "NC-IS-004",
+        "NC-NR-018",
+        "NC-IN-013",
+        "NC-IN-012",
+        "NC-IN-005"
+      ]
+    },
+    {
+      "id": "L7",
+      "nameZh": "洲心七号线",
+      "nameEn": "Zhouxin Line 7",
+      "color": "#00A6B2",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C05",
+        "C08",
+        "C09",
+        "C18"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 1040,
+          "y": 260
+        },
+        {
+          "x": 1040,
+          "y": 620
+        },
+        {
+          "x": 1200,
+          "y": 780
+        },
+        {
+          "x": 1200,
+          "y": 1100
+        },
+        {
+          "x": 1480,
+          "y": 1380
+        },
+        {
+          "x": 1480,
+          "y": 1720
+        }
+      ],
+      "stations": [
+        "NC-NR-003",
+        "NC-NR-012",
+        "NC-OC-005",
+        "NC-OC-009",
+        "NC-OC-013",
+        "NC-RH-001",
+        "NC-IS-001",
+        "NC-SF-003",
+        "NC-RH-010",
+        "NC-SF-012",
+        "NC-SF-018",
+        "NC-IN-015",
+        "NC-IS-007",
+        "NC-IS-009",
+        "NC-UN-015"
+      ]
+    },
+    {
+      "id": "L8",
+      "nameZh": "机厂八号线",
+      "nameEn": "Jichang Line 8",
+      "color": "#8C4A32",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C05",
+        "C06",
+        "C07",
+        "C14"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 360,
+          "y": 520
+        },
+        {
+          "x": 740,
+          "y": 520
+        },
+        {
+          "x": 1040,
+          "y": 820
+        },
+        {
+          "x": 1040,
+          "y": 1320
+        },
+        {
+          "x": 1900,
+          "y": 1320
+        }
+      ],
+      "stations": [
+        "NC-WS-003",
+        "NC-WS-004",
+        "NC-IN-004",
+        "NC-IN-007",
+        "NC-OC-007",
+        "NC-OC-028",
+        "NC-OC-017",
+        "NC-OC-020",
+        "NC-OC-025",
+        "NC-SF-002",
+        "NC-SF-006",
+        "NC-SF-016",
+        "NC-SF-017",
+        "NC-SF-018",
+        "NC-NR-016",
+        "NC-NR-017"
+      ]
+    },
+    {
+      "id": "L9",
+      "nameZh": "西南九号线",
+      "nameEn": "Southwest Line 9",
+      "color": "#D0448D",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C08",
+        "C14",
+        "C17"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 180,
+          "y": 1580
+        },
+        {
+          "x": 720,
+          "y": 1580
+        },
+        {
+          "x": 720,
+          "y": 1380
+        },
+        {
+          "x": 1000,
+          "y": 1100
+        },
+        {
+          "x": 1400,
+          "y": 1100
+        },
+        {
+          "x": 1660,
+          "y": 840
+        },
+        {
+          "x": 2000,
+          "y": 840
+        }
+      ],
+      "stations": [
+        "NC-UN-013",
+        "NC-UN-014",
+        "NC-UN-012",
+        "NC-SF-013",
+        "NC-SF-002",
+        "NC-SF-003",
+        "NC-SF-004",
+        "NC-IS-003",
+        "NC-OC-023",
+        "NC-OC-021",
+        "NC-OC-022",
+        "NC-ET-020"
+      ]
+    },
+    {
+      "id": "L10",
+      "nameZh": "临港十号线",
+      "nameEn": "Lingang Line 10",
+      "color": "#658B2A",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C04",
+        "C09",
+        "C18",
+        "C19"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 1900,
+          "y": 240
+        },
+        {
+          "x": 1900,
+          "y": 640
+        },
+        {
+          "x": 2060,
+          "y": 800
+        },
+        {
+          "x": 2060,
+          "y": 1100
+        },
+        {
+          "x": 2460,
+          "y": 1500
+        }
+      ],
+      "stations": [
+        "NC-NR-002",
+        "NC-NR-011",
+        "NC-ET-005",
+        "NC-RH-003",
+        "NC-ET-012",
+        "NC-ET-015",
+        "NC-ET-018",
+        "NC-OC-026",
+        "NC-CO-002",
+        "NC-NR-015",
+        "NC-CO-001",
+        "NC-CO-006",
+        "NC-PT-005",
+        "NC-PT-007"
+      ]
+    },
+    {
+      "id": "L11",
+      "nameZh": "东弧十一号线",
+      "nameEn": "Eastern Arc Line 11",
+      "color": "#436B8A",
+      "type": "semi-ring",
+      "status": "operational",
+      "corridors": [
+        "C06",
+        "C07",
+        "C08",
+        "C16",
+        "C18"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 1050,
+          "y": 280
+        },
+        {
+          "x": 1920,
+          "y": 280
+        },
+        {
+          "x": 2400,
+          "y": 760
+        },
+        {
+          "x": 2400,
+          "y": 1120
+        },
+        {
+          "x": 2080,
+          "y": 1440
+        },
+        {
+          "x": 1760,
+          "y": 1440
+        }
+      ],
+      "stations": [
+        "NC-NR-004",
+        "NC-NR-005",
+        "NC-RH-002",
+        "NC-NR-006",
+        "NC-NR-007",
+        "NC-NR-008",
+        "NC-ET-004",
+        "NC-ET-013",
+        "NC-ET-019",
+        "NC-OC-027",
+        "NC-PT-002",
+        "NC-CO-004",
+        "NC-CO-008",
+        "NC-RH-016",
+        "NC-IN-017"
+      ]
+    },
+    {
+      "id": "L12",
+      "nameZh": "科城十二号线",
+      "nameEn": "Science City Line 12",
+      "color": "#008DB8",
+      "type": "metro",
+      "status": "operational",
+      "corridors": [
+        "C07",
+        "C09",
+        "C13",
+        "C18"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": false,
+      "schematicPath": [
+        {
+          "x": 1480,
+          "y": 620
+        },
+        {
+          "x": 2280,
+          "y": 620
+        }
+      ],
+      "stations": [
+        "NC-CB-006",
+        "NC-CB-007",
+        "NC-CB-008",
+        "NC-CB-009",
+        "NC-CB-010",
+        "NC-CB-012",
+        "NC-CB-013",
+        "NC-RH-003",
+        "NC-ET-006",
+        "NC-ET-007",
+        "NC-ET-008",
+        "NC-ET-009",
+        "NC-ET-010",
+        "NC-ET-011"
+      ]
+    },
+    {
+      "id": "L13",
+      "nameZh": "海门机场快线",
+      "nameEn": "Haimen Airport Express",
+      "color": "#D7263D",
+      "type": "airport-express",
+      "status": "operational",
+      "corridors": [
+        "C05",
+        "C11",
+        "C14"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": true,
+      "schematicPath": [
+        {
+          "x": 1120,
+          "y": 420
+        },
+        {
+          "x": 1540,
+          "y": 420
+        },
+        {
+          "x": 1700,
+          "y": 580
+        },
+        {
+          "x": 1700,
+          "y": 940
+        },
+        {
+          "x": 2240,
+          "y": 1480
+        }
+      ],
+      "stations": [
+        "NC-NR-010",
+        "NC-CB-001",
+        "NC-CB-004",
+        "NC-CB-010",
+        "NC-CB-011",
+        "NC-OC-021",
+        "NC-AP-003",
+        "NC-AP-001"
+      ]
+    },
+    {
+      "id": "L14",
+      "nameZh": "宁西市域快线",
+      "nameEn": "Ningxi Regional Express",
+      "color": "#6F2DBD",
+      "type": "regional-express",
+      "status": "operational",
+      "corridors": [
+        "C06",
+        "C12",
+        "C14",
+        "C17"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": false,
+      "schematicPath": [
+        {
+          "x": 260,
+          "y": 360
+        },
+        {
+          "x": 260,
+          "y": 320
+        },
+        {
+          "x": 620,
+          "y": 320
+        },
+        {
+          "x": 1020,
+          "y": 720
+        },
+        {
+          "x": 1500,
+          "y": 720
+        }
+      ],
+      "stations": [
+        "NC-AP-012",
+        "NC-WS-001",
+        "NC-IN-001",
+        "NC-IN-003",
+        "NC-OC-003",
+        "NC-OC-004",
+        "NC-OC-009",
+        "NC-CB-014",
+        "NC-CB-015",
+        "NC-CB-016"
+      ]
+    },
+    {
+      "id": "L15",
+      "nameZh": "滨海十五号线",
+      "nameEn": "Coastal Line 15",
+      "color": "#73777F",
+      "type": "metro",
+      "status": "under-construction",
+      "corridors": [
+        "C07",
+        "C09",
+        "C16",
+        "C18"
+      ],
+      "branchOf": null,
+      "junctionStation": null,
+      "closed": false,
+      "crossesMainRiver": false,
+      "schematicPath": [
+        {
+          "x": 620,
+          "y": 1740
+        },
+        {
+          "x": 980,
+          "y": 1740
+        },
+        {
+          "x": 1280,
+          "y": 1440
+        },
+        {
+          "x": 1800,
+          "y": 1440
+        }
+      ],
+      "stations": [
+        "NC-UN-017",
+        "NC-UN-018",
+        "NC-WS-005",
+        "NC-WS-006",
+        "NC-UN-016",
+        "NC-IS-012",
+        "NC-IS-010",
+        "NC-IS-008",
+        "NC-IS-005",
+        "NC-IN-014",
+        "NC-IN-015",
+        "NC-IN-016",
+        "NC-RH-016",
+        "NC-IN-018"
+      ]
+    },
+    {
+      "id": "B1",
+      "nameZh": "十号线港区支线",
+      "nameEn": "Line 10 Harbor Branch",
+      "color": "#658B2A",
+      "type": "branch",
+      "status": "operational",
+      "corridors": [
+        "C13",
+        "C18"
+      ],
+      "branchOf": "L10",
+      "junctionStation": "NC-CO-002",
+      "closed": false,
+      "crossesMainRiver": false,
+      "schematicPath": [
+        {
+          "x": 2060,
+          "y": 1100
+        },
+        {
+          "x": 2320,
+          "y": 1100
+        },
+        {
+          "x": 2500,
+          "y": 1280
+        }
+      ],
+      "stations": [
+        "NC-CO-002",
+        "NC-NR-013",
+        "NC-NR-014",
+        "NC-PT-010",
+        "NC-PT-003",
+        "NC-PT-004",
+        "NC-PT-001"
+      ]
+    },
+    {
+      "id": "B2",
+      "nameZh": "三号线书岭支线",
+      "nameEn": "Line 3 Shuling Branch",
+      "color": "#009B77",
+      "type": "branch",
+      "status": "operational",
+      "corridors": [
+        "C08",
+        "C09"
+      ],
+      "branchOf": "L3",
+      "junctionStation": "NC-UN-019",
+      "closed": false,
+      "crossesMainRiver": false,
+      "schematicPath": [
+        {
+          "x": 520,
+          "y": 1320
+        },
+        {
+          "x": 320,
+          "y": 1320
+        },
+        {
+          "x": 180,
+          "y": 1460
+        }
+      ],
+      "stations": [
+        "NC-UN-019",
+        "NC-UN-007",
+        "NC-UN-006",
+        "NC-UN-005",
+        "NC-UN-008",
+        "NC-UN-009",
+        "NC-UN-010"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "schematic": {
+        "x": 1360,
+        "y": 240
+      },
+      "lines": [
+        "L2"
+      ],
+      "linePositions": {
+        "L2": 0
+      },
+      "terminalLines": [
+        "L2"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-001",
+      "nameZh": "北原中心",
+      "nameEn": "North Plain Civic Center",
+      "district": "北部居住新城",
+      "role": "区级公共服务中心",
+      "geoKm": {
+        "x": 52.5,
+        "y": 2.5
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1900,
+        "y": 240
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 0
+      },
+      "terminalLines": [
+        "L10"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-002",
+      "nameZh": "松荫湖",
+      "nameEn": "Pine Shade Lake",
+      "district": "北部居住新城",
+      "role": "城市湖泊",
+      "geoKm": {
+        "x": 75.0,
+        "y": 2.5
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1040,
+        "y": 260
+      },
+      "lines": [
+        "L7"
+      ],
+      "linePositions": {
+        "L7": 0
+      },
+      "terminalLines": [
+        "L7"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-003",
+      "nameZh": "瑞禾里",
+      "nameEn": "Harvest Quarter",
+      "district": "北部居住新城",
+      "role": "大型居住社区",
+      "geoKm": {
+        "x": 39.17,
+        "y": 3.33
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1050,
+        "y": 280
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 0
+      },
+      "terminalLines": [
+        "L11"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-004",
+      "nameZh": "云杉公园",
+      "nameEn": "Spruce Grove Park",
+      "district": "北部居住新城",
+      "role": "城市公园",
+      "geoKm": {
+        "x": 39.58,
+        "y": 4.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1203.794,
+        "y": 280.0
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-005",
+      "nameZh": "安居桥",
+      "nameEn": "Hearthside Bridge",
+      "district": "北部居住新城",
+      "role": "社区桥梁",
+      "geoKm": {
+        "x": 45.99,
+        "y": 4.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 280.0
+      },
+      "lines": [
+        "L2",
+        "L11"
+      ],
+      "linePositions": {
+        "L2": 1,
+        "L11": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-RH-002",
+      "nameZh": "宁沧北站",
+      "nameEn": "Ningcang North Railway Station",
+      "district": "铁路枢纽体系",
+      "role": "北部高铁站",
+      "geoKm": {
+        "x": 52.5,
+        "y": 4.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1651.804,
+        "y": 280.0
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-006",
+      "nameZh": "新棠路",
+      "nameEn": "New Crabapple Road",
+      "district": "北部居住新城",
+      "role": "城市道路",
+      "geoKm": {
+        "x": 64.66,
+        "y": 4.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1798.912,
+        "y": 280.0
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-007",
+      "nameZh": "长林医院",
+      "nameEn": "Longwood Hospital",
+      "district": "北部居住新城",
+      "role": "区域医疗中心",
+      "geoKm": {
+        "x": 70.79,
+        "y": 4.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1938.398,
+        "y": 298.398
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-008",
+      "nameZh": "北客运站",
+      "nameEn": "North Coach Terminal",
+      "district": "北部居住新城",
+      "role": "长途汽车枢纽",
+      "geoKm": {
+        "x": 76.6,
+        "y": 4.93
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 439.917,
+        "y": 320.0
+      },
+      "lines": [
+        "L14"
+      ],
+      "linePositions": {
+        "L14": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-WS-001",
+      "nameZh": "镜川镇",
+      "nameEn": "Mirror River Town",
+      "district": "西部卫星城",
+      "role": "卫星城历史中心",
+      "geoKm": {
+        "x": 14.16,
+        "y": 5.83
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 648.167,
+        "y": 348.167
+      },
+      "lines": [
+        "L14"
+      ],
+      "linePositions": {
+        "L14": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-001",
+      "nameZh": "机厂路",
+      "nameEn": "Railway Works Road",
+      "district": "旧工业更新区",
+      "role": "铁路工业遗址",
+      "geoKm": {
+        "x": 22.84,
+        "y": 7.01
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 260,
+        "y": 360
+      },
+      "lines": [
+        "L4",
+        "L14"
+      ],
+      "linePositions": {
+        "L4": 0,
+        "L14": 0
+      },
+      "terminalLines": [
+        "L4",
+        "L14"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-AP-012",
+      "nameZh": "西岭机场",
+      "nameEn": "West Ridge Airport",
+      "district": "西岭机场片区",
+      "role": "城市第二机场",
+      "geoKm": {
+        "x": 6.67,
+        "y": 7.5
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": true,
+      "terminal": true,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 461.121,
+        "y": 360.0
+      },
+      "lines": [
+        "L4"
+      ],
+      "linePositions": {
+        "L4": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-WS-002",
+      "nameZh": "桃源坞",
+      "nameEn": "Peach Orchard Hollow",
+      "district": "西部卫星城",
+      "role": "山谷聚落",
+      "geoKm": {
+        "x": 15.05,
+        "y": 7.5
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 360.0
+      },
+      "lines": [
+        "L2"
+      ],
+      "linePositions": {
+        "L2": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-009",
+      "nameZh": "观澜社区",
+      "nameEn": "River Outlook Community",
+      "district": "北部居住新城",
+      "role": "滨水居住社区",
+      "geoKm": {
+        "x": 52.5,
+        "y": 7.5
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1120,
+        "y": 420
+      },
+      "lines": [
+        "L13"
+      ],
+      "linePositions": {
+        "L13": 0
+      },
+      "terminalLines": [
+        "L13"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-010",
+      "nameZh": "荷风里",
+      "nameEn": "Lotus Breeze Quarter",
+      "district": "北部居住新城",
+      "role": "大型居住社区",
+      "geoKm": {
+        "x": 42.5,
+        "y": 10.0
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1900.0,
+        "y": 429.75
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-011",
+      "nameZh": "石渠镇",
+      "nameEn": "Stone Channel Town",
+      "district": "北部居住新城",
+      "role": "历史集镇",
+      "geoKm": {
+        "x": 75.0,
+        "y": 10.41
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 632.295,
+        "y": 432.295
+      },
+      "lines": [
+        "L4"
+      ],
+      "linePositions": {
+        "L4": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-002",
+      "nameZh": "老钢桥",
+      "nameEn": "Old Steel Bridge",
+      "district": "旧工业更新区",
+      "role": "工业遗产桥梁",
+      "geoKm": {
+        "x": 22.18,
+        "y": 10.51
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1040.0,
+        "y": 468.865
+      },
+      "lines": [
+        "L7"
+      ],
+      "linePositions": {
+        "L7": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-012",
+      "nameZh": "燕归浜",
+      "nameEn": "Swallow Return Creek",
+      "district": "北部居住新城",
+      "role": "旧村水系",
+      "geoKm": {
+        "x": 39.17,
+        "y": 12.04
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1620.0,
+        "y": 500.0
+      },
+      "lines": [
+        "L3",
+        "L13"
+      ],
+      "linePositions": {
+        "L3": 13,
+        "L13": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-001",
+      "nameZh": "沧浦广场",
+      "nameEn": "River Harbor Square",
+      "district": "北岸中央商务区",
+      "role": "商务区门户广场",
+      "geoKm": {
+        "x": 63.33,
+        "y": 13.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1909.232,
+        "y": 500.0
+      },
+      "lines": [
+        "L3"
+      ],
+      "linePositions": {
+        "L3": 14
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-001",
+      "nameZh": "东澜中心",
+      "nameEn": "East River Civic Center",
+      "district": "东部科技新城",
+      "role": "新城公共中心",
+      "geoKm": {
+        "x": 75.38,
+        "y": 13.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2054.616,
+        "y": 500.0
+      },
+      "lines": [
+        "L3"
+      ],
+      "linePositions": {
+        "L3": 15
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-002",
+      "nameZh": "榆塘",
+      "nameEn": "Elm Pond",
+      "district": "东部科技新城",
+      "role": "保留村镇地名",
+      "geoKm": {
+        "x": 81.44,
+        "y": 13.33
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2200,
+        "y": 500
+      },
+      "lines": [
+        "L3"
+      ],
+      "linePositions": {
+        "L3": 16
+      },
+      "terminalLines": [
+        "L3"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-003",
+      "nameZh": "联丰镇",
+      "nameEn": "United Harvest Town",
+      "district": "东部科技新城",
+      "role": "历史集镇",
+      "geoKm": {
+        "x": 87.5,
+        "y": 13.33
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2141.712,
+        "y": 501.712
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-004",
+      "nameZh": "葭湾",
+      "nameEn": "Rushwater Bay",
+      "district": "东部科技新城",
+      "role": "河湾旧地名",
+      "geoKm": {
+        "x": 85.07,
+        "y": 13.4
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 803.672,
+        "y": 503.672
+      },
+      "lines": [
+        "L14"
+      ],
+      "linePositions": {
+        "L14": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-003",
+      "nameZh": "二纱厂",
+      "nameEn": "No. 2 Textile Mill",
+      "district": "旧工业更新区",
+      "role": "纺织工业遗址",
+      "geoKm": {
+        "x": 29.32,
+        "y": 13.49
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 360,
+        "y": 520
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 0
+      },
+      "terminalLines": [
+        "L8"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-WS-003",
+      "nameZh": "石门关",
+      "nameEn": "Stone Gate Pass",
+      "district": "西部卫星城",
+      "role": "山口地名",
+      "geoKm": {
+        "x": 10.83,
+        "y": 14.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 516.518,
+        "y": 520.0
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-WS-004",
+      "nameZh": "枫桥市集",
+      "nameEn": "Maple Bridge Market",
+      "district": "西部卫星城",
+      "role": "区域传统市集",
+      "geoKm": {
+        "x": 17.35,
+        "y": 14.17
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 678.433,
+        "y": 520.0
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-004",
+      "nameZh": "北货场",
+      "nameEn": "North Freight Yard",
+      "district": "旧工业更新区",
+      "role": "铁路货运枢纽",
+      "geoKm": {
+        "x": 24.1,
+        "y": 14.17
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 820,
+        "y": 520
+      },
+      "lines": [
+        "L6"
+      ],
+      "linePositions": {
+        "L6": 0
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-001",
+      "nameZh": "镇海门",
+      "nameEn": "Seaward Gate",
+      "district": "传统老城",
+      "role": "历史城门",
+      "geoKm": {
+        "x": 30.0,
+        "y": 14.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1091.167,
+        "y": 520.0
+      },
+      "lines": [
+        "L6"
+      ],
+      "linePositions": {
+        "L6": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-002",
+      "nameZh": "永安坊",
+      "nameEn": "Everpeace Quarter",
+      "district": "传统老城",
+      "role": "传统坊巷",
+      "geoKm": {
+        "x": 41.3,
+        "y": 14.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L2",
+        "L6"
+      ],
+      "linePositions": {
+        "L2": 3,
+        "L6": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-002",
+      "nameZh": "经贸大厦",
+      "nameEn": "Trade and Commerce Tower",
+      "district": "北岸中央商务区",
+      "role": "商务办公地标",
+      "geoKm": {
+        "x": 52.5,
+        "y": 14.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1460.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L3",
+        "L6"
+      ],
+      "linePositions": {
+        "L3": 12,
+        "L6": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-003",
+      "nameZh": "海晏路",
+      "nameEn": "Calm Seas Road",
+      "district": "北岸中央商务区",
+      "role": "城市道路",
+      "geoKm": {
+        "x": 56.67,
+        "y": 14.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1640.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L6",
+        "L13"
+      ],
+      "linePositions": {
+        "L6": 4,
+        "L13": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-004",
+      "nameZh": "中央商务区",
+      "nameEn": "Central Business District",
+      "district": "北岸中央商务区",
+      "role": "城市级就业中心",
+      "geoKm": {
+        "x": 64.17,
+        "y": 14.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1900.0,
+        "y": 526.486
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-005",
+      "nameZh": "唐家浜",
+      "nameEn": "Tang Family Creek",
+      "district": "东部科技新城",
+      "role": "保留村落水系",
+      "geoKm": {
+        "x": 75.0,
+        "y": 14.44
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 813.152,
+        "y": 526.848
+      },
+      "lines": [
+        "L6"
+      ],
+      "linePositions": {
+        "L6": 19
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-005",
+      "nameZh": "铸造街",
+      "nameEn": "Foundry Street",
+      "district": "旧工业更新区",
+      "role": "工业社区街道",
+      "geoKm": {
+        "x": 29.71,
+        "y": 14.45
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 774.509,
+        "y": 574.509
+      },
+      "lines": [
+        "L4"
+      ],
+      "linePositions": {
+        "L4": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-006",
+      "nameZh": "锅炉房",
+      "nameEn": "Boiler House",
+      "district": "旧工业更新区",
+      "role": "工业遗产地标",
+      "geoKm": {
+        "x": 28.1,
+        "y": 16.44
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 882.699,
+        "y": 582.699
+      },
+      "lines": [
+        "L14"
+      ],
+      "linePositions": {
+        "L14": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-003",
+      "nameZh": "织锦巷",
+      "nameEn": "Brocade Lane",
+      "district": "传统老城",
+      "role": "手工业街巷",
+      "geoKm": {
+        "x": 32.61,
+        "y": 16.78
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 807.14,
+        "y": 587.14
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-007",
+      "nameZh": "运河西",
+      "nameEn": "Canal West",
+      "district": "旧工业更新区",
+      "role": "旧运河走廊",
+      "geoKm": {
+        "x": 29.46,
+        "y": 16.96
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L2",
+        "L3"
+      ],
+      "linePositions": {
+        "L2": 4,
+        "L3": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-005",
+      "nameZh": "城市博物馆",
+      "nameEn": "City Museum",
+      "district": "北岸中央商务区",
+      "role": "城市文化设施",
+      "geoKm": {
+        "x": 52.5,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1480,
+        "y": 620
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 0
+      },
+      "terminalLines": [
+        "L12"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CB-006",
+      "nameZh": "大剧院",
+      "nameEn": "Grand Theatre",
+      "district": "北岸中央商务区",
+      "role": "城市文化设施",
+      "geoKm": {
+        "x": 57.5,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1533.865,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CB-007",
+      "nameZh": "云帆广场",
+      "nameEn": "Cloud Sail Square",
+      "district": "北岸中央商务区",
+      "role": "滨江公共空间",
+      "geoKm": {
+        "x": 59.74,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1589.726,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CB-008",
+      "nameZh": "银杏大道",
+      "nameEn": "Ginkgo Avenue",
+      "district": "北岸中央商务区",
+      "role": "商务区主轴道路",
+      "geoKm": {
+        "x": 62.07,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1645.586,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CB-009",
+      "nameZh": "会展西",
+      "nameEn": "Convention Center West",
+      "district": "北岸中央商务区",
+      "role": "会展片区西门",
+      "geoKm": {
+        "x": 64.4,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1700.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L12",
+        "L13"
+      ],
+      "linePositions": {
+        "L12": 4,
+        "L13": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-010",
+      "nameZh": "望江门",
+      "nameEn": "River Outlook Gate",
+      "district": "北岸中央商务区",
+      "role": "滨江地标",
+      "geoKm": {
+        "x": 66.67,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1775.262,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CB-012",
+      "nameZh": "国贸中心",
+      "nameEn": "World Trade Center",
+      "district": "北岸中央商务区",
+      "role": "国际商务中心",
+      "geoKm": {
+        "x": 69.8,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1850.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L6",
+        "L12"
+      ],
+      "linePositions": {
+        "L6": 5,
+        "L12": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-013",
+      "nameZh": "汇金桥",
+      "nameEn": "Capital Bridge",
+      "district": "北岸中央商务区",
+      "role": "跨渠桥梁",
+      "geoKm": {
+        "x": 72.92,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1900.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L10",
+        "L12"
+      ],
+      "linePositions": {
+        "L10": 3,
+        "L12": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-RH-003",
+      "nameZh": "宁沧东站",
+      "nameEn": "Ningcang East Railway Station",
+      "district": "铁路枢纽体系",
+      "role": "东部综合铁路站",
+      "geoKm": {
+        "x": 75.0,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1994.713,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-006",
+      "nameZh": "柳汀桥",
+      "nameEn": "Willow Bank Bridge",
+      "district": "东部科技新城",
+      "role": "新城桥梁",
+      "geoKm": {
+        "x": 78.95,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2042.594,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 9
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-007",
+      "nameZh": "博研院",
+      "nameEn": "Advanced Research Institute",
+      "district": "东部科技新城",
+      "role": "综合科研机构",
+      "geoKm": {
+        "x": 80.94,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2090.474,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-008",
+      "nameZh": "生命科学园",
+      "nameEn": "Life Sciences Park",
+      "district": "东部科技新城",
+      "role": "生物医药园区",
+      "geoKm": {
+        "x": 82.94,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2184.239,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-009",
+      "nameZh": "微电子园",
+      "nameEn": "Microelectronics Park",
+      "district": "东部科技新城",
+      "role": "集成电路产业园",
+      "geoKm": {
+        "x": 86.84,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2232.12,
+        "y": 620.0
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 12
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-010",
+      "nameZh": "软件园",
+      "nameEn": "Software Park",
+      "district": "东部科技新城",
+      "role": "软件产业园",
+      "geoKm": {
+        "x": 88.84,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2280,
+        "y": 620
+      },
+      "lines": [
+        "L12"
+      ],
+      "linePositions": {
+        "L12": 13
+      },
+      "terminalLines": [
+        "L12"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-011",
+      "nameZh": "会展东",
+      "nameEn": "Convention Center East",
+      "district": "东部科技新城",
+      "role": "会展片区东门",
+      "geoKm": {
+        "x": 90.83,
+        "y": 18.33
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 960.0,
+        "y": 660.0
+      },
+      "lines": [
+        "L3",
+        "L14"
+      ],
+      "linePositions": {
+        "L3": 8,
+        "L14": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-004",
+      "nameZh": "泮池",
+      "nameEn": "Academy Pond",
+      "district": "传统老城",
+      "role": "文教遗址",
+      "geoKm": {
+        "x": 35.83,
+        "y": 20.0
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1080.0,
+        "y": 660.0
+      },
+      "lines": [
+        "L3",
+        "L7"
+      ],
+      "linePositions": {
+        "L3": 9,
+        "L7": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-005",
+      "nameZh": "槐市",
+      "nameEn": "Scholar Tree Market",
+      "district": "传统老城",
+      "role": "传统市集",
+      "geoKm": {
+        "x": 40.83,
+        "y": 20.0
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1231.14,
+        "y": 660.0
+      },
+      "lines": [
+        "L3"
+      ],
+      "linePositions": {
+        "L3": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-006",
+      "nameZh": "清晖桥",
+      "nameEn": "Clear Light Bridge",
+      "district": "传统老城",
+      "role": "历史桥梁",
+      "geoKm": {
+        "x": 47.13,
+        "y": 20.0
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1953.907,
+        "y": 693.907
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-012",
+      "nameZh": "东部副中心",
+      "nameEn": "Eastern Metropolitan Center",
+      "district": "东部科技新城",
+      "role": "城市东部副中心",
+      "geoKm": {
+        "x": 77.25,
+        "y": 21.41
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 920.0,
+        "y": 700.0
+      },
+      "lines": [
+        "L3",
+        "L8"
+      ],
+      "linePositions": {
+        "L3": 7,
+        "L8": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-007",
+      "nameZh": "东仓",
+      "nameEn": "East Granary",
+      "district": "传统老城",
+      "role": "漕运仓储遗址",
+      "geoKm": {
+        "x": 34.17,
+        "y": 21.67
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2349.753,
+        "y": 709.753
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-013",
+      "nameZh": "古灶村",
+      "nameEn": "Old Kiln Village",
+      "district": "东部科技新城",
+      "role": "保留旧村",
+      "geoKm": {
+        "x": 93.74,
+        "y": 22.07
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 920.0,
+        "y": 720.0
+      },
+      "lines": [
+        "L3",
+        "L4"
+      ],
+      "linePositions": {
+        "L3": 6,
+        "L4": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-008",
+      "nameZh": "西仓",
+      "nameEn": "West Granary",
+      "district": "传统老城",
+      "role": "漕运仓储遗址",
+      "geoKm": {
+        "x": 34.17,
+        "y": 22.5
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1140.0,
+        "y": 720.0
+      },
+      "lines": [
+        "L7",
+        "L14"
+      ],
+      "linePositions": {
+        "L7": 3,
+        "L14": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-009",
+      "nameZh": "文庙",
+      "nameEn": "Confucian Temple",
+      "district": "传统老城",
+      "role": "历史文化地标",
+      "geoKm": {
+        "x": 43.33,
+        "y": 22.5
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1251.241,
+        "y": 720.0
+      },
+      "lines": [
+        "L14"
+      ],
+      "linePositions": {
+        "L14": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CB-014",
+      "nameZh": "新港公园",
+      "nameEn": "New Harbor Park",
+      "district": "北岸中央商务区",
+      "role": "滨江城市公园",
+      "geoKm": {
+        "x": 47.97,
+        "y": 22.5
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 720.0
+      },
+      "lines": [
+        "L2",
+        "L14"
+      ],
+      "linePositions": {
+        "L2": 5,
+        "L14": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-015",
+      "nameZh": "商务北街",
+      "nameEn": "North Business Street",
+      "district": "北岸中央商务区",
+      "role": "商务区街道",
+      "geoKm": {
+        "x": 52.5,
+        "y": 22.5
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1500,
+        "y": 720
+      },
+      "lines": [
+        "L14"
+      ],
+      "linePositions": {
+        "L14": 9
+      },
+      "terminalLines": [
+        "L14"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CB-016",
+      "nameZh": "市政厅",
+      "nameEn": "City Hall",
+      "district": "北岸中央商务区",
+      "role": "市级行政设施",
+      "geoKm": {
+        "x": 58.33,
+        "y": 22.5
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 320,
+        "y": 760
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 0
+      },
+      "terminalLines": [
+        "L1"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-008",
+      "nameZh": "煤栈",
+      "nameEn": "Coal Depot",
+      "district": "旧工业更新区",
+      "role": "能源仓储遗址",
+      "geoKm": {
+        "x": 9.17,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 468.978,
+        "y": 760.0
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-009",
+      "nameZh": "红砖仓",
+      "nameEn": "Redbrick Warehouse",
+      "district": "旧工业更新区",
+      "role": "仓库更新街区",
+      "geoKm": {
+        "x": 15.37,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 617.955,
+        "y": 760.0
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-010",
+      "nameZh": "工人文化宫",
+      "nameEn": "Workers' Cultural Hall",
+      "district": "旧工业更新区",
+      "role": "工业社区公共设施",
+      "geoKm": {
+        "x": 21.58,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 766.933,
+        "y": 760.0
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-011",
+      "nameZh": "车辆段",
+      "nameEn": "Rolling Stock Works",
+      "district": "旧工业更新区",
+      "role": "车辆制造基地",
+      "geoKm": {
+        "x": 27.79,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 920.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L3"
+      ],
+      "linePositions": {
+        "L1": 4,
+        "L3": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-010",
+      "nameZh": "报恩寺",
+      "nameEn": "Temple of Gratitude",
+      "district": "传统老城",
+      "role": "宗教遗址",
+      "geoKm": {
+        "x": 34.17,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 960.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L4"
+      ],
+      "linePositions": {
+        "L1": 5,
+        "L4": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-011",
+      "nameZh": "百工街",
+      "nameEn": "Artisans' Street",
+      "district": "传统老城",
+      "role": "传统商业街",
+      "geoKm": {
+        "x": 35.83,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 980.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L8"
+      ],
+      "linePositions": {
+        "L1": 6,
+        "L8": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-028",
+      "nameZh": "人民广场",
+      "nameEn": "People's Square",
+      "district": "传统老城",
+      "role": "城市核心广场",
+      "geoKm": {
+        "x": 36.67,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1080.299,
+        "y": 760.0
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-012",
+      "nameZh": "盐运司",
+      "nameEn": "Salt Commission",
+      "district": "传统老城",
+      "role": "盐政遗址",
+      "geoKm": {
+        "x": 40.85,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1180.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L7"
+      ],
+      "linePositions": {
+        "L1": 8,
+        "L7": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-013",
+      "nameZh": "花朝门",
+      "nameEn": "Flower Dawn Gate",
+      "district": "传统老城",
+      "role": "历史城门",
+      "geoKm": {
+        "x": 45.0,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1270.374,
+        "y": 760.0
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 9
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CB-017",
+      "nameZh": "滨江总部",
+      "nameEn": "Riverside Headquarters District",
+      "district": "北岸中央商务区",
+      "role": "总部办公集群",
+      "geoKm": {
+        "x": 48.77,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L2"
+      ],
+      "linePositions": {
+        "L1": 10,
+        "L2": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-014",
+      "nameZh": "水关",
+      "nameEn": "Water Gate",
+      "district": "传统老城",
+      "role": "古城水利遗址",
+      "geoKm": {
+        "x": 52.5,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1532.369,
+        "y": 760.0
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-015",
+      "nameZh": "大井巷",
+      "nameEn": "Great Well Lane",
+      "district": "传统老城",
+      "role": "传统居民街巷",
+      "geoKm": {
+        "x": 59.68,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1700.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L13"
+      ],
+      "linePositions": {
+        "L1": 12,
+        "L13": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-CB-011",
+      "nameZh": "交易广场",
+      "nameEn": "Exchange Square",
+      "district": "北岸中央商务区",
+      "role": "商贸金融中心",
+      "geoKm": {
+        "x": 66.67,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1845.736,
+        "y": 760.0
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 13
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-016",
+      "nameZh": "石桥铺",
+      "nameEn": "Stonebridge Market",
+      "district": "传统老城",
+      "role": "老城商埠",
+      "geoKm": {
+        "x": 72.74,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1990.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L6"
+      ],
+      "linePositions": {
+        "L1": 14,
+        "L6": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-ET-014",
+      "nameZh": "稻香浦",
+      "nameEn": "Rice Blossom Creek",
+      "district": "东部科技新城",
+      "role": "传统水乡地名",
+      "geoKm": {
+        "x": 78.75,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2020.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L10"
+      ],
+      "linePositions": {
+        "L1": 15,
+        "L10": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-ET-015",
+      "nameZh": "陈家渡",
+      "nameEn": "Chen Family Ferry",
+      "district": "东部科技新城",
+      "role": "历史渡口",
+      "geoKm": {
+        "x": 80.0,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2200.2,
+        "y": 760.0
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 16
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-016",
+      "nameZh": "新材料研究院",
+      "nameEn": "Materials Research Institute",
+      "district": "东部科技新城",
+      "role": "材料科研机构",
+      "geoKm": {
+        "x": 87.51,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2380,
+        "y": 760
+      },
+      "lines": [
+        "L1"
+      ],
+      "linePositions": {
+        "L1": 17
+      },
+      "terminalLines": [
+        "L1"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-017",
+      "nameZh": "东澜工学院",
+      "nameEn": "East River Institute of Technology",
+      "district": "东部科技新城",
+      "role": "工科高校",
+      "geoKm": {
+        "x": 95.0,
+        "y": 24.17
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1000.0,
+        "y": 780.0
+      },
+      "lines": [
+        "L4",
+        "L8"
+      ],
+      "linePositions": {
+        "L4": 6,
+        "L8": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-017",
+      "nameZh": "城隍阁",
+      "nameEn": "City Guardian Pavilion",
+      "district": "传统老城",
+      "role": "历史文化地标",
+      "geoKm": {
+        "x": 37.5,
+        "y": 25.0
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1200.0,
+        "y": 780.0
+      },
+      "lines": [
+        "L4",
+        "L7"
+      ],
+      "linePositions": {
+        "L4": 7,
+        "L7": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-RH-001",
+      "nameZh": "宁沧站",
+      "nameEn": "Ningcang Railway Station",
+      "district": "铁路枢纽体系",
+      "role": "老城主客站",
+      "geoKm": {
+        "x": 45.83,
+        "y": 25.0
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 780.0
+      },
+      "lines": [
+        "L2",
+        "L4"
+      ],
+      "linePositions": {
+        "L2": 7,
+        "L4": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-018",
+      "nameZh": "魁星楼",
+      "nameEn": "Literary Star Tower",
+      "district": "传统老城",
+      "role": "文教遗址",
+      "geoKm": {
+        "x": 52.5,
+        "y": 25.0
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 780.0,
+        "y": 784.283
+      },
+      "lines": [
+        "L6"
+      ],
+      "linePositions": {
+        "L6": 18
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-012",
+      "nameZh": "机修里",
+      "nameEn": "Mechanics' Quarter",
+      "district": "旧工业更新区",
+      "role": "老工业居住区",
+      "geoKm": {
+        "x": 28.33,
+        "y": 25.18
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1504.287,
+        "y": 784.287
+      },
+      "lines": [
+        "L4"
+      ],
+      "linePositions": {
+        "L4": 9
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-019",
+      "nameZh": "南薰门",
+      "nameEn": "Southern Breeze Gate",
+      "district": "传统老城",
+      "role": "历史城门",
+      "geoKm": {
+        "x": 58.51,
+        "y": 25.18
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1040.0,
+        "y": 820.0
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-020",
+      "nameZh": "铁狮口",
+      "nameEn": "Iron Lion Crossing",
+      "district": "传统老城",
+      "role": "传统路口地名",
+      "geoKm": {
+        "x": 39.17,
+        "y": 26.67
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2060.0,
+        "y": 830.0
+      },
+      "lines": [
+        "L6",
+        "L10"
+      ],
+      "linePositions": {
+        "L6": 7,
+        "L10": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-ET-018",
+      "nameZh": "樟树里",
+      "nameEn": "Camphor Quarter",
+      "district": "东部科技新城",
+      "role": "新城居住社区",
+      "geoKm": {
+        "x": 81.67,
+        "y": 27.08
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2400.0,
+        "y": 836.048
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-019",
+      "nameZh": "海燕路",
+      "nameEn": "Petrel Road",
+      "district": "东部科技新城",
+      "role": "城市道路",
+      "geoKm": {
+        "x": 95.83,
+        "y": 27.34
+      },
+      "riverBank": "north",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1700.0,
+        "y": 840.0
+      },
+      "lines": [
+        "L9",
+        "L13"
+      ],
+      "linePositions": {
+        "L9": 9,
+        "L13": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-021",
+      "nameZh": "钟鼓楼",
+      "nameEn": "Bell and Drum Tower",
+      "district": "传统老城",
+      "role": "城市历史地标",
+      "geoKm": {
+        "x": 66.67,
+        "y": 27.5
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1848.93,
+        "y": 840.0
+      },
+      "lines": [
+        "L9"
+      ],
+      "linePositions": {
+        "L9": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-022",
+      "nameZh": "柳荫渡",
+      "nameEn": "Willowshade Ferry",
+      "district": "传统老城",
+      "role": "古渡口",
+      "geoKm": {
+        "x": 72.87,
+        "y": 27.5
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2000,
+        "y": 840
+      },
+      "lines": [
+        "L9"
+      ],
+      "linePositions": {
+        "L9": 11
+      },
+      "terminalLines": [
+        "L9"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-ET-020",
+      "nameZh": "潮汐实验站",
+      "nameEn": "Tidal Research Station",
+      "district": "东部科技新城",
+      "role": "河口科研设施",
+      "geoKm": {
+        "x": 79.17,
+        "y": 27.5
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1610.0,
+        "y": 890.0
+      },
+      "lines": [
+        "L4",
+        "L9"
+      ],
+      "linePositions": {
+        "L4": 10,
+        "L9": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-OC-023",
+      "nameZh": "书院前",
+      "nameEn": "Academy Forecourt",
+      "district": "传统老城",
+      "role": "历史街区",
+      "geoKm": {
+        "x": 62.92,
+        "y": 29.58
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 908.537,
+        "y": 931.463
+      },
+      "lines": [
+        "L3"
+      ],
+      "linePositions": {
+        "L3": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-024",
+      "nameZh": "剪子巷",
+      "nameEn": "Shears Lane",
+      "district": "传统老城",
+      "role": "手工业街巷",
+      "geoKm": {
+        "x": 33.69,
+        "y": 31.31
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1200.0,
+        "y": 939.088
+      },
+      "lines": [
+        "L7"
+      ],
+      "linePositions": {
+        "L7": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-001",
+      "nameZh": "鹭洲码头",
+      "nameEn": "Heron Isle Pier",
+      "district": "沧洲江心岛",
+      "role": "岛上客运码头",
+      "geoKm": {
+        "x": 45.83,
+        "y": 31.63
+      },
+      "riverBank": "island",
+      "area": "core",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 941.247
+      },
+      "lines": [
+        "L2"
+      ],
+      "linePositions": {
+        "L2": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-002",
+      "nameZh": "洲头公园",
+      "nameEn": "Island Head Park",
+      "district": "沧洲江心岛",
+      "role": "洲头城市公园",
+      "geoKm": {
+        "x": 52.5,
+        "y": 31.72
+      },
+      "riverBank": "island",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1040.0,
+        "y": 960.24
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-025",
+      "nameZh": "清平桥",
+      "nameEn": "Tranquil Bridge",
+      "district": "传统老城",
+      "role": "历史桥梁",
+      "geoKm": {
+        "x": 39.17,
+        "y": 32.51
+      },
+      "riverBank": "north",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2060.0,
+        "y": 966.213
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-026",
+      "nameZh": "鱼行口",
+      "nameEn": "Fishmongers' Corner",
+      "district": "传统老城",
+      "role": "传统市集",
+      "geoKm": {
+        "x": 81.67,
+        "y": 32.76
+      },
+      "riverBank": "north",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2400.0,
+        "y": 983.156
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 9
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-OC-027",
+      "nameZh": "铜驼街",
+      "nameEn": "Bronze Camel Street",
+      "district": "传统老城",
+      "role": "历史商业街",
+      "geoKm": {
+        "x": 95.83,
+        "y": 33.46
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1488.95,
+        "y": 1011.05
+      },
+      "lines": [
+        "L9"
+      ],
+      "linePositions": {
+        "L9": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-003",
+      "nameZh": "月堤",
+      "nameEn": "Moon Embankment",
+      "district": "沧洲江心岛",
+      "role": "历史防洪堤",
+      "geoKm": {
+        "x": 57.87,
+        "y": 34.63
+      },
+      "riverBank": "island",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1775.786,
+        "y": 1055.786
+      },
+      "lines": [
+        "L4"
+      ],
+      "linePositions": {
+        "L4": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-001",
+      "nameZh": "南浦金融城",
+      "nameEn": "South Harbor Financial District",
+      "district": "南岸金融文化区",
+      "role": "金融副中心",
+      "geoKm": {
+        "x": 69.82,
+        "y": 36.49
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 780.0,
+        "y": 1060.0
+      },
+      "lines": [
+        "L3",
+        "L6"
+      ],
+      "linePositions": {
+        "L3": 3,
+        "L6": 17
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-IN-013",
+      "nameZh": "水塔公园",
+      "nameEn": "Water Tower Park",
+      "district": "旧工业更新区",
+      "role": "工业遗址公园",
+      "geoKm": {
+        "x": 28.33,
+        "y": 36.67
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1040.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "L8",
+        "L9"
+      ],
+      "linePositions": {
+        "L8": 9,
+        "L9": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-002",
+      "nameZh": "金桂广场",
+      "nameEn": "Osmanthus Square",
+      "district": "南岸金融文化区",
+      "role": "副中心公共广场",
+      "geoKm": {
+        "x": 39.17,
+        "y": 38.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1200.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "L7",
+        "L9"
+      ],
+      "linePositions": {
+        "L7": 7,
+        "L9": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-003",
+      "nameZh": "传媒中心",
+      "nameEn": "Media Center",
+      "district": "南岸金融文化区",
+      "role": "城市传媒设施",
+      "geoKm": {
+        "x": 45.83,
+        "y": 38.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "L2",
+        "L9"
+      ],
+      "linePositions": {
+        "L2": 9,
+        "L9": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-004",
+      "nameZh": "江湾文化馆",
+      "nameEn": "Riverbend Arts Center",
+      "district": "南岸金融文化区",
+      "role": "公共文化设施",
+      "geoKm": {
+        "x": 52.5,
+        "y": 38.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2060.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "L10",
+        "B1"
+      ],
+      "linePositions": {
+        "L10": 8,
+        "B1": 0
+      },
+      "terminalLines": [
+        "B1"
+      ],
+      "isBranchJunction": true,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CO-002",
+      "nameZh": "潮平",
+      "nameEn": "Tidal Plain",
+      "district": "南部滨海新城",
+      "role": "港区支线分叉节点",
+      "geoKm": {
+        "x": 81.67,
+        "y": 38.33
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": true,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2070.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "L6",
+        "B1"
+      ],
+      "linePositions": {
+        "L6": 8,
+        "B1": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-NR-013",
+      "nameZh": "霜枫苑",
+      "nameEn": "Frost Maple Gardens",
+      "district": "北部居住新城",
+      "role": "大型居住社区",
+      "geoKm": {
+        "x": 82.08,
+        "y": 38.33
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2194.735,
+        "y": 1100.0
+      },
+      "lines": [
+        "B1"
+      ],
+      "linePositions": {
+        "B1": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-014",
+      "nameZh": "白塔埭",
+      "nameEn": "White Pagoda Levee",
+      "district": "北部居住新城",
+      "role": "历史圩田地名",
+      "geoKm": {
+        "x": 87.28,
+        "y": 38.33
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2320.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "B1"
+      ],
+      "linePositions": {
+        "B1": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-010",
+      "nameZh": "邮轮母港",
+      "nameEn": "Cruise Home Port",
+      "district": "东部深水港区",
+      "role": "国际邮轮枢纽",
+      "geoKm": {
+        "x": 92.5,
+        "y": 38.33
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2070.0,
+        "y": 1110.0
+      },
+      "lines": [
+        "L6",
+        "L10"
+      ],
+      "linePositions": {
+        "L6": 9,
+        "L10": 9
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-NR-015",
+      "nameZh": "嘉禾路",
+      "nameEn": "Golden Harvest Road",
+      "district": "北部居住新城",
+      "role": "城市道路",
+      "geoKm": {
+        "x": 82.08,
+        "y": 38.75
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2392.743,
+        "y": 1127.257
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-002",
+      "nameZh": "集装箱北站",
+      "nameEn": "North Container Terminal",
+      "district": "东部深水港区",
+      "role": "集装箱码头",
+      "geoKm": {
+        "x": 95.53,
+        "y": 39.47
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2410.172,
+        "y": 1190.172
+      },
+      "lines": [
+        "B1"
+      ],
+      "linePositions": {
+        "B1": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-003",
+      "nameZh": "集装箱南站",
+      "nameEn": "South Container Terminal",
+      "district": "东部深水港区",
+      "role": "集装箱码头",
+      "geoKm": {
+        "x": 96.26,
+        "y": 42.09
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 649.476,
+        "y": 1190.524
+      },
+      "lines": [
+        "L3"
+      ],
+      "linePositions": {
+        "L3": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-001",
+      "nameZh": "宁沧大学",
+      "nameEn": "Ningcang University",
+      "district": "西南大学城",
+      "role": "综合大学",
+      "geoKm": {
+        "x": 22.89,
+        "y": 42.11
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2167.975,
+        "y": 1207.975
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CO-001",
+      "nameZh": "海琴湾",
+      "nameEn": "Sea Harp Bay",
+      "district": "南部滨海新城",
+      "role": "滨海居住湾区",
+      "geoKm": {
+        "x": 86.17,
+        "y": 42.83
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 480,
+        "y": 1220
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 0
+      },
+      "terminalLines": [
+        "L5"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-002",
+      "nameZh": "玄湖校区",
+      "nameEn": "Mystic Lake Campus",
+      "district": "西南大学城",
+      "role": "大学校园",
+      "geoKm": {
+        "x": 15.83,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 616.214,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-003",
+      "nameZh": "万卷书院",
+      "nameEn": "Ten Thousand Volumes Academy",
+      "district": "西南大学城",
+      "role": "传统书院",
+      "geoKm": {
+        "x": 21.51,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 757.666,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-004",
+      "nameZh": "格物路",
+      "nameEn": "Inquiry Road",
+      "district": "西南大学城",
+      "role": "校园道路",
+      "geoKm": {
+        "x": 27.4,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 899.119,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-005",
+      "nameZh": "滨江公园",
+      "nameEn": "Riverside Park",
+      "district": "南岸金融文化区",
+      "role": "滨江城市公园",
+      "geoKm": {
+        "x": 33.3,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1040.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5",
+        "L8"
+      ],
+      "linePositions": {
+        "L5": 4,
+        "L8": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-006",
+      "nameZh": "博览馆",
+      "nameEn": "Exposition Hall",
+      "district": "南岸金融文化区",
+      "role": "城市展览设施",
+      "geoKm": {
+        "x": 39.17,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1182.024,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-007",
+      "nameZh": "云影路",
+      "nameEn": "Cloud Reflection Road",
+      "district": "南岸金融文化区",
+      "role": "城市道路",
+      "geoKm": {
+        "x": 45.08,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1320.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5",
+        "L7"
+      ],
+      "linePositions": {
+        "L5": 6,
+        "L7": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-RH-010",
+      "nameZh": "兰津站",
+      "nameEn": "Orchid Ferry Railway Station",
+      "district": "铁路枢纽体系",
+      "role": "南岸城际铁路站",
+      "geoKm": {
+        "x": 50.83,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L2",
+        "L5"
+      ],
+      "linePositions": {
+        "L2": 10,
+        "L5": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-015",
+      "nameZh": "市民中心",
+      "nameEn": "Civic Center",
+      "district": "南岸金融文化区",
+      "role": "市级公共服务中心",
+      "geoKm": {
+        "x": 52.5,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1501.602,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-008",
+      "nameZh": "领事馆街",
+      "nameEn": "Consulate Street",
+      "district": "南岸金融文化区",
+      "role": "涉外机构街区",
+      "geoKm": {
+        "x": 58.4,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1648.293,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 9
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-009",
+      "nameZh": "南岸枢纽",
+      "nameEn": "Southbank Transit Hub",
+      "district": "南岸金融文化区",
+      "role": "综合交通枢纽",
+      "geoKm": {
+        "x": 64.51,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1794.985,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-010",
+      "nameZh": "长桥东",
+      "nameEn": "Long Bridge East",
+      "district": "南岸金融文化区",
+      "role": "桥东商务片区",
+      "geoKm": {
+        "x": 70.62,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1940.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L4",
+        "L5"
+      ],
+      "linePositions": {
+        "L4": 12,
+        "L5": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-011",
+      "nameZh": "潮生里",
+      "nameEn": "Rising Tide Quarter",
+      "district": "南岸金融文化区",
+      "role": "滨江居住街区",
+      "geoKm": {
+        "x": 76.67,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2100.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 12
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CO-003",
+      "nameZh": "望潮堤",
+      "nameEn": "Tidewatch Embankment",
+      "district": "南部滨海新城",
+      "role": "滨海防潮堤",
+      "geoKm": {
+        "x": 83.33,
+        "y": 43.33
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2288.722,
+        "y": 1231.278
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CO-004",
+      "nameZh": "贝丘公园",
+      "nameEn": "Shell Mound Park",
+      "district": "南部滨海新城",
+      "role": "考古遗址公园",
+      "geoKm": {
+        "x": 91.2,
+        "y": 43.8
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 1260.0
+      },
+      "lines": [
+        "L2",
+        "L7"
+      ],
+      "linePositions": {
+        "L2": 11,
+        "L7": 9
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-012",
+      "nameZh": "临江门",
+      "nameEn": "Riverfront Gate",
+      "district": "南岸金融文化区",
+      "role": "滨江门户",
+      "geoKm": {
+        "x": 52.5,
+        "y": 45.0
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 821.853,
+        "y": 1278.147
+      },
+      "lines": [
+        "L9"
+      ],
+      "linePositions": {
+        "L9": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-013",
+      "nameZh": "玉兰大道",
+      "nameEn": "Magnolia Avenue",
+      "district": "南岸金融文化区",
+      "role": "副中心主轴道路",
+      "geoKm": {
+        "x": 30.08,
+        "y": 45.76
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2500,
+        "y": 1280
+      },
+      "lines": [
+        "B1"
+      ],
+      "linePositions": {
+        "B1": 6
+      },
+      "terminalLines": [
+        "B1"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-001",
+      "nameZh": "深水港",
+      "nameEn": "Deepwater Port",
+      "district": "东部深水港区",
+      "role": "深水港核心",
+      "geoKm": {
+        "x": 100.0,
+        "y": 45.83
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": true,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2500.0,
+        "y": 1280.0
+      },
+      "lines": [
+        "B1"
+      ],
+      "linePositions": {
+        "B1": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-004",
+      "nameZh": "保税物流园",
+      "nameEn": "Bonded Logistics Park",
+      "district": "东部深水港区",
+      "role": "保税物流园区",
+      "geoKm": {
+        "x": 100.0,
+        "y": 45.83
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1945.37,
+        "y": 1284.63
+      },
+      "lines": [
+        "L6"
+      ],
+      "linePositions": {
+        "L6": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-014",
+      "nameZh": "清波港",
+      "nameEn": "Clearwater Inlet",
+      "district": "南岸金融文化区",
+      "role": "滨水公共空间",
+      "geoKm": {
+        "x": 76.89,
+        "y": 46.03
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2184.388,
+        "y": 1304.388
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 13
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CO-005",
+      "nameZh": "海洋馆",
+      "nameEn": "City Oceanarium",
+      "district": "南部滨海新城",
+      "role": "海洋文化设施",
+      "geoKm": {
+        "x": 86.85,
+        "y": 46.85
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2265.316,
+        "y": 1305.316
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CO-006",
+      "nameZh": "白沙湖",
+      "nameEn": "White Sand Lake",
+      "district": "南部滨海新城",
+      "role": "人工湖与公共空间",
+      "geoKm": {
+        "x": 90.22,
+        "y": 46.89
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 321.501,
+        "y": 1320.0
+      },
+      "lines": [
+        "B2"
+      ],
+      "linePositions": {
+        "B2": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-005",
+      "nameZh": "西岭医学院",
+      "nameEn": "West Ridge Medical College",
+      "district": "西南大学城",
+      "role": "医学高校",
+      "geoKm": {
+        "x": 9.23,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 420.751,
+        "y": 1320.0
+      },
+      "lines": [
+        "B2"
+      ],
+      "linePositions": {
+        "B2": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-006",
+      "nameZh": "青岚村",
+      "nameEn": "Blue Mist Village",
+      "district": "西南大学城",
+      "role": "保留旧村",
+      "geoKm": {
+        "x": 13.36,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 470.375,
+        "y": 1320.0
+      },
+      "lines": [
+        "B2"
+      ],
+      "linePositions": {
+        "B2": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-007",
+      "nameZh": "学府桥",
+      "nameEn": "Scholars' Bridge",
+      "district": "西南大学城",
+      "role": "校园区桥梁",
+      "geoKm": {
+        "x": 15.43,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 520.0,
+        "y": 1320.0
+      },
+      "lines": [
+        "L3",
+        "B2"
+      ],
+      "linePositions": {
+        "L3": 1,
+        "B2": 0
+      },
+      "terminalLines": [
+        "B2"
+      ],
+      "isBranchJunction": true,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-019",
+      "nameZh": "雨湖",
+      "nameEn": "Rain Lake",
+      "district": "西南大学城",
+      "role": "支线分叉节点与城市湖泊",
+      "geoKm": {
+        "x": 17.5,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1149.794,
+        "y": 1320.0
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-SF-016",
+      "nameZh": "歌剧院",
+      "nameEn": "Opera House",
+      "district": "南岸金融文化区",
+      "role": "城市文化设施",
+      "geoKm": {
+        "x": 43.74,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 1320.0
+      },
+      "lines": [
+        "L2",
+        "L8"
+      ],
+      "linePositions": {
+        "L2": 12,
+        "L8": 12
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-017",
+      "nameZh": "航运交易所",
+      "nameEn": "Maritime Exchange",
+      "district": "南岸金融文化区",
+      "role": "航运金融机构",
+      "geoKm": {
+        "x": 52.5,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1420.0,
+        "y": 1320.0
+      },
+      "lines": [
+        "L7",
+        "L8"
+      ],
+      "linePositions": {
+        "L7": 10,
+        "L8": 13
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-SF-018",
+      "nameZh": "海棠堤",
+      "nameEn": "Begonia Embankment",
+      "district": "南岸金融文化区",
+      "role": "滨江景观带",
+      "geoKm": {
+        "x": 55.0,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1662.525,
+        "y": 1320.0
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 14
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-016",
+      "nameZh": "锦屏体育馆",
+      "nameEn": "Brocade Hill Arena",
+      "district": "北部居住新城",
+      "role": "区域体育设施",
+      "geoKm": {
+        "x": 65.11,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1900,
+        "y": 1320
+      },
+      "lines": [
+        "L8"
+      ],
+      "linePositions": {
+        "L8": 15
+      },
+      "terminalLines": [
+        "L8"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-017",
+      "nameZh": "栖鹭公园",
+      "nameEn": "Heron Roost Park",
+      "district": "北部居住新城",
+      "role": "湿地公园",
+      "geoKm": {
+        "x": 75.0,
+        "y": 47.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 966.52,
+        "y": 1336.52
+      },
+      "lines": [
+        "L6"
+      ],
+      "linePositions": {
+        "L6": 16
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-NR-018",
+      "nameZh": "汇泉广场",
+      "nameEn": "Confluence Springs Square",
+      "district": "北部居住新城",
+      "role": "新城商业中心",
+      "geoKm": {
+        "x": 36.1,
+        "y": 48.19
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2068.833,
+        "y": 1348.833
+      },
+      "lines": [
+        "L4"
+      ],
+      "linePositions": {
+        "L4": 13
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CO-007",
+      "nameZh": "渔火街",
+      "nameEn": "Fishing Lights Street",
+      "district": "南部滨海新城",
+      "role": "滨海商业街",
+      "geoKm": {
+        "x": 82.03,
+        "y": 48.7
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 285.27,
+        "y": 1354.73
+      },
+      "lines": [
+        "B2"
+      ],
+      "linePositions": {
+        "B2": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-008",
+      "nameZh": "柏影路",
+      "nameEn": "Cypress Shade Road",
+      "district": "西南大学城",
+      "role": "校园道路",
+      "geoKm": {
+        "x": 7.72,
+        "y": 48.95
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2269.592,
+        "y": 1389.592
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 14
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-AP-004",
+      "nameZh": "三号航站楼",
+      "nameEn": "Airport Terminal 3",
+      "district": "东南航空城",
+      "role": "机场航站楼",
+      "geoKm": {
+        "x": 90.4,
+        "y": 50.4
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 250.18,
+        "y": 1389.82
+      },
+      "lines": [
+        "B2"
+      ],
+      "linePositions": {
+        "B2": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-009",
+      "nameZh": "天文台",
+      "nameEn": "Astronomical Observatory",
+      "district": "西南大学城",
+      "role": "科研设施",
+      "geoKm": {
+        "x": 6.26,
+        "y": 50.41
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2362.658,
+        "y": 1402.658
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 12
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-005",
+      "nameZh": "东湾船厂",
+      "nameEn": "East Bay Shipyard",
+      "district": "东部深水港区",
+      "role": "船舶制造基地",
+      "geoKm": {
+        "x": 94.28,
+        "y": 50.94
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2080.68,
+        "y": 1439.32
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 12
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-CO-008",
+      "nameZh": "南沙嘴",
+      "nameEn": "South Sand Spit",
+      "district": "南部滨海新城",
+      "role": "海岸自然地貌",
+      "geoKm": {
+        "x": 82.53,
+        "y": 52.47
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 1440.0
+      },
+      "lines": [
+        "L2",
+        "L15"
+      ],
+      "linePositions": {
+        "L2": 13,
+        "L15": 9
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-IN-014",
+      "nameZh": "旧船台",
+      "nameEn": "Historic Slipway",
+      "district": "旧工业更新区",
+      "role": "船舶工业遗址",
+      "geoKm": {
+        "x": 52.5,
+        "y": 52.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1480.0,
+        "y": 1440.0
+      },
+      "lines": [
+        "L7",
+        "L15"
+      ],
+      "linePositions": {
+        "L7": 11,
+        "L15": 10
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-IN-015",
+      "nameZh": "榆木桥",
+      "nameEn": "Elmwood Bridge",
+      "district": "旧工业更新区",
+      "role": "工业社区地名",
+      "geoKm": {
+        "x": 57.5,
+        "y": 52.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1634.121,
+        "y": 1440.0
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 11
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-016",
+      "nameZh": "厂前",
+      "nameEn": "Factory Forecourt",
+      "district": "旧工业更新区",
+      "role": "老厂区门户",
+      "geoKm": {
+        "x": 63.92,
+        "y": 52.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1760,
+        "y": 1440
+      },
+      "lines": [
+        "L11"
+      ],
+      "linePositions": {
+        "L11": 14
+      },
+      "terminalLines": [
+        "L11"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-017",
+      "nameZh": "漕河湾",
+      "nameEn": "Canal Bend",
+      "district": "旧工业更新区",
+      "role": "运河滨水更新区",
+      "geoKm": {
+        "x": 69.17,
+        "y": 52.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1790.0,
+        "y": 1440.0
+      },
+      "lines": [
+        "L6",
+        "L11",
+        "L15"
+      ],
+      "linePositions": {
+        "L6": 11,
+        "L11": 13,
+        "L15": 12
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-RH-016",
+      "nameZh": "宁沧高铁总站",
+      "nameEn": "Ningcang High-Speed Rail Central Station",
+      "district": "铁路枢纽体系",
+      "role": "城市高速铁路总站",
+      "geoKm": {
+        "x": 70.42,
+        "y": 52.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1800,
+        "y": 1440
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 13
+      },
+      "terminalLines": [
+        "L15"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IN-018",
+      "nameZh": "北联物流园",
+      "nameEn": "North Union Logistics Park",
+      "district": "旧工业更新区",
+      "role": "现代物流园",
+      "geoKm": {
+        "x": 70.83,
+        "y": 52.5
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2200.0,
+        "y": 1440.0
+      },
+      "lines": [
+        "L13"
+      ],
+      "linePositions": {
+        "L13": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-AP-003",
+      "nameZh": "二号航站楼",
+      "nameEn": "Airport Terminal 2",
+      "district": "东南航空城",
+      "role": "机场航站楼",
+      "geoKm": {
+        "x": 87.5,
+        "y": 52.5
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1093.837,
+        "y": 1450.0
+      },
+      "lines": [
+        "L6"
+      ],
+      "linePositions": {
+        "L6": 15
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-004",
+      "nameZh": "旧海关",
+      "nameEn": "Historic Customs House",
+      "district": "沧洲江心岛",
+      "role": "近代港埠遗址",
+      "geoKm": {
+        "x": 41.41,
+        "y": 52.92
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1270.0,
+        "y": 1450.0
+      },
+      "lines": [
+        "L6",
+        "L15"
+      ],
+      "linePositions": {
+        "L6": 14,
+        "L15": 8
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-IS-005",
+      "nameZh": "三桅仓",
+      "nameEn": "Three-Mast Warehouse",
+      "district": "沧洲江心岛",
+      "role": "沿江仓库遗址",
+      "geoKm": {
+        "x": 48.75,
+        "y": 52.92
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 1450.0
+      },
+      "lines": [
+        "L2",
+        "L6"
+      ],
+      "linePositions": {
+        "L2": 14,
+        "L6": 13
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-IS-006",
+      "nameZh": "银沙滩",
+      "nameEn": "Silver Sandbank",
+      "district": "沧洲江心岛",
+      "role": "自然滨水地貌",
+      "geoKm": {
+        "x": 52.5,
+        "y": 52.92
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1480.0,
+        "y": 1450.0
+      },
+      "lines": [
+        "L6",
+        "L7"
+      ],
+      "linePositions": {
+        "L6": 12,
+        "L7": 12
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-IS-007",
+      "nameZh": "岛心花园",
+      "nameEn": "Island Garden",
+      "district": "沧洲江心岛",
+      "role": "岛内公共空间",
+      "geoKm": {
+        "x": 57.5,
+        "y": 52.92
+      },
+      "riverBank": "south",
+      "area": "core",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 180,
+        "y": 1460
+      },
+      "lines": [
+        "B2"
+      ],
+      "linePositions": {
+        "B2": 6
+      },
+      "terminalLines": [
+        "B2"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-010",
+      "nameZh": "大学城图书馆",
+      "nameEn": "University Town Library",
+      "district": "西南大学城",
+      "role": "公共文化设施",
+      "geoKm": {
+        "x": 3.33,
+        "y": 53.33
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2354.796,
+        "y": 1474.796
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 15
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-006",
+      "nameZh": "海工基地",
+      "nameEn": "Offshore Engineering Base",
+      "district": "东部深水港区",
+      "role": "海洋工程基地",
+      "geoKm": {
+        "x": 93.95,
+        "y": 53.95
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 520,
+        "y": 1480
+      },
+      "lines": [
+        "L3"
+      ],
+      "linePositions": {
+        "L3": 0
+      },
+      "terminalLines": [
+        "L3"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-011",
+      "nameZh": "南溪实验室",
+      "nameEn": "South Creek Laboratories",
+      "district": "西南大学城",
+      "role": "综合科研机构",
+      "geoKm": {
+        "x": 17.5,
+        "y": 54.17
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2200.0,
+        "y": 1480.0
+      },
+      "lines": [
+        "L4"
+      ],
+      "linePositions": {
+        "L4": 14
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-AP-002",
+      "nameZh": "一号航站楼",
+      "nameEn": "Airport Terminal 1",
+      "district": "东南航空城",
+      "role": "机场航站楼",
+      "geoKm": {
+        "x": 87.5,
+        "y": 54.17
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2240,
+        "y": 1480
+      },
+      "lines": [
+        "L4",
+        "L13"
+      ],
+      "linePositions": {
+        "L4": 15,
+        "L13": 7
+      },
+      "terminalLines": [
+        "L4",
+        "L13"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": true,
+      "id": "NC-AP-001",
+      "nameZh": "宁沧国际机场",
+      "nameEn": "Ningcang International Airport",
+      "district": "东南航空城",
+      "role": "国际航空枢纽",
+      "geoKm": {
+        "x": 89.17,
+        "y": 54.17
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": true,
+      "terminal": true,
+      "isInterchange": true,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2460,
+        "y": 1500
+      },
+      "lines": [
+        "L10"
+      ],
+      "linePositions": {
+        "L10": 13
+      },
+      "terminalLines": [
+        "L10"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-007",
+      "nameZh": "港务中心",
+      "nameEn": "Port Authority Center",
+      "district": "东部深水港区",
+      "role": "港区行政服务",
+      "geoKm": {
+        "x": 98.33,
+        "y": 55.0
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": true,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1201.518,
+        "y": 1518.482
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 7
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-008",
+      "nameZh": "南汊口",
+      "nameEn": "South Channel Mouth",
+      "district": "沧洲江心岛",
+      "role": "河道地名",
+      "geoKm": {
+        "x": 45.9,
+        "y": 55.77
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 720.0,
+        "y": 1532.504
+      },
+      "lines": [
+        "L9"
+      ],
+      "linePositions": {
+        "L9": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-012",
+      "nameZh": "鹤鸣谷",
+      "nameEn": "Crane Call Valley",
+      "district": "西南大学城",
+      "role": "自然地貌",
+      "geoKm": {
+        "x": 25.83,
+        "y": 56.35
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 2440,
+        "y": 1560
+      },
+      "lines": [
+        "L5"
+      ],
+      "linePositions": {
+        "L5": 16
+      },
+      "terminalLines": [
+        "L5"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-PT-008",
+      "nameZh": "冷链仓储",
+      "nameEn": "Cold-Chain Depot",
+      "district": "东部深水港区",
+      "role": "港区冷链物流",
+      "geoKm": {
+        "x": 97.5,
+        "y": 57.5
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": true,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 180,
+        "y": 1580
+      },
+      "lines": [
+        "L9"
+      ],
+      "linePositions": {
+        "L9": 0
+      },
+      "terminalLines": [
+        "L9"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-013",
+      "nameZh": "砚池",
+      "nameEn": "Inkstone Pond",
+      "district": "西南大学城",
+      "role": "校园湖泊",
+      "geoKm": {
+        "x": 3.33,
+        "y": 58.33
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 470.95,
+        "y": 1580.0
+      },
+      "lines": [
+        "L9"
+      ],
+      "linePositions": {
+        "L9": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-014",
+      "nameZh": "松风宿舍",
+      "nameEn": "Pine Wind Residences",
+      "district": "西南大学城",
+      "role": "学生生活区",
+      "geoKm": {
+        "x": 15.46,
+        "y": 58.33
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1480.0,
+        "y": 1584.852
+      },
+      "lines": [
+        "L7"
+      ],
+      "linePositions": {
+        "L7": 13
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-009",
+      "nameZh": "灯塔街",
+      "nameEn": "Lighthouse Street",
+      "district": "沧洲江心岛",
+      "role": "近代港埠街区",
+      "geoKm": {
+        "x": 57.5,
+        "y": 58.54
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1132.521,
+        "y": 1587.479
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 6
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-010",
+      "nameZh": "水师营",
+      "nameEn": "Naval Barracks",
+      "district": "沧洲江心岛",
+      "role": "历史军事遗址",
+      "geoKm": {
+        "x": 43.02,
+        "y": 58.64
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360.0,
+        "y": 1604.589
+      },
+      "lines": [
+        "L2"
+      ],
+      "linePositions": {
+        "L2": 15
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-011",
+      "nameZh": "芦汀湿地",
+      "nameEn": "Reedbank Wetlands",
+      "district": "沧洲江心岛",
+      "role": "岛上生态湿地",
+      "geoKm": {
+        "x": 52.5,
+        "y": 59.36
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1063.525,
+        "y": 1656.475
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 5
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-IS-012",
+      "nameZh": "双桥渡",
+      "nameEn": "Twin Bridges Ferry",
+      "district": "沧洲江心岛",
+      "role": "传统渡口",
+      "geoKm": {
+        "x": 40.15,
+        "y": 61.52
+      },
+      "riverBank": "south",
+      "area": "inner",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1480,
+        "y": 1720
+      },
+      "lines": [
+        "L7"
+      ],
+      "linePositions": {
+        "L7": 14
+      },
+      "terminalLines": [
+        "L7"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-015",
+      "nameZh": "大学城体育中心",
+      "nameEn": "University Town Sports Center",
+      "district": "西南大学城",
+      "role": "高校体育设施",
+      "geoKm": {
+        "x": 57.5,
+        "y": 64.17
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 996.828,
+        "y": 1723.172
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 4
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-016",
+      "nameZh": "西山植物园",
+      "nameEn": "Western Hills Botanic Garden",
+      "district": "西南大学城",
+      "role": "教学植物园",
+      "geoKm": {
+        "x": 37.37,
+        "y": 64.3
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 620,
+        "y": 1740
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 0
+      },
+      "terminalLines": [
+        "L15"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-017",
+      "nameZh": "若水书院",
+      "nameEn": "Waterside Academy",
+      "district": "西南大学城",
+      "role": "人文学院",
+      "geoKm": {
+        "x": 21.67,
+        "y": 65.0
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 714.323,
+        "y": 1740.0
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 1
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-UN-018",
+      "nameZh": "大学城中心",
+      "nameEn": "University Town Center",
+      "district": "西南大学城",
+      "role": "大学城公共中心",
+      "geoKm": {
+        "x": 25.6,
+        "y": 65.0
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 811.899,
+        "y": 1740.0
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 2
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-WS-005",
+      "nameZh": "龙泉水库",
+      "nameEn": "Dragon Spring Reservoir",
+      "district": "西部卫星城",
+      "role": "城市水源地",
+      "geoKm": {
+        "x": 29.66,
+        "y": 65.0
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 909.475,
+        "y": 1740.0
+      },
+      "lines": [
+        "L15"
+      ],
+      "linePositions": {
+        "L15": 3
+      },
+      "terminalLines": [],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-WS-006",
+      "nameZh": "云岭客运站",
+      "nameEn": "Cloudridge Coach Terminal",
+      "district": "西部卫星城",
+      "role": "区域客运枢纽",
+      "geoKm": {
+        "x": 33.73,
+        "y": 65.0
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": true,
+      "terminal": false,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    },
+    {
+      "schematic": {
+        "x": 1360,
+        "y": 1760
+      },
+      "lines": [
+        "L2"
+      ],
+      "linePositions": {
+        "L2": 16
+      },
+      "terminalLines": [
+        "L2"
+      ],
+      "isBranchJunction": false,
+      "isOrdinaryInterchange": false,
+      "id": "NC-WS-007",
+      "nameZh": "茶马街",
+      "nameEn": "Tea Horse Street",
+      "district": "西部卫星城",
+      "role": "历史商业街",
+      "geoKm": {
+        "x": 52.5,
+        "y": 65.83
+      },
+      "riverBank": "south",
+      "area": "outer",
+      "hub": false,
+      "terminal": true,
+      "isInterchange": false,
+      "label": {
+        "x": null,
+        "y": null,
+        "anchor": null,
+        "side": null,
+        "leader": false
+      }
+    }
+  ],
+  "branchRelations": [
+    {
+      "branchLine": "B1",
+      "parentLine": "L10",
+      "junctionStation": "NC-CO-002"
+    },
+    {
+      "branchLine": "B2",
+      "parentLine": "L3",
+      "junctionStation": "NC-UN-019"
+    }
+  ],
+  "metricsDefinition": {
+    "transferStation": "shared station between independent lines; through-service branch junctions are tracked separately",
+    "crossing": "unique schematic intersection point, not pairwise segment count"
+  }
+}

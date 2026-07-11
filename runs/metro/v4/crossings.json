@@ -1,0 +1,1076 @@
+{
+  "schemaVersion": "1.0",
+  "candidate": "candidate-08",
+  "uniqueIntersectionCount": 76,
+  "ordinaryInterchangeCount": 50,
+  "branchJunctionCount": 2,
+  "nonInterchangeCrossingCount": 24,
+  "coreAreaNonInterchangeCrossingCount": 14,
+  "crossings": [
+    {
+      "id": "X001",
+      "schematic": {
+        "x": 1790.0,
+        "y": 1440.0
+      },
+      "lines": [
+        "L11",
+        "L15",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X002",
+      "schematic": {
+        "x": 1610.0,
+        "y": 890.0
+      },
+      "lines": [
+        "L4",
+        "L9"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X003",
+      "schematic": {
+        "x": 1360.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "L2",
+        "L9"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X004",
+      "schematic": {
+        "x": 1360.0,
+        "y": 780.0
+      },
+      "lines": [
+        "L2",
+        "L4"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X005",
+      "schematic": {
+        "x": 1360.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L2"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X006",
+      "schematic": {
+        "x": 1360.0,
+        "y": 720.0
+      },
+      "lines": [
+        "L14",
+        "L2"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X007",
+      "schematic": {
+        "x": 1360.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L2",
+        "L5"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X008",
+      "schematic": {
+        "x": 1700.0,
+        "y": 840.0
+      },
+      "lines": [
+        "L13",
+        "L9"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X009",
+      "schematic": {
+        "x": 1200.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "L7",
+        "L9"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X010",
+      "schematic": {
+        "x": 1320.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5",
+        "L7"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X011",
+      "schematic": {
+        "x": 1360.0,
+        "y": 1260.0
+      },
+      "lines": [
+        "L2",
+        "L7"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X012",
+      "schematic": {
+        "x": 1420.0,
+        "y": 1320.0
+      },
+      "lines": [
+        "L7",
+        "L8"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X013",
+      "schematic": {
+        "x": 1200.0,
+        "y": 780.0
+      },
+      "lines": [
+        "L4",
+        "L7"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X014",
+      "schematic": {
+        "x": 1360.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L2",
+        "L3"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X015",
+      "schematic": {
+        "x": 1460.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L3",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X016",
+      "schematic": {
+        "x": 1700.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L13"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X017",
+      "schematic": {
+        "x": 1180.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L7"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X018",
+      "schematic": {
+        "x": 1360.0,
+        "y": 1320.0
+      },
+      "lines": [
+        "L2",
+        "L8"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X019",
+      "schematic": {
+        "x": 1360.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L2",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X020",
+      "schematic": {
+        "x": 1480.0,
+        "y": 1440.0
+      },
+      "lines": [
+        "L15",
+        "L7"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X021",
+      "schematic": {
+        "x": 1480.0,
+        "y": 1450.0
+      },
+      "lines": [
+        "L6",
+        "L7"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X022",
+      "schematic": {
+        "x": 1140.0,
+        "y": 720.0
+      },
+      "lines": [
+        "L14",
+        "L7"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X023",
+      "schematic": {
+        "x": 1040.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "L8",
+        "L9"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X024",
+      "schematic": {
+        "x": 1360.0,
+        "y": 1440.0
+      },
+      "lines": [
+        "L15",
+        "L2"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X025",
+      "schematic": {
+        "x": 1700.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L12",
+        "L13"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X026",
+      "schematic": {
+        "x": 1360.0,
+        "y": 1450.0
+      },
+      "lines": [
+        "L2",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X027",
+      "schematic": {
+        "x": 1000.0,
+        "y": 780.0
+      },
+      "lines": [
+        "L4",
+        "L8"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X028",
+      "schematic": {
+        "x": 1360.0,
+        "y": 420.0
+      },
+      "lines": [
+        "L13",
+        "L2"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X029",
+      "schematic": {
+        "x": 1620.0,
+        "y": 500.0
+      },
+      "lines": [
+        "L13",
+        "L3"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X030",
+      "schematic": {
+        "x": 1640.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L13",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X031",
+      "schematic": {
+        "x": 980.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L8"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X032",
+      "schematic": {
+        "x": 1080.0,
+        "y": 660.0
+      },
+      "lines": [
+        "L3",
+        "L7"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X033",
+      "schematic": {
+        "x": 960.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L4"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X034",
+      "schematic": {
+        "x": 1040.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5",
+        "L8"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X035",
+      "schematic": {
+        "x": 1270.0,
+        "y": 1450.0
+      },
+      "lines": [
+        "L15",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X036",
+      "schematic": {
+        "x": 920.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L3"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X037",
+      "schematic": {
+        "x": 1850.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L12",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X038",
+      "schematic": {
+        "x": 1990.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X039",
+      "schematic": {
+        "x": 2060.0,
+        "y": 830.0
+      },
+      "lines": [
+        "L10",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X040",
+      "schematic": {
+        "x": 920.0,
+        "y": 720.0
+      },
+      "lines": [
+        "L3",
+        "L4"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X041",
+      "schematic": {
+        "x": 1360.0,
+        "y": 280.0
+      },
+      "lines": [
+        "L11",
+        "L2"
+      ],
+      "classification": "interchange",
+      "coreArea": false,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X042",
+      "schematic": {
+        "x": 1940.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L4",
+        "L5"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X043",
+      "schematic": {
+        "x": 2020.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L10"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X044",
+      "schematic": {
+        "x": 2060.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "B1",
+        "L10"
+      ],
+      "classification": "branch-junction",
+      "coreArea": true,
+      "note": "through-service branch junction; excluded from transfer metric"
+    },
+    {
+      "id": "X045",
+      "schematic": {
+        "x": 2070.0,
+        "y": 1100.0
+      },
+      "lines": [
+        "B1",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X046",
+      "schematic": {
+        "x": 780.0,
+        "y": 1060.0
+      },
+      "lines": [
+        "L3",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X047",
+      "schematic": {
+        "x": 920.0,
+        "y": 700.0
+      },
+      "lines": [
+        "L3",
+        "L8"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X048",
+      "schematic": {
+        "x": 960.0,
+        "y": 660.0
+      },
+      "lines": [
+        "L14",
+        "L3"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X049",
+      "schematic": {
+        "x": 1900.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L10",
+        "L12"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X050",
+      "schematic": {
+        "x": 2070.0,
+        "y": 1110.0
+      },
+      "lines": [
+        "L10",
+        "L6"
+      ],
+      "classification": "interchange",
+      "coreArea": true,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X051",
+      "schematic": {
+        "x": 1980.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L13",
+        "L5"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X052",
+      "schematic": {
+        "x": 1975.0,
+        "y": 1255.0
+      },
+      "lines": [
+        "L4",
+        "L6"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X053",
+      "schematic": {
+        "x": 1995.0,
+        "y": 1235.0
+      },
+      "lines": [
+        "L13",
+        "L6"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X054",
+      "schematic": {
+        "x": 2010.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5",
+        "L6"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X055",
+      "schematic": {
+        "x": 880.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5",
+        "L9"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X056",
+      "schematic": {
+        "x": 1040.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L6",
+        "L7"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X057",
+      "schematic": {
+        "x": 780.0,
+        "y": 760.0
+      },
+      "lines": [
+        "L1",
+        "L6"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X058",
+      "schematic": {
+        "x": 850.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L5",
+        "L6"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X059",
+      "schematic": {
+        "x": 865.0,
+        "y": 1235.0
+      },
+      "lines": [
+        "L6",
+        "L9"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X060",
+      "schematic": {
+        "x": 1900.0,
+        "y": 500.0
+      },
+      "lines": [
+        "L10",
+        "L3"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X061",
+      "schematic": {
+        "x": 780.0,
+        "y": 580.0
+      },
+      "lines": [
+        "L4",
+        "L6"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X062",
+      "schematic": {
+        "x": 780.0,
+        "y": 560.0
+      },
+      "lines": [
+        "L6",
+        "L8"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X063",
+      "schematic": {
+        "x": 820.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L14",
+        "L6"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X064",
+      "schematic": {
+        "x": 620.0,
+        "y": 1220.0
+      },
+      "lines": [
+        "L3",
+        "L5"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X065",
+      "schematic": {
+        "x": 1900.0,
+        "y": 280.0
+      },
+      "lines": [
+        "L10",
+        "L11"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X066",
+      "schematic": {
+        "x": 2120.0,
+        "y": 1400.0
+      },
+      "lines": [
+        "L11",
+        "L4"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X067",
+      "schematic": {
+        "x": 2140.0,
+        "y": 1380.0
+      },
+      "lines": [
+        "L11",
+        "L13"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X068",
+      "schematic": {
+        "x": 2200.0,
+        "y": 1320.0
+      },
+      "lines": [
+        "L11",
+        "L5"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X069",
+      "schematic": {
+        "x": 2240.0,
+        "y": 1280.0
+      },
+      "lines": [
+        "L10",
+        "L11"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X070",
+      "schematic": {
+        "x": 2370.0,
+        "y": 1150.0
+      },
+      "lines": [
+        "B1",
+        "L11"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X071",
+      "schematic": {
+        "x": 2140.0,
+        "y": 500.0
+      },
+      "lines": [
+        "L11",
+        "L3"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X072",
+      "schematic": {
+        "x": 2260.0,
+        "y": 620.0
+      },
+      "lines": [
+        "L11",
+        "L12"
+      ],
+      "classification": "grade-separated",
+      "coreArea": false,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X073",
+      "schematic": {
+        "x": 720.0,
+        "y": 520.0
+      },
+      "lines": [
+        "L4",
+        "L8"
+      ],
+      "classification": "grade-separated",
+      "coreArea": true,
+      "note": "schematic flyover without passenger interchange"
+    },
+    {
+      "id": "X074",
+      "schematic": {
+        "x": 520.0,
+        "y": 1320.0
+      },
+      "lines": [
+        "B2",
+        "L3"
+      ],
+      "classification": "branch-junction",
+      "coreArea": false,
+      "note": "through-service branch junction; excluded from transfer metric"
+    },
+    {
+      "id": "X075",
+      "schematic": {
+        "x": 2240.0,
+        "y": 1480.0
+      },
+      "lines": [
+        "L13",
+        "L4"
+      ],
+      "classification": "interchange",
+      "coreArea": false,
+      "note": "same-station paid-area interchange"
+    },
+    {
+      "id": "X076",
+      "schematic": {
+        "x": 260.0,
+        "y": 360.0
+      },
+      "lines": [
+        "L14",
+        "L4"
+      ],
+      "classification": "interchange",
+      "coreArea": false,
+      "note": "same-station paid-area interchange"
+    }
+  ]
+}
