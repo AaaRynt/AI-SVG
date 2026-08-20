@@ -10,31 +10,29 @@ The goal was not only to create images, but to explore a more interesting questi
 
 The experiments focus on SVG because it sits between programming and visual design:
 
-* Unlike raster image generation, SVG requires explicit structure.
-* Every curve, path, layer, and label must exist as code.
-* The result is inspectable, editable, and reproducible.
+- Unlike raster image generation, SVG requires explicit structure.
+- Every curve, path, layer, and label must exist as code.
+- The result is inspectable, editable, and reproducible.
 
 However, this also exposes the limitations of current AI systems.
 
 A model can generate thousands of lines of valid SVG code, but creating a visually convincing and professionally designed graphic requires much more than producing code that runs.
 
----
-
 ## Experiments
 
-## 1. Realistic Mount Fuji SVG
+### 1. Realistic Mount Fuji SVG
 
 **Objective**
 
 Generate a detailed vector illustration of Mount Fuji containing:
 
-* mountain silhouette
-* snow layers
-* clouds
-* sunrise lighting
-* city skyline
-* forest foreground
-* atmospheric perspective
+- mountain silhouette
+- snow layers
+- clouds
+- sunrise lighting
+- city skyline
+- forest foreground
+- atmospheric perspective
 
 **Result**
 
@@ -46,9 +44,7 @@ However, the output is closer to a vector illustration than a physically realist
 
 The model can create many visual details, but maintaining natural composition, lighting consistency, and artistic judgment remains difficult.
 
----
-
-## 2. Fictional Metro Network Map
+### 2. Fictional Metro Network Map
 
 **Objective**
 
@@ -56,24 +52,24 @@ Generate a complete fictional metropolitan railway map.
 
 Requirements included:
 
-* large-city scale network
-* bilingual station labels
-* airports
-* railway hubs
-* rivers and geographic regions
-* multiple metro lines
-* transfer stations
-* structured network data
-* SVG generation and validation pipeline
+- large-city scale network
+- bilingual station labels
+- airports
+- railway hubs
+- rivers and geographic regions
+- multiple metro lines
+- transfer stations
+- structured network data
+- SVG generation and validation pipeline
 
 **Result**
 
 The AI successfully created:
 
-* a fictional city plan
-* structured railway data
-* a complete SVG map
-* automatic validation scripts
+- a fictional city plan
+- structured railway data
+- a complete SVG map
+- automatic validation scripts
 
 The engineering workflow was successful.
 
@@ -83,23 +79,21 @@ Generating a valid network is much easier than designing a readable transit map.
 
 The AI was able to satisfy numerical requirements:
 
-* number of lines
-* number of stations
-* transfer relationships
-* file validity
+- number of lines
+- number of stations
+- transfer relationships
+- file validity
 
 But it struggled with:
 
-* global layout optimization
-* line organization
-* visual hierarchy
-* typography
-* information density
-* professional cartographic design
+- global layout optimization
+- line organization
+- visual hierarchy
+- typography
+- information density
+- professional cartographic design
 
 A map can be technically correct while still being difficult for humans to use.
-
----
 
 ## Observations
 
@@ -111,54 +105,48 @@ AI can generate thousands of lines of SVG code and create complex structures.
 
 However, visual design contains many implicit rules:
 
-* balance
-* hierarchy
-* rhythm
-* readability
-* user perception
+- balance
+- hierarchy
+- rhythm
+- readability
+- user perception
 
 These rules are difficult to describe completely as constraints.
-
----
 
 ### Automated validation has limitations
 
 A file can pass checks such as:
 
-* valid XML
-* valid SVG structure
-* no missing references
-* no detected collisions
+- valid XML
+- valid SVG structure
+- no missing references
+- no detected collisions
 
 while still looking wrong to humans.
 
 For example:
 
-* labels may technically not overlap but remain unreadable
-* a metro network may be connected but visually chaotic
-* an illustration may contain many details but lack realism
+- labels may technically not overlap but remain unreadable
+- a metro network may be connected but visually chaotic
+- an illustration may contain many details but lack realism
 
 Passing tests does not always mean achieving the intended quality.
-
----
 
 ### Current AI is strong at expansion, weaker at refinement
 
 The models are very good at:
 
-* generating large amounts of content
-* creating structured data
-* writing supporting scripts
-* building complete workflows
+- generating large amounts of content
+- creating structured data
+- writing supporting scripts
+- building complete workflows
 
 They are weaker at:
 
-* deciding what details should be removed
-* maintaining visual simplicity
-* evaluating their own output critically
-* matching professional human-made design standards
-
----
+- deciding what details should be removed
+- maintaining visual simplicity
+- evaluating their own output critically
+- matching professional human-made design standards
 
 ## Project Status
 
@@ -169,8 +157,6 @@ The experiments are considered complete.
 The purpose of this repository is not to provide production-quality SVG artwork, but to preserve observations about the current capabilities and limitations of AI-assisted creation.
 
 Future models may improve significantly in visual reasoning and SVG generation. Keeping these early experiments provides a baseline for comparison.
-
----
 
 ## Structure
 
@@ -192,8 +178,6 @@ Future models may improve significantly in visual reasoning and SVG generation. 
         └── validation files
 ```
 
----
-
 ## Final Thoughts
 
 This project started from a simple idea:
@@ -209,6 +193,3 @@ The difficult part is knowing what complexity is meaningful.
 A future AI system may generate SVGs with better artistic judgment, stronger spatial reasoning, and deeper understanding of human visual communication.
 
 This repository is a snapshot of the point before that future arrives.
-
-```
-```
